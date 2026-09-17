@@ -1,49 +1,49 @@
 {
- "updated": 1789666685,
+ "updated": 1789667587,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": 0.111,
-   "started": 1789666677,
-   "heartbeat": 1789666684,
-   "completed_today": 349,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
-   "note": "test_publish: ok",
+   "progress": 0.333,
+   "started": 1789667562,
+   "heartbeat": 1789667587,
+   "completed_today": 356,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "test_builder: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.5,
-   "started": 1789666666,
-   "heartbeat": 1789666684,
-   "completed_today": 368,
-   "last_result": "Counted 29,895 primes below 349,000; the biggest was 348,991.",
-   "note": "14,598 primes so far",
+   "state": "blocked",
+   "task": "Review Builder's haiku",
+   "progress": null,
+   "started": 1789667566,
+   "heartbeat": 1789667587,
+   "completed_today": 379,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.96,
-   "started": 1789666606,
-   "heartbeat": 1789666684,
-   "completed_today": 551,
-   "last_result": "Counted 17,984 primes below 200,000; the biggest was 199,999.",
-   "note": "longest so far: 410011 (449 steps)",
+   "task": "Hunt palindromic primes",
+   "progress": 0.175,
+   "started": 1789667576,
+   "heartbeat": 1789667587,
+   "completed_today": 564,
+   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1436.",
+   "note": "58 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1268,
-  "working": 3,
+  "completed_today": 1299,
+  "working": 2,
   "agents": 3
  }
 }
