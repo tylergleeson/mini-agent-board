@@ -1,17 +1,17 @@
 {
- "updated": 1789680216,
+ "updated": 1789681118,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "done",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 1.0,
-   "started": 1789680216,
-   "heartbeat": 1789680216,
-   "completed_today": 448,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1789680999,
+   "heartbeat": 1789681117,
+   "completed_today": 454,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 836 swaps.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's haiku",
-   "progress": 1.0,
-   "started": 1789680162,
-   "heartbeat": 1789680216,
-   "completed_today": 470,
+   "progress": 0.333,
+   "started": 1789681112,
+   "heartbeat": 1789681117,
+   "completed_today": 478,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "line 3: 5 syllables",
+   "note": "line 1: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.775,
-   "started": 1789680169,
-   "heartbeat": 1789680216,
-   "completed_today": 707,
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1789681112,
+   "heartbeat": 1789681117,
+   "completed_today": 715,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "F(23250) has 4859 digits",
+   "note": "next: Hunt palindromic primes",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1625,
-  "working": 2,
+  "completed_today": 1647,
+  "working": 1,
   "agents": 3
  }
 }
