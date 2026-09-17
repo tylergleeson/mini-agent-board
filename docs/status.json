@@ -1,49 +1,49 @@
 {
- "updated": 1789639626,
+ "updated": 1789640528,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.875,
-   "started": 1789639580,
-   "heartbeat": 1789639625,
-   "completed_today": 148,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 799 swaps.",
-   "note": "F(17500) has 3657 digits",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 1.0,
+   "started": 1789640475,
+   "heartbeat": 1789640528,
+   "completed_today": 156,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 716 swaps.",
+   "note": "line 3 ✓ 'one cloud keeps working'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.111,
-   "started": 1789639623,
-   "heartbeat": 1789639625,
-   "completed_today": 148,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "test_commit: ok",
+   "task": "Count primes below a random N",
+   "progress": 0.767,
+   "started": 1789640478,
+   "heartbeat": 1789640528,
+   "completed_today": 156,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
+   "note": "25,081 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.133,
-   "started": 1789639615,
-   "heartbeat": 1789639625,
-   "completed_today": 227,
+   "state": "done",
+   "task": "Find the longest Collatz chain",
+   "progress": 1.0,
+   "started": 1789640526,
+   "heartbeat": 1789640528,
+   "completed_today": 238,
    "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "2,384 primes so far",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 523,
-  "working": 3,
+  "completed_today": 550,
+  "working": 2,
   "agents": 3
  }
 }
