@@ -332,3 +332,56 @@ Values are from the device's last check-in, not live.
 ```
 
 `board/build_layout.py` generates all of these; start there for a new board rather than by hand.
+
+---
+
+## 9. Troubleshooting: the display never refreshes by itself (solved Sep 17, 2026)
+
+**Symptom.** Page deployed fine, Interval(min)=15, but the E1002 only redrew when the green
+button was pressed. Overnight on battery and for hours on USB power it never woke itself. The
+Device page said "Online" the whole time and the battery read 11 % then 0 %.
+
+**Cause.** Stock firmware **v1.0.7** (Dec 2025). Fixed by flashing **v1.2.2** (released
+2026-09-10), whose release notes read: "more reliable screen refreshes, consistent update
+schedules, and reduced battery drain caused by refresh issues … Automatic refresh schedules
+now stay on track after the daily 4:30 AM screen maintenance … Fixed the issue where saved
+content failed to refresh after wake-up despite Wi-Fi being connected."
+(https://sensecraft-hmi-docs.seeed.cc/en/release-notes/). After the flash the device log showed
+`Refresh timer started, interval=900s` and `battery_pct=100.00 charging=1`; the old 0 % was a
+bad reading, not a dead battery.
+
+**Proof.** A render probe (below) logged unattended renders at +15.7 min and +15.7 min after
+Apply. Each cycle is the interval plus ~40 s of wake + 6-colour redraw, so the schedule drifts
+about a minute later per cycle.
+
+**How to flash.** The Device page "Update" button opens the USB flasher
+(`sensecraft.seeed.cc/hmi/tools/firmware`). It needs **Chrome or Edge** (Safari has no Web
+Serial), the display connected **directly to the computer with a data-capable USB-C cable**,
+the back **power switch ON**, and the device **awake** (press green once). The E1002 uses a
+CH340 (USB vendor 0x1A86, product 0x7523); macOS has a built-in driver and the port appears as
+`/dev/cu.usbserial-*`. If the Mac lists no USB device at all, it is the cable or the switch,
+not a driver. Leave **Full Flash OFF** to keep Wi-Fi and deployed designs.
+
+**Things that were NOT the cause** (all checked): the Interval setting, a single-page
+pagelist (documented as supported), Battery Saver either way, the feed, the layout, Wi-Fi.
+"Online" on the Device page is not evidence that the device is waking.
+
+**Settings semantics** (from Seeed's older docs, still in the docs repo history):
+Interval = how often the device wakes to pull new data, and also the page-rotation period when
+the pagelist has several pages. Battery Saver ON = deep sleep with a timer wake each interval;
+OFF = always on. A sleeping device only learns about a new design or setting at its next wake;
+press the green button to apply immediately. Green button: single press = refresh (one beep),
+5 s hold = clear the screen.
+
+**Render probe.** `python3 board/build_layout.py --probe https://webhook.site/<token>` writes a
+gitignored `board/layout.probe.json` whose "rendered" footer widget fetches a request logger
+instead of the feed. Every cloud render then leaves a timestamped hit you can read from
+`https://webhook.site/token/<token>/requests`. Renders only happen when the device asks, so the
+hit log is a wake log. Free webhook.site tokens stop after 100 requests (~1 day at 15 min) and
+expire in 7 days, so re-import the normal `layout.json` when done. The normal layout keeps the
+"rendered h:mm" stamp (bound to the feed), so picture age is always visible next to data age.
+
+**Status icons.** v1.2.2 draws its own icons in the top-right corner over the page. A battery
+with a slash was seen while on USB at 100 %; Seeed does not document it. The wiki documents
+only a low-battery icon below 20 %. The gauge is a voltage divider on an ADC, not a fuel gauge,
+so its readings jump when USB is connected or removed.

@@ -9,7 +9,8 @@ Design (800×480, six panel colors only; pure-blue field, white header band and 
     by a red twin that only renders when the feed is older than 45 min). No live clocks.
   * three big agent cards (Builder, Critic, Scout — feed is sorted by display_name)
     with name, colored state word, task, progress bar + percent, last result, done count
-  * footer: tasks completed today, working count, and a red placeholder where Seeed's own
+  * footer: tasks completed today, working count, a small 'rendered h:mm' stamp (when Seeed
+    built the image), and a red placeholder where Seeed's own
     Device → Battery Level widget goes (added by hand after import; see README)
 
 SenseCraft can't change a widget's color from data, so every colored dynamic label is a
@@ -172,12 +173,14 @@ def build(probe_url: str | None = None) -> dict:
     # Battery: the editor never injected the device key into imported widgets, so leave a
     # red placeholder and add Seeed's own Data → Device → Battery Level widget here by hand.
     c.append(text(W - MARGIN - 260, fy + 10, 260, 22, "Replace with battery percentage", 13, RED, align="right", bold=True))
+    # Render stamp: the time Seeed built this image, computed inside the custom function at
+    # render time. "updated" (header) is the age of the data; "rendered" is the age of the
+    # picture, so a display that has stopped refreshing is obvious at a glance. With --probe
+    # the widget fetches a request logger instead of the feed, so each render leaves a hit.
+    stamp = feed(360, fy + 30, 200, 18, "updated", "Render stamp", JS_RENDERED, size=11, color=WHITE, value=MISSING)
     if probe_url:
-        # Diagnostic: a widget whose dataUrl is a request logger. Every cloud render of this
-        # page leaves one hit in the logger, and the widget prints the render time on screen.
-        pr = feed(360, fy + 30, 200, 18, "probe", "Render probe", JS_RENDERED, size=11, color=WHITE, value="ok")
-        pr["dataUrl"] = probe_url
-        c.append(pr)
+        stamp.update({"dataUrl": probe_url, "dataKey": "probe", "label": "Render probe", "value": "ok"})
+    c.append(stamp)
     return layout(c)
 
 

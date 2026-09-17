@@ -1148,6 +1148,36 @@
           "widthMode": "fixed",
           "rotation": 0,
           "parentId": "__device_container_group__"
+        },
+        {
+          "type": "data",
+          "id": "data-1789540000077",
+          "x": 360,
+          "y": 458,
+          "width": 200,
+          "height": 18,
+          "value": "N/A",
+          "color": "#ffffff",
+          "fontFamily": "Montserrat",
+          "fontSize": 11,
+          "fontStyle": "normal",
+          "textAlign": "left",
+          "widthMode": "fixed",
+          "rotation": 0,
+          "parentId": "__device_container_group__",
+          "label": "Render stamp",
+          "requiredPlatform": "externalApi",
+          "dataUrl": "https://tylergleeson.github.io/mini-agent-board/status.json",
+          "dataHeaders": {},
+          "dataKey": "updated",
+          "sanitizedFields": [],
+          "lockHeight": true,
+          "dataTransform": {
+            "type": "custom",
+            "options": {
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';function fmt(u){var d=new Date(u*1000);try{return d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'});}catch(e){var y=d.getUTCFullYear();function nth(m,n){var f=new Date(Date.UTC(y,m,1)).getUTCDay();return 1+((7-f)%7)+7*(n-1);}var s=Date.UTC(y,2,nth(2,2),7),e2=Date.UTC(y,10,nth(10,1),6);var off=(d>=s&&d<e2)?-4:-5;var l=new Date(d.getTime()+off*3600000);var h=l.getUTCHours(),mi=l.getUTCMinutes();return ((h%12)||12)+':'+(mi<10?'0':'')+mi+(h<12?' AM':' PM');}}return 'rendered '+fmt(Date.now()/1000);"
+            }
+          }
         }
       ]
     }
