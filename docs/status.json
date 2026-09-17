@@ -1,5 +1,5 @@
 {
- "updated": 1789643234,
+ "updated": 1789644136,
  "agents": [
   {
    "agent": "builder",
@@ -7,43 +7,43 @@
    "state": "blocked",
    "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1789643219,
-   "heartbeat": 1789643233,
-   "completed_today": 181,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 651 swaps.",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1789644100,
+   "heartbeat": 1789644134,
+   "completed_today": 186,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display wakes once / fifteen seconds for silence / the crew counts working”",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.556,
-   "started": 1789643211,
-   "heartbeat": 1789643233,
-   "completed_today": 181,
-   "last_result": "Counted 26,489 primes below 306,000; the biggest was 305,999.",
-   "note": "test_scout: ok",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.5,
+   "started": 1789644092,
+   "heartbeat": 1789644134,
+   "completed_today": 189,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1789643159,
-   "heartbeat": 1789643233,
-   "completed_today": 271,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "waiting for Builder to release the workbench",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.683,
+   "started": 1789644088,
+   "heartbeat": 1789644134,
+   "completed_today": 279,
+   "last_result": "Counted 17,002 primes below 188,000; the biggest was 187,987.",
+   "note": "20,621 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 633,
-  "working": 1,
+  "completed_today": 654,
+  "working": 2,
   "agents": 3
  }
 }
