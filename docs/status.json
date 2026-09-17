@@ -1,17 +1,17 @@
 {
- "updated": 1789635117,
+ "updated": 1789636019,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
+   "task": "Sort shuffled Beatles songs by hand",
    "progress": 1.0,
-   "started": 1789635047,
-   "heartbeat": 1789635116,
-   "completed_today": 111,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “sleepless laptop hums / one tests fail past the morning / refactor by noon”",
-   "note": "F(20000) has 4180 digits",
+   "started": 1789635946,
+   "heartbeat": 1789636017,
+   "completed_today": 120,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "pass 46/56, 790 swaps",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.683,
-   "started": 1789635087,
-   "heartbeat": 1789635116,
-   "completed_today": 110,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), science (got 1, want 2).",
-   "note": "15,073 primes so far",
+   "progress": 0.983,
+   "started": 1789635950,
+   "heartbeat": 1789636017,
+   "completed_today": 120,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "21,380 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.62,
-   "started": 1789635085,
-   "heartbeat": 1789635116,
-   "completed_today": 168,
-   "last_result": "Counted 30,757 primes below 360,000; the biggest was 359,987.",
-   "note": "π ≈ 3.1414",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1789635883,
+   "heartbeat": 1789636017,
+   "completed_today": 180,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 389,
-  "working": 3,
+  "completed_today": 420,
+  "working": 2,
   "agents": 3
  }
 }
