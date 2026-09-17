@@ -1,16 +1,16 @@
 {
- "updated": 1789673000,
+ "updated": 1789673902,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Group anagrams in the word list",
-   "progress": 0.638,
-   "started": 1789672975,
-   "heartbeat": 1789672999,
-   "completed_today": 398,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display wakes once / twenty minutes of stillness / a crew counts working”",
+   "progress": 0.812,
+   "started": 1789673858,
+   "heartbeat": 1789673900,
+   "completed_today": 406,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 695 swaps.",
    "note": "15 groups",
    "stale": false
   },
@@ -18,13 +18,13 @@
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's haiku",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1789672967,
-   "heartbeat": 1789672999,
-   "completed_today": 423,
-   "last_result": "Counted 27,687 primes below 321,000; the biggest was 320,953.",
-   "note": "waiting for someone to release the workbench",
+   "started": 1789673886,
+   "heartbeat": 1789673900,
+   "completed_today": 432,
+   "last_result": "Counted 18,381 primes below 205,000; the biggest was 204,983.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.574,
-   "started": 1789672971,
-   "heartbeat": 1789672999,
-   "completed_today": 633,
-   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1419.",
-   "note": "97 distinct words",
+   "progress": 0.904,
+   "started": 1789673855,
+   "heartbeat": 1789673900,
+   "completed_today": 643,
+   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1388.",
+   "note": "130 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1454,
+  "completed_today": 1481,
   "working": 2,
   "agents": 3
  }
