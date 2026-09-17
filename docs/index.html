@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agent Crew Board</title>
+<meta name="description" content="Live status of the software-design agent crew on the Mac Mini.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #111111; --muted: #666666; --card: #ffffff; --line: #111111;
+    --working: #0a8f2a; --idle: #666666; --blocked: #b08800; --done: #0033cc; --error: #d00000; --stale: #d00000;
+    --bar-bg: #e6e6e6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #101214; --fg: #f2f2f2; --muted: #9a9a9a; --card: #181b1f; --line: #3a3f45;
+      --working: #4ade80; --idle: #9a9a9a; --blocked: #facc15; --done: #7aa2ff; --error: #ff5c5c; --stale: #ff5c5c;
+      --bar-bg: #2a2f36;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #101214; --fg: #f2f2f2; --muted: #9a9a9a; --card: #181b1f; --line: #3a3f45;
+    --working: #4ade80; --idle: #9a9a9a; --blocked: #facc15; --done: #7aa2ff; --error: #ff5c5c; --stale: #ff5c5c;
+    --bar-bg: #2a2f36;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 16px; background: var(--bg); color: var(--fg);
+         font: 16px/1.4 -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; margin-bottom: 16px; }
+  h1 { font-size: 22px; margin: 0; letter-spacing: .02em; }
+  #updated { color: var(--muted); font-size: 14px; }
+  #updated.stale { color: var(--error); font-weight: 700; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+  .card { background: var(--card); border: 2px solid var(--line); border-radius: 10px; padding: 14px 16px;
+          border-left-width: 10px; }
+  .card.working { border-left-color: var(--working); }
+  .card.idle    { border-left-color: var(--idle); }
+  .card.blocked { border-left-color: var(--blocked); }
+  .card.done    { border-left-color: var(--done); }
+  .card.error, .card.stale { border-left-color: var(--error); }
+  .name { font-size: 24px; font-weight: 800; margin: 0; }
+  .state { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+  .state.working { color: var(--working); } .state.idle { color: var(--idle); }
+  .state.blocked { color: var(--blocked); } .state.done { color: var(--done); }
+  .state.error, .state.stale { color: var(--error); }
+  .task { margin: 8px 0 6px; font-size: 17px; min-height: 1.4em; }
+  .bar { height: 10px; background: var(--bar-bg); border-radius: 5px; overflow: hidden; }
+  .bar > div { height: 100%; background: var(--fg); transition: width .4s; }
+  .pct { font-size: 13px; color: var(--muted); margin-top: 4px; }
+  .note { font-size: 13px; color: var(--muted); font-style: italic; }
+  .last { margin-top: 10px; font-size: 15px; overflow-wrap: anywhere; }
+  .meta { margin-top: 8px; font-size: 13px; color: var(--muted); display: flex; justify-content: space-between; }
+  footer { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px 24px; color: var(--muted); font-size: 14px; }
+  footer b { color: var(--fg); font-size: 18px; }
+  #error { color: var(--error); margin-top: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>MAC MINI AGENT CREW</h1>
+  <span id="updated">loading…</span>
+</header>
+<main class="cards" id="cards"></main>
+<footer>
+  <span>Tasks completed today <b id="done">–</b></span>
+  <span>Working now <b id="working">–</b></span>
+  <span>Screen refreshed <span id="refreshed">–</span></span>
+</footer>
+<div id="error"></div>
+<script>
+(function () {
+  var FEED = 'status.json';
+  var STALE_MIN = 45;
+  var TZ = 'America/New_York';
+
+  function clock(unix) {
+    if (!unix) return '—';
+    return new Date(unix * 1000).toLocaleTimeString('en-US',
+      { hour: 'numeric', minute: '2-digit', timeZone: TZ });
+  }
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined && text !== null) e.textContent = text;
+    return e;
+  }
+  function effectiveState(a, now) {
+    if (a.state === 'stale' || (now - (a.heartbeat || 0)) > 600) return 'stale';
+    return a.state || 'idle';
+  }
+  function render(data) {
+    var now = Math.floor(Date.now() / 1000);
+    var age = Math.round((now - (data.updated || 0)) / 60);
+    var up = document.getElementById('updated');
+    up.textContent = 'updated ' + clock(data.updated) + ' (' + age + ' min ago)' + (age > STALE_MIN ? ' · STALE' : '');
+    up.className = age > STALE_MIN ? 'stale' : '';
+
+    var cards = document.getElementById('cards');
+    cards.textContent = '';
+    (data.agents || []).forEach(function (a) {
+      var st = effectiveState(a, now);
+      var c = el('article', 'card ' + st);
+      c.appendChild(el('h2', 'name', a.display_name || a.agent));
+      c.appendChild(el('div', 'state ' + st, st));
+      c.appendChild(el('div', 'task', a.task || (st === 'idle' ? 'waiting for a task' : '')));
+      if (a.progress !== null && a.progress !== undefined && st !== 'stale') {
+        var bar = el('div', 'bar'); var fill = el('div');
+        fill.style.width = Math.round(a.progress * 100) + '%'; bar.appendChild(fill); c.appendChild(bar);
+        var secs = Math.max(0, now - (a.started || now));
+        c.appendChild(el('div', 'pct', Math.round(a.progress * 100) + '% · ' + Math.floor(secs / 60) + 'm ' + (secs % 60) + 's'));
+      }
+      if (a.note) c.appendChild(el('div', 'note', a.note));
+      c.appendChild(el('div', 'last', '• ' + (a.last_result || 'nothing finished yet')));
+      var meta = el('div', 'meta');
+      meta.appendChild(el('span', null, 'done today: ' + (a.completed_today || 0)));
+      meta.appendChild(el('span', null, 'heartbeat ' + clock(a.heartbeat)));
+      c.appendChild(meta);
+      cards.appendChild(c);
+    });
+    var t = data.totals || {};
+    document.getElementById('done').textContent = t.completed_today != null ? t.completed_today : '–';
+    document.getElementById('working').textContent = t.working != null ? t.working : '–';
+    document.getElementById('refreshed').textContent = clock(now);
+    document.getElementById('error').textContent = '';
+  }
+  function load() {
+    fetch(FEED + '?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(render)
+      .catch(function (e) { document.getElementById('error').textContent = 'Could not load status.json: ' + e.message; });
+  }
+  load();
+  setInterval(load, 60 * 1000);
+})();
+</script>
+</body>
+</html>

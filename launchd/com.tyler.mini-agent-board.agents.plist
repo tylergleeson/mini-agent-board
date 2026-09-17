@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Template: bootstrap.sh replaces __REPO__ and __HOME__ and installs the result
+         into ~/Library/LaunchAgents. Runs the agent crew headless (no TTY) and keeps it
+         alive across crashes and logins. For the visible dashboard on the Mini's screen,
+         open Terminal and run: agents/run_agents.py --watch (or double-click agents/Dashboard.command). -->
+    <key>Label</key>
+    <string>com.tyler.mini-agent-board.agents</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>__REPO__/.venv/bin/python</string>
+        <string>__REPO__/agents/run_agents.py</string>
+        <string>--headless</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>__REPO__</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>TZ</key>
+        <string>America/New_York</string>
+        <key>PYTHONUNBUFFERED</key>
+        <string>1</string>
+    </dict>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+    <key>ProcessType</key>
+    <string>Background</string>
+    <key>StandardOutPath</key>
+    <string>__HOME__/Library/Logs/mini-agent-board/agents.log</string>
+    <key>StandardErrorPath</key>
+    <string>__HOME__/Library/Logs/mini-agent-board/agents.log</string>
+</dict>
+</plist>

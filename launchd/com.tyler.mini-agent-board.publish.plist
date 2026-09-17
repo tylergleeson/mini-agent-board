@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Template: bootstrap.sh replaces __REPO__ and __HOME__ and installs the result
+         into ~/Library/LaunchAgents. Merges status/*.json into docs/status.json and pushes
+         every 15 minutes. publish.py always exits 0 so launchd keeps scheduling it. -->
+    <key>Label</key>
+    <string>com.tyler.mini-agent-board.publish</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>__REPO__/.venv/bin/python</string>
+        <string>__REPO__/publish.py</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>__REPO__</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>TZ</key>
+        <string>America/New_York</string>
+        <key>HOME</key>
+        <string>__HOME__</string>
+        <key>PYTHONUNBUFFERED</key>
+        <string>1</string>
+    </dict>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StartInterval</key>
+    <integer>900</integer>
+    <key>ProcessType</key>
+    <string>Background</string>
+    <key>StandardOutPath</key>
+    <string>__HOME__/Library/Logs/mini-agent-board/publish.log</string>
+    <key>StandardErrorPath</key>
+    <string>__HOME__/Library/Logs/mini-agent-board/publish.log</string>
+</dict>
+</plist>

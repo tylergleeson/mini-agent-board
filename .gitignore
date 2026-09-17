@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+# runtime: per-agent status files are written continuously by agents/run_agents.py
+status/*.json
+# rendered launchd plists live in ~/Library/LaunchAgents, not here
+launchd/*.rendered.plist
+.playwright-mcp/

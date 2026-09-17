@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Layout Preview</title>
+<meta name="description" content="Local approximation of how SenseCraft renders board/layout.json on the 800x480 E1002. Serve the repo root and open /board/preview.html.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+<style>
+  :root { --bg: #d8d8d8; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #2a2a2a; } }
+  :root[data-theme="dark"] { --bg: #2a2a2a; }
+  body { margin: 0; padding: 16px; background: var(--bg); font-family: Montserrat, sans-serif; }
+  #panel { position: relative; width: 800px; height: 480px; overflow: hidden; background: #fff; }
+  #panel > div { position: absolute; box-sizing: border-box; }
+  .txt { line-height: 1.2; overflow: hidden; white-space: pre-wrap; overflow-wrap: anywhere; }
+  #note { font: 13px/1.4 Montserrat, sans-serif; margin-top: 10px; color: #333; }
+</style>
+</head>
+<body>
+<div id="panel"></div>
+<div id="note"></div>
+<script>
+(async function () {
+  const q = new URLSearchParams(location.search);
+  const layout = await (await fetch('layout.json?t=' + Date.now())).json();
+  let feed = null;
+  try { feed = await (await fetch('../docs/status.json?t=' + Date.now())).json(); } catch (e) {}
+  if (q.get('stale')) feed = feed && { ...feed, updated: Math.floor(Date.now() / 1000) - 60 * 60 };
+  if (q.get('empty')) feed = null;
+  if (q.get('demo')) {
+    const now = Math.floor(Date.now() / 1000);
+    feed = { updated: now - 4 * 60, totals: { completed_today: 21, working: 1, agents: 3 }, agents: [
+      { agent: 'builder', display_name: 'Builder', state: 'working', task: 'Refactor a haiku to 5-7-5', progress: 0.64,
+        started: now - 41, heartbeat: now, completed_today: 8, last_result: "Sorted 56 Beatles songs alphabetically by hand in 812 swaps.", note: '' },
+      { agent: 'critic', display_name: 'Critic', state: 'blocked', task: "Review Builder's haiku", progress: null,
+        started: now - 12, heartbeat: now, completed_today: 6, last_result: "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.", note: 'waiting for Builder to release the workbench' },
+      { agent: 'scout', display_name: 'Scout', state: 'error', task: 'Write unit tests for haiku.py', progress: null,
+        started: now - 5, heartbeat: now, completed_today: 7, last_result: 'Ran 9 syllable-counter tests; 2 failed on every (got 2, want 3), queue (got 2, want 1).', note: 'needs a human' } ] };
+    if (q.get('stale')) feed.updated = now - 60 * 60;
+  }
+  const device = { result: { battery: { level: 87 } } };
+  const get = (o, p) => p.split('.').reduce((a, k) => (a == null ? undefined : a[k]), o);
+  const fmtTime = (unix, fmt) => {
+    const d = new Date(unix * 1000);
+    const o = { timeZone: 'America/New_York' };
+    if (/A/.test(fmt)) return d.toLocaleTimeString('en-US', { ...o, hour: 'numeric', minute: '2-digit' });
+    if (/HH:mm/.test(fmt)) return d.toLocaleTimeString('en-GB', { ...o, hour: '2-digit', minute: '2-digit' });
+    return d.toLocaleDateString('en-US', { ...o, weekday: 'short', month: 'short', day: 'numeric' });
+  };
+  const panel = document.getElementById('panel');
+  const kids = layout.stageElements[0].children;
+  let used = 0;
+  for (const e of kids) {
+    const d = document.createElement('div');
+    d.style.left = e.x + 'px'; d.style.top = e.y + 'px';
+    d.style.width = e.width + 'px'; d.style.height = e.height + 'px';
+    if (e.type === 'rectangle') {
+      d.style.background = e.fill === 'transparent' ? 'transparent' : e.fill;
+      if (e.strokeWidth) d.style.border = e.strokeWidth + 'px solid ' + e.stroke;
+      d.style.borderRadius = (e.cornerRadius || 0) + 'px';
+    } else if (e.type === 'text' || e.type === 'data' || e.type === 'date') {
+      d.className = 'txt';
+      d.style.fontFamily = (e.fontFamily || 'Montserrat') + ', sans-serif';
+      d.style.fontSize = e.fontSize + 'px';
+      d.style.fontWeight = /bold/.test(e.fontStyle || '') ? 700 : 400;
+      d.style.color = e.color || '#000';
+      d.style.textAlign = e.textAlign || 'left';
+      let v = e.value ?? '';
+      if (e.type === 'date') {
+        v = fmtTime(Date.now() / 1000, e.dataTransform.options.format);
+      } else if (e.type === 'data') {
+        const src = e.requiredPlatform === 'device' ? device : feed;
+        if (src) {
+          const raw = get(src, e.dataKey); used++;
+          const t = e.dataTransform;
+          if (!t) v = raw == null ? '' : String(raw);
+          else if (t.type === 'custom') { try { v = new Function('value', t.options.customFunction)(raw); } catch (err) { v = 'ERR ' + err.message; } }
+          else if (t.type === 'time' || t.type === 'date') v = raw == null ? '' : fmtTime(Number(raw), t.options.format);
+          else v = raw == null ? '' : String(raw);
+        }
+      }
+      d.textContent = v;
+    } else { continue; }
+    panel.appendChild(d);
+  }
+  document.getElementById('note').textContent =
+    (feed ? `Data widgets filled from docs/status.json (updated ${fmtTime(feed.updated, 'h:mm A')}).` : 'No feed: showing editor preview values.') +
+    ' Add ?demo=1, ?stale=1 or ?empty=1 to the URL to test those states. Approximation only: Seeed renders server-side and dithers to 6 colors.';
+})();
+</script>
+</body>
+</html>
