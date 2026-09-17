@@ -34,6 +34,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("America/New_York")
+sys.set_int_max_str_digits(0)  # the Fibonacci task prints numbers with >4300 digits
 ROOT = Path(__file__).resolve().parent.parent
 STATUS_DIR = Path(os.environ.get("MAB_STATUS_DIR", ROOT / "status"))
 DOCS_STATUS = ROOT / "docs" / "status.json"
