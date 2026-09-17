@@ -60,10 +60,12 @@ def feed(x, y, w, h, key, label, js=None, size=20, color=BLACK, align="left", bo
 #   * a function that returns '' is rendered as the text "N/A" — so "hidden" widgets must
 #     return a zero-width space instead
 #   * when the dataKey resolves to null (e.g. progress while idle) the renderer falls back to
-#     the widget's baked preview `value` and runs the function on THAT — so every preview
-#     for a nullable field must be "" (which the functions treat as missing → blank)
+#     the widget's baked preview `value` and runs the function on THAT; an empty preview is
+#     then coerced to 0 — so every nullable field's preview is the literal "N/A", which the
+#     functions treat as missing → blank, while a real 0 from the feed still renders as 0
 #   * until a widget is clicked/fetched once, the editor canvas also runs the function on
 #     the preview `value`, so the canvas looks sparse before the first fetch; Preview is live
+MISSING = "N/A"  # preview for nullable fields; see notes above
 JS_PRE = ("var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;"
           "var B='\\u200b';")
 JS_FMT_TIME = (
@@ -121,23 +123,23 @@ def card(i: int, x: int) -> list[dict]:
     ):
         els.append(feed(ix, sy, iw, 26, f"{k}.state", f"Agent {i} state ({'/'.join(states)})",
                         js_state(states), size=18, color=color, bold=True,
-                        value=""))
+                        value=MISSING))
     # task (wraps up to 3 lines)
     els.append(feed(ix, CARD_Y + 96, iw, 78, f"{k}.task", f"Agent {i} task", JS_TASK,
-                    size=19, bold=True, value=""))
+                    size=19, bold=True, value=MISSING))
     # progress bar + percent
     els.append(feed(ix, CARD_Y + 182, iw - 58, 24, f"{k}.progress", f"Agent {i} progress bar", JS_BAR,
-                    size=15, color=BLACK, value=""))
+                    size=15, color=BLACK, value=MISSING))
     els.append(feed(x + CARD_W - pad - 56, CARD_Y + 176, 56, 32, f"{k}.progress", f"Agent {i} progress %",
-                    JS_PCT, size=24, bold=True, align="right", value=""))
+                    JS_PCT, size=24, bold=True, align="right", value=MISSING))
     # divider
     els.append(rect(ix, CARD_Y + 218, iw, 2, BLACK))
     # what the agent just did, as one plain-English bullet
     els.append(feed(ix, CARD_Y + 228, iw, 84, f"{k}.last_result", f"Agent {i} last result", JS_RESULT,
-                    size=15, value=""))
+                    size=15, value=MISSING))
     # done today
     els.append(feed(ix, CARD_Y + CARD_H - 34, iw, 24, f"{k}.completed_today", f"Agent {i} done today",
-                    JS_DONE, size=15, color=BLUE, bold=True, value=""))
+                    JS_DONE, size=15, color=BLUE, bold=True, value=MISSING))
     return els
 
 
@@ -148,9 +150,9 @@ def build() -> dict:
     c.append(text(MARGIN, 12, 330, 32, "MAC MINI AGENT CREW", 24, BLACK, bold=True))
     ux, uw = W - MARGIN - 300, 300
     c.append(feed(ux, 19, uw, 24, "updated", "Updated (fresh)", js_updated(False),
-                  size=17, color=BLACK, align="right", value=""))
+                  size=17, color=BLACK, align="right", value=MISSING))
     c.append(feed(ux, 19, uw, 24, "updated", f"Updated (STALE > {STALE_MIN} min)", js_updated(True),
-                  size=17, color=RED, align="right", bold=True, value=""))
+                  size=17, color=RED, align="right", bold=True, value=MISSING))
     # cards
     for i in range(N_CARDS):
         c.extend(card(i, MARGIN + i * (CARD_W + GAP)))
@@ -158,11 +160,11 @@ def build() -> dict:
     fy = CARD_Y + CARD_H + 10
     c.append(text(MARGIN, fy + 8, 230, 24, "TASKS COMPLETED TODAY", 14, WHITE, bold=True))
     c.append(feed(MARGIN + 232, fy - 4, 90, 44, "totals.completed_today", "Total done today", JS_TOTAL_DONE,
-                  size=36, bold=True, color=YELLOW, value=""))
+                  size=36, bold=True, color=YELLOW, value=MISSING))
     c.append(feed(360, fy + 8, 140, 24, "totals.working", "Working now", JS_WORKING,
-                  size=14, color=GREEN, bold=True, value=""))
+                  size=14, color=GREEN, bold=True, value=MISSING))
     bat = feed(W - MARGIN - 110, fy + 8, 110, 24, "result.battery.level", "Battery", JS_BATTERY,
-               size=13, color=WHITE, align="right", value="")
+               size=13, color=WHITE, align="right", value=MISSING)
     bat.update({"requiredPlatform": "device", "dataUrl": DEVICE})
     c.append(bat)
     return layout(c)
