@@ -1,49 +1,49 @@
 {
-  "updated": 1789619937,
-  "agents": [
-    {
-      "agent": "builder",
-      "display_name": "Builder",
-      "state": "idle",
-      "task": "",
-      "progress": null,
-      "started": 1789619932,
-      "heartbeat": 1789619937,
-      "completed_today": 2,
-      "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-      "note": "crew stopped",
-      "stale": false
-    },
-    {
-      "agent": "critic",
-      "display_name": "Critic",
-      "state": "idle",
-      "task": "",
-      "progress": null,
-      "started": 1789619937,
-      "heartbeat": 1789619937,
-      "completed_today": 1,
-      "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), science (got 1, want 2).",
-      "note": "crew stopped",
-      "stale": false
-    },
-    {
-      "agent": "scout",
-      "display_name": "Scout",
-      "state": "idle",
-      "task": "",
-      "progress": null,
-      "started": 1789619935,
-      "heartbeat": 1789619937,
-      "completed_today": 2,
-      "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
-      "note": "crew stopped",
-      "stale": false
-    }
-  ],
-  "totals": {
-    "completed_today": 5,
-    "working": 0,
-    "agents": 3
+ "updated": 1789620685,
+ "agents": [
+  {
+   "agent": "builder",
+   "display_name": "Builder",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1789620685,
+   "heartbeat": 1789620685,
+   "completed_today": 0,
+   "last_result": "",
+   "note": "warming up",
+   "stale": false
+  },
+  {
+   "agent": "critic",
+   "display_name": "Critic",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1789620685,
+   "heartbeat": 1789620685,
+   "completed_today": 0,
+   "last_result": "",
+   "note": "warming up",
+   "stale": false
+  },
+  {
+   "agent": "scout",
+   "display_name": "Scout",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1789620685,
+   "heartbeat": 1789620685,
+   "completed_today": 0,
+   "last_result": "",
+   "note": "warming up",
+   "stale": false
   }
+ ],
+ "totals": {
+  "completed_today": 0,
+  "working": 0,
+  "agents": 3
+ }
 }
