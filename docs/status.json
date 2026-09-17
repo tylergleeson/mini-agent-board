@@ -1,5 +1,5 @@
 {
- "updated": 1789661272,
+ "updated": 1789662174,
  "agents": [
   {
    "agent": "builder",
@@ -7,10 +7,10 @@
    "state": "blocked",
    "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1789661107,
-   "heartbeat": 1789661270,
-   "completed_today": 310,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "started": 1789662159,
+   "heartbeat": 1789662173,
+   "completed_today": 315,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on area (got 2, want 3).",
    "note": "waiting for Critic to release the workbench",
    "stale": false
   },
@@ -18,31 +18,31 @@
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.536,
-   "started": 1789661226,
-   "heartbeat": 1789661270,
-   "completed_today": 323,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
-   "note": "0 inversions",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.333,
+   "started": 1789662155,
+   "heartbeat": 1789662173,
+   "completed_today": 331,
+   "last_result": "Counted 18,464 primes below 206,000; the biggest was 205,993.",
+   "note": "test_agent: ok",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.65,
-   "started": 1789661228,
-   "heartbeat": 1789661270,
-   "completed_today": 487,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "113 found",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.04,
+   "started": 1789662171,
+   "heartbeat": 1789662173,
+   "completed_today": 499,
+   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
+   "note": "longest so far: 10971 (268 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1120,
+  "completed_today": 1145,
   "working": 2,
   "agents": 3
  }
