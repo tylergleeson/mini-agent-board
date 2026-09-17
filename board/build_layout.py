@@ -146,7 +146,10 @@ def card(i: int, x: int) -> list[dict]:
     return els
 
 
-def build() -> dict:
+JS_RENDERED = JS_PRE + JS_FMT_TIME + "return 'rendered '+fmt(Date.now()/1000);"
+
+
+def build(probe_url: str | None = None) -> dict:
     c: list[dict] = []
     c.append(rect(0, 0, W, H, BLUE))          # rich blue field
     c.append(rect(0, 0, W, 58, WHITE))        # white header band: black title, red stale time
@@ -169,12 +172,19 @@ def build() -> dict:
     # Battery: the editor never injected the device key into imported widgets, so leave a
     # red placeholder and add Seeed's own Data → Device → Battery Level widget here by hand.
     c.append(text(W - MARGIN - 260, fy + 10, 260, 22, "Replace with battery percentage", 13, RED, align="right", bold=True))
+    if probe_url:
+        # Diagnostic: a widget whose dataUrl is a request logger. Every cloud render of this
+        # page leaves one hit in the logger, and the widget prints the render time on screen.
+        pr = feed(360, fy + 30, 200, 18, "probe", "Render probe", JS_RENDERED, size=11, color=WHITE, value="ok")
+        pr["dataUrl"] = probe_url
+        c.append(pr)
     return layout(c)
 
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--stdout", action="store_true")
+    ap.add_argument("--probe", metavar="URL", help="also write layout.probe.json (gitignored) with a render-probe widget hitting URL")
     args = ap.parse_args()
     doc = build()
     out = json.dumps(doc, indent=2, ensure_ascii=False)
@@ -185,6 +195,9 @@ def main() -> int:
     (here / "layout.json").write_text(out + "\n")
     kids = doc["stageElements"][0]["children"]
     print(f"wrote layout.json: {len(kids)} elements, {sum(1 for e in kids if e['type'] == 'data')} data widgets")
+    if args.probe:
+        (here / "layout.probe.json").write_text(json.dumps(build(args.probe), indent=2, ensure_ascii=False) + "\n")
+        print("wrote layout.probe.json with the render probe (gitignored; do not commit the probe URL)")
     return 0
 
 
