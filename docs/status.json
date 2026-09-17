@@ -1,49 +1,49 @@
 {
- "updated": 1789682922,
+ "updated": 1789683823,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.246,
-   "started": 1789682902,
-   "heartbeat": 1789682920,
-   "completed_today": 468,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "3 groups",
+   "state": "blocked",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": null,
+   "started": 1789683817,
+   "heartbeat": 1789683821,
+   "completed_today": 477,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.667,
-   "started": 1789682892,
-   "heartbeat": 1789682920,
-   "completed_today": 494,
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1789683820,
+   "heartbeat": 1789683821,
+   "completed_today": 503,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "line 2: 7 syllables",
+   "note": "next: Review Builder's Beatles sort",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.375,
-   "started": 1789682890,
-   "heartbeat": 1789682920,
-   "completed_today": 738,
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.279,
+   "started": 1789683812,
+   "heartbeat": 1789683821,
+   "completed_today": 749,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "65 found",
+   "note": "52 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1700,
-  "working": 3,
+  "completed_today": 1729,
+  "working": 1,
   "agents": 3
  }
 }
