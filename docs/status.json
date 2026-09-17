@@ -1,17 +1,17 @@
 {
- "updated": 1789688333,
+ "updated": 1789689235,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "done",
-   "task": "Group anagrams in the word list",
-   "progress": 1.0,
-   "started": 1789688328,
-   "heartbeat": 1789688331,
-   "completed_today": 517,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "",
+   "state": "blocked",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": null,
+   "started": 1789689209,
+   "heartbeat": 1789689234,
+   "completed_today": 525,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “sleepless server sleeps / the agents pass through the dawn / refactor at dusk”",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -19,12 +19,12 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Re-run the syllable unit tests",
-   "progress": 0.778,
-   "started": 1789688277,
-   "heartbeat": 1789688331,
-   "completed_today": 540,
+   "progress": 0.556,
+   "started": 1789689202,
+   "heartbeat": 1789689234,
+   "completed_today": 545,
    "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "test_paper: ok",
+   "note": "test_poem: FAIL",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Hunt palindromic primes",
-   "progress": 0.05,
-   "started": 1789688330,
-   "heartbeat": 1789688331,
-   "completed_today": 807,
-   "last_result": "Counted 33,313 primes below 393,000; the biggest was 392,983.",
-   "note": "33 found",
+   "progress": 0.625,
+   "started": 1789689203,
+   "heartbeat": 1789689234,
+   "completed_today": 819,
+   "last_result": "Counted 14,933 primes below 163,000; the biggest was 162,997.",
+   "note": "113 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1864,
+  "completed_today": 1889,
   "working": 2,
   "agents": 3
  }
