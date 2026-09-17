@@ -1,49 +1,49 @@
 {
- "updated": 1789686530,
+ "updated": 1789687432,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
+   "task": "Sort shuffled Beatles songs by hand",
    "progress": null,
-   "started": 1789686488,
-   "heartbeat": 1789686529,
-   "completed_today": 499,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 880 swaps.",
+   "started": 1789687239,
+   "heartbeat": 1789687431,
+   "completed_today": 508,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels stirs slowly / fifteen minutes for waiting / the crew counts working”",
    "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.556,
-   "started": 1789686485,
-   "heartbeat": 1789686529,
-   "completed_today": 527,
+   "state": "done",
+   "task": "Review Builder's Beatles sort",
+   "progress": 1.0,
+   "started": 1789687427,
+   "heartbeat": 1789687431,
+   "completed_today": 533,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "test_board: ok",
+   "note": "",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "done",
-   "task": "Hunt palindromic primes",
+   "task": "Estimate π with Monte Carlo darts",
    "progress": 1.0,
-   "started": 1789686525,
-   "heartbeat": 1789686529,
-   "completed_today": 785,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "started": 1789687425,
+   "heartbeat": 1789687431,
+   "completed_today": 795,
+   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1424.",
    "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1811,
-  "working": 1,
+  "completed_today": 1836,
+  "working": 0,
   "agents": 3
  }
 }
