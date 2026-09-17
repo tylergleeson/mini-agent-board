@@ -165,9 +165,10 @@ SenseCraft can't recolor a widget from data, so each colored dynamic label is a 
 same-box `data` widgets, one per color, whose custom function returns a zero-width space
 unless its condition holds. The `updated` time is two widgets (black when fresh, red + "STALE"
 when old). Three renderer facts learned from the live editor, all handled in `build_layout.py`:
-a missing value reaches the custom function as the string `N/A`; a function that returns `''`
-is drawn as the text `N/A`; and until a widget has fetched once, the editor canvas runs the
-function on the widget's baked preview `value` (so previews are raw feed values).
+a function that returns `''` is drawn as the text `N/A`; when a `dataKey` resolves to null the
+renderer runs the function on the widget's baked preview `value` instead (so previews of
+nullable fields are empty); and until a widget has fetched once, the editor canvas does the
+same, so the canvas looks sparse before the first fetch while Preview is always live.
 
 ### Importing into SenseCraft HMI
 

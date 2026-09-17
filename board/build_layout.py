@@ -20,7 +20,6 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -58,11 +57,13 @@ def feed(x, y, w, h, key, label, js=None, size=20, color=BLACK, align="left", bo
 
 # ---- JS snippets used inside custom transforms (value is the dataKey's value) ----------
 # SenseCraft facts learned from the live editor (not in the reference doc):
-#   * a missing/null value reaches the function as the string "N/A"
 #   * a function that returns '' is rendered as the text "N/A" — so "hidden" widgets must
 #     return a zero-width space instead
-#   * until a widget is clicked/fetched once, the editor canvas runs the function on the
-#     widget's baked preview `value`, so previews should be raw feed values
+#   * when the dataKey resolves to null (e.g. progress while idle) the renderer falls back to
+#     the widget's baked preview `value` and runs the function on THAT — so every preview
+#     for a nullable field must be "" (which the functions treat as missing → blank)
+#   * until a widget is clicked/fetched once, the editor canvas also runs the function on
+#     the preview `value`, so the canvas looks sparse before the first fetch; Preview is live
 JS_PRE = ("var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;"
           "var B='\\u200b';")
 JS_FMT_TIME = (
@@ -120,23 +121,23 @@ def card(i: int, x: int) -> list[dict]:
     ):
         els.append(feed(ix, sy, iw, 26, f"{k}.state", f"Agent {i} state ({'/'.join(states)})",
                         js_state(states), size=18, color=color, bold=True,
-                        value="working" if color == GREEN else ""))
+                        value=""))
     # task (wraps up to 3 lines)
     els.append(feed(ix, CARD_Y + 96, iw, 78, f"{k}.task", f"Agent {i} task", JS_TASK,
-                    size=19, bold=True, value="Sort shuffled Beatles songs by hand"))
+                    size=19, bold=True, value=""))
     # progress bar + percent
     els.append(feed(ix, CARD_Y + 182, iw - 58, 24, f"{k}.progress", f"Agent {i} progress bar", JS_BAR,
-                    size=15, color=BLACK, value="0.64"))
+                    size=15, color=BLACK, value=""))
     els.append(feed(x + CARD_W - pad - 56, CARD_Y + 176, 56, 32, f"{k}.progress", f"Agent {i} progress %",
-                    JS_PCT, size=24, bold=True, align="right", value="0.64"))
+                    JS_PCT, size=24, bold=True, align="right", value=""))
     # divider
     els.append(rect(ix, CARD_Y + 218, iw, 2, BLACK))
     # what the agent just did, as one plain-English bullet
     els.append(feed(ix, CARD_Y + 228, iw, 84, f"{k}.last_result", f"Agent {i} last result", JS_RESULT,
-                    size=15, value="Sorted 56 Beatles songs alphabetically by hand in 812 swaps."))
+                    size=15, value=""))
     # done today
     els.append(feed(ix, CARD_Y + CARD_H - 34, iw, 24, f"{k}.completed_today", f"Agent {i} done today",
-                    JS_DONE, size=15, color=BLUE, bold=True, value="7"))
+                    JS_DONE, size=15, color=BLUE, bold=True, value=""))
     return els
 
 
@@ -147,7 +148,7 @@ def build() -> dict:
     c.append(text(MARGIN, 12, 330, 32, "MAC MINI AGENT CREW", 24, BLACK, bold=True))
     ux, uw = W - MARGIN - 300, 300
     c.append(feed(ux, 19, uw, 24, "updated", "Updated (fresh)", js_updated(False),
-                  size=17, color=BLACK, align="right", value=str(int(time.time()))))
+                  size=17, color=BLACK, align="right", value=""))
     c.append(feed(ux, 19, uw, 24, "updated", f"Updated (STALE > {STALE_MIN} min)", js_updated(True),
                   size=17, color=RED, align="right", bold=True, value=""))
     # cards
@@ -157,11 +158,11 @@ def build() -> dict:
     fy = CARD_Y + CARD_H + 10
     c.append(text(MARGIN, fy + 8, 230, 24, "TASKS COMPLETED TODAY", 14, WHITE, bold=True))
     c.append(feed(MARGIN + 232, fy - 4, 90, 44, "totals.completed_today", "Total done today", JS_TOTAL_DONE,
-                  size=36, bold=True, color=YELLOW, value="21"))
+                  size=36, bold=True, color=YELLOW, value=""))
     c.append(feed(360, fy + 8, 140, 24, "totals.working", "Working now", JS_WORKING,
-                  size=14, color=GREEN, bold=True, value="1"))
+                  size=14, color=GREEN, bold=True, value=""))
     bat = feed(W - MARGIN - 110, fy + 8, 110, 24, "result.battery.level", "Battery", JS_BATTERY,
-               size=13, color=WHITE, align="right", value="87")
+               size=13, color=WHITE, align="right", value="")
     bat.update({"requiredPlatform": "device", "dataUrl": DEVICE})
     c.append(bat)
     return layout(c)

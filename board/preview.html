@@ -72,7 +72,7 @@
         const src = e.requiredPlatform === 'device' ? device : feed;
         if (src) {
           let raw = get(src, e.dataKey); used++;
-          if (raw == null) raw = 'N/A';  // SenseCraft passes missing values as the string N/A
+          if (raw == null) raw = e.value ?? '';  // SenseCraft falls back to the baked preview value when the key is null
           const t = e.dataTransform;
           if (!t) v = raw == null ? '' : String(raw);
           else if (t.type === 'custom') { try { v = new Function('value', t.options.customFunction)(raw); } catch (err) { v = 'ERR ' + err.message; } }
