@@ -172,9 +172,15 @@ same, so the canvas looks sparse before the first fetch while Preview is always 
 
 ### Importing into SenseCraft HMI
 
-1. `python3 board/build_layout.py` (already committed as `board/layout.json`).
+1. `python3 board/build_layout.py` writes `board/layout.json` (committed, device key
+   placeholder). If a SenseCraft export (`dashboard_*.json`, gitignored) is in the repo root it
+   also writes `board/layout.local.json` (gitignored) with your device key mask copied from
+   the export. The editor only injects your real device key when the header holds a mask in
+   its own `sk_x***xxxx` format, so **import `layout.local.json`**. To get an export the first
+   time: import `layout.json`, add any Device → Battery widget, Export, drop the file in the
+   repo root, rebuild.
 2. In SenseCraft HMI: **Workspace → your design → Import** (the inward-arrow icon) and pick
-   `layout.json`. This replaces the canvas.
+   the file. This replaces the canvas.
 3. The editor canvas shows baked preview text until each `data` widget has fetched once;
    clicking a widget triggers that fetch. The battery widgets (`requiredPlatform: device`)
    ship with a masked `api-key` header and a `sanitizedFields` entry, which is what makes the

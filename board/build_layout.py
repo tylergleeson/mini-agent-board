@@ -104,13 +104,33 @@ JS_WORKING = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return n+' worki
 JS_NAME = JS_PRE + "return v==null?'—':String(v);"
 
 
+KEY_MASK = "sk_***"  # placeholder; build() swaps in the real mask for layout.local.json
+
+
 def device(x, y, w, h, key, label, js=None, size=13, color=WHITE, align="left", transform=None, value=MISSING):
-    """A `data` widget on Seeed's device endpoint. The masked api-key header plus the
-    sanitizedFields entry are what make the editor inject the real key on import."""
+    """A `data` widget on Seeed's device endpoint. The editor injects your real device key on
+    import only when the api-key header holds a mask in Seeed's own format (sk_x***xxxx) and
+    sanitizedFields names it."""
     e = feed(x, y, w, h, key, label, js, size=size, color=color, align=align, value=value, transform=transform)
     e.update({"requiredPlatform": "device", "dataUrl": DEVICE,
-              "dataHeaders": {"api-key": "sk_***"}, "sanitizedFields": ["dataHeaders.api-key"]})
+              "dataHeaders": {"api-key": KEY_MASK}, "sanitizedFields": ["dataHeaders.api-key"]})
     return e
+
+
+def find_key_mask() -> str | None:
+    """Read the masked api-key from a SenseCraft export (dashboard_*.json, gitignored) if present."""
+    root = Path(__file__).resolve().parent.parent
+    for f in sorted(root.glob("dashboard_*.json")) + sorted((root / "board").glob("dashboard_*.json")):
+        try:
+            doc = json.loads(f.read_text())
+            for e in doc["stageElements"][0]["children"]:
+                if e.get("requiredPlatform") == "device":
+                    m = (e.get("dataHeaders") or {}).get("api-key")
+                    if m:
+                        return m
+        except (OSError, ValueError, KeyError, IndexError):
+            continue
+    return None
 
 
 def battery_icon(x, y) -> list[dict]:
@@ -167,7 +187,9 @@ def card(i: int, x: int) -> list[dict]:
     return els
 
 
-def build() -> dict:
+def build(key_mask: str = "sk_***") -> dict:
+    global KEY_MASK
+    KEY_MASK = key_mask
     c: list[dict] = []
     c.append(rect(0, 0, W, H, BLUE))          # rich blue field
     c.append(rect(0, 0, W, 58, WHITE))        # white header band: black title, red stale time
@@ -199,11 +221,20 @@ def main() -> int:
     out = json.dumps(doc, indent=2, ensure_ascii=False)
     if args.stdout:
         print(out)
+        return 0
+    here = Path(__file__).resolve().parent
+    (here / "layout.json").write_text(out + "\n")
+    kids = doc["stageElements"][0]["children"]
+    print(f"wrote layout.json: {len(kids)} elements, {sum(1 for e in kids if e['type'] == 'data')} data widgets "
+          f"(device key placeholder — safe to commit)")
+    mask = find_key_mask()
+    if mask:
+        local = here / "layout.local.json"
+        local.write_text(json.dumps(build(mask), indent=2, ensure_ascii=False) + "\n")
+        print(f"wrote layout.local.json with your device key mask {mask!r} — IMPORT THIS ONE (gitignored)")
     else:
-        target = Path(__file__).resolve().parent / "layout.json"
-        target.write_text(out + "\n")
-        n = len(doc["stageElements"][0]["children"])
-        print(f"wrote {target.name}: {n} elements, {sum(1 for e in doc['stageElements'][0]['children'] if e['type']=='data')} data widgets")
+        print("no SenseCraft export (dashboard_*.json) found; export your design from the editor and drop it "
+              "in the repo root to generate layout.local.json with your device key mask")
     return 0
 
 
