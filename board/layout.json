@@ -1098,7 +1098,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n))n=0;return String(n);"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n))n=0;return String(n)+B;"
             }
           }
         },

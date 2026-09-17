@@ -97,7 +97,9 @@ JS_BAR = (JS_PRE + "var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,M
           "var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;")
 JS_RESULT = JS_PRE + "var s=v==null?'Nothing finished yet.':String(v);if(s.length>120)s=s.slice(0,119)+'…';return '• '+s;"
 JS_DONE = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return n+' done today';"
-JS_TOTAL_DONE = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return String(n);"
+# bare numeric strings get re-formatted by the renderer ("17" → "17.0"); the trailing
+# zero-width space keeps it text
+JS_TOTAL_DONE = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return String(n)+B;"
 JS_WORKING = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return n+' working';"
 JS_NAME = JS_PRE + "return v==null?'—':String(v);"
 JS_BATTERY = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))return B;return 'Battery '+n+'%';"
