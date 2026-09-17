@@ -172,21 +172,18 @@ same, so the canvas looks sparse before the first fetch while Preview is always 
 
 ### Importing into SenseCraft HMI
 
-1. `python3 board/build_layout.py` writes `board/layout.json` (committed, device key
-   placeholder). If a SenseCraft export (`dashboard_*.json`, gitignored) is in the repo root it
-   also writes `board/layout.local.json` (gitignored) with your device key mask copied from
-   the export. The editor only injects your real device key when the header holds a mask in
-   its own `sk_x***xxxx` format, so **import `layout.local.json`**. To get an export the first
-   time: import `layout.json`, add any Device → Battery widget, Export, drop the file in the
-   repo root, rebuild.
+1. `python3 board/build_layout.py` writes `board/layout.json`.
 2. In SenseCraft HMI: **Workspace → your design → Import** (the inward-arrow icon) and pick
-   the file. This replaces the canvas.
+   `layout.json`. This replaces the canvas.
 3. The editor canvas shows baked preview text until each `data` widget has fetched once;
-   clicking a widget triggers that fetch. The battery widgets (`requiredPlatform: device`)
-   ship with a masked `api-key` header and a `sanitizedFields` entry, which is what makes the
-   editor inject your real device key on import. The **Preview** window always fetches live
-   and is what the device will show.
-4. **Preview**, then **Save** and **Apply** to the E1002. Set the device refresh to 15–30 min.
+   clicking a widget triggers that fetch. The **Preview** window always fetches live and is
+   what the device will show.
+4. **Battery, by hand.** Imported `device` widgets never get the account's device key
+   injected (tried empty headers, a placeholder mask and the exact mask from an export), so
+   the footer carries a red "Replace with battery percentage" placeholder instead. Delete it,
+   then **Data → Device → Load Sensor Data → Battery Level → Confirm** and drop Seeed's own
+   widget in that spot (white, size 13–16).
+5. **Preview**, then **Save** and **Apply** to the E1002. Set the device refresh to 15–30 min.
 
 GitHub Pages sits behind a CDN that caches for about 10 minutes, so a 15 min publish cadence
 is the floor; there is no point refreshing the display faster than that.

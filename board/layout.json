@@ -1133,202 +1133,21 @@
           }
         },
         {
-          "type": "rectangle",
-          "id": "rectangle-1789540000075",
-          "x": 688,
-          "y": 442,
-          "width": 28,
-          "height": 14,
-          "fill": "transparent",
-          "stroke": "#ffffff",
-          "strokeWidth": 2,
-          "cornerRadius": 3,
-          "rotation": 0,
-          "parentId": "__device_container_group__"
-        },
-        {
-          "type": "rectangle",
-          "id": "rectangle-1789540000076",
-          "x": 716,
-          "y": 446,
-          "width": 3,
-          "height": 6,
-          "fill": "#ffffff",
-          "stroke": "transparent",
-          "strokeWidth": 0,
-          "cornerRadius": 1,
-          "rotation": 0,
-          "parentId": "__device_container_group__"
-        },
-        {
-          "type": "data",
-          "id": "data-1789540000078",
-          "x": 691,
-          "y": 443,
-          "width": 7,
-          "height": 12,
-          "value": "N/A",
-          "color": "#ffffff",
-          "fontFamily": "Montserrat",
-          "fontSize": 10,
-          "fontStyle": "normal",
-          "textAlign": "center",
-          "widthMode": "fixed",
-          "rotation": 0,
-          "parentId": "__device_container_group__",
-          "label": "Battery cell 1",
-          "requiredPlatform": "device",
-          "dataUrl": "https://sensecraft-hmi-api.seeed.cc/api/v1/user/device/iot_data/20233536",
-          "dataHeaders": {
-            "api-key": "sk_***"
-          },
-          "dataKey": "result.battery.level",
-          "sanitizedFields": [
-            "dataHeaders.api-key"
-          ],
-          "lockHeight": true,
-          "dataTransform": {
-            "type": "custom",
-            "options": {
-              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n)||n<=0)return B;return '█';"
-            }
-          }
-        },
-        {
-          "type": "data",
-          "id": "data-1789540000080",
-          "x": 697,
-          "y": 443,
-          "width": 7,
-          "height": 12,
-          "value": "N/A",
-          "color": "#ffffff",
-          "fontFamily": "Montserrat",
-          "fontSize": 10,
-          "fontStyle": "normal",
-          "textAlign": "center",
-          "widthMode": "fixed",
-          "rotation": 0,
-          "parentId": "__device_container_group__",
-          "label": "Battery cell 2",
-          "requiredPlatform": "device",
-          "dataUrl": "https://sensecraft-hmi-api.seeed.cc/api/v1/user/device/iot_data/20233536",
-          "dataHeaders": {
-            "api-key": "sk_***"
-          },
-          "dataKey": "result.battery.level",
-          "sanitizedFields": [
-            "dataHeaders.api-key"
-          ],
-          "lockHeight": true,
-          "dataTransform": {
-            "type": "custom",
-            "options": {
-              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n)||n<=25)return B;return '█';"
-            }
-          }
-        },
-        {
-          "type": "data",
-          "id": "data-1789540000082",
-          "x": 703,
-          "y": 443,
-          "width": 7,
-          "height": 12,
-          "value": "N/A",
-          "color": "#ffffff",
-          "fontFamily": "Montserrat",
-          "fontSize": 10,
-          "fontStyle": "normal",
-          "textAlign": "center",
-          "widthMode": "fixed",
-          "rotation": 0,
-          "parentId": "__device_container_group__",
-          "label": "Battery cell 3",
-          "requiredPlatform": "device",
-          "dataUrl": "https://sensecraft-hmi-api.seeed.cc/api/v1/user/device/iot_data/20233536",
-          "dataHeaders": {
-            "api-key": "sk_***"
-          },
-          "dataKey": "result.battery.level",
-          "sanitizedFields": [
-            "dataHeaders.api-key"
-          ],
-          "lockHeight": true,
-          "dataTransform": {
-            "type": "custom",
-            "options": {
-              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n)||n<=50)return B;return '█';"
-            }
-          }
-        },
-        {
-          "type": "data",
-          "id": "data-1789540000084",
-          "x": 709,
-          "y": 443,
-          "width": 7,
-          "height": 12,
-          "value": "N/A",
-          "color": "#ffffff",
-          "fontFamily": "Montserrat",
-          "fontSize": 10,
-          "fontStyle": "normal",
-          "textAlign": "center",
-          "widthMode": "fixed",
-          "rotation": 0,
-          "parentId": "__device_container_group__",
-          "label": "Battery cell 4",
-          "requiredPlatform": "device",
-          "dataUrl": "https://sensecraft-hmi-api.seeed.cc/api/v1/user/device/iot_data/20233536",
-          "dataHeaders": {
-            "api-key": "sk_***"
-          },
-          "dataKey": "result.battery.level",
-          "sanitizedFields": [
-            "dataHeaders.api-key"
-          ],
-          "lockHeight": true,
-          "dataTransform": {
-            "type": "custom",
-            "options": {
-              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n)||n<=75)return B;return '█';"
-            }
-          }
-        },
-        {
-          "type": "data",
-          "id": "data-1789540000086",
-          "x": 724,
-          "y": 439,
-          "width": 60,
-          "height": 20,
-          "value": "N/A",
-          "color": "#ffffff",
+          "type": "text",
+          "id": "text-1789540000075",
+          "x": 524,
+          "y": 438,
+          "width": 260,
+          "height": 22,
+          "value": "Replace with battery percentage",
+          "color": "#ff0000",
           "fontFamily": "Montserrat",
           "fontSize": 13,
-          "fontStyle": "normal",
-          "textAlign": "left",
+          "fontStyle": "bold",
+          "textAlign": "right",
           "widthMode": "fixed",
           "rotation": 0,
-          "parentId": "__device_container_group__",
-          "label": "Battery Level",
-          "requiredPlatform": "device",
-          "dataUrl": "https://sensecraft-hmi-api.seeed.cc/api/v1/user/device/iot_data/20233536",
-          "dataHeaders": {
-            "api-key": "sk_***"
-          },
-          "dataKey": "result.battery.level",
-          "sanitizedFields": [
-            "dataHeaders.api-key"
-          ],
-          "lockHeight": true,
-          "dataTransform": {
-            "type": "percentage",
-            "options": {
-              "precision": 0
-            }
-          }
+          "parentId": "__device_container_group__"
         }
       ]
     }

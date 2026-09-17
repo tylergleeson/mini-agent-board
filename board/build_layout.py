@@ -9,7 +9,8 @@ Design (800×480, six panel colors only; pure-blue field, white header band and 
     by a red twin that only renders when the feed is older than 45 min). No live clocks.
   * three big agent cards (Builder, Critic, Scout — feed is sorted by display_name)
     with name, colored state word, task, progress bar + percent, last result, done count
-  * footer: tasks completed today, working count, battery icon (outline + 4 cells) and percent
+  * footer: tasks completed today, working count, and a red placeholder where Seeed's own
+    Device → Battery Level widget goes (added by hand after import; see README)
 
 SenseCraft can't change a widget's color from data, so every colored dynamic label is a
 stack of same-box `data` widgets, one per color, whose custom function returns '' unless
@@ -209,7 +210,9 @@ def build(key_mask: str = "sk_***") -> dict:
                   size=36, bold=True, color=YELLOW, value=MISSING))
     c.append(feed(360, fy + 8, 140, 24, "totals.working", "Working now", JS_WORKING,
                   size=14, color=GREEN, bold=True, value=MISSING))
-    c.extend(battery_icon(W - MARGIN - 96, fy + 14))
+    # Battery: the editor never injected the device key into imported widgets, so leave a
+    # red placeholder and add Seeed's own Data → Device → Battery Level widget here by hand.
+    c.append(text(W - MARGIN - 260, fy + 10, 260, 22, "Replace with battery percentage", 13, RED, align="right", bold=True))
     return layout(c)
 
 
