@@ -10,4 +10,3 @@ launchd/*.rendered.plist
 .playwright-mcp/
 # SenseCraft exports carry a masked api-key fragment
 dashboard_*.json
-board/layout.local.json
