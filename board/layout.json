@@ -66,7 +66,7 @@
           "y": 19,
           "width": 300,
           "height": 24,
-          "value": "updated 7:24 PM",
+          "value": "1789621317",
           "color": "#000000",
           "fontFamily": "Montserrat",
           "fontSize": 17,
@@ -85,7 +85,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "if(value==null)return '';var age=(Date.now()/1000-Number(value))/60;if(!(age<=45))return '';function fmt(u){var d=new Date(u*1000);try{return d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'});}catch(e){var y=d.getUTCFullYear();function nth(m,n){var f=new Date(Date.UTC(y,m,1)).getUTCDay();return 1+((7-f)%7)+7*(n-1);}var s=Date.UTC(y,2,nth(2,2),7),e2=Date.UTC(y,10,nth(10,1),6);var off=(d>=s&&d<e2)?-4:-5;var l=new Date(d.getTime()+off*3600000);var h=l.getUTCHours(),mi=l.getUTCMinutes();return ((h%12)||12)+':'+(mi<10?'0':'')+mi+(h<12?' AM':' PM');}}return 'updated '+fmt(value);"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var t=Number(v);if(v==null||isNaN(t))return B;var age=(Date.now()/1000-t)/60;if(!(age<=45))return B;function fmt(u){var d=new Date(u*1000);try{return d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'});}catch(e){var y=d.getUTCFullYear();function nth(m,n){var f=new Date(Date.UTC(y,m,1)).getUTCDay();return 1+((7-f)%7)+7*(n-1);}var s=Date.UTC(y,2,nth(2,2),7),e2=Date.UTC(y,10,nth(10,1),6);var off=(d>=s&&d<e2)?-4:-5;var l=new Date(d.getTime()+off*3600000);var h=l.getUTCHours(),mi=l.getUTCMinutes();return ((h%12)||12)+':'+(mi<10?'0':'')+mi+(h<12?' AM':' PM');}}return 'updated '+fmt(t);"
             }
           }
         },
@@ -115,7 +115,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "if(value==null)return '';var age=(Date.now()/1000-Number(value))/60;if(!(age>45))return '';function fmt(u){var d=new Date(u*1000);try{return d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'});}catch(e){var y=d.getUTCFullYear();function nth(m,n){var f=new Date(Date.UTC(y,m,1)).getUTCDay();return 1+((7-f)%7)+7*(n-1);}var s=Date.UTC(y,2,nth(2,2),7),e2=Date.UTC(y,10,nth(10,1),6);var off=(d>=s&&d<e2)?-4:-5;var l=new Date(d.getTime()+off*3600000);var h=l.getUTCHours(),mi=l.getUTCMinutes();return ((h%12)||12)+':'+(mi<10?'0':'')+mi+(h<12?' AM':' PM');}}return 'STALE · updated '+fmt(value);"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var t=Number(v);if(v==null||isNaN(t))return B;var age=(Date.now()/1000-t)/60;if(!(age>45))return B;function fmt(u){var d=new Date(u*1000);try{return d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'});}catch(e){var y=d.getUTCFullYear();function nth(m,n){var f=new Date(Date.UTC(y,m,1)).getUTCDay();return 1+((7-f)%7)+7*(n-1);}var s=Date.UTC(y,2,nth(2,2),7),e2=Date.UTC(y,10,nth(10,1),6);var off=(d>=s&&d<e2)?-4:-5;var l=new Date(d.getTime()+off*3600000);var h=l.getUTCHours(),mi=l.getUTCMinutes();return ((h%12)||12)+':'+(mi<10?'0':'')+mi+(h<12?' AM':' PM');}}return 'STALE · updated '+fmt(t);"
             }
           }
         },
@@ -173,7 +173,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "return value==null?'—':String(value);"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';return v==null?'—':String(v);"
             }
           }
         },
@@ -184,7 +184,7 @@
           "y": 130,
           "width": 218,
           "height": 26,
-          "value": "WORKING",
+          "value": "working",
           "color": "#00ff00",
           "fontFamily": "Montserrat",
           "fontSize": 18,
@@ -203,7 +203,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=String(value||'').toLowerCase();return ['working'].indexOf(s)>=0?s.toUpperCase():'';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=String(v==null?'':v).toLowerCase();return ['working'].indexOf(s)>=0?s.toUpperCase():B;"
             }
           }
         },
@@ -233,7 +233,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=String(value||'').toLowerCase();return ['idle','done'].indexOf(s)>=0?s.toUpperCase():'';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=String(v==null?'':v).toLowerCase();return ['idle','done'].indexOf(s)>=0?s.toUpperCase():B;"
             }
           }
         },
@@ -263,7 +263,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=String(value||'').toLowerCase();return ['blocked','error','stale'].indexOf(s)>=0?s.toUpperCase():'';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=String(v==null?'':v).toLowerCase();return ['blocked','error','stale'].indexOf(s)>=0?s.toUpperCase():B;"
             }
           }
         },
@@ -293,7 +293,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "if(value==null)return '';var s=String(value);return s.length>60?s.slice(0,59)+'…':s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';if(v==null)return B;var s=String(v);return s.length>60?s.slice(0,59)+'…':s;"
             }
           }
         },
@@ -304,7 +304,7 @@
           "y": 248,
           "width": 160,
           "height": 24,
-          "value": "██████░░░░",
+          "value": "0.64",
           "color": "#000000",
           "fontFamily": "Montserrat",
           "fontSize": 15,
@@ -323,7 +323,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "if(value==null||value==='')return '';var p=Math.max(0,Math.min(1,Number(value)));var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
             }
           }
         },
@@ -334,7 +334,7 @@
           "y": 242,
           "width": 56,
           "height": 32,
-          "value": "64%",
+          "value": "0.64",
           "color": "#000000",
           "fontFamily": "Montserrat",
           "fontSize": 24,
@@ -353,7 +353,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "if(value==null||value==='')return '';var p=Math.max(0,Math.min(1,Number(value)));return Math.round(p*100)+'%';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));return Math.round(p*100)+'%';"
             }
           }
         },
@@ -378,7 +378,7 @@
           "y": 294,
           "width": 218,
           "height": 84,
-          "value": "• Sorted 56 Beatles songs alphabetically by hand in 812 swaps.",
+          "value": "Sorted 56 Beatles songs alphabetically by hand in 812 swaps.",
           "color": "#000000",
           "fontFamily": "Montserrat",
           "fontSize": 15,
@@ -397,7 +397,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=(value==null||value==='')?'Nothing finished yet.':String(value);if(s.length>120)s=s.slice(0,119)+'…';return '• '+s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=v==null?'Nothing finished yet.':String(v);if(s.length>120)s=s.slice(0,119)+'…';return '• '+s;"
             }
           }
         },
@@ -408,7 +408,7 @@
           "y": 384,
           "width": 218,
           "height": 24,
-          "value": "7 done today",
+          "value": "7",
           "color": "#0000ff",
           "fontFamily": "Montserrat",
           "fontSize": 15,
@@ -427,7 +427,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "return (value==null?0:value)+' done today';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n))n=0;return n+' done today';"
             }
           }
         },
@@ -485,7 +485,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "return value==null?'—':String(value);"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';return v==null?'—':String(v);"
             }
           }
         },
@@ -496,7 +496,7 @@
           "y": 130,
           "width": 218,
           "height": 26,
-          "value": "WORKING",
+          "value": "working",
           "color": "#00ff00",
           "fontFamily": "Montserrat",
           "fontSize": 18,
@@ -515,7 +515,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=String(value||'').toLowerCase();return ['working'].indexOf(s)>=0?s.toUpperCase():'';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=String(v==null?'':v).toLowerCase();return ['working'].indexOf(s)>=0?s.toUpperCase():B;"
             }
           }
         },
@@ -545,7 +545,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=String(value||'').toLowerCase();return ['idle','done'].indexOf(s)>=0?s.toUpperCase():'';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=String(v==null?'':v).toLowerCase();return ['idle','done'].indexOf(s)>=0?s.toUpperCase():B;"
             }
           }
         },
@@ -575,7 +575,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=String(value||'').toLowerCase();return ['blocked','error','stale'].indexOf(s)>=0?s.toUpperCase():'';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=String(v==null?'':v).toLowerCase();return ['blocked','error','stale'].indexOf(s)>=0?s.toUpperCase():B;"
             }
           }
         },
@@ -605,7 +605,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "if(value==null)return '';var s=String(value);return s.length>60?s.slice(0,59)+'…':s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';if(v==null)return B;var s=String(v);return s.length>60?s.slice(0,59)+'…':s;"
             }
           }
         },
@@ -616,7 +616,7 @@
           "y": 248,
           "width": 160,
           "height": 24,
-          "value": "██████░░░░",
+          "value": "0.64",
           "color": "#000000",
           "fontFamily": "Montserrat",
           "fontSize": 15,
@@ -635,7 +635,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "if(value==null||value==='')return '';var p=Math.max(0,Math.min(1,Number(value)));var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
             }
           }
         },
@@ -646,7 +646,7 @@
           "y": 242,
           "width": 56,
           "height": 32,
-          "value": "64%",
+          "value": "0.64",
           "color": "#000000",
           "fontFamily": "Montserrat",
           "fontSize": 24,
@@ -665,7 +665,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "if(value==null||value==='')return '';var p=Math.max(0,Math.min(1,Number(value)));return Math.round(p*100)+'%';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));return Math.round(p*100)+'%';"
             }
           }
         },
@@ -690,7 +690,7 @@
           "y": 294,
           "width": 218,
           "height": 84,
-          "value": "• Sorted 56 Beatles songs alphabetically by hand in 812 swaps.",
+          "value": "Sorted 56 Beatles songs alphabetically by hand in 812 swaps.",
           "color": "#000000",
           "fontFamily": "Montserrat",
           "fontSize": 15,
@@ -709,7 +709,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=(value==null||value==='')?'Nothing finished yet.':String(value);if(s.length>120)s=s.slice(0,119)+'…';return '• '+s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=v==null?'Nothing finished yet.':String(v);if(s.length>120)s=s.slice(0,119)+'…';return '• '+s;"
             }
           }
         },
@@ -720,7 +720,7 @@
           "y": 384,
           "width": 218,
           "height": 24,
-          "value": "7 done today",
+          "value": "7",
           "color": "#0000ff",
           "fontFamily": "Montserrat",
           "fontSize": 15,
@@ -739,7 +739,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "return (value==null?0:value)+' done today';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n))n=0;return n+' done today';"
             }
           }
         },
@@ -797,7 +797,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "return value==null?'—':String(value);"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';return v==null?'—':String(v);"
             }
           }
         },
@@ -808,7 +808,7 @@
           "y": 130,
           "width": 218,
           "height": 26,
-          "value": "WORKING",
+          "value": "working",
           "color": "#00ff00",
           "fontFamily": "Montserrat",
           "fontSize": 18,
@@ -827,7 +827,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=String(value||'').toLowerCase();return ['working'].indexOf(s)>=0?s.toUpperCase():'';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=String(v==null?'':v).toLowerCase();return ['working'].indexOf(s)>=0?s.toUpperCase():B;"
             }
           }
         },
@@ -857,7 +857,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=String(value||'').toLowerCase();return ['idle','done'].indexOf(s)>=0?s.toUpperCase():'';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=String(v==null?'':v).toLowerCase();return ['idle','done'].indexOf(s)>=0?s.toUpperCase():B;"
             }
           }
         },
@@ -887,7 +887,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=String(value||'').toLowerCase();return ['blocked','error','stale'].indexOf(s)>=0?s.toUpperCase():'';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=String(v==null?'':v).toLowerCase();return ['blocked','error','stale'].indexOf(s)>=0?s.toUpperCase():B;"
             }
           }
         },
@@ -917,7 +917,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "if(value==null)return '';var s=String(value);return s.length>60?s.slice(0,59)+'…':s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';if(v==null)return B;var s=String(v);return s.length>60?s.slice(0,59)+'…':s;"
             }
           }
         },
@@ -928,7 +928,7 @@
           "y": 248,
           "width": 160,
           "height": 24,
-          "value": "██████░░░░",
+          "value": "0.64",
           "color": "#000000",
           "fontFamily": "Montserrat",
           "fontSize": 15,
@@ -947,7 +947,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "if(value==null||value==='')return '';var p=Math.max(0,Math.min(1,Number(value)));var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
             }
           }
         },
@@ -958,7 +958,7 @@
           "y": 242,
           "width": 56,
           "height": 32,
-          "value": "64%",
+          "value": "0.64",
           "color": "#000000",
           "fontFamily": "Montserrat",
           "fontSize": 24,
@@ -977,7 +977,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "if(value==null||value==='')return '';var p=Math.max(0,Math.min(1,Number(value)));return Math.round(p*100)+'%';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));return Math.round(p*100)+'%';"
             }
           }
         },
@@ -1002,7 +1002,7 @@
           "y": 294,
           "width": 218,
           "height": 84,
-          "value": "• Sorted 56 Beatles songs alphabetically by hand in 812 swaps.",
+          "value": "Sorted 56 Beatles songs alphabetically by hand in 812 swaps.",
           "color": "#000000",
           "fontFamily": "Montserrat",
           "fontSize": 15,
@@ -1021,7 +1021,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var s=(value==null||value==='')?'Nothing finished yet.':String(value);if(s.length>120)s=s.slice(0,119)+'…';return '• '+s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var s=v==null?'Nothing finished yet.':String(v);if(s.length>120)s=s.slice(0,119)+'…';return '• '+s;"
             }
           }
         },
@@ -1032,7 +1032,7 @@
           "y": 384,
           "width": 218,
           "height": 24,
-          "value": "7 done today",
+          "value": "7",
           "color": "#0000ff",
           "fontFamily": "Montserrat",
           "fontSize": 15,
@@ -1051,7 +1051,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "return (value==null?0:value)+' done today';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n))n=0;return n+' done today';"
             }
           }
         },
@@ -1098,7 +1098,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "return String(value==null?0:value);"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n))n=0;return String(n);"
             }
           }
         },
@@ -1109,7 +1109,7 @@
           "y": 436,
           "width": 140,
           "height": 24,
-          "value": "2 working",
+          "value": "1",
           "color": "#00ff00",
           "fontFamily": "Montserrat",
           "fontSize": 14,
@@ -1128,7 +1128,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var n=(value==null?0:Number(value));return n+' working';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n))n=0;return n+' working';"
             }
           }
         },
@@ -1139,7 +1139,7 @@
           "y": 436,
           "width": 110,
           "height": 24,
-          "value": "Battery 87%",
+          "value": "87",
           "color": "#ffffff",
           "fontFamily": "Montserrat",
           "fontSize": 13,
@@ -1158,7 +1158,7 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "return value==null?'':'Battery '+value+'%';"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var n=Number(v);if(v==null||isNaN(n))return B;return 'Battery '+n+'%';"
             }
           }
         }

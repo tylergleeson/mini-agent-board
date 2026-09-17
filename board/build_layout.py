@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -56,6 +57,14 @@ def feed(x, y, w, h, key, label, js=None, size=20, color=BLACK, align="left", bo
 
 
 # ---- JS snippets used inside custom transforms (value is the dataKey's value) ----------
+# SenseCraft facts learned from the live editor (not in the reference doc):
+#   * a missing/null value reaches the function as the string "N/A"
+#   * a function that returns '' is rendered as the text "N/A" — so "hidden" widgets must
+#     return a zero-width space instead
+#   * until a widget is clicked/fetched once, the editor canvas runs the function on the
+#     widget's baked preview `value`, so previews should be raw feed values
+JS_PRE = ("var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;"
+          "var B='\\u200b';")
 JS_FMT_TIME = (
     "function fmt(u){var d=new Date(u*1000);"
     "try{return d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'});}"
@@ -65,30 +74,30 @@ JS_FMT_TIME = (
     "var l=new Date(d.getTime()+off*3600000);var h=l.getUTCHours(),mi=l.getUTCMinutes();"
     "return ((h%12)||12)+':'+(mi<10?'0':'')+mi+(h<12?' AM':' PM');}}"
 )
-JS_AGE_MIN = "var age=(Date.now()/1000-Number(value))/60;"
 
 
 def js_updated(stale: bool) -> str:
     cond = f"age>{STALE_MIN}" if stale else f"age<={STALE_MIN}"
-    body = "'STALE · updated '+fmt(value)" if stale else "'updated '+fmt(value)"
-    return f"if(value==null)return '';{JS_AGE_MIN}if(!({cond}))return '';{JS_FMT_TIME}return {body};"
+    body = "'STALE · updated '+fmt(t)" if stale else "'updated '+fmt(t)"
+    return (f"{JS_PRE}var t=Number(v);if(v==null||isNaN(t))return B;"
+            f"var age=(Date.now()/1000-t)/60;if(!({cond}))return B;{JS_FMT_TIME}return {body};")
 
 
 def js_state(states: tuple[str, ...]) -> str:
     arr = ",".join(f"'{s}'" for s in states)
-    return f"var s=String(value||'').toLowerCase();return [{arr}].indexOf(s)>=0?s.toUpperCase():'';"
+    return f"{JS_PRE}var s=String(v==null?'':v).toLowerCase();return [{arr}].indexOf(s)>=0?s.toUpperCase():B;"
 
 
-JS_TASK = "if(value==null)return '';var s=String(value);return s.length>60?s.slice(0,59)+'…':s;"
-JS_PCT = "if(value==null||value==='')return '';var p=Math.max(0,Math.min(1,Number(value)));return Math.round(p*100)+'%';"
-JS_BAR = ("if(value==null||value==='')return '';var p=Math.max(0,Math.min(1,Number(value)));"
+JS_TASK = JS_PRE + "if(v==null)return B;var s=String(v);return s.length>60?s.slice(0,59)+'…':s;"
+JS_PCT = JS_PRE + "var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));return Math.round(p*100)+'%';"
+JS_BAR = (JS_PRE + "var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));"
           "var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;")
-JS_RESULT = "var s=(value==null||value==='')?'Nothing finished yet.':String(value);if(s.length>120)s=s.slice(0,119)+'…';return '• '+s;"
-JS_DONE = "return (value==null?0:value)+' done today';"
-JS_TOTAL_DONE = "return String(value==null?0:value);"
-JS_WORKING = "var n=(value==null?0:Number(value));return n+' working';"
-JS_NAME = "return value==null?'—':String(value);"
-JS_BATTERY = "return value==null?'':'Battery '+value+'%';"
+JS_RESULT = JS_PRE + "var s=v==null?'Nothing finished yet.':String(v);if(s.length>120)s=s.slice(0,119)+'…';return '• '+s;"
+JS_DONE = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return n+' done today';"
+JS_TOTAL_DONE = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return String(n);"
+JS_WORKING = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return n+' working';"
+JS_NAME = JS_PRE + "return v==null?'—':String(v);"
+JS_BATTERY = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))return B;return 'Battery '+n+'%';"
 
 
 def card(i: int, x: int) -> list[dict]:
@@ -111,23 +120,23 @@ def card(i: int, x: int) -> list[dict]:
     ):
         els.append(feed(ix, sy, iw, 26, f"{k}.state", f"Agent {i} state ({'/'.join(states)})",
                         js_state(states), size=18, color=color, bold=True,
-                        value=states[0].upper() if color == GREEN else ""))
+                        value="working" if color == GREEN else ""))
     # task (wraps up to 3 lines)
     els.append(feed(ix, CARD_Y + 96, iw, 78, f"{k}.task", f"Agent {i} task", JS_TASK,
                     size=19, bold=True, value="Sort shuffled Beatles songs by hand"))
     # progress bar + percent
     els.append(feed(ix, CARD_Y + 182, iw - 58, 24, f"{k}.progress", f"Agent {i} progress bar", JS_BAR,
-                    size=15, color=BLACK, value="██████░░░░"))
+                    size=15, color=BLACK, value="0.64"))
     els.append(feed(x + CARD_W - pad - 56, CARD_Y + 176, 56, 32, f"{k}.progress", f"Agent {i} progress %",
-                    JS_PCT, size=24, bold=True, align="right", value="64%"))
+                    JS_PCT, size=24, bold=True, align="right", value="0.64"))
     # divider
     els.append(rect(ix, CARD_Y + 218, iw, 2, BLACK))
     # what the agent just did, as one plain-English bullet
     els.append(feed(ix, CARD_Y + 228, iw, 84, f"{k}.last_result", f"Agent {i} last result", JS_RESULT,
-                    size=15, value="• Sorted 56 Beatles songs alphabetically by hand in 812 swaps."))
+                    size=15, value="Sorted 56 Beatles songs alphabetically by hand in 812 swaps."))
     # done today
     els.append(feed(ix, CARD_Y + CARD_H - 34, iw, 24, f"{k}.completed_today", f"Agent {i} done today",
-                    JS_DONE, size=15, color=BLUE, bold=True, value="7 done today"))
+                    JS_DONE, size=15, color=BLUE, bold=True, value="7"))
     return els
 
 
@@ -138,7 +147,7 @@ def build() -> dict:
     c.append(text(MARGIN, 12, 330, 32, "MAC MINI AGENT CREW", 24, BLACK, bold=True))
     ux, uw = W - MARGIN - 300, 300
     c.append(feed(ux, 19, uw, 24, "updated", "Updated (fresh)", js_updated(False),
-                  size=17, color=BLACK, align="right", value="updated 7:24 PM"))
+                  size=17, color=BLACK, align="right", value=str(int(time.time()))))
     c.append(feed(ux, 19, uw, 24, "updated", f"Updated (STALE > {STALE_MIN} min)", js_updated(True),
                   size=17, color=RED, align="right", bold=True, value=""))
     # cards
@@ -150,9 +159,9 @@ def build() -> dict:
     c.append(feed(MARGIN + 232, fy - 4, 90, 44, "totals.completed_today", "Total done today", JS_TOTAL_DONE,
                   size=36, bold=True, color=YELLOW, value="21"))
     c.append(feed(360, fy + 8, 140, 24, "totals.working", "Working now", JS_WORKING,
-                  size=14, color=GREEN, bold=True, value="2 working"))
+                  size=14, color=GREEN, bold=True, value="1"))
     bat = feed(W - MARGIN - 110, fy + 8, 110, 24, "result.battery.level", "Battery", JS_BATTERY,
-               size=13, color=WHITE, align="right", value="Battery 87%")
+               size=13, color=WHITE, align="right", value="87")
     bat.update({"requiredPlatform": "device", "dataUrl": DEVICE})
     c.append(bat)
     return layout(c)

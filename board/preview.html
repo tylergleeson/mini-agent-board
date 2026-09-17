@@ -71,7 +71,8 @@
       } else if (e.type === 'data') {
         const src = e.requiredPlatform === 'device' ? device : feed;
         if (src) {
-          const raw = get(src, e.dataKey); used++;
+          let raw = get(src, e.dataKey); used++;
+          if (raw == null) raw = 'N/A';  // SenseCraft passes missing values as the string N/A
           const t = e.dataTransform;
           if (!t) v = raw == null ? '' : String(raw);
           else if (t.type === 'custom') { try { v = new Function('value', t.options.customFunction)(raw); } catch (err) { v = 'ERR ' + err.message; } }
@@ -79,6 +80,7 @@
           else v = raw == null ? '' : String(raw);
         }
       }
+      if (e.type === 'data' && String(v) === '') v = 'N/A';  // SenseCraft renders '' as N/A
       d.textContent = v;
     } else { continue; }
     panel.appendChild(d);

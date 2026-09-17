@@ -162,17 +162,22 @@ Builder's actual output through a shared blackboard.
   `&stale=1` for the red header, `?empty=1` for no feed. Example renders are in `board/renders/`.
 
 SenseCraft can't recolor a widget from data, so each colored dynamic label is a stack of
-same-box `data` widgets, one per color, whose custom function returns `''` unless its
-condition holds. The `updated` time is two widgets (black when fresh, red + "STALE" when old).
+same-box `data` widgets, one per color, whose custom function returns a zero-width space
+unless its condition holds. The `updated` time is two widgets (black when fresh, red + "STALE"
+when old). Three renderer facts learned from the live editor, all handled in `build_layout.py`:
+a missing value reaches the custom function as the string `N/A`; a function that returns `''`
+is drawn as the text `N/A`; and until a widget has fetched once, the editor canvas runs the
+function on the widget's baked preview `value` (so previews are raw feed values).
 
 ### Importing into SenseCraft HMI
 
 1. `python3 board/build_layout.py` (already committed as `board/layout.json`).
 2. In SenseCraft HMI: **Workspace → your design → Import** (the inward-arrow icon) and pick
    `layout.json`. This replaces the canvas.
-3. Click each `data` widget once so the editor validates it. The feed widgets use
-   `requiredPlatform: externalApi` and need no key; the battery widget (`device`) will get your
-   device key attached when clicked.
+3. The editor canvas shows baked preview text until each `data` widget has fetched once;
+   clicking a widget triggers that fetch. The battery widget (`device`) also gets your device
+   key attached when clicked. The **Preview** window always fetches live and is what the
+   device will show.
 4. **Preview**, then **Save** and **Apply** to the E1002. Set the device refresh to 15–30 min.
 
 GitHub Pages sits behind a CDN that caches for about 10 minutes, so a 15 min publish cadence
