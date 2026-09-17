@@ -95,7 +95,7 @@ def js_state(states: tuple[str, ...]) -> str:
 JS_TASK = JS_PRE + "if(v==null)return B;var s=String(v);return s.length>60?s.slice(0,59)+'…':s;"
 JS_PCT = JS_PRE + "var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));return Math.round(p*100)+'%';"
 JS_BAR = (JS_PRE + "var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));"
-          "var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;")
+          "var n=9,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;")
 JS_RESULT = JS_PRE + "var s=v==null?'Nothing finished yet.':String(v);if(s.length>120)s=s.slice(0,119)+'…';return '• '+s;"
 JS_DONE = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return n+' done today';"
 # bare numeric strings get re-formatted by the renderer ("17" → "17.0"); the trailing
@@ -130,9 +130,10 @@ def card(i: int, x: int) -> list[dict]:
     els.append(feed(ix, CARD_Y + 96, iw, 78, f"{k}.task", f"Agent {i} task", JS_TASK,
                     size=19, bold=True, value=MISSING))
     # progress bar + percent
-    els.append(feed(ix, CARD_Y + 182, iw - 58, 24, f"{k}.progress", f"Agent {i} progress bar", JS_BAR,
+    els.append(feed(ix, CARD_Y + 182, iw - 74, 24, f"{k}.progress", f"Agent {i} progress bar", JS_BAR,
                     size=15, color=BLACK, value=MISSING))
-    els.append(feed(x + CARD_W - pad - 56, CARD_Y + 176, 56, 32, f"{k}.progress", f"Agent {i} progress %",
+    # 72 px: "100%" at 24 px bold needs ~68; a narrower box wraps the % out of view
+    els.append(feed(x + CARD_W - pad - 72, CARD_Y + 176, 72, 32, f"{k}.progress", f"Agent {i} progress %",
                     JS_PCT, size=24, bold=True, align="right", value=MISSING))
     # divider
     els.append(rect(ix, CARD_Y + 218, iw, 2, BLACK))

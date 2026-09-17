@@ -332,7 +332,7 @@ def task_anagrams(ctx: Ctx) -> str:
         ctx.step(i + 1, len(words), f"{sum(1 for g in groups.values() if len(g) > 1)} groups")
     multi = [g for g in groups.values() if len(g) > 1]
     biggest = max(multi, key=len)
-    return f"Sorted {len(words)} words into {len(multi)} anagram groups; the biggest was {'/'.join(sorted(biggest))}."
+    return f"Sorted {len(words)} words into {len(multi)} anagram groups; the biggest was {', '.join(sorted(biggest))}."
 
 
 def task_word_frequency(ctx: Ctx) -> str:

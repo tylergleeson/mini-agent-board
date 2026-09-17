@@ -302,7 +302,7 @@
           "id": "data-1789540000020",
           "x": 30,
           "y": 248,
-          "width": 160,
+          "width": 144,
           "height": 24,
           "value": "N/A",
           "color": "#000000",
@@ -323,16 +323,16 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));var n=9,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
             }
           }
         },
         {
           "type": "data",
           "id": "data-1789540000022",
-          "x": 192,
+          "x": 176,
           "y": 242,
-          "width": 56,
+          "width": 72,
           "height": 32,
           "value": "N/A",
           "color": "#000000",
@@ -614,7 +614,7 @@
           "id": "data-1789540000041",
           "x": 290,
           "y": 248,
-          "width": 160,
+          "width": 144,
           "height": 24,
           "value": "N/A",
           "color": "#000000",
@@ -635,16 +635,16 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));var n=9,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
             }
           }
         },
         {
           "type": "data",
           "id": "data-1789540000043",
-          "x": 452,
+          "x": 436,
           "y": 242,
-          "width": 56,
+          "width": 72,
           "height": 32,
           "value": "N/A",
           "color": "#000000",
@@ -926,7 +926,7 @@
           "id": "data-1789540000062",
           "x": 550,
           "y": 248,
-          "width": 160,
+          "width": 144,
           "height": 24,
           "value": "N/A",
           "color": "#000000",
@@ -947,16 +947,16 @@
           "dataTransform": {
             "type": "custom",
             "options": {
-              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));var n=10,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
+              "customFunction": "var v=(value==null||value===''||value==='N/A'||value==='null'||value==='undefined')?null:value;var B='\\u200b';var p=Number(v);if(v==null||isNaN(p))return B;p=Math.max(0,Math.min(1,p));var n=9,k=Math.round(p*n),s='';for(var i=0;i<n;i++)s+=(i<k?'█':'░');return s;"
             }
           }
         },
         {
           "type": "data",
           "id": "data-1789540000064",
-          "x": 712,
+          "x": 696,
           "y": 242,
-          "width": 56,
+          "width": 72,
           "height": 32,
           "value": "N/A",
           "color": "#000000",
