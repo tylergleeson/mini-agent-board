@@ -149,7 +149,9 @@ Builder's actual output through a shared blackboard.
 
 ## The e-paper layout (`board/`)
 
-* `board/sensecraft-hmi-layout-reference.md` — the layout JSON format, reverse-engineered.
+* `board/sensecraft-hmi-layout-reference.md` — the layout JSON format, reverse-engineered, plus
+  §8: how the live renderer actually behaves (null fallback, `N/A`, colour stacking, device
+  widgets). **Read §8 before building any new board.**
 * `board/build_layout_helpers.py` — tiny element factories.
 * `board/build_layout.py` → `board/layout.json` — the board: header with the feed's `updated`
   time (turns red past 45 min), three big agent cards (name, colored state word, task, progress

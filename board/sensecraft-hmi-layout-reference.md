@@ -232,3 +232,103 @@ Anything else is dithered (`dither: 3`), which looks noisy on flat areas. Greys 
 
 Elements across 518 layouts: data 3725 · text 2418 · rectangle 1596 · group 1464 · image 1352 · date 688 · line 318 · circle 152 · countdown 127 · drawing 86 · clock 60 · calendar 51 · chart 42 · list 30 · html 25 · triangle 19 · polygon 8 · ellipse 6 · qrcode 6 · rss 5 · barcode 2.
 Data platforms: weather 2279 · externalApi 219 · device 135 · coinmarketcap 124 · zenquotes 73 · stock 52 · youtube 34 · github 25 · hackernews 15 · todoist 1.
+
+---
+
+## 8. How the renderer actually behaves (verified on the live editor, Sep 2026)
+
+Everything above was inferred from exported templates. This section is what we learned by
+importing `board/layout.json` into the real editor and comparing the device **Preview** against
+the feed. Read it before designing any new board; every point cost a round-trip.
+
+### 8.1 `data` widget pipeline
+
+For each `data` widget the renderer does, in order:
+
+1. Fetch `dataUrl` (server-side, from Seeed's cloud — the URL must be public).
+2. Resolve `dataKey` (dot path, numeric array index) against the JSON.
+3. **If the resolved value is `null`/missing, substitute the widget's own `value` (the preview
+   text).** An empty preview is then coerced to `0`. So the preview text is not cosmetic: it is
+   the fallback input. For any field that can be null, set `"value": "N/A"` and make the
+   transform treat `"N/A"` as missing.
+4. Apply `dataTransform`. For `custom`, the JS body runs with `value` in scope (plus
+   `formatDate` and `Math`, per the editor's hint) and must return a string.
+5. **If the result is the empty string `''`, the renderer draws the literal text `N/A`.** A
+   widget that should draw nothing must return a zero-width space `'​'` instead.
+6. **A result that is a bare number (`"17"`) is re-formatted (`17.0`).** Append `'​'` to
+   numeric-looking strings to keep them as-is.
+
+The editor canvas (not Preview) runs the same pipeline on the baked preview `value` until a
+widget has fetched once; clicking a widget triggers its first fetch. Preview always fetches
+live and is what the device will show.
+
+### 8.2 Colour cannot be data-driven — use stacked widgets
+
+`color` is fixed per widget. To colour a word by state, stack several `data` widgets in the
+same box, one per colour, each bound to the same `dataKey`, each returning its text only when
+its condition holds and `'​'` otherwise. The board uses this for the state word
+(green working / blue idle+done / red blocked+error+stale) and for the `updated` time (black
+when fresh, red `STALE · …` when older than 45 min).
+
+### 8.3 Progress bars
+
+Rectangles cannot be resized from data. A text bar works: return
+`'█'.repeat(k) + '░'.repeat(n - k)`. Montserrat lacks both glyphs; the renderer's fallback font
+draws `█` solid and `░` as a fine hatch, which reads well on the panel. Keep it to ~10 cells at
+15 px and give the widget a fixed width so it cannot wrap.
+
+### 8.4 Time formatting
+
+`Date`, `toLocaleTimeString` and the `timeZone` option all work in custom functions
+(`new Date(unix*1000).toLocaleTimeString('en-US', {hour:'numeric', minute:'2-digit',
+timeZone:'America/New_York'})`). The built-in `dataTransform.type: "time"` also works but
+cannot be combined with a condition, which is why the stale/fresh pair uses custom functions.
+
+### 8.5 Device (battery/temperature/humidity) widgets do NOT survive import
+
+`requiredPlatform: "device"` widgets need the account's device api-key. The editor injects it
+into widgets it creates itself, but **not into imported ones**: tried `dataHeaders: {}`, a
+placeholder mask `sk_***`, and the exact mask string copied from an Export
+(`sk_i***fT1W` format) with `sanitizedFields: ["dataHeaders.api-key"]` — all render `N/A`.
+Ship a placeholder text and add the widget by hand after import:
+**Data → Device → Load Sensor Data → Battery Level → Confirm.** The widget Seeed generates
+looks like this (from an Export; the key is masked in exports and in this doc):
+
+```json
+{"type":"data","requiredPlatform":"device","label":"Battery Level",
+ "dataUrl":"https://sensecraft-hmi-api.seeed.cc/api/v1/user/device/iot_data/20233536",
+ "dataHeaders":{"api-key":"sk_****"},"sanitizedFields":["dataHeaders.api-key"],
+ "dataKey":"result.battery.level","value":"11",
+ "dataTransform":{"type":"percentage","options":{"precision":0}},
+ "fontSize":16,"color":"#ffffff","fontFamily":"Montserrat","fontStyle":"normal","textAlign":"center"}
+```
+
+The Device dialog also exposes `result.sensor.temp` (°C) and `result.sensor.humidity` (%).
+Values are from the device's last check-in, not live.
+
+### 8.6 Export / Import / buttons
+
+* **Import** (inward arrow, Workspace) replaces the whole canvas. **Export** (outward arrow)
+  writes this same JSON, with api-keys masked. Exports are gitignored here (`dashboard_*.json`).
+* **Save** stores the design. **Apply** renders it and pushes the bitmap to the device.
+  **Publish** shares the design as a public template — never use it for a board that embeds a
+  private feed URL or device id.
+* Data widgets in the corpus stats above are 3725 of 11 k elements; a board with ~30 of them
+  imports and previews fine.
+
+### 8.7 Recipe: a feed-driven text widget
+
+```json
+{"type":"data","id":"data-1","x":30,"y":100,"width":218,"height":26,
+ "requiredPlatform":"externalApi",
+ "dataUrl":"https://<user>.github.io/<repo>/status.json",
+ "dataHeaders":{},"sanitizedFields":[],
+ "dataKey":"agents.0.state",
+ "value":"N/A",
+ "dataTransform":{"type":"custom","options":{"customFunction":
+   "var v=(value==null||value===''||value==='N/A')?null:value;var B='\\u200b';var s=String(v==null?'':v).toLowerCase();return ['working'].indexOf(s)>=0?s.toUpperCase():B;"}},
+ "color":"#00ff00","fontFamily":"Montserrat","fontSize":18,"fontStyle":"bold","textAlign":"left",
+ "widthMode":"fixed","lockHeight":true,"rotation":0,"parentId":"__device_container_group__"}
+```
+
+`board/build_layout.py` generates all of these; start there for a new board rather than by hand.
