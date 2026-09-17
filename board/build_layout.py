@@ -9,7 +9,7 @@ Design (800×480, six panel colors only; pure-blue field, white header band and 
     by a red twin that only renders when the feed is older than 45 min). No live clocks.
   * three big agent cards (Builder, Critic, Scout — feed is sorted by display_name)
     with name, colored state word, task, progress bar + percent, last result, done count
-  * footer: tasks completed today, working count, battery
+  * footer: tasks completed today, working count, battery icon (outline + 4 cells) and percent
 
 SenseCraft can't change a widget's color from data, so every colored dynamic label is a
 stack of same-box `data` widgets, one per color, whose custom function returns '' unless
@@ -102,7 +102,29 @@ JS_DONE = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return n+' done tod
 JS_TOTAL_DONE = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return String(n)+B;"
 JS_WORKING = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))n=0;return n+' working';"
 JS_NAME = JS_PRE + "return v==null?'—':String(v);"
-JS_BATTERY = JS_PRE + "var n=Number(v);if(v==null||isNaN(n))return B;return 'Battery '+n+'%';"
+
+
+def device(x, y, w, h, key, label, js=None, size=13, color=WHITE, align="left", transform=None, value=MISSING):
+    """A `data` widget on Seeed's device endpoint. The masked api-key header plus the
+    sanitizedFields entry are what make the editor inject the real key on import."""
+    e = feed(x, y, w, h, key, label, js, size=size, color=color, align=align, value=value, transform=transform)
+    e.update({"requiredPlatform": "device", "dataUrl": DEVICE,
+              "dataHeaders": {"api-key": "sk_***"}, "sanitizedFields": ["dataHeaders.api-key"]})
+    return e
+
+
+def battery_icon(x, y) -> list[dict]:
+    """White battery outline with four fill cells driven by result.battery.level, then NN%."""
+    els: list[dict] = []
+    els.append(rect(x, y, 28, 14, "transparent", WHITE, 2, 3))          # body
+    els.append(rect(x + 28, y + 4, 3, 6, WHITE, "transparent", 0, 1))    # nub
+    for i in range(4):
+        js = JS_PRE + f"var n=Number(v);if(v==null||isNaN(n)||n<={i * 25})return B;return '█';"
+        els.append(device(x + 3 + i * 6, y + 1, 7, 12, "result.battery.level", f"Battery cell {i + 1}", js,
+                          size=10, color=WHITE, align="center"))
+    els.append(device(x + 36, y - 3, 60, 20, "result.battery.level", "Battery Level", size=13, color=WHITE,
+                      align="left", transform={"type": "percentage", "options": {"precision": 0}}))
+    return els
 
 
 def card(i: int, x: int) -> list[dict]:
@@ -165,10 +187,7 @@ def build() -> dict:
                   size=36, bold=True, color=YELLOW, value=MISSING))
     c.append(feed(360, fy + 8, 140, 24, "totals.working", "Working now", JS_WORKING,
                   size=14, color=GREEN, bold=True, value=MISSING))
-    bat = feed(W - MARGIN - 110, fy + 8, 110, 24, "result.battery.level", "Battery", JS_BATTERY,
-               size=13, color=WHITE, align="right", value=MISSING)
-    bat.update({"requiredPlatform": "device", "dataUrl": DEVICE})
-    c.append(bat)
+    c.extend(battery_icon(W - MARGIN - 96, fy + 14))
     return layout(c)
 
 

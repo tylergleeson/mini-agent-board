@@ -176,9 +176,10 @@ same, so the canvas looks sparse before the first fetch while Preview is always 
 2. In SenseCraft HMI: **Workspace → your design → Import** (the inward-arrow icon) and pick
    `layout.json`. This replaces the canvas.
 3. The editor canvas shows baked preview text until each `data` widget has fetched once;
-   clicking a widget triggers that fetch. The battery widget (`device`) also gets your device
-   key attached when clicked. The **Preview** window always fetches live and is what the
-   device will show.
+   clicking a widget triggers that fetch. The battery widgets (`requiredPlatform: device`)
+   ship with a masked `api-key` header and a `sanitizedFields` entry, which is what makes the
+   editor inject your real device key on import. The **Preview** window always fetches live
+   and is what the device will show.
 4. **Preview**, then **Save** and **Apply** to the E1002. Set the device refresh to 15–30 min.
 
 GitHub Pages sits behind a CDN that caches for about 10 minutes, so a 15 min publish cadence

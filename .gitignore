@@ -8,3 +8,5 @@ status/*.json
 # rendered launchd plists live in ~/Library/LaunchAgents, not here
 launchd/*.rendered.plist
 .playwright-mcp/
+# SenseCraft exports carry a masked api-key fragment
+dashboard_*.json
