@@ -1,17 +1,17 @@
 {
- "updated": 1789638724,
+ "updated": 1789639626,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1789638716,
-   "heartbeat": 1789638723,
-   "completed_today": 142,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “quiet mac mini dreams / the cron jobs run past the dawn / commit near sunrise”",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.875,
+   "started": 1789639580,
+   "heartbeat": 1789639625,
+   "completed_today": 148,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 799 swaps.",
+   "note": "F(17500) has 3657 digits",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Re-run the syllable unit tests",
-   "progress": 0.222,
-   "started": 1789638713,
-   "heartbeat": 1789638723,
-   "completed_today": 142,
-   "last_result": "Counted 19,213 primes below 215,000; the biggest was 214,993.",
-   "note": "test_idea: FAIL",
+   "progress": 0.111,
+   "started": 1789639623,
+   "heartbeat": 1789639625,
+   "completed_today": 148,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "test_commit: ok",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.2,
-   "started": 1789638713,
-   "heartbeat": 1789638723,
-   "completed_today": 214,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "longest so far: 52527 (340 steps)",
+   "task": "Count primes below a random N",
+   "progress": 0.133,
+   "started": 1789639615,
+   "heartbeat": 1789639625,
+   "completed_today": 227,
+   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
+   "note": "2,384 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 498,
-  "working": 2,
+  "completed_today": 523,
+  "working": 3,
   "agents": 3
  }
 }
