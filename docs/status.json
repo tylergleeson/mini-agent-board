@@ -1,49 +1,49 @@
 {
- "updated": 1789636921,
+ "updated": 1789637823,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
+   "state": "error",
+   "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1789636849,
-   "heartbeat": 1789636920,
-   "completed_today": 128,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on create (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1789637811,
+   "heartbeat": 1789637821,
+   "completed_today": 133,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "needs a human",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "error",
-   "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1789636912,
-   "heartbeat": 1789636920,
-   "completed_today": 127,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
-   "note": "needs a human",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.083,
+   "started": 1789637815,
+   "heartbeat": 1789637821,
+   "completed_today": 134,
+   "last_result": "Counted 14,357 primes below 156,000; the biggest was 155,921.",
+   "note": "1,943 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.525,
-   "started": 1789636883,
-   "heartbeat": 1789636920,
-   "completed_today": 189,
+   "task": "Hunt palindromic primes",
+   "progress": 0.15,
+   "started": 1789637810,
+   "heartbeat": 1789637821,
+   "completed_today": 202,
    "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "F(15750) has 3292 digits",
+   "note": "70 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 444,
-  "working": 1,
+  "completed_today": 469,
+  "working": 2,
   "agents": 3
  }
 }
