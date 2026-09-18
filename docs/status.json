@@ -1,30 +1,30 @@
 {
- "updated": 1789722602,
+ "updated": 1789723504,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1789722562,
-   "heartbeat": 1789722601,
-   "completed_today": 130,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "waiting for Critic to release the workbench",
+   "state": "working",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.667,
+   "started": 1789723458,
+   "heartbeat": 1789723504,
+   "completed_today": 136,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "line 2 ✓ 'thirty minutes in patience'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 1.0,
-   "started": 1789722554,
-   "heartbeat": 1789722601,
-   "completed_today": 144,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "test_builder: ok",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.702,
+   "started": 1789723460,
+   "heartbeat": 1789723504,
+   "completed_today": 153,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "note": "111 distinct words",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.45,
-   "started": 1789722564,
-   "heartbeat": 1789722601,
-   "completed_today": 215,
-   "last_result": "Counted 26,165 primes below 302,000; the biggest was 301,999.",
-   "note": "F(13500) has 2821 digits",
+   "progress": 0.3,
+   "started": 1789723493,
+   "heartbeat": 1789723504,
+   "completed_today": 229,
+   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1417.",
+   "note": "F(12000) has 2508 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 489,
-  "working": 2,
+  "completed_today": 518,
+  "working": 3,
   "agents": 3
  }
 }
