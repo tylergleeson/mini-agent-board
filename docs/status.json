@@ -1,49 +1,49 @@
 {
- "updated": 1789735228,
+ "updated": 1789736129,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.0,
-   "started": 1789735227,
-   "heartbeat": 1789735227,
-   "completed_today": 214,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), idea (got 2, want 3), area (got 2, want 3).",
-   "note": "",
+   "progress": null,
+   "started": 1789736117,
+   "heartbeat": 1789736128,
+   "completed_today": 222,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 776 swaps.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "idle",
-   "task": "",
+   "state": "blocked",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1789735227,
-   "heartbeat": 1789735227,
-   "completed_today": 239,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "next: Review Builder's Beatles sort",
+   "started": 1789736126,
+   "heartbeat": 1789736128,
+   "completed_today": 248,
+   "last_result": "Counted 26,237 primes below 303,000; the biggest was 302,999.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.94,
-   "started": 1789735160,
-   "heartbeat": 1789735227,
-   "completed_today": 362,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "longest so far: 410011 (449 steps)",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.482,
+   "started": 1789736109,
+   "heartbeat": 1789736128,
+   "completed_today": 372,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "82 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 815,
-  "working": 2,
+  "completed_today": 842,
+  "working": 1,
   "agents": 3
  }
 }
