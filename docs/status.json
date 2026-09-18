@@ -1,30 +1,30 @@
 {
- "updated": 1789720799,
+ "updated": 1789721701,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.667,
-   "started": 1789720767,
-   "heartbeat": 1789720798,
-   "completed_today": 120,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 782 swaps.",
-   "note": "line 2 ✓ 'someone wanted about the work'",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1789721698,
+   "heartbeat": 1789721700,
+   "completed_today": 126,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent server dreams / one agents run in the dawn / commit by midnight”",
+   "note": "next: Refactor a haiku to 5-7-5",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.886,
-   "started": 1789720721,
-   "heartbeat": 1789720798,
-   "completed_today": 135,
-   "last_result": "Counted 22,115 primes below 251,000; the biggest was 250,993.",
-   "note": "128 distinct words",
+   "state": "done",
+   "task": "Count primes below a random N",
+   "progress": 1.0,
+   "started": 1789721699,
+   "heartbeat": 1789721700,
+   "completed_today": 140,
+   "last_result": "Counted 29,977 primes below 350,000; the biggest was 349,981.",
+   "note": "",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.86,
-   "started": 1789720721,
-   "heartbeat": 1789720798,
-   "completed_today": 193,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "π ≈ 3.1397",
+   "progress": 0.9,
+   "started": 1789721626,
+   "heartbeat": 1789721700,
+   "completed_today": 203,
+   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
+   "note": "π ≈ 3.1412",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 448,
-  "working": 3,
+  "completed_today": 469,
+  "working": 1,
   "agents": 3
  }
 }
