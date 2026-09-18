@@ -1,30 +1,30 @@
 {
- "updated": 1789751462,
+ "updated": 1789752364,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.667,
-   "started": 1789751439,
-   "heartbeat": 1789751460,
-   "completed_today": 336,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "line 2 ✓ 'no one needed for this data'",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1789752303,
+   "heartbeat": 1789752363,
+   "completed_today": 343,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 754 swaps.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.316,
-   "started": 1789751433,
-   "heartbeat": 1789751460,
-   "completed_today": 364,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "61 distinct words",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.889,
+   "started": 1789752299,
+   "heartbeat": 1789752363,
+   "completed_today": 367,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), science (got 1, want 2).",
+   "note": "test_display: ok",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.38,
-   "started": 1789751443,
-   "heartbeat": 1789751460,
-   "completed_today": 546,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "π ≈ 3.1405",
+   "progress": 0.44,
+   "started": 1789752328,
+   "heartbeat": 1789752363,
+   "completed_today": 557,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "π ≈ 3.1425",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1246,
-  "working": 3,
+  "completed_today": 1267,
+  "working": 2,
   "agents": 3
  }
 }
