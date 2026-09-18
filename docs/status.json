@@ -1,49 +1,49 @@
 {
- "updated": 1789774909,
+ "updated": 1789775811,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.375,
-   "started": 1789774881,
-   "heartbeat": 1789774909,
-   "completed_today": 500,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "pass 21/56, 548 swaps",
+   "progress": 0.464,
+   "started": 1789775787,
+   "heartbeat": 1789775810,
+   "completed_today": 506,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "pass 26/56, 709 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1789774906,
-   "heartbeat": 1789774909,
-   "completed_today": 534,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.923,
+   "started": 1789775732,
+   "heartbeat": 1789775810,
+   "completed_today": 541,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "131 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.517,
-   "started": 1789774887,
-   "heartbeat": 1789774908,
-   "completed_today": 839,
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.28,
+   "started": 1789775792,
+   "heartbeat": 1789775810,
+   "completed_today": 849,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "8,704 primes so far",
+   "note": "π ≈ 3.1432",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1873,
-  "working": 2,
+  "completed_today": 1896,
+  "working": 3,
   "agents": 3
  }
 }
