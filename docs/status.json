@@ -1,30 +1,30 @@
 {
- "updated": 1789748756,
+ "updated": 1789749658,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.107,
-   "started": 1789748747,
-   "heartbeat": 1789748755,
-   "completed_today": 314,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "pass 6/56, 252 swaps",
+   "task": "Group anagrams in the word list",
+   "progress": 0.101,
+   "started": 1789749648,
+   "heartbeat": 1789749656,
+   "completed_today": 322,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on area (got 2, want 3).",
+   "note": "1 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.04,
-   "started": 1789748753,
-   "heartbeat": 1789748755,
-   "completed_today": 345,
-   "last_result": "Ran 9 syllable-counter tests; 4 failed on create (got 1, want 2), poem (got 1, want 2), idea (got 2, want 3), science (got 1, want 2).",
-   "note": "11 distinct words",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.321,
+   "started": 1789749645,
+   "heartbeat": 1789749656,
+   "completed_today": 352,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "0 inversions",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.16,
-   "started": 1789748744,
-   "heartbeat": 1789748755,
-   "completed_today": 513,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "π ≈ 3.1424",
+   "progress": 0.78,
+   "started": 1789749587,
+   "heartbeat": 1789749656,
+   "completed_today": 524,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "π ≈ 3.1403",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1172,
+  "completed_today": 1198,
   "working": 3,
   "agents": 3
  }
