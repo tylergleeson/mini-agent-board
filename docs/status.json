@@ -1,17 +1,17 @@
 {
- "updated": 1789729817,
+ "updated": 1789730718,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 1.0,
-   "started": 1789729753,
-   "heartbeat": 1789729816,
-   "completed_today": 172,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "test_camera: ok",
+   "state": "blocked",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": null,
+   "started": 1789730558,
+   "heartbeat": 1789730717,
+   "completed_today": 177,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -20,29 +20,29 @@
    "state": "blocked",
    "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1789729687,
-   "heartbeat": 1789729816,
-   "completed_today": 192,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "started": 1789730697,
+   "heartbeat": 1789730717,
+   "completed_today": 200,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Hunt palindromic primes",
-   "progress": 1.0,
-   "started": 1789729815,
-   "heartbeat": 1789729816,
-   "completed_today": 301,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "",
+   "state": "working",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.518,
+   "started": 1789730690,
+   "heartbeat": 1789730717,
+   "completed_today": 309,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "88 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 665,
+  "completed_today": 686,
   "working": 1,
   "agents": 3
  }
