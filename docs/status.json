@@ -1,49 +1,49 @@
 {
- "updated": 1789747854,
+ "updated": 1789748756,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.333,
-   "started": 1789747851,
-   "heartbeat": 1789747853,
-   "completed_today": 306,
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.107,
+   "started": 1789748747,
+   "heartbeat": 1789748755,
+   "completed_today": 314,
    "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "line 1 ✓ 'silent laptop dreams'",
+   "note": "pass 6/56, 252 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1789747851,
-   "heartbeat": 1789747853,
-   "completed_today": 338,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), science (got 1, want 2).",
-   "note": "next: Re-run the syllable unit tests",
+   "state": "working",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.04,
+   "started": 1789748753,
+   "heartbeat": 1789748755,
+   "completed_today": 345,
+   "last_result": "Ran 9 syllable-counter tests; 4 failed on create (got 1, want 2), poem (got 1, want 2), idea (got 2, want 3), science (got 1, want 2).",
+   "note": "11 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.5,
-   "started": 1789747815,
-   "heartbeat": 1789747853,
-   "completed_today": 502,
-   "last_result": "Counted 13,848 primes below 150,000; the biggest was 149,993.",
-   "note": "longest so far: 230631 (443 steps)",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.16,
+   "started": 1789748744,
+   "heartbeat": 1789748755,
+   "completed_today": 513,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "π ≈ 3.1424",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1146,
-  "working": 2,
+  "completed_today": 1172,
+  "working": 3,
   "agents": 3
  }
 }
