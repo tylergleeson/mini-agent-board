@@ -1,30 +1,30 @@
 {
- "updated": 1789697351,
+ "updated": 1789698254,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.75,
-   "started": 1789697295,
-   "heartbeat": 1789697351,
-   "completed_today": 594,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels refreshes once / thirty seconds for waiting / one queue holds working”",
-   "note": "F(30000) has 6270 digits",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1789698252,
+   "heartbeat": 1789698253,
+   "completed_today": 601,
+   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), poem (got 1, want 2), create (got 1, want 2).",
+   "note": "next: Write unit tests for haiku.py",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1789697348,
-   "heartbeat": 1789697351,
-   "completed_today": 614,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "next: Re-run the syllable unit tests",
+   "state": "done",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 1.0,
+   "started": 1789698251,
+   "heartbeat": 1789698253,
+   "completed_today": 623,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.059,
-   "started": 1789697348,
-   "heartbeat": 1789697351,
-   "completed_today": 923,
-   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1421.",
-   "note": "16 distinct words",
+   "progress": 0.022,
+   "started": 1789698252,
+   "heartbeat": 1789698253,
+   "completed_today": 934,
+   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
+   "note": "6 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2131,
-  "working": 2,
+  "completed_today": 2158,
+  "working": 1,
   "agents": 3
  }
 }
