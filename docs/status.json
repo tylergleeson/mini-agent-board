@@ -1,49 +1,49 @@
 {
- "updated": 1789721701,
+ "updated": 1789722602,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "idle",
-   "task": "",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1789721698,
-   "heartbeat": 1789721700,
-   "completed_today": 126,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent server dreams / one agents run in the dawn / commit by midnight”",
-   "note": "next: Refactor a haiku to 5-7-5",
+   "started": 1789722562,
+   "heartbeat": 1789722601,
+   "completed_today": 130,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "done",
-   "task": "Count primes below a random N",
+   "state": "working",
+   "task": "Re-run the syllable unit tests",
    "progress": 1.0,
-   "started": 1789721699,
-   "heartbeat": 1789721700,
-   "completed_today": 140,
-   "last_result": "Counted 29,977 primes below 350,000; the biggest was 349,981.",
-   "note": "",
+   "started": 1789722554,
+   "heartbeat": 1789722601,
+   "completed_today": 144,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "test_builder: ok",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.9,
-   "started": 1789721626,
-   "heartbeat": 1789721700,
-   "completed_today": 203,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "π ≈ 3.1412",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.45,
+   "started": 1789722564,
+   "heartbeat": 1789722601,
+   "completed_today": 215,
+   "last_result": "Counted 26,165 primes below 302,000; the biggest was 301,999.",
+   "note": "F(13500) has 2821 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 469,
-  "working": 1,
+  "completed_today": 489,
+  "working": 2,
   "agents": 3
  }
 }
