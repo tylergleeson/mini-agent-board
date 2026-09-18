@@ -1,49 +1,49 @@
 {
- "updated": 1789760481,
+ "updated": 1789761383,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.464,
-   "started": 1789760443,
-   "heartbeat": 1789760480,
-   "completed_today": 399,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "pass 26/56, 698 swaps",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.55,
+   "started": 1789761354,
+   "heartbeat": 1789761383,
+   "completed_today": 406,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 613 swaps.",
+   "note": "F(11000) has 2299 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
+   "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1789760452,
-   "heartbeat": 1789760480,
-   "completed_today": 427,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "waiting for Builder to release the workbench",
+   "progress": 0.393,
+   "started": 1789761349,
+   "heartbeat": 1789761383,
+   "completed_today": 431,
+   "last_result": "Counted 30,686 primes below 359,000; the biggest was 358,999.",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.68,
-   "started": 1789760457,
-   "heartbeat": 1789760480,
-   "completed_today": 662,
-   "last_result": "Counted 33,227 primes below 392,000; the biggest was 391,999.",
-   "note": "π ≈ 3.1414",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.65,
+   "started": 1789761331,
+   "heartbeat": 1789761383,
+   "completed_today": 673,
+   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1448.",
+   "note": "F(13000) has 2717 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1488,
-  "working": 2,
+  "completed_today": 1510,
+  "working": 3,
   "agents": 3
  }
 }
