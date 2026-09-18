@@ -1,49 +1,49 @@
 {
- "updated": 1789690137,
+ "updated": 1789691039,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 1.0,
-   "started": 1789690087,
-   "heartbeat": 1789690135,
-   "completed_today": 530,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), area (got 2, want 3).",
-   "note": "pass 49/56, 757 swaps",
+   "progress": 0.875,
+   "started": 1789690981,
+   "heartbeat": 1789691038,
+   "completed_today": 537,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels stirs at last / thirty minutes for silence / the crew keeps working”",
+   "note": "pass 49/56, 769 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "idle",
-   "task": "",
+   "state": "blocked",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1789690135,
-   "heartbeat": 1789690135,
-   "completed_today": 554,
-   "last_result": "Counted 27,608 primes below 320,000; the biggest was 319,993.",
-   "note": "next: Review Builder's Beatles sort",
+   "started": 1789690989,
+   "heartbeat": 1789691038,
+   "completed_today": 566,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1789690092,
-   "heartbeat": 1789690135,
-   "completed_today": 830,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Builder to release the workbench",
+   "state": "working",
+   "task": "Hunt palindromic primes",
+   "progress": 0.2,
+   "started": 1789691024,
+   "heartbeat": 1789691038,
+   "completed_today": 840,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "46 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1914,
-  "working": 1,
+  "completed_today": 1943,
+  "working": 2,
   "agents": 3
  }
 }
