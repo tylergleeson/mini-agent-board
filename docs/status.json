@@ -1,49 +1,49 @@
 {
- "updated": 1789756873,
+ "updated": 1789757775,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.867,
-   "started": 1789756802,
-   "heartbeat": 1789756873,
-   "completed_today": 375,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent kernel waits / the cron jobs spin through the dark / refactor at noon”",
-   "note": "line 3: 'still the screen reads busy' = 6",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.775,
+   "started": 1789757723,
+   "heartbeat": 1789757773,
+   "completed_today": 381,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "F(31000) has 6479 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's Beatles sort",
+   "state": "idle",
+   "task": "",
    "progress": null,
-   "started": 1789756819,
-   "heartbeat": 1789756873,
-   "completed_today": 396,
+   "started": 1789757771,
+   "heartbeat": 1789757773,
+   "completed_today": 407,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Scout to release the workbench",
+   "note": "next: Word-frequency audit of the Gettysburg Address",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1789756837,
-   "heartbeat": 1789756873,
-   "completed_today": 618,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "waiting for Builder to release the workbench",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.825,
+   "started": 1789757728,
+   "heartbeat": 1789757773,
+   "completed_today": 630,
+   "last_result": "Counted 22,362 primes below 254,000; the biggest was 253,999.",
+   "note": "F(33000) has 6897 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1389,
-  "working": 1,
+  "completed_today": 1418,
+  "working": 2,
   "agents": 3
  }
 }
