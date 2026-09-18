@@ -1,30 +1,30 @@
 {
- "updated": 1789705468,
+ "updated": 1789706370,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "error",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1789705467,
-   "heartbeat": 1789705467,
-   "completed_today": 9,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on create (got 1, want 2).",
-   "note": "needs a human",
+   "state": "working",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.667,
+   "started": 1789706325,
+   "heartbeat": 1789706368,
+   "completed_today": 17,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "line 2 ✓ 'a tests pass past the morning'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.0,
-   "started": 1789705467,
-   "heartbeat": 1789705467,
-   "completed_today": 11,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "",
+   "state": "blocked",
+   "task": "Review Builder's Beatles sort",
+   "progress": null,
+   "started": 1789706328,
+   "heartbeat": 1789706368,
+   "completed_today": 18,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.517,
-   "started": 1789705434,
-   "heartbeat": 1789705466,
-   "completed_today": 18,
-   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
-   "note": "14,911 primes so far",
+   "progress": 0.617,
+   "started": 1789706315,
+   "heartbeat": 1789706368,
+   "completed_today": 29,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "16,129 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 38,
+  "completed_today": 64,
   "working": 2,
   "agents": 3
  }
