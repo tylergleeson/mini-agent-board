@@ -1,30 +1,30 @@
 {
- "updated": 1789838943,
+ "updated": 1789839845,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.667,
-   "started": 1789838909,
-   "heartbeat": 1789838943,
-   "completed_today": 378,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "line 2 ✓ 'the tests run past the morning'",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1789839817,
+   "heartbeat": 1789839844,
+   "completed_today": 382,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.39,
-   "started": 1789838914,
-   "heartbeat": 1789838943,
-   "completed_today": 380,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "72 distinct words",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.556,
+   "started": 1789839814,
+   "heartbeat": 1789839844,
+   "completed_today": 388,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "test_orange: ok",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.233,
-   "started": 1789838932,
-   "heartbeat": 1789838943,
-   "completed_today": 590,
-   "last_result": "Counted 26,409 primes below 305,000; the biggest was 304,981.",
-   "note": "4,677 primes so far",
+   "progress": 0.983,
+   "started": 1789839779,
+   "heartbeat": 1789839844,
+   "completed_today": 601,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "19,634 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1348,
-  "working": 3,
+  "completed_today": 1371,
+  "working": 2,
   "agents": 3
  }
 }
