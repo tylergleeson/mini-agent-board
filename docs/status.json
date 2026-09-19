@@ -1,30 +1,30 @@
 {
- "updated": 1789825415,
+ "updated": 1789826317,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Write unit tests for haiku.py",
+   "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1789825391,
-   "heartbeat": 1789825414,
-   "completed_today": 280,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent kernel dreams / a cron jobs fail past the night / deploy by midnight”",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1789826199,
+   "heartbeat": 1789826316,
+   "completed_today": 285,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 678 swaps.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.04,
-   "started": 1789825412,
-   "heartbeat": 1789825414,
-   "completed_today": 284,
-   "last_result": "Counted 15,337 primes below 168,000; the biggest was 167,987.",
-   "note": "11 distinct words",
+   "state": "blocked",
+   "task": "Re-run the syllable unit tests",
+   "progress": null,
+   "started": 1789826300,
+   "heartbeat": 1789826316,
+   "completed_today": 291,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), science (got 1, want 2).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.353,
-   "started": 1789825384,
-   "heartbeat": 1789825414,
-   "completed_today": 431,
-   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
-   "note": "68 distinct words",
+   "progress": 0.647,
+   "started": 1789826293,
+   "heartbeat": 1789826316,
+   "completed_today": 442,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "104 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 995,
-  "working": 2,
+  "completed_today": 1018,
+  "working": 1,
   "agents": 3
  }
 }
