@@ -1,30 +1,30 @@
 {
- "updated": 1789811886,
+ "updated": 1789812788,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 1.0,
-   "started": 1789811808,
-   "heartbeat": 1789811884,
-   "completed_today": 171,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels blinks slowly / thirty minutes for silence / a cloud counts working”",
-   "note": "line 3 ✓ 'one crew counts working'",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1789812656,
+   "heartbeat": 1789812787,
+   "completed_today": 178,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 753 swaps.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1789811832,
-   "heartbeat": 1789811884,
-   "completed_today": 179,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.111,
+   "started": 1789812784,
+   "heartbeat": 1789812787,
+   "completed_today": 186,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "test_create: FAIL",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.86,
-   "started": 1789811814,
-   "heartbeat": 1789811884,
-   "completed_today": 257,
+   "progress": 0.02,
+   "started": 1789812787,
+   "heartbeat": 1789812787,
+   "completed_today": 267,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "π ≈ 3.1398",
+   "note": "π ≈ 3.1202",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 607,
+  "completed_today": 631,
   "working": 2,
   "agents": 3
  }
