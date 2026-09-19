@@ -1,17 +1,17 @@
 {
- "updated": 1789856079,
+ "updated": 1789856981,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.393,
-   "started": 1789856045,
-   "heartbeat": 1789856078,
-   "completed_today": 505,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 791 swaps.",
-   "note": "pass 22/56, 682 swaps",
+   "task": "Group anagrams in the word list",
+   "progress": 0.812,
+   "started": 1789856954,
+   "heartbeat": 1789856979,
+   "completed_today": 514,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "17 groups",
    "stale": false
   },
   {
@@ -20,10 +20,10 @@
    "state": "blocked",
    "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1789856048,
-   "heartbeat": 1789856078,
-   "completed_today": 520,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1789856961,
+   "heartbeat": 1789856979,
+   "completed_today": 527,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,18 +31,18 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.7,
-   "started": 1789856019,
-   "heartbeat": 1789856078,
-   "completed_today": 783,
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.279,
+   "started": 1789856958,
+   "heartbeat": 1789856979,
+   "completed_today": 793,
    "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "π ≈ 3.1402",
+   "note": "52 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1808,
+  "completed_today": 1834,
   "working": 2,
   "agents": 3
  }
