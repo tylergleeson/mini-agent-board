@@ -1,29 +1,29 @@
 {
- "updated": 1789787535,
+ "updated": 1789788436,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1789787419,
-   "heartbeat": 1789787533,
-   "completed_today": 583,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “sleepless kernel dreams / one tests run in the morning / commit near sunrise”",
-   "note": "waiting for Critic to release the workbench",
+   "state": "working",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.214,
+   "started": 1789788427,
+   "heartbeat": 1789788436,
+   "completed_today": 589,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "pass 12/56, 465 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's Beatles sort",
+   "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1789787467,
-   "heartbeat": 1789787533,
-   "completed_today": 630,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), create (got 1, want 2).",
+   "started": 1789788435,
+   "heartbeat": 1789788436,
+   "completed_today": 637,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.941,
-   "started": 1789787460,
-   "heartbeat": 1789787533,
-   "completed_today": 987,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "133 distinct words",
+   "task": "Hunt palindromic primes",
+   "progress": 0.325,
+   "started": 1789788419,
+   "heartbeat": 1789788436,
+   "completed_today": 998,
+   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
+   "note": "70 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2200,
-  "working": 1,
+  "completed_today": 2224,
+  "working": 2,
   "agents": 3
  }
 }
