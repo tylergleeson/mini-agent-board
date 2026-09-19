@@ -1,28 +1,28 @@
 {
- "updated": 1789777615,
+ "updated": 1789778517,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1789777612,
-   "heartbeat": 1789777615,
-   "completed_today": 519,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.333,
+   "started": 1789778489,
+   "heartbeat": 1789778515,
+   "completed_today": 526,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 774 swaps.",
+   "note": "test_submarine: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Re-run the syllable unit tests",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1789777511,
-   "heartbeat": 1789777615,
-   "completed_today": 558,
+   "started": 1789778492,
+   "heartbeat": 1789778515,
+   "completed_today": 569,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "waiting for Builder to release the workbench",
    "stale": false
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.776,
-   "started": 1789777552,
-   "heartbeat": 1789777615,
-   "completed_today": 873,
-   "last_result": "Counted 33,313 primes below 393,000; the biggest was 392,983.",
-   "note": "117 distinct words",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.45,
+   "started": 1789778495,
+   "heartbeat": 1789778515,
+   "completed_today": 886,
+   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1432.",
+   "note": "F(13500) has 2821 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1950,
-  "working": 1,
+  "completed_today": 1981,
+  "working": 2,
   "agents": 3
  }
 }
