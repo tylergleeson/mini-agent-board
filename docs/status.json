@@ -1,49 +1,49 @@
 {
- "updated": 1789857883,
+ "updated": 1789858784,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.667,
-   "started": 1789857845,
-   "heartbeat": 1789857881,
-   "completed_today": 523,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "test_board: ok",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.125,
+   "started": 1789858777,
+   "heartbeat": 1789858784,
+   "completed_today": 530,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “quiet mac mini dreams / one agents run past the dawn / deploy at sunrise”",
+   "note": "pass 7/56, 308 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's Beatles sort",
+   "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1789857852,
-   "heartbeat": 1789857881,
-   "completed_today": 535,
-   "last_result": "Counted 19,776 primes below 222,000; the biggest was 221,999.",
+   "started": 1789858784,
+   "heartbeat": 1789858784,
+   "completed_today": 541,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on area (got 2, want 3).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Hunt palindromic primes",
-   "progress": 1.0,
-   "started": 1789857878,
-   "heartbeat": 1789857881,
-   "completed_today": 804,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.775,
+   "started": 1789858728,
+   "heartbeat": 1789858784,
+   "completed_today": 815,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "F(31000) has 6479 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1862,
-  "working": 1,
+  "completed_today": 1886,
+  "working": 2,
   "agents": 3
  }
 }
