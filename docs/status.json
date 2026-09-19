@@ -1,30 +1,30 @@
 {
- "updated": 1789859686,
+ "updated": 1789860588,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.111,
-   "started": 1789859680,
-   "heartbeat": 1789859685,
-   "completed_today": 538,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “old mac mini dreams / the cron jobs run through the dawn / deploy at midnight”",
-   "note": "test_camera: ok",
+   "task": "Group anagrams in the word list",
+   "progress": 0.855,
+   "started": 1789860527,
+   "heartbeat": 1789860587,
+   "completed_today": 544,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “e-paper wakes once / twenty minutes for stillness / a board counts working”",
+   "note": "16 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.371,
-   "started": 1789859664,
-   "heartbeat": 1789859685,
-   "completed_today": 549,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "70 distinct words",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.0,
+   "started": 1789860588,
+   "heartbeat": 1789860588,
+   "completed_today": 556,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.7,
-   "started": 1789859634,
-   "heartbeat": 1789859685,
-   "completed_today": 827,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "π ≈ 3.1410",
+   "progress": 0.72,
+   "started": 1789860532,
+   "heartbeat": 1789860587,
+   "completed_today": 837,
+   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1410.",
+   "note": "π ≈ 3.1414",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1914,
+  "completed_today": 1937,
   "working": 3,
   "agents": 3
  }
