@@ -1,17 +1,17 @@
 {
- "updated": 1789821808,
+ "updated": 1789822709,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1789821787,
-   "heartbeat": 1789821806,
-   "completed_today": 252,
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.15,
+   "started": 1789822701,
+   "heartbeat": 1789822707,
+   "completed_today": 258,
    "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "waiting for Critic to release the workbench",
+   "note": "F(3000) has 627 digits",
    "stale": false
   },
   {
@@ -19,10 +19,10 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.946,
-   "started": 1789821727,
-   "heartbeat": 1789821806,
-   "completed_today": 254,
+   "progress": 0.911,
+   "started": 1789822676,
+   "heartbeat": 1789822707,
+   "completed_today": 264,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
    "note": "0 inversions",
    "stale": false
@@ -30,20 +30,20 @@
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1789821773,
-   "heartbeat": 1789821806,
-   "completed_today": 385,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "waiting for Builder to release the workbench",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.6,
+   "started": 1789822680,
+   "heartbeat": 1789822707,
+   "completed_today": 396,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "12,327 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 891,
-  "working": 1,
+  "completed_today": 918,
+  "working": 3,
   "agents": 3
  }
 }
