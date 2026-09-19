@@ -1,49 +1,49 @@
 {
- "updated": 1789840747,
+ "updated": 1789841649,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
+   "state": "done",
+   "task": "Compute a very large Fibonacci number",
    "progress": 1.0,
-   "started": 1789840695,
-   "heartbeat": 1789840745,
-   "completed_today": 386,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "line 3 ✓ 'one board holds working'",
+   "started": 1789841647,
+   "heartbeat": 1789841649,
+   "completed_today": 396,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.831,
-   "started": 1789840702,
-   "heartbeat": 1789840745,
-   "completed_today": 393,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
-   "note": "124 distinct words",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.143,
+   "started": 1789841641,
+   "heartbeat": 1789841649,
+   "completed_today": 403,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.55,
-   "started": 1789840710,
-   "heartbeat": 1789840745,
-   "completed_today": 613,
-   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
-   "note": "18,998 primes so far",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.62,
+   "started": 1789841619,
+   "heartbeat": 1789841649,
+   "completed_today": 624,
+   "last_result": "Counted 22,044 primes below 250,000; the biggest was 249,989.",
+   "note": "π ≈ 3.1418",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1392,
-  "working": 3,
+  "completed_today": 1423,
+  "working": 2,
   "agents": 3
  }
 }
