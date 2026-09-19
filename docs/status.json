@@ -1,17 +1,17 @@
 {
- "updated": 1789813690,
+ "updated": 1789814592,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 1.0,
-   "started": 1789813618,
-   "heartbeat": 1789813690,
-   "completed_today": 187,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "test_refactor: ok",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.667,
+   "started": 1789814544,
+   "heartbeat": 1789814591,
+   "completed_today": 195,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "note": "line 2 ✓ 'the agents spin through the dawn'",
    "stale": false
   },
   {
@@ -20,29 +20,29 @@
    "state": "blocked",
    "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1789813661,
-   "heartbeat": 1789813690,
-   "completed_today": 194,
-   "last_result": "Counted 21,876 primes below 248,000; the biggest was 247,999.",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1789814550,
+   "heartbeat": 1789814591,
+   "completed_today": 201,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.3,
-   "started": 1789813672,
-   "heartbeat": 1789813690,
-   "completed_today": 281,
-   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1423.",
-   "note": "longest so far: 52527 (340 steps)",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.22,
+   "started": 1789814576,
+   "heartbeat": 1789814591,
+   "completed_today": 293,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "π ≈ 3.1431",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 662,
+  "completed_today": 689,
   "working": 2,
   "agents": 3
  }
