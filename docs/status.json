@@ -1,49 +1,49 @@
 {
- "updated": 1789781222,
+ "updated": 1789782124,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.8,
-   "started": 1789781164,
-   "heartbeat": 1789781220,
-   "completed_today": 542,
+   "state": "blocked",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": null,
+   "started": 1789782113,
+   "heartbeat": 1789782123,
+   "completed_today": 550,
    "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "F(16000) has 3344 digits",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.333,
-   "started": 1789781198,
-   "heartbeat": 1789781220,
-   "completed_today": 587,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "test_queue: ok",
+   "task": "Review Builder's haiku",
+   "progress": 0.667,
+   "started": 1789782106,
+   "heartbeat": 1789782123,
+   "completed_today": 591,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "line 2: 7 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.42,
-   "started": 1789781202,
-   "heartbeat": 1789781220,
-   "completed_today": 915,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "longest so far: 156159 (383 steps)",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.975,
+   "started": 1789782055,
+   "heartbeat": 1789782123,
+   "completed_today": 923,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "F(29250) has 6113 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2044,
-  "working": 3,
+  "completed_today": 2064,
+  "working": 2,
   "agents": 3
  }
 }
