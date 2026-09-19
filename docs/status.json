@@ -1,49 +1,49 @@
 {
- "updated": 1789791142,
+ "updated": 1789792044,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.375,
-   "started": 1789791120,
-   "heartbeat": 1789791140,
-   "completed_today": 3,
+   "state": "blocked",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": null,
+   "started": 1789791999,
+   "heartbeat": 1789792043,
+   "completed_today": 11,
    "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "pass 21/56, 526 swaps",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Re-run the syllable unit tests",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1789791128,
-   "heartbeat": 1789791140,
-   "completed_today": 7,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1789791953,
+   "heartbeat": 1789792043,
+   "completed_today": 13,
+   "last_result": "Counted 25,691 primes below 296,000; the biggest was 295,993.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.0,
-   "started": 1789791141,
-   "heartbeat": 1789791141,
-   "completed_today": 8,
-   "last_result": "Counted 22,914 primes below 261,000; the biggest was 260,999.",
+   "state": "done",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 1.0,
+   "started": 1789792041,
+   "heartbeat": 1789792043,
+   "completed_today": 22,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
    "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 18,
-  "working": 2,
+  "completed_today": 46,
+  "working": 0,
   "agents": 3
  }
 }
