@@ -1,49 +1,49 @@
 {
- "updated": 1789912899,
+ "updated": 1789913801,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1789912842,
-   "heartbeat": 1789912899,
-   "completed_today": 278,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), science (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.111,
+   "started": 1789913797,
+   "heartbeat": 1789913800,
+   "completed_today": 284,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "test_mini: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.812,
-   "started": 1789912833,
-   "heartbeat": 1789912899,
-   "completed_today": 280,
+   "state": "blocked",
+   "task": "Re-run the syllable unit tests",
+   "progress": null,
+   "started": 1789913755,
+   "heartbeat": 1789913800,
+   "completed_today": 289,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "121 distinct words",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
+   "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.776,
-   "started": 1789912838,
-   "heartbeat": 1789912899,
-   "completed_today": 427,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "117 distinct words",
+   "progress": null,
+   "started": 1789913800,
+   "heartbeat": 1789913800,
+   "completed_today": 440,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 985,
-  "working": 2,
+  "completed_today": 1013,
+  "working": 1,
   "agents": 3
  }
 }
