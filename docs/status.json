@@ -1,30 +1,30 @@
 {
- "updated": 1789876822,
+ "updated": 1789877724,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.75,
-   "started": 1789876767,
-   "heartbeat": 1789876821,
-   "completed_today": 666,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels refreshes once / thirty seconds of stillness / the crew keeps working”",
-   "note": "F(15000) has 3135 digits",
+   "task": "Group anagrams in the word list",
+   "progress": 0.725,
+   "started": 1789877662,
+   "heartbeat": 1789877723,
+   "completed_today": 5,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "15 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.768,
-   "started": 1789876762,
-   "heartbeat": 1789876821,
-   "completed_today": 686,
-   "last_result": "Counted 22,987 primes below 262,000; the biggest was 261,983.",
-   "note": "0 inversions",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1789877723,
+   "heartbeat": 1789877723,
+   "completed_today": 7,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "next: Count primes below a random N",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.025,
-   "started": 1789876820,
-   "heartbeat": 1789876821,
-   "completed_today": 1,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "F(500) has 105 digits",
+   "progress": 0.3,
+   "started": 1789877700,
+   "heartbeat": 1789877723,
+   "completed_today": 12,
+   "last_result": "Counted 20,437 primes below 230,000; the biggest was 229,981.",
+   "note": "F(12000) has 2508 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1353,
-  "working": 3,
+  "completed_today": 24,
+  "working": 2,
   "agents": 3
  }
 }
