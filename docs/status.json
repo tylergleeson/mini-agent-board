@@ -1,5 +1,5 @@
 {
- "updated": 1789942663,
+ "updated": 1789943565,
  "agents": [
   {
    "agent": "builder",
@@ -7,10 +7,10 @@
    "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
    "progress": null,
-   "started": 1789942650,
-   "heartbeat": 1789942662,
-   "completed_today": 484,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 767 swaps.",
+   "started": 1789943425,
+   "heartbeat": 1789943564,
+   "completed_today": 490,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels refreshes once / twenty seconds in waiting / a cloud keeps working”",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -18,31 +18,31 @@
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.571,
-   "started": 1789942644,
-   "heartbeat": 1789942662,
-   "completed_today": 530,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "0 inversions",
+   "task": "Review Builder's haiku",
+   "progress": 1.0,
+   "started": 1789943495,
+   "heartbeat": 1789943564,
+   "completed_today": 541,
+   "last_result": "Counted 27,919 primes below 324,000; the biggest was 323,987.",
+   "note": "line 3: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.983,
-   "started": 1789942589,
-   "heartbeat": 1789942662,
-   "completed_today": 771,
-   "last_result": "Counted 15,584 primes below 171,000; the biggest was 170,971.",
-   "note": "24,228 primes so far",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.25,
+   "started": 1789943554,
+   "heartbeat": 1789943564,
+   "completed_today": 780,
+   "last_result": "Counted 27,687 primes below 321,000; the biggest was 320,953.",
+   "note": "F(7500) has 1568 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1785,
+  "completed_today": 1811,
   "working": 2,
   "agents": 3
  }
