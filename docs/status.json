@@ -1,49 +1,49 @@
 {
- "updated": 1789939056,
+ "updated": 1789939957,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "blocked",
    "task": "Write unit tests for haiku.py",
-   "progress": 0.444,
-   "started": 1789939031,
-   "heartbeat": 1789939055,
-   "completed_today": 457,
+   "progress": null,
+   "started": 1789939952,
+   "heartbeat": 1789939956,
+   "completed_today": 459,
    "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "test_commit: ok",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
+   "state": "working",
    "task": "Review Builder's haiku",
-   "progress": null,
-   "started": 1789939035,
-   "heartbeat": 1789939055,
-   "completed_today": 502,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 1.0,
+   "started": 1789939875,
+   "heartbeat": 1789939956,
+   "completed_today": 506,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "line 3: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.683,
-   "started": 1789939004,
-   "heartbeat": 1789939055,
-   "completed_today": 727,
-   "last_result": "Counted 28,250 primes below 328,000; the biggest was 327,983.",
-   "note": "15,397 primes so far",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1789939897,
+   "heartbeat": 1789939956,
+   "completed_today": 737,
+   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1686,
-  "working": 2,
+  "completed_today": 1702,
+  "working": 1,
   "agents": 3
  }
 }
