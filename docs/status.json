@@ -1,17 +1,17 @@
 {
- "updated": 1789878626,
+ "updated": 1789879528,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.87,
-   "started": 1789878559,
-   "heartbeat": 1789878625,
-   "completed_today": 14,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "18 groups",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.125,
+   "started": 1789879516,
+   "heartbeat": 1789879527,
+   "completed_today": 20,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "note": "F(5000) has 1045 digits",
    "stale": false
   },
   {
@@ -19,30 +19,30 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.214,
-   "started": 1789878610,
-   "heartbeat": 1789878625,
-   "completed_today": 14,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on area (got 2, want 3).",
+   "progress": 0.304,
+   "started": 1789879509,
+   "heartbeat": 1789879527,
+   "completed_today": 22,
+   "last_result": "Counted 21,964 primes below 249,000; the biggest was 248,987.",
    "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1789878617,
-   "heartbeat": 1789878625,
-   "completed_today": 22,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Builder to release the workbench",
+   "state": "done",
+   "task": "Hunt palindromic primes",
+   "progress": 1.0,
+   "started": 1789879528,
+   "heartbeat": 1789879528,
+   "completed_today": 29,
+   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 50,
+  "completed_today": 71,
   "working": 2,
   "agents": 3
  }
