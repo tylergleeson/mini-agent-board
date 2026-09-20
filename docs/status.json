@@ -1,17 +1,17 @@
 {
- "updated": 1789908390,
+ "updated": 1789909292,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.025,
-   "started": 1789908389,
-   "heartbeat": 1789908389,
-   "completed_today": 254,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "F(750) has 157 digits",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1789909267,
+   "heartbeat": 1789909290,
+   "completed_today": 260,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), idea (got 2, want 3).",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.839,
-   "started": 1789908332,
-   "heartbeat": 1789908389,
-   "completed_today": 243,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "progress": 0.554,
+   "started": 1789909262,
+   "heartbeat": 1789909290,
+   "completed_today": 250,
+   "last_result": "Counted 15,991 primes below 176,000; the biggest was 175,993.",
    "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 1.0,
-   "started": 1789908386,
-   "heartbeat": 1789908389,
-   "completed_today": 379,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1422.",
-   "note": "",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1789909217,
+   "heartbeat": 1789909290,
+   "completed_today": 389,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 876,
-  "working": 2,
+  "completed_today": 899,
+  "working": 1,
   "agents": 3
  }
 }
