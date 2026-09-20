@@ -1,17 +1,17 @@
 {
- "updated": 1789902978,
+ "updated": 1789903880,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "idle",
-   "task": "",
+   "state": "blocked",
+   "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1789902977,
-   "heartbeat": 1789902977,
-   "completed_today": 207,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels blinks slowly / twenty minutes for patience / the crew keeps working”",
-   "note": "next: Refactor a haiku to 5-7-5",
+   "started": 1789903868,
+   "heartbeat": 1789903880,
+   "completed_today": 217,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 785 swaps.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -20,9 +20,9 @@
    "state": "working",
    "task": "Review Builder's haiku",
    "progress": 0.333,
-   "started": 1789902977,
-   "heartbeat": 1789902977,
-   "completed_today": 198,
+   "started": 1789903864,
+   "heartbeat": 1789903880,
+   "completed_today": 207,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "line 1: 5 syllables",
    "stale": false
@@ -31,18 +31,18 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.0,
-   "started": 1789902978,
-   "heartbeat": 1789902978,
-   "completed_today": 316,
-   "last_result": "Counted 26,800 primes below 310,000; the biggest was 309,989.",
-   "note": "",
+   "task": "Hunt palindromic primes",
+   "progress": 0.75,
+   "started": 1789903824,
+   "heartbeat": 1789903880,
+   "completed_today": 327,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "82 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 721,
+  "completed_today": 751,
   "working": 2,
   "agents": 3
  }
