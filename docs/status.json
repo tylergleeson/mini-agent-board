@@ -1,49 +1,49 @@
 {
- "updated": 1789948075,
+ "updated": 1789948977,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.125,
-   "started": 1789948069,
-   "heartbeat": 1789948074,
-   "completed_today": 525,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "pass 7/56, 284 swaps",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.425,
+   "started": 1789948951,
+   "heartbeat": 1789948976,
+   "completed_today": 531,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), science (got 1, want 2).",
+   "note": "F(8500) has 1777 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's haiku",
-   "progress": null,
-   "started": 1789948052,
-   "heartbeat": 1789948074,
-   "completed_today": 575,
+   "state": "done",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 1.0,
+   "started": 1789948969,
+   "heartbeat": 1789948976,
+   "completed_today": 581,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Scout to release the workbench",
+   "note": "",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
+   "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1789948074,
-   "heartbeat": 1789948074,
-   "completed_today": 834,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Builder to release the workbench",
+   "progress": 0.371,
+   "started": 1789948946,
+   "heartbeat": 1789948976,
+   "completed_today": 841,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "70 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1934,
-  "working": 1,
+  "completed_today": 1953,
+  "working": 2,
   "agents": 3
  }
 }
