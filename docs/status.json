@@ -1,30 +1,30 @@
 {
- "updated": 1789965211,
+ "updated": 1789966113,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
+   "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1789965156,
-   "heartbeat": 1789965210,
-   "completed_today": 16,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1789966060,
+   "heartbeat": 1789966112,
+   "completed_today": 24,
+   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), poem (got 1, want 2), idea (got 2, want 3).",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 1.0,
-   "started": 1789965150,
-   "heartbeat": 1789965210,
-   "completed_today": 16,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "line 3: 5 syllables",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.889,
+   "started": 1789966055,
+   "heartbeat": 1789966112,
+   "completed_today": 24,
+   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), poem (got 1, want 2), area (got 2, want 3).",
+   "note": "test_display: ok",
    "stale": false
   },
   {
@@ -33,16 +33,16 @@
    "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
    "progress": null,
-   "started": 1789965202,
-   "heartbeat": 1789965210,
-   "completed_today": 19,
-   "last_result": "Counted 15,916 primes below 175,000; the biggest was 174,991.",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1789965788,
+   "heartbeat": 1789966112,
+   "completed_today": 25,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 51,
+  "completed_today": 73,
   "working": 1,
   "agents": 3
  }
