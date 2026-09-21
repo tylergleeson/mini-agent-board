@@ -1,17 +1,17 @@
 {
- "updated": 1790017525,
+ "updated": 1790018427,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": null,
-   "started": 1790017523,
-   "heartbeat": 1790017523,
-   "completed_today": 412,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.275,
+   "started": 1790018406,
+   "heartbeat": 1790018426,
+   "completed_today": 417,
+   "last_result": "Ran 9 syllable-counter tests; 4 failed on idea (got 2, want 3), create (got 1, want 2), poem (got 1, want 2), science (got 1, want 2).",
+   "note": "F(5500) has 1150 digits",
    "stale": false
   },
   {
@@ -19,11 +19,11 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.964,
-   "started": 1790017467,
-   "heartbeat": 1790017523,
-   "completed_today": 449,
-   "last_result": "Counted 27,034 primes below 313,000; the biggest was 312,989.",
+   "progress": 0.661,
+   "started": 1790018402,
+   "heartbeat": 1790018426,
+   "completed_today": 458,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
    "note": "0 inversions",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.5,
-   "started": 1790017479,
-   "heartbeat": 1790017523,
-   "completed_today": 649,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "π ≈ 3.1398",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.95,
+   "started": 1790018359,
+   "heartbeat": 1790018426,
+   "completed_today": 660,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "F(19000) has 3971 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1510,
-  "working": 2,
+  "completed_today": 1535,
+  "working": 3,
   "agents": 3
  }
 }
