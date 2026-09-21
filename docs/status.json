@@ -1,49 +1,49 @@
 {
- "updated": 1790014819,
+ "updated": 1790015721,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1790014793,
-   "heartbeat": 1790014817,
-   "completed_today": 393,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “old mac mini sleeps / the agents spin through the dawn / commit by midnight”",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790015604,
+   "heartbeat": 1790015719,
+   "completed_today": 397,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.893,
-   "started": 1790014786,
-   "heartbeat": 1790014817,
-   "completed_today": 432,
-   "last_result": "Counted 30,904 primes below 362,000; the biggest was 361,993.",
-   "note": "0 inversions",
+   "task": "Count primes below a random N",
+   "progress": 0.7,
+   "started": 1790015673,
+   "heartbeat": 1790015719,
+   "completed_today": 439,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "10,620 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
+   "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1790014810,
-   "heartbeat": 1790014817,
-   "completed_today": 618,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "waiting for Critic to release the workbench",
+   "progress": 0.61,
+   "started": 1790015670,
+   "heartbeat": 1790015719,
+   "completed_today": 623,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "101 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1443,
-  "working": 1,
+  "completed_today": 1459,
+  "working": 2,
   "agents": 3
  }
 }
