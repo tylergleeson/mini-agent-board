@@ -1,5 +1,5 @@
 {
- "updated": 1789968819,
+ "updated": 1789969721,
  "agents": [
   {
    "agent": "builder",
@@ -7,43 +7,43 @@
    "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
    "progress": null,
-   "started": 1789968789,
-   "heartbeat": 1789968818,
-   "completed_today": 49,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1789969584,
+   "heartbeat": 1789969719,
+   "completed_today": 55,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 695 swaps.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.667,
-   "started": 1789968786,
-   "heartbeat": 1789968818,
-   "completed_today": 44,
+   "state": "blocked",
+   "task": "Review Builder's Beatles sort",
+   "progress": null,
+   "started": 1789969677,
+   "heartbeat": 1789969719,
+   "completed_today": 51,
    "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "line 2: 7 syllables",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.325,
-   "started": 1789968792,
-   "heartbeat": 1789968818,
-   "completed_today": 59,
-   "last_result": "Counted 16,915 primes below 187,000; the biggest was 186,959.",
-   "note": "F(9750) has 2038 digits",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.904,
+   "started": 1789969671,
+   "heartbeat": 1789969719,
+   "completed_today": 71,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "130 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 152,
-  "working": 2,
+  "completed_today": 177,
+  "working": 1,
   "agents": 3
  }
 }
