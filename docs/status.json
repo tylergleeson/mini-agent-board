@@ -1,49 +1,49 @@
 {
- "updated": 1790022938,
+ "updated": 1790023839,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "idle",
-   "task": "",
+   "state": "blocked",
+   "task": "Sort shuffled Beatles songs by hand",
    "progress": null,
-   "started": 1790022934,
-   "heartbeat": 1790022937,
-   "completed_today": 447,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
-   "note": "next: Compute a very large Fibonacci number",
+   "started": 1790023747,
+   "heartbeat": 1790023839,
+   "completed_today": 453,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels wakes slowly / thirty seconds for stillness / a queue counts working”",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1790022936,
-   "heartbeat": 1790022937,
-   "completed_today": 494,
-   "last_result": "Counted 32,300 primes below 380,000; the biggest was 379,999.",
-   "note": "next: Review Builder's haiku",
+   "state": "working",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.463,
+   "started": 1790023806,
+   "heartbeat": 1790023839,
+   "completed_today": 502,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "80 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.55,
-   "started": 1790022890,
-   "heartbeat": 1790022937,
-   "completed_today": 717,
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.408,
+   "started": 1790023803,
+   "heartbeat": 1790023839,
+   "completed_today": 728,
    "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
-   "note": "F(11000) has 2299 digits",
+   "note": "75 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1658,
-  "working": 1,
+  "completed_today": 1683,
+  "working": 2,
   "agents": 3
  }
 }
