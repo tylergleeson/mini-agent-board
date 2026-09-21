@@ -1,49 +1,49 @@
 {
- "updated": 1790024741,
+ "updated": 1790025643,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.643,
-   "started": 1790024692,
-   "heartbeat": 1790024740,
-   "completed_today": 460,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on area (got 2, want 3), poem (got 1, want 2), idea (got 2, want 3).",
-   "note": "pass 36/56, 755 swaps",
+   "progress": 0.25,
+   "started": 1790025630,
+   "heartbeat": 1790025641,
+   "completed_today": 464,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
+   "note": "pass 14/56, 499 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.665,
-   "started": 1790024713,
-   "heartbeat": 1790024740,
-   "completed_today": 508,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "107 distinct words",
+   "state": "blocked",
+   "task": "Re-run the syllable unit tests",
+   "progress": null,
+   "started": 1790025573,
+   "heartbeat": 1790025641,
+   "completed_today": 516,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.6,
-   "started": 1790024703,
-   "heartbeat": 1790024740,
-   "completed_today": 740,
-   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1426.",
-   "note": "70 found",
+   "task": "Count primes below a random N",
+   "progress": 0.067,
+   "started": 1790025637,
+   "heartbeat": 1790025641,
+   "completed_today": 750,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "2,564 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1708,
-  "working": 3,
+  "completed_today": 1730,
+  "working": 2,
   "agents": 3
  }
 }
