@@ -1,30 +1,30 @@
 {
- "updated": 1790000386,
+ "updated": 1790001288,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 1.0,
-   "started": 1790000314,
-   "heartbeat": 1790000385,
-   "completed_today": 287,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "line 3 ✓ 'refactor near noon'",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1790001282,
+   "heartbeat": 1790001286,
+   "completed_today": 298,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1790000320,
-   "heartbeat": 1790000385,
-   "completed_today": 303,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Review Builder's haiku",
+   "progress": 0.333,
+   "started": 1790001278,
+   "heartbeat": 1790001286,
+   "completed_today": 311,
+   "last_result": "Ran 9 syllable-counter tests; 4 failed on idea (got 2, want 3), create (got 1, want 2), science (got 1, want 2), poem (got 1, want 2).",
+   "note": "line 1: 5 syllables",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.35,
-   "started": 1790000369,
-   "heartbeat": 1790000385,
-   "completed_today": 444,
-   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1424.",
-   "note": "F(10500) has 2195 digits",
+   "progress": 0.65,
+   "started": 1790001256,
+   "heartbeat": 1790001286,
+   "completed_today": 456,
+   "last_result": "Counted 32,681 primes below 385,000; the biggest was 384,973.",
+   "note": "F(26000) has 5434 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1034,
+  "completed_today": 1065,
   "working": 2,
   "agents": 3
  }
