@@ -1,30 +1,30 @@
 {
- "updated": 1790022035,
+ "updated": 1790022938,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.522,
-   "started": 1790021994,
-   "heartbeat": 1790022035,
-   "completed_today": 441,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "11 groups",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1790022934,
+   "heartbeat": 1790022937,
+   "completed_today": 447,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
+   "note": "next: Compute a very large Fibonacci number",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.444,
-   "started": 1790022013,
-   "heartbeat": 1790022035,
-   "completed_today": 486,
-   "last_result": "Counted 28,638 primes below 333,000; the biggest was 332,993.",
-   "note": "test_yellow: ok",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1790022936,
+   "heartbeat": 1790022937,
+   "completed_today": 494,
+   "last_result": "Counted 32,300 primes below 380,000; the biggest was 379,999.",
+   "note": "next: Review Builder's haiku",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.425,
-   "started": 1790021999,
-   "heartbeat": 1790022035,
-   "completed_today": 708,
-   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
-   "note": "F(8500) has 1777 digits",
+   "progress": 0.55,
+   "started": 1790022890,
+   "heartbeat": 1790022937,
+   "completed_today": 717,
+   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
+   "note": "F(11000) has 2299 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1635,
-  "working": 3,
+  "completed_today": 1658,
+  "working": 1,
   "agents": 3
  }
 }
