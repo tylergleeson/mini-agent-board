@@ -1,30 +1,30 @@
 {
- "updated": 1790004896,
+ "updated": 1790005798,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1790004852,
-   "heartbeat": 1790004895,
-   "completed_today": 325,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.875,
+   "started": 1790005732,
+   "heartbeat": 1790005797,
+   "completed_today": 330,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "F(17500) has 3657 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.696,
-   "started": 1790004839,
-   "heartbeat": 1790004895,
-   "completed_today": 346,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "0 inversions",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1790005790,
+   "heartbeat": 1790005797,
+   "completed_today": 356,
+   "last_result": "Counted 16,492 primes below 182,000; the biggest was 181,997.",
+   "note": "next: Count primes below a random N",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.425,
-   "started": 1790004880,
-   "heartbeat": 1790004895,
-   "completed_today": 503,
-   "last_result": "Counted 20,180 primes below 227,000; the biggest was 226,991.",
-   "note": "F(12750) has 2665 digits",
+   "progress": 0.025,
+   "started": 1790005797,
+   "heartbeat": 1790005797,
+   "completed_today": 515,
+   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1411.",
+   "note": "F(750) has 157 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1174,
+  "completed_today": 1201,
   "working": 2,
   "agents": 3
  }
