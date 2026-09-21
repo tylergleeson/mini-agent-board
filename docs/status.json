@@ -1,49 +1,49 @@
 {
- "updated": 1790031055,
+ "updated": 1790031957,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.1,
-   "started": 1790031049,
-   "heartbeat": 1790031054,
-   "completed_today": 501,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "F(3000) has 627 digits",
+   "progress": 0.525,
+   "started": 1790031917,
+   "heartbeat": 1790031957,
+   "completed_today": 506,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), idea (got 2, want 3).",
+   "note": "F(21000) has 4389 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "error",
-   "task": "Re-run the syllable unit tests",
+   "state": "blocked",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1790031051,
-   "heartbeat": 1790031054,
-   "completed_today": 558,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on science (got 1, want 2), poem (got 1, want 2).",
-   "note": "needs a human",
+   "started": 1790031871,
+   "heartbeat": 1790031957,
+   "completed_today": 565,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
+   "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1790031021,
-   "heartbeat": 1790031054,
-   "completed_today": 822,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "waiting for Builder to release the workbench",
+   "progress": 0.665,
+   "started": 1790031911,
+   "heartbeat": 1790031957,
+   "completed_today": 831,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "107 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1881,
-  "working": 1,
+  "completed_today": 1902,
+  "working": 2,
   "agents": 3
  }
 }
