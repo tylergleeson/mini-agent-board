@@ -1,17 +1,17 @@
 {
- "updated": 1789994974,
+ "updated": 1789995876,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1789994950,
-   "heartbeat": 1789994972,
-   "completed_today": 252,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 742 swaps.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Group anagrams in the word list",
+   "progress": 0.623,
+   "started": 1789995837,
+   "heartbeat": 1789995875,
+   "completed_today": 256,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 835 swaps.",
+   "note": "11 groups",
    "stale": false
   },
   {
@@ -19,11 +19,11 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.839,
-   "started": 1789994944,
-   "heartbeat": 1789994972,
-   "completed_today": 268,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "progress": 0.964,
+   "started": 1789995833,
+   "heartbeat": 1789995875,
+   "completed_today": 274,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on science (got 1, want 2), poem (got 1, want 2).",
    "note": "0 inversions",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.7,
-   "started": 1789994944,
-   "heartbeat": 1789994972,
-   "completed_today": 382,
+   "task": "Count primes below a random N",
+   "progress": 0.95,
+   "started": 1789995836,
+   "heartbeat": 1789995875,
+   "completed_today": 395,
    "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "F(21000) has 4389 digits",
+   "note": "21,797 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 902,
-  "working": 2,
+  "completed_today": 925,
+  "working": 3,
   "agents": 3
  }
 }
