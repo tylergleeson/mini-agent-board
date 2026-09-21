@@ -1,5 +1,5 @@
 {
- "updated": 1790029251,
+ "updated": 1790030153,
  "agents": [
   {
    "agent": "builder",
@@ -7,43 +7,43 @@
    "state": "blocked",
    "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1790029234,
-   "heartbeat": 1790029251,
-   "completed_today": 487,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels stirs at last / twenty minutes in patience / a cloud holds working”",
+   "started": 1790030143,
+   "heartbeat": 1790030153,
+   "completed_today": 492,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display blinks once / thirty minutes for waiting / the crew keeps working”",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.778,
-   "started": 1790029225,
-   "heartbeat": 1790029251,
-   "completed_today": 547,
-   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
-   "note": "test_refactor: ok",
+   "state": "blocked",
+   "task": "Review Builder's haiku",
+   "progress": null,
+   "started": 1790030092,
+   "heartbeat": 1790030153,
+   "completed_today": 550,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.3,
-   "started": 1790029232,
-   "heartbeat": 1790029251,
-   "completed_today": 798,
-   "last_result": "Counted 15,833 primes below 174,000; the biggest was 173,993.",
-   "note": "F(9000) has 1881 digits",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.243,
+   "started": 1790030138,
+   "heartbeat": 1790030153,
+   "completed_today": 810,
+   "last_result": "Counted 30,456 primes below 356,000; the biggest was 355,969.",
+   "note": "47 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1832,
-  "working": 2,
+  "completed_today": 1852,
+  "working": 1,
   "agents": 3
  }
 }
