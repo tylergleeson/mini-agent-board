@@ -1,49 +1,49 @@
 {
- "updated": 1789982347,
+ "updated": 1789983249,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1789982168,
-   "heartbeat": 1789982346,
-   "completed_today": 162,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 699 swaps.",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.333,
+   "started": 1789983234,
+   "heartbeat": 1789983248,
+   "completed_today": 167,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
+   "note": "line 1 ✓ 'bugs tallied again'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
+   "state": "blocked",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.911,
-   "started": 1789982302,
-   "heartbeat": 1789982346,
-   "completed_today": 161,
+   "progress": null,
+   "started": 1789983238,
+   "heartbeat": 1789983248,
+   "completed_today": 171,
    "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "0 inversions",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 1.0,
-   "started": 1789982344,
-   "heartbeat": 1789982346,
-   "completed_today": 227,
-   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1392.",
-   "note": "",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.417,
+   "started": 1789983232,
+   "heartbeat": 1789983248,
+   "completed_today": 238,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "7,575 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 550,
-  "working": 1,
+  "completed_today": 576,
+  "working": 2,
   "agents": 3
  }
 }
