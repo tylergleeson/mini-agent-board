@@ -1,17 +1,17 @@
 {
- "updated": 1789987759,
+ "updated": 1789988660,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "error",
+   "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1789987753,
-   "heartbeat": 1789987756,
-   "completed_today": 195,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on science (got 1, want 2), idea (got 2, want 3).",
-   "note": "needs a human",
+   "progress": 0.111,
+   "started": 1789988656,
+   "heartbeat": 1789988660,
+   "completed_today": 199,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
+   "note": "test_create: FAIL",
    "stale": false
   },
   {
@@ -20,30 +20,30 @@
    "state": "blocked",
    "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1789987690,
-   "heartbeat": 1789987756,
-   "completed_today": 205,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1789988660,
+   "heartbeat": 1789988660,
+   "completed_today": 212,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.675,
-   "started": 1789987705,
-   "heartbeat": 1789987756,
-   "completed_today": 292,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "F(13500) has 2821 digits",
+   "task": "Count primes below a random N",
+   "progress": 0.083,
+   "started": 1789988654,
+   "heartbeat": 1789988660,
+   "completed_today": 303,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "2,146 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 692,
-  "working": 1,
+  "completed_today": 714,
+  "working": 2,
   "agents": 3
  }
 }
