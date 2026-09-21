@@ -1,5 +1,5 @@
 {
- "updated": 1790010308,
+ "updated": 1790011210,
  "agents": [
   {
    "agent": "builder",
@@ -7,11 +7,11 @@
    "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
    "progress": null,
-   "started": 1790010289,
-   "heartbeat": 1790010307,
-   "completed_today": 366,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790011177,
+   "heartbeat": 1790011209,
+   "completed_today": 371,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 743 swaps.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
@@ -19,10 +19,10 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.589,
-   "started": 1790010282,
-   "heartbeat": 1790010307,
-   "completed_today": 393,
+   "progress": 0.5,
+   "started": 1790011169,
+   "heartbeat": 1790011209,
+   "completed_today": 400,
    "last_result": "Approved Builder's haiku; it scans 5-7-5.",
    "note": "0 inversions",
    "stale": false
@@ -30,20 +30,20 @@
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.5,
-   "started": 1790010285,
-   "heartbeat": 1790010307,
-   "completed_today": 568,
-   "last_result": "Counted 27,919 primes below 324,000; the biggest was 323,987.",
-   "note": "14,231 primes so far",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1790011152,
+   "heartbeat": 1790011209,
+   "completed_today": 574,
+   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1327,
-  "working": 2,
+  "completed_today": 1345,
+  "working": 1,
   "agents": 3
  }
 }
