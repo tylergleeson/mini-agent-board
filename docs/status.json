@@ -1,30 +1,30 @@
 {
- "updated": 1790066231,
+ "updated": 1790067133,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1790066173,
-   "heartbeat": 1790066229,
-   "completed_today": 117,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), create (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.625,
+   "started": 1790067088,
+   "heartbeat": 1790067131,
+   "completed_today": 125,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "F(12500) has 2612 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "error",
+   "state": "working",
    "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1790066220,
-   "heartbeat": 1790066229,
-   "completed_today": 142,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), science (got 1, want 2).",
-   "note": "needs a human",
+   "progress": 0.778,
+   "started": 1790067104,
+   "heartbeat": 1790067131,
+   "completed_today": 148,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "test_hour: ok",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.417,
-   "started": 1790066207,
-   "heartbeat": 1790066229,
-   "completed_today": 199,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "14,204 primes so far",
+   "progress": 0.75,
+   "started": 1790067098,
+   "heartbeat": 1790067131,
+   "completed_today": 212,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "19,228 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 458,
-  "working": 1,
+  "completed_today": 485,
+  "working": 3,
   "agents": 3
  }
 }
