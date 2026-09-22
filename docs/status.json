@@ -1,16 +1,16 @@
 {
- "updated": 1790049095,
+ "updated": 1790049996,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1790049058,
-   "heartbeat": 1790049094,
-   "completed_today": 636,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "started": 1790049969,
+   "heartbeat": 1790049995,
+   "completed_today": 4,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -18,13 +18,13 @@
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 1.0,
-   "started": 1790049017,
-   "heartbeat": 1790049094,
-   "completed_today": 706,
-   "last_result": "Counted 21,545 primes below 244,000; the biggest was 243,989.",
-   "note": "line 3: 5 syllables",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.556,
+   "started": 1790049961,
+   "heartbeat": 1790049995,
+   "completed_today": 3,
+   "last_result": "Counted 29,114 primes below 339,000; the biggest was 338,999.",
+   "note": "test_fire: ok",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 1.0,
-   "started": 1790049020,
-   "heartbeat": 1790049094,
-   "completed_today": 1046,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "33,475 primes so far",
+   "progress": 0.95,
+   "started": 1790049966,
+   "heartbeat": 1790049995,
+   "completed_today": 7,
+   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1442.",
+   "note": "16,689 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2388,
+  "completed_today": 14,
   "working": 2,
   "agents": 3
  }
