@@ -1,49 +1,49 @@
 {
- "updated": 1790103215,
+ "updated": 1790104117,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.174,
-   "started": 1790103200,
-   "heartbeat": 1790103214,
-   "completed_today": 369,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent laptop sleeps / the tests run in the morning / deploy by midnight”",
-   "note": "0 groups",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1790104077,
+   "heartbeat": 1790104116,
+   "completed_today": 379,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 734 swaps.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.883,
-   "started": 1790103151,
-   "heartbeat": 1790103214,
-   "completed_today": 419,
+   "task": "Review Builder's haiku",
+   "progress": 1.0,
+   "started": 1790104071,
+   "heartbeat": 1790104116,
+   "completed_today": 427,
    "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "24,435 primes so far",
+   "note": "line 3: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.275,
-   "started": 1790103197,
-   "heartbeat": 1790103214,
-   "completed_today": 653,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "94 found",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.92,
+   "started": 1790104051,
+   "heartbeat": 1790104116,
+   "completed_today": 663,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "π ≈ 3.1398",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1441,
-  "working": 3,
+  "completed_today": 1469,
+  "working": 2,
   "agents": 3
  }
 }
