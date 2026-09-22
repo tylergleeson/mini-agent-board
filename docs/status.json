@@ -1,49 +1,49 @@
 {
- "updated": 1790084271,
+ "updated": 1790085173,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "blocked",
    "task": "Write unit tests for haiku.py",
-   "progress": 0.444,
-   "started": 1790084256,
-   "heartbeat": 1790084271,
-   "completed_today": 241,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "test_prime: ok",
+   "progress": null,
+   "started": 1790085155,
+   "heartbeat": 1790085173,
+   "completed_today": 247,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.667,
-   "started": 1790084232,
-   "heartbeat": 1790084271,
-   "completed_today": 269,
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.556,
+   "started": 1790085132,
+   "heartbeat": 1790085173,
+   "completed_today": 279,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "18,464 primes so far",
+   "note": "test_science: FAIL",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.125,
-   "started": 1790084261,
-   "heartbeat": 1790084271,
-   "completed_today": 417,
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.54,
+   "started": 1790085136,
+   "heartbeat": 1790085173,
+   "completed_today": 428,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "26 found",
+   "note": "π ≈ 3.1403",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 927,
-  "working": 3,
+  "completed_today": 954,
+  "working": 2,
   "agents": 3
  }
 }
