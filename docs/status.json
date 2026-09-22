@@ -1,30 +1,30 @@
 {
- "updated": 1790039173,
+ "updated": 1790040075,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.478,
-   "started": 1790039132,
-   "heartbeat": 1790039171,
-   "completed_today": 560,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 846 swaps.",
-   "note": "7 groups",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.444,
+   "started": 1790040046,
+   "heartbeat": 1790040074,
+   "completed_today": 566,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "test_science: FAIL",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.857,
-   "started": 1790039126,
-   "heartbeat": 1790039171,
-   "completed_today": 621,
-   "last_result": "Counted 14,357 primes below 156,000; the biggest was 155,921.",
-   "note": "0 inversions",
+   "task": "Count primes below a random N",
+   "progress": 0.683,
+   "started": 1790040040,
+   "heartbeat": 1790040074,
+   "completed_today": 628,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "13,077 primes so far",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Hunt palindromic primes",
-   "progress": 0.475,
-   "started": 1790039131,
-   "heartbeat": 1790039171,
-   "completed_today": 926,
-   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
-   "note": "104 found",
+   "progress": 0.0,
+   "started": 1790040075,
+   "heartbeat": 1790040075,
+   "completed_today": 938,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2107,
+  "completed_today": 2132,
   "working": 3,
   "agents": 3
  }
