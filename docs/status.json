@@ -1,49 +1,49 @@
 {
- "updated": 1790102313,
+ "updated": 1790103215,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.333,
-   "started": 1790102310,
-   "heartbeat": 1790102312,
-   "completed_today": 362,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "line 1 ✓ 'e-paper stirs once'",
+   "task": "Group anagrams in the word list",
+   "progress": 0.174,
+   "started": 1790103200,
+   "heartbeat": 1790103214,
+   "completed_today": 369,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent laptop sleeps / the tests run in the morning / deploy by midnight”",
+   "note": "0 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1790102310,
-   "heartbeat": 1790102312,
-   "completed_today": 414,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "next: Re-run the syllable unit tests",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.883,
+   "started": 1790103151,
+   "heartbeat": 1790103214,
+   "completed_today": 419,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "24,435 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.52,
-   "started": 1790102281,
-   "heartbeat": 1790102312,
-   "completed_today": 641,
+   "task": "Hunt palindromic primes",
+   "progress": 0.275,
+   "started": 1790103197,
+   "heartbeat": 1790103214,
+   "completed_today": 653,
    "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "π ≈ 3.1398",
+   "note": "94 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1417,
-  "working": 2,
+  "completed_today": 1441,
+  "working": 3,
   "agents": 3
  }
 }
