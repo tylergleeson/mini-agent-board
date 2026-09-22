@@ -1,49 +1,49 @@
 {
- "updated": 1790052702,
+ "updated": 1790053604,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": null,
-   "started": 1790052674,
-   "heartbeat": 1790052701,
-   "completed_today": 26,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 837 swaps.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.667,
+   "started": 1790053564,
+   "heartbeat": 1790053603,
+   "completed_today": 34,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "line 2 ✓ 'no one asked for that data'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.667,
-   "started": 1790052668,
-   "heartbeat": 1790052701,
-   "completed_today": 28,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), area (got 2, want 3), create (got 1, want 2).",
-   "note": "line 2: 7 syllables",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.463,
+   "started": 1790053570,
+   "heartbeat": 1790053603,
+   "completed_today": 36,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "80 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "done",
-   "task": "Count primes below a random N",
+   "task": "Hunt palindromic primes",
    "progress": 1.0,
-   "started": 1790052701,
-   "heartbeat": 1790052701,
-   "completed_today": 42,
-   "last_result": "Counted 33,779 primes below 399,000; the biggest was 398,989.",
+   "started": 1790053603,
+   "heartbeat": 1790053603,
+   "completed_today": 54,
+   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
    "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 96,
-  "working": 1,
+  "completed_today": 124,
+  "working": 2,
   "agents": 3
  }
 }
