@@ -1,30 +1,30 @@
 {
- "updated": 1790086075,
+ "updated": 1790086978,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": 0.444,
-   "started": 1790086054,
-   "heartbeat": 1790086073,
-   "completed_today": 253,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent laptop dreams / the agents run in the dark / refactor by noon”",
-   "note": "test_haiku: ok",
+   "progress": 0.111,
+   "started": 1790086972,
+   "heartbeat": 1790086977,
+   "completed_today": 258,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 737 swaps.",
+   "note": "test_mini: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.279,
-   "started": 1790086058,
-   "heartbeat": 1790086073,
-   "completed_today": 285,
+   "task": "Count primes below a random N",
+   "progress": 0.0,
+   "started": 1790086978,
+   "heartbeat": 1790086978,
+   "completed_today": 293,
    "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
-   "note": "52 distinct words",
+   "note": "",
    "stale": false
   },
   {
@@ -33,16 +33,16 @@
    "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
    "progress": null,
-   "started": 1790086051,
-   "heartbeat": 1790086073,
-   "completed_today": 437,
-   "last_result": "Counted 20,180 primes below 227,000; the biggest was 226,991.",
-   "note": "waiting for someone to release the workbench",
+   "started": 1790086690,
+   "heartbeat": 1790086977,
+   "completed_today": 443,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 975,
+  "completed_today": 994,
   "working": 2,
   "agents": 3
  }
