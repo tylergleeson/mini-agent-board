@@ -1,17 +1,17 @@
 {
- "updated": 1790057212,
+ "updated": 1790058114,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.222,
-   "started": 1790057200,
-   "heartbeat": 1790057211,
-   "completed_today": 61,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 746 swaps.",
-   "note": "test_area: FAIL",
+   "state": "blocked",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": null,
+   "started": 1790058096,
+   "heartbeat": 1790058113,
+   "completed_today": 67,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -20,9 +20,9 @@
    "state": "blocked",
    "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790057203,
-   "heartbeat": 1790057211,
-   "completed_today": 71,
+   "started": 1790058083,
+   "heartbeat": 1790058113,
+   "completed_today": 77,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.78,
-   "started": 1790057170,
-   "heartbeat": 1790057211,
-   "completed_today": 93,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "longest so far: 230631 (443 steps)",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.96,
+   "started": 1790058082,
+   "heartbeat": 1790058113,
+   "completed_today": 105,
+   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1397.",
+   "note": "136 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 225,
-  "working": 2,
+  "completed_today": 249,
+  "working": 1,
   "agents": 3
  }
 }
