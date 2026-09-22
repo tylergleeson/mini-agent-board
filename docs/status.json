@@ -1,49 +1,49 @@
 {
- "updated": 1790060819,
+ "updated": 1790061721,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1790060755,
-   "heartbeat": 1790060819,
-   "completed_today": 85,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1790061717,
+   "heartbeat": 1790061720,
+   "completed_today": 91,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's haiku",
-   "progress": null,
-   "started": 1790060783,
-   "heartbeat": 1790060819,
-   "completed_today": 100,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.232,
+   "started": 1790061709,
+   "heartbeat": 1790061720,
+   "completed_today": 109,
+   "last_result": "Counted 16,745 primes below 185,000; the biggest was 184,999.",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.482,
-   "started": 1790060779,
-   "heartbeat": 1790060819,
-   "completed_today": 136,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "82 distinct words",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.36,
+   "started": 1790061707,
+   "heartbeat": 1790061720,
+   "completed_today": 144,
+   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1416.",
+   "note": "π ≈ 3.1395",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 321,
-  "working": 1,
+  "completed_today": 344,
+  "working": 2,
   "agents": 3
  }
 }
