@@ -1,49 +1,49 @@
 {
- "updated": 1790041879,
+ "updated": 1790042781,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.325,
-   "started": 1790041853,
-   "heartbeat": 1790041878,
-   "completed_today": 581,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "F(6500) has 1359 digits",
+   "progress": 0.6,
+   "started": 1790042731,
+   "heartbeat": 1790042780,
+   "completed_today": 586,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "F(12000) has 2508 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.482,
-   "started": 1790041853,
-   "heartbeat": 1790041878,
-   "completed_today": 646,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), idea (got 2, want 3).",
-   "note": "82 distinct words",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1790042779,
+   "heartbeat": 1790042780,
+   "completed_today": 654,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "next: Count primes below a random N",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.025,
-   "started": 1790041877,
-   "heartbeat": 1790041878,
-   "completed_today": 959,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "F(750) has 157 digits",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.022,
+   "started": 1790042779,
+   "heartbeat": 1790042780,
+   "completed_today": 969,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "6 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2186,
-  "working": 3,
+  "completed_today": 2209,
+  "working": 2,
   "agents": 3
  }
 }
