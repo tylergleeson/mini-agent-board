@@ -1,29 +1,29 @@
 {
- "updated": 1790068035,
+ "updated": 1790068937,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1790067936,
-   "heartbeat": 1790068033,
-   "completed_today": 131,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on area (got 2, want 3).",
-   "note": "waiting for Critic to release the workbench",
+   "progress": 0.667,
+   "started": 1790068912,
+   "heartbeat": 1790068936,
+   "completed_today": 134,
+   "last_result": "Ran 9 syllable-counter tests; 3 failed on area (got 2, want 3), science (got 1, want 2), create (got 1, want 2).",
+   "note": "line 2 ✓ 'someone wanted about the work'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's haiku",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1790068020,
-   "heartbeat": 1790068033,
-   "completed_today": 154,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1790068916,
+   "heartbeat": 1790068936,
+   "completed_today": 158,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on science (got 1, want 2), idea (got 2, want 3).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.279,
-   "started": 1790068017,
-   "heartbeat": 1790068033,
-   "completed_today": 221,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "52 distinct words",
+   "task": "Count primes below a random N",
+   "progress": 0.25,
+   "started": 1790068928,
+   "heartbeat": 1790068936,
+   "completed_today": 233,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "5,061 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 506,
-  "working": 1,
+  "completed_today": 525,
+  "working": 2,
   "agents": 3
  }
 }
