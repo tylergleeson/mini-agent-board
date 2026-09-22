@@ -1,49 +1,49 @@
 {
- "updated": 1790104117,
+ "updated": 1790105019,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
+   "state": "idle",
+   "task": "",
    "progress": null,
-   "started": 1790104077,
-   "heartbeat": 1790104116,
-   "completed_today": 379,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 734 swaps.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790105015,
+   "heartbeat": 1790105018,
+   "completed_today": 386,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 797 swaps.",
+   "note": "next: Write unit tests for haiku.py",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's haiku",
+   "state": "done",
+   "task": "Count primes below a random N",
    "progress": 1.0,
-   "started": 1790104071,
-   "heartbeat": 1790104116,
-   "completed_today": 427,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "line 3: 5 syllables",
+   "started": 1790105017,
+   "heartbeat": 1790105018,
+   "completed_today": 435,
+   "last_result": "Counted 16,086 primes below 177,000; the biggest was 176,989.",
+   "note": "",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.92,
-   "started": 1790104051,
-   "heartbeat": 1790104116,
-   "completed_today": 663,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "π ≈ 3.1398",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.077,
+   "started": 1790105015,
+   "heartbeat": 1790105018,
+   "completed_today": 674,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "20 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1469,
-  "working": 2,
+  "completed_today": 1495,
+  "working": 1,
   "agents": 3
  }
 }
