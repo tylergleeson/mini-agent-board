@@ -1,28 +1,28 @@
 {
- "updated": 1790056310,
+ "updated": 1790057212,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.768,
-   "started": 1790056258,
-   "heartbeat": 1790056308,
-   "completed_today": 54,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), idea (got 2, want 3).",
-   "note": "16 groups",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.222,
+   "started": 1790057200,
+   "heartbeat": 1790057211,
+   "completed_today": 61,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 746 swaps.",
+   "note": "test_area: FAIL",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's Beatles sort",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790056038,
-   "heartbeat": 1790056308,
-   "completed_today": 61,
+   "started": 1790057203,
+   "heartbeat": 1790057211,
+   "completed_today": 71,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
@@ -30,20 +30,20 @@
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 1.0,
-   "started": 1790056303,
-   "heartbeat": 1790056308,
-   "completed_today": 84,
+   "state": "working",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.78,
+   "started": 1790057170,
+   "heartbeat": 1790057211,
+   "completed_today": 93,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "",
+   "note": "longest so far: 230631 (443 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 199,
-  "working": 1,
+  "completed_today": 225,
+  "working": 2,
   "agents": 3
  }
 }
