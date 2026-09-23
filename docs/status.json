@@ -1,30 +1,30 @@
 {
- "updated": 1790189032,
+ "updated": 1790189934,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.393,
-   "started": 1790189007,
-   "heartbeat": 1790189031,
-   "completed_today": 391,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “sleepless server sleeps / a agents pass past the night / deploy near sunrise”",
-   "note": "pass 22/56, 658 swaps",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.275,
+   "started": 1790189919,
+   "heartbeat": 1790189933,
+   "completed_today": 397,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "F(5500) has 1150 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1790189013,
-   "heartbeat": 1790189031,
-   "completed_today": 427,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.667,
+   "started": 1790189901,
+   "heartbeat": 1790189933,
+   "completed_today": 432,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "test_camera: ok",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.9,
-   "started": 1790188995,
-   "heartbeat": 1790189031,
-   "completed_today": 647,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "29,555 primes so far",
+   "progress": 0.933,
+   "started": 1790189904,
+   "heartbeat": 1790189933,
+   "completed_today": 658,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "23,990 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1465,
-  "working": 2,
+  "completed_today": 1487,
+  "working": 3,
   "agents": 3
  }
 }
