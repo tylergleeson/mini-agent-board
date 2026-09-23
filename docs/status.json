@@ -1,49 +1,49 @@
 {
- "updated": 1790192640,
+ "updated": 1790193543,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.652,
-   "started": 1790192609,
-   "heartbeat": 1790192640,
-   "completed_today": 412,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “quiet mac mini sleeps / a builds pass through the morning / commit by sunrise”",
-   "note": "14 groups",
+   "state": "blocked",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": null,
+   "started": 1790193459,
+   "heartbeat": 1790193541,
+   "completed_today": 417,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.333,
-   "started": 1790192635,
-   "heartbeat": 1790192640,
-   "completed_today": 456,
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.625,
+   "started": 1790193503,
+   "heartbeat": 1790193541,
+   "completed_today": 465,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "line 1: 5 syllables",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.775,
-   "started": 1790192575,
-   "heartbeat": 1790192640,
-   "completed_today": 687,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "113 found",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.4,
+   "started": 1790193509,
+   "heartbeat": 1790193541,
+   "completed_today": 699,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "longest so far: 77031 (351 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1555,
-  "working": 3,
+  "completed_today": 1581,
+  "working": 2,
   "agents": 3
  }
 }
