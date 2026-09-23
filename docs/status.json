@@ -1,30 +1,30 @@
 {
- "updated": 1790174592,
+ "updated": 1790175494,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "done",
-   "task": "Group anagrams in the word list",
-   "progress": 1.0,
-   "started": 1790174590,
-   "heartbeat": 1790174590,
-   "completed_today": 287,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "",
+   "state": "blocked",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": null,
+   "started": 1790175466,
+   "heartbeat": 1790175493,
+   "completed_today": 293,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.333,
-   "started": 1790174581,
-   "heartbeat": 1790174590,
-   "completed_today": 317,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "line 1: 5 syllables",
+   "state": "done",
+   "task": "Review Builder's Beatles sort",
+   "progress": 1.0,
+   "started": 1790175493,
+   "heartbeat": 1790175493,
+   "completed_today": 327,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Find the longest Collatz chain",
-   "progress": 0.96,
-   "started": 1790174529,
-   "heartbeat": 1790174590,
-   "completed_today": 469,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "longest so far: 410011 (449 steps)",
+   "progress": 0.9,
+   "started": 1790175415,
+   "heartbeat": 1790175493,
+   "completed_today": 480,
+   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
+   "note": "longest so far: 156159 (383 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1073,
-  "working": 2,
+  "completed_today": 1100,
+  "working": 1,
   "agents": 3
  }
 }
