@@ -1,5 +1,5 @@
 {
- "updated": 1790132980,
+ "updated": 1790133882,
  "agents": [
   {
    "agent": "builder",
@@ -7,10 +7,10 @@
    "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
    "progress": null,
-   "started": 1790132945,
-   "heartbeat": 1790132978,
-   "completed_today": 588,
-   "last_result": "Ran 9 syllable-counter tests; 4 failed on poem (got 1, want 2), idea (got 2, want 3), area (got 2, want 3), science (got 1, want 2).",
+   "started": 1790133852,
+   "heartbeat": 1790133881,
+   "completed_today": 594,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), create (got 1, want 2).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -18,32 +18,32 @@
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.667,
-   "started": 1790132938,
-   "heartbeat": 1790132978,
-   "completed_today": 669,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "line 2: 7 syllables",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.393,
+   "started": 1790133847,
+   "heartbeat": 1790133881,
+   "completed_today": 680,
+   "last_result": "Counted 30,051 primes below 351,000; the biggest was 350,989.",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1790132977,
-   "heartbeat": 1790132978,
-   "completed_today": 1011,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "next: Count primes below a random N",
+   "state": "working",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.06,
+   "started": 1790133877,
+   "heartbeat": 1790133881,
+   "completed_today": 1023,
+   "last_result": "Counted 19,213 primes below 215,000; the biggest was 214,993.",
+   "note": "longest so far: 17647 (279 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2268,
-  "working": 1,
+  "completed_today": 2297,
+  "working": 2,
   "agents": 3
  }
 }
