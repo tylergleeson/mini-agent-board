@@ -1,17 +1,17 @@
 {
- "updated": 1790164670,
+ "updated": 1790165572,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.043,
-   "started": 1790164668,
-   "heartbeat": 1790164670,
-   "completed_today": 216,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), science (got 1, want 2).",
-   "note": "0 groups",
+   "state": "blocked",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": null,
+   "started": 1790165422,
+   "heartbeat": 1790165570,
+   "completed_today": 223,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -20,10 +20,10 @@
    "state": "blocked",
    "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790164639,
-   "heartbeat": 1790164670,
-   "completed_today": 246,
-   "last_result": "Counted 24,753 primes below 284,000; the biggest was 283,979.",
+   "started": 1790165541,
+   "heartbeat": 1790165570,
+   "completed_today": 252,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on create (got 1, want 2).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.096,
-   "started": 1790164665,
-   "heartbeat": 1790164670,
-   "completed_today": 346,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "25 distinct words",
+   "progress": 0.518,
+   "started": 1790165537,
+   "heartbeat": 1790165570,
+   "completed_today": 356,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "88 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 808,
-  "working": 2,
+  "completed_today": 831,
+  "working": 1,
   "agents": 3
  }
 }
