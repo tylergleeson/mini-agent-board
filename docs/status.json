@@ -1,17 +1,17 @@
 {
- "updated": 1790206261,
+ "updated": 1790207163,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1790206258,
-   "heartbeat": 1790206260,
-   "completed_today": 528,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.778,
+   "started": 1790207105,
+   "heartbeat": 1790207163,
+   "completed_today": 534,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 745 swaps.",
+   "note": "line 3: 'a cloud counts time' = 4",
    "stale": false
   },
   {
@@ -20,10 +20,10 @@
    "state": "blocked",
    "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790206252,
-   "heartbeat": 1790206260,
-   "completed_today": 567,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1790207132,
+   "heartbeat": 1790207163,
+   "completed_today": 572,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.298,
-   "started": 1790206244,
-   "heartbeat": 1790206260,
-   "completed_today": 854,
-   "last_result": "Counted 20,599 primes below 232,000; the biggest was 231,967.",
-   "note": "56 distinct words",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.025,
+   "started": 1790207162,
+   "heartbeat": 1790207163,
+   "completed_today": 867,
+   "last_result": "Counted 22,914 primes below 261,000; the biggest was 260,999.",
+   "note": "F(500) has 105 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1949,
-  "working": 1,
+  "completed_today": 1973,
+  "working": 2,
   "agents": 3
  }
 }
