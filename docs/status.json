@@ -1,17 +1,17 @@
 {
- "updated": 1790170082,
+ "updated": 1790170984,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1790170064,
-   "heartbeat": 1790170081,
-   "completed_today": 257,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 842 swaps.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Group anagrams in the word list",
+   "progress": 0.232,
+   "started": 1790170963,
+   "heartbeat": 1790170983,
+   "completed_today": 263,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 737 swaps.",
+   "note": "3 groups",
    "stale": false
   },
   {
@@ -20,11 +20,11 @@
    "state": "working",
    "task": "Re-run the syllable unit tests",
    "progress": 0.444,
-   "started": 1790170056,
-   "heartbeat": 1790170081,
-   "completed_today": 282,
-   "last_result": "Counted 25,463 primes below 293,000; the biggest was 292,993.",
-   "note": "test_scout: ok",
+   "started": 1790170958,
+   "heartbeat": 1790170983,
+   "completed_today": 290,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "test_python: ok",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.675,
-   "started": 1790170024,
-   "heartbeat": 1790170081,
-   "completed_today": 416,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "F(13500) has 2821 digits",
+   "progress": 0.625,
+   "started": 1790170945,
+   "heartbeat": 1790170983,
+   "completed_today": 428,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "F(12500) has 2612 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 955,
-  "working": 2,
+  "completed_today": 981,
+  "working": 3,
   "agents": 3
  }
 }
