@@ -1,49 +1,49 @@
 {
- "updated": 1790196340,
+ "updated": 1790197242,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.275,
-   "started": 1790196324,
-   "heartbeat": 1790196338,
-   "completed_today": 449,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 796 swaps.",
-   "note": "F(8250) has 1724 digits",
+   "progress": 0.1,
+   "started": 1790197236,
+   "heartbeat": 1790197241,
+   "completed_today": 457,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “sleepless laptop dreams / one cron jobs run through the night / refactor by dusk”",
+   "note": "F(3000) has 627 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1790196333,
-   "heartbeat": 1790196338,
-   "completed_today": 486,
-   "last_result": "Counted 22,914 primes below 261,000; the biggest was 260,999.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.667,
+   "started": 1790197205,
+   "heartbeat": 1790197241,
+   "completed_today": 494,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "9,990 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.279,
-   "started": 1790196322,
-   "heartbeat": 1790196338,
-   "completed_today": 734,
-   "last_result": "Counted 14,272 primes below 155,000; the biggest was 154,991.",
-   "note": "52 distinct words",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.125,
+   "started": 1790197236,
+   "heartbeat": 1790197241,
+   "completed_today": 746,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "F(3750) has 784 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1669,
-  "working": 2,
+  "completed_today": 1697,
+  "working": 3,
   "agents": 3
  }
 }
