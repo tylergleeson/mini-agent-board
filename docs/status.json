@@ -1,49 +1,49 @@
 {
- "updated": 1790249556,
+ "updated": 1790250458,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.833,
-   "started": 1790249493,
-   "heartbeat": 1790249554,
-   "completed_today": 214,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels wakes slowly / thirty minutes of waiting / the board keeps working”",
-   "note": "line 3: 'and a screen looks busy' = 6",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.175,
+   "started": 1790250443,
+   "heartbeat": 1790250457,
+   "completed_today": 219,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "F(3500) has 732 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
+   "state": "working",
    "task": "Review Builder's haiku",
-   "progress": null,
-   "started": 1790249457,
-   "heartbeat": 1790249554,
-   "completed_today": 230,
-   "last_result": "Counted 23,150 primes below 264,000; the biggest was 263,983.",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.333,
+   "started": 1790250446,
+   "heartbeat": 1790250457,
+   "completed_today": 232,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on create (got 1, want 2).",
+   "note": "line 1: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.14,
-   "started": 1790249548,
-   "heartbeat": 1790249554,
-   "completed_today": 328,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "π ≈ 3.1400",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.12,
+   "started": 1790250453,
+   "heartbeat": 1790250457,
+   "completed_today": 339,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "longest so far: 35655 (324 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 772,
-  "working": 2,
+  "completed_today": 790,
+  "working": 3,
   "agents": 3
  }
 }
