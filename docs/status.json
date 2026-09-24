@@ -1,5 +1,5 @@
 {
- "updated": 1790261290,
+ "updated": 1790262193,
  "agents": [
   {
    "agent": "builder",
@@ -7,43 +7,43 @@
    "state": "blocked",
    "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1790261229,
-   "heartbeat": 1790261288,
-   "completed_today": 300,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “quiet mac mini sleeps / a cron jobs run past the dark / refactor at dusk”",
+   "started": 1790262090,
+   "heartbeat": 1790262192,
+   "completed_today": 306,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent kernel sleeps / the cron jobs pass in the dark / refactor at noon”",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
+   "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1790261242,
-   "heartbeat": 1790261288,
-   "completed_today": 324,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.321,
+   "started": 1790262170,
+   "heartbeat": 1790262192,
+   "completed_today": 330,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), idea (got 2, want 3).",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
+   "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 1.0,
-   "started": 1790261289,
-   "heartbeat": 1790261289,
-   "completed_today": 465,
+   "progress": null,
+   "started": 1790262175,
+   "heartbeat": 1790262192,
+   "completed_today": 474,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1089,
-  "working": 0,
+  "completed_today": 1110,
+  "working": 1,
   "agents": 3
  }
 }
