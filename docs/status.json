@@ -1,5 +1,5 @@
 {
- "updated": 1790230614,
+ "updated": 1790231516,
  "agents": [
   {
    "agent": "builder",
@@ -7,11 +7,11 @@
    "state": "blocked",
    "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1790230587,
-   "heartbeat": 1790230612,
-   "completed_today": 67,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790231474,
+   "heartbeat": 1790231516,
+   "completed_today": 71,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
@@ -20,29 +20,29 @@
    "state": "working",
    "task": "Review Builder's haiku",
    "progress": 0.667,
-   "started": 1790230583,
-   "heartbeat": 1790230612,
-   "completed_today": 69,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1790231471,
+   "heartbeat": 1790231516,
+   "completed_today": 74,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), science (got 1, want 2).",
    "note": "line 2: 7 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Count primes below a random N",
-   "progress": 1.0,
-   "started": 1790230613,
-   "heartbeat": 1790230613,
-   "completed_today": 97,
-   "last_result": "Counted 26,165 primes below 302,000; the biggest was 301,999.",
-   "note": "",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1790231430,
+   "heartbeat": 1790231516,
+   "completed_today": 107,
+   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1426.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 233,
+  "completed_today": 252,
   "working": 1,
   "agents": 3
  }
