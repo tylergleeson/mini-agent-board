@@ -1,49 +1,49 @@
 {
- "updated": 1790286647,
+ "updated": 1790287549,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "error",
    "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1790286478,
-   "heartbeat": 1790286646,
-   "completed_today": 479,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 809 swaps.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790287544,
+   "heartbeat": 1790287547,
+   "completed_today": 485,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on science (got 1, want 2), area (got 2, want 3).",
+   "note": "needs a human",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "error",
-   "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1790286646,
-   "heartbeat": 1790286646,
-   "completed_today": 524,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on area (got 2, want 3), create (got 1, want 2), science (got 1, want 2).",
-   "note": "needs a human",
+   "state": "working",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.096,
+   "started": 1790287541,
+   "heartbeat": 1790287547,
+   "completed_today": 532,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "25 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1790286571,
-   "heartbeat": 1790286646,
-   "completed_today": 759,
+   "state": "working",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.48,
+   "started": 1790287506,
+   "heartbeat": 1790287547,
+   "completed_today": 770,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Critic to release the workbench",
+   "note": "longest so far: 77031 (351 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1762,
-  "working": 0,
+  "completed_today": 1787,
+  "working": 2,
   "agents": 3
  }
 }
