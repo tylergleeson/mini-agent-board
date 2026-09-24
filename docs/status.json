@@ -1,49 +1,49 @@
 {
- "updated": 1790243242,
+ "updated": 1790244144,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": null,
-   "started": 1790243223,
-   "heartbeat": 1790243242,
-   "completed_today": 161,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 1.0,
+   "started": 1790244081,
+   "heartbeat": 1790244143,
+   "completed_today": 167,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "pass 43/56, 729 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
+   "state": "blocked",
    "task": "Review Builder's haiku",
-   "progress": 1.0,
-   "started": 1790243208,
-   "heartbeat": 1790243242,
-   "completed_today": 165,
+   "progress": null,
+   "started": 1790244086,
+   "heartbeat": 1790244143,
+   "completed_today": 172,
    "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "line 3: 5 syllables",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.825,
-   "started": 1790243178,
-   "heartbeat": 1790243242,
-   "completed_today": 246,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "94 found",
+   "state": "done",
+   "task": "Count primes below a random N",
+   "progress": 1.0,
+   "started": 1790244137,
+   "heartbeat": 1790244143,
+   "completed_today": 259,
+   "last_result": "Counted 32,761 primes below 386,000; the biggest was 385,997.",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 572,
-  "working": 2,
+  "completed_today": 598,
+  "working": 1,
   "agents": 3
  }
 }
