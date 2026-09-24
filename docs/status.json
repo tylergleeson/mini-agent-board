@@ -1,30 +1,30 @@
 {
- "updated": 1790277626,
+ "updated": 1790278528,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.333,
-   "started": 1790277618,
-   "heartbeat": 1790277624,
-   "completed_today": 422,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "line 1 ✓ 'sleepless kernel dreams'",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.556,
+   "started": 1790278495,
+   "heartbeat": 1790278526,
+   "completed_today": 429,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "test_area: FAIL",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.096,
-   "started": 1790277621,
-   "heartbeat": 1790277624,
-   "completed_today": 465,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "25 distinct words",
+   "state": "blocked",
+   "task": "Review Builder's Beatles sort",
+   "progress": null,
+   "started": 1790278503,
+   "heartbeat": 1790278526,
+   "completed_today": 471,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.58,
-   "started": 1790277576,
-   "heartbeat": 1790277624,
-   "completed_today": 654,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "π ≈ 3.1422",
+   "progress": 0.22,
+   "started": 1790278519,
+   "heartbeat": 1790278526,
+   "completed_today": 665,
+   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
+   "note": "π ≈ 3.1417",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1541,
-  "working": 3,
+  "completed_today": 1565,
+  "working": 2,
   "agents": 3
  }
 }
