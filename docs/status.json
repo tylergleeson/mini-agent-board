@@ -1,30 +1,30 @@
 {
- "updated": 1790284843,
+ "updated": 1790285745,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.667,
-   "started": 1790284803,
-   "heartbeat": 1790284842,
-   "completed_today": 471,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), science (got 1, want 2).",
-   "note": "line 2 ✓ 'no one wanted for any data'",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1790285678,
+   "heartbeat": 1790285744,
+   "completed_today": 475,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 639 swaps.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's haiku",
-   "progress": null,
-   "started": 1790284811,
-   "heartbeat": 1790284842,
-   "completed_today": 514,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.333,
+   "started": 1790285727,
+   "heartbeat": 1790285744,
+   "completed_today": 515,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
+   "note": "test_yellow: ok",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Hunt palindromic primes",
-   "progress": 0.3,
-   "started": 1790284822,
-   "heartbeat": 1790284842,
-   "completed_today": 739,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "94 found",
+   "progress": 0.4,
+   "started": 1790285730,
+   "heartbeat": 1790285744,
+   "completed_today": 749,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "113 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1724,
+  "completed_today": 1739,
   "working": 2,
   "agents": 3
  }
