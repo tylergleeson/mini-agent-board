@@ -1,49 +1,49 @@
 {
- "updated": 1790235124,
+ "updated": 1790236026,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Refactor a haiku to 5-7-5",
    "progress": 1.0,
-   "started": 1790235042,
-   "heartbeat": 1790235123,
-   "completed_today": 98,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display wakes once / twenty minutes of silence / one cloud keeps working”",
-   "note": "pass 47/56, 774 swaps",
+   "started": 1790235981,
+   "heartbeat": 1790236024,
+   "completed_today": 107,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels stirs at last / thirty minutes of silence / the cloud counts working”",
+   "note": "line 3 ✓ 'deploy near sunrise'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.283,
-   "started": 1790235108,
-   "heartbeat": 1790235123,
-   "completed_today": 104,
-   "last_result": "Counted 24,604 primes below 282,000; the biggest was 281,993.",
-   "note": "7,273 primes so far",
+   "state": "blocked",
+   "task": "Re-run the syllable unit tests",
+   "progress": null,
+   "started": 1790235985,
+   "heartbeat": 1790236024,
+   "completed_today": 111,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.35,
-   "started": 1790235106,
-   "heartbeat": 1790235123,
-   "completed_today": 145,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "58 found",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.08,
+   "started": 1790236019,
+   "heartbeat": 1790236024,
+   "completed_today": 155,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "π ≈ 3.1478",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 347,
-  "working": 3,
+  "completed_today": 373,
+  "working": 2,
   "agents": 3
  }
 }
