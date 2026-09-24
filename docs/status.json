@@ -1,30 +1,30 @@
 {
- "updated": 1790283039,
+ "updated": 1790283941,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.15,
-   "started": 1790283026,
-   "heartbeat": 1790283038,
-   "completed_today": 457,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “e-paper blinks once / twenty minutes for stillness / the cloud counts working”",
-   "note": "F(4500) has 941 digits",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 1.0,
+   "started": 1790283881,
+   "heartbeat": 1790283941,
+   "completed_today": 464,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "line 3 ✓ 'refactor near noon'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.317,
-   "started": 1790283016,
-   "heartbeat": 1790283038,
-   "completed_today": 499,
-   "last_result": "Counted 26,237 primes below 303,000; the biggest was 302,999.",
-   "note": "7,903 primes so far",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1790283939,
+   "heartbeat": 1790283941,
+   "completed_today": 505,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "next: Count primes below a random N",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.483,
-   "started": 1790282999,
-   "heartbeat": 1790283038,
-   "completed_today": 716,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "8,450 primes so far",
+   "progress": 0.767,
+   "started": 1790283908,
+   "heartbeat": 1790283941,
+   "completed_today": 726,
+   "last_result": "Counted 28,484 primes below 331,000; the biggest was 330,997.",
+   "note": "11,865 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1672,
-  "working": 3,
+  "completed_today": 1695,
+  "working": 2,
   "agents": 3
  }
 }
