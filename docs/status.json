@@ -1,29 +1,29 @@
 {
- "updated": 1790240536,
+ "updated": 1790241438,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": 0.667,
-   "started": 1790240482,
-   "heartbeat": 1790240535,
-   "completed_today": 137,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), poem (got 1, want 2).",
-   "note": "test_beatles: ok",
+   "progress": 1.0,
+   "started": 1790241379,
+   "heartbeat": 1790241437,
+   "completed_today": 143,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "test_every: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Re-run the syllable unit tests",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790240486,
-   "heartbeat": 1790240535,
-   "completed_today": 145,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1790241290,
+   "heartbeat": 1790241437,
+   "completed_today": 147,
+   "last_result": "Ran 9 syllable-counter tests; 3 failed on area (got 2, want 3), science (got 1, want 2), poem (got 1, want 2).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,18 +31,18 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.86,
-   "started": 1790240460,
-   "heartbeat": 1790240535,
-   "completed_today": 208,
-   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1425.",
-   "note": "longest so far: 410011 (449 steps)",
+   "task": "Count primes below a random N",
+   "progress": 0.983,
+   "started": 1790241381,
+   "heartbeat": 1790241437,
+   "completed_today": 220,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "29,133 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 490,
+  "completed_today": 510,
   "working": 2,
   "agents": 3
  }
