@@ -1,17 +1,17 @@
 {
- "updated": 1790263095,
+ "updated": 1790263998,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.357,
-   "started": 1790263076,
-   "heartbeat": 1790263093,
-   "completed_today": 313,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "pass 20/56, 539 swaps",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1790263995,
+   "heartbeat": 1790263997,
+   "completed_today": 320,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -19,30 +19,30 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.433,
-   "started": 1790263077,
-   "heartbeat": 1790263093,
-   "completed_today": 340,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), area (got 2, want 3).",
-   "note": "15,316 primes so far",
+   "progress": 0.033,
+   "started": 1790263995,
+   "heartbeat": 1790263997,
+   "completed_today": 347,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "1,208 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 1.0,
-   "started": 1790263091,
-   "heartbeat": 1790263093,
-   "completed_today": 486,
-   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1393.",
-   "note": "",
+   "state": "working",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.096,
+   "started": 1790263991,
+   "heartbeat": 1790263997,
+   "completed_today": 496,
+   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
+   "note": "25 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1139,
+  "completed_today": 1163,
   "working": 2,
   "agents": 3
  }
