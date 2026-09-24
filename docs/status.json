@@ -1,17 +1,17 @@
 {
- "updated": 1790222496,
+ "updated": 1790223398,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.406,
-   "started": 1790222462,
-   "heartbeat": 1790222496,
-   "completed_today": 1,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "8 groups",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.55,
+   "started": 1790223375,
+   "heartbeat": 1790223396,
+   "completed_today": 7,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 944 swaps.",
+   "note": "F(11000) has 2299 digits",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.786,
-   "started": 1790222430,
-   "heartbeat": 1790222496,
-   "completed_today": 1,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "progress": 0.5,
+   "started": 1790223370,
+   "heartbeat": 1790223396,
+   "completed_today": 9,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.8,
-   "started": 1790222455,
-   "heartbeat": 1790222496,
-   "completed_today": 1,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1411.",
-   "note": "longest so far: 156159 (383 steps)",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1790223267,
+   "heartbeat": 1790223396,
+   "completed_today": 10,
+   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 3,
-  "working": 3,
+  "completed_today": 26,
+  "working": 2,
   "agents": 3
  }
 }
