@@ -1,49 +1,49 @@
 {
- "updated": 1790260386,
+ "updated": 1790261290,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "blocked",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.789,
-   "started": 1790260356,
-   "heartbeat": 1790260385,
-   "completed_today": 295,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 727 swaps.",
-   "note": "line 3: 'and a screen looks happy' = 6",
+   "progress": null,
+   "started": 1790261229,
+   "heartbeat": 1790261288,
+   "completed_today": 300,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “quiet mac mini sleeps / a cron jobs run past the dark / refactor at dusk”",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.317,
-   "started": 1790260360,
-   "heartbeat": 1790260385,
-   "completed_today": 317,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "11,353 primes so far",
+   "state": "blocked",
+   "task": "Review Builder's Beatles sort",
+   "progress": null,
+   "started": 1790261242,
+   "heartbeat": 1790261288,
+   "completed_today": 324,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
+   "state": "done",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1790260223,
-   "heartbeat": 1790260385,
-   "completed_today": 458,
+   "progress": 1.0,
+   "started": 1790261289,
+   "heartbeat": 1790261289,
+   "completed_today": 465,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Critic to release the workbench",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1070,
-  "working": 2,
+  "completed_today": 1089,
+  "working": 0,
   "agents": 3
  }
 }
