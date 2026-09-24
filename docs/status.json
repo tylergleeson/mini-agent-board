@@ -1,5 +1,5 @@
 {
- "updated": 1790258582,
+ "updated": 1790259484,
  "agents": [
   {
    "agent": "builder",
@@ -7,43 +7,43 @@
    "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
    "progress": null,
-   "started": 1790258453,
-   "heartbeat": 1790258582,
-   "completed_today": 278,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), idea (got 2, want 3).",
+   "started": 1790259445,
+   "heartbeat": 1790259483,
+   "completed_today": 285,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "done",
-   "task": "Count primes below a random N",
+   "state": "working",
+   "task": "Review Builder's haiku",
    "progress": 1.0,
-   "started": 1790258577,
-   "heartbeat": 1790258582,
-   "completed_today": 301,
-   "last_result": "Counted 14,111 primes below 153,000; the biggest was 152,993.",
-   "note": "",
+   "started": 1790259442,
+   "heartbeat": 1790259483,
+   "completed_today": 308,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "line 3: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.923,
-   "started": 1790258539,
-   "heartbeat": 1790258582,
-   "completed_today": 438,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "131 distinct words",
+   "task": "Hunt palindromic primes",
+   "progress": 0.375,
+   "started": 1790259456,
+   "heartbeat": 1790259483,
+   "completed_today": 449,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "65 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1017,
-  "working": 1,
+  "completed_today": 1042,
+  "working": 2,
   "agents": 3
  }
 }
