@@ -1,30 +1,30 @@
 {
- "updated": 1790288451,
+ "updated": 1790289353,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.111,
-   "started": 1790288448,
-   "heartbeat": 1790288450,
-   "completed_today": 489,
+   "task": "Group anagrams in the word list",
+   "progress": 0.0,
+   "started": 1790289353,
+   "heartbeat": 1790289353,
+   "completed_today": 498,
    "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "test_hour: ok",
+   "note": "",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.647,
-   "started": 1790288398,
-   "heartbeat": 1790288450,
-   "completed_today": 536,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "104 distinct words",
+   "task": "Review Builder's haiku",
+   "progress": 0.333,
+   "started": 1790289334,
+   "heartbeat": 1790289351,
+   "completed_today": 545,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "line 1: 5 syllables",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.1,
-   "started": 1790288446,
-   "heartbeat": 1790288450,
-   "completed_today": 782,
-   "last_result": "Counted 24,121 primes below 276,000; the biggest was 275,999.",
-   "note": "3,498 primes so far",
+   "progress": 0.2,
+   "started": 1790289340,
+   "heartbeat": 1790289351,
+   "completed_today": 795,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "4,270 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1807,
+  "completed_today": 1838,
   "working": 3,
   "agents": 3
  }
