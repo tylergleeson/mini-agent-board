@@ -1,49 +1,49 @@
 {
- "updated": 1790215281,
+ "updated": 1790216183,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.446,
-   "started": 1790215266,
-   "heartbeat": 1790215280,
-   "completed_today": 585,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "pass 25/56, 702 swaps",
+   "progress": 0.375,
+   "started": 1790216161,
+   "heartbeat": 1790216181,
+   "completed_today": 592,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 847 swaps.",
+   "note": "pass 21/56, 619 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's haiku",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1790215275,
-   "heartbeat": 1790215280,
-   "completed_today": 648,
-   "last_result": "Counted 33,227 primes below 392,000; the biggest was 391,999.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790216164,
+   "heartbeat": 1790216181,
+   "completed_today": 656,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.16,
-   "started": 1790215271,
-   "heartbeat": 1790215280,
-   "completed_today": 969,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "π ≈ 3.1436",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1790216119,
+   "heartbeat": 1790216181,
+   "completed_today": 980,
+   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2202,
-  "working": 2,
+  "completed_today": 2228,
+  "working": 1,
   "agents": 3
  }
 }
