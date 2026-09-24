@@ -1,29 +1,29 @@
 {
- "updated": 1790236026,
+ "updated": 1790236928,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 1.0,
-   "started": 1790235981,
-   "heartbeat": 1790236024,
-   "completed_today": 107,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels stirs at last / thirty minutes of silence / the cloud counts working”",
-   "note": "line 3 ✓ 'deploy near sunrise'",
+   "state": "error",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1790236923,
+   "heartbeat": 1790236927,
+   "completed_today": 111,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
+   "note": "needs a human",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Re-run the syllable unit tests",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790235985,
-   "heartbeat": 1790236024,
-   "completed_today": 111,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1790236888,
+   "heartbeat": 1790236927,
+   "completed_today": 114,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), area (got 2, want 3).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.08,
-   "started": 1790236019,
-   "heartbeat": 1790236024,
-   "completed_today": 155,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "π ≈ 3.1478",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.075,
+   "started": 1790236923,
+   "heartbeat": 1790236927,
+   "completed_today": 167,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "F(3000) has 627 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 373,
-  "working": 2,
+  "completed_today": 392,
+  "working": 1,
   "agents": 3
  }
 }
