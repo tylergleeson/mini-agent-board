@@ -1,17 +1,17 @@
 {
- "updated": 1790282137,
+ "updated": 1790283039,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.778,
-   "started": 1790282081,
-   "heartbeat": 1790282135,
-   "completed_today": 454,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 639 swaps.",
-   "note": "test_fire: ok",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.15,
+   "started": 1790283026,
+   "heartbeat": 1790283038,
+   "completed_today": 457,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “e-paper blinks once / twenty minutes for stillness / the cloud counts working”",
+   "note": "F(4500) has 941 digits",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.583,
-   "started": 1790282086,
-   "heartbeat": 1790282135,
-   "completed_today": 494,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "13,057 primes so far",
+   "progress": 0.317,
+   "started": 1790283016,
+   "heartbeat": 1790283038,
+   "completed_today": 499,
+   "last_result": "Counted 26,237 primes below 303,000; the biggest was 302,999.",
+   "note": "7,903 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1790282104,
-   "heartbeat": 1790282135,
-   "completed_today": 704,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "waiting for Builder to release the workbench",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.483,
+   "started": 1790282999,
+   "heartbeat": 1790283038,
+   "completed_today": 716,
+   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
+   "note": "8,450 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1652,
-  "working": 2,
+  "completed_today": 1672,
+  "working": 3,
   "agents": 3
  }
 }
