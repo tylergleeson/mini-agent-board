@@ -1,17 +1,17 @@
 {
- "updated": 1790244144,
+ "updated": 1790245046,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 1.0,
-   "started": 1790244081,
-   "heartbeat": 1790244143,
-   "completed_today": 167,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "pass 43/56, 729 swaps",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.667,
+   "started": 1790245001,
+   "heartbeat": 1790245045,
+   "completed_today": 174,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "line 2 ✓ 'thirty minutes in silence'",
    "stale": false
   },
   {
@@ -20,30 +20,30 @@
    "state": "blocked",
    "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790244086,
-   "heartbeat": 1790244143,
-   "completed_today": 172,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "started": 1790245008,
+   "heartbeat": 1790245045,
+   "completed_today": 181,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Count primes below a random N",
-   "progress": 1.0,
-   "started": 1790244137,
-   "heartbeat": 1790244143,
-   "completed_today": 259,
-   "last_result": "Counted 32,761 primes below 386,000; the biggest was 385,997.",
-   "note": "",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.475,
+   "started": 1790245007,
+   "heartbeat": 1790245045,
+   "completed_today": 271,
+   "last_result": "Counted 20,349 primes below 229,000; the biggest was 228,989.",
+   "note": "F(19000) has 3971 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 598,
-  "working": 1,
+  "completed_today": 626,
+  "working": 2,
   "agents": 3
  }
 }
