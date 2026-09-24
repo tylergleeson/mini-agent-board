@@ -1,49 +1,49 @@
 {
- "updated": 1790221594,
+ "updated": 1790222496,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1790221586,
-   "heartbeat": 1790221593,
-   "completed_today": 638,
+   "state": "working",
+   "task": "Group anagrams in the word list",
+   "progress": 0.406,
+   "started": 1790222462,
+   "heartbeat": 1790222496,
+   "completed_today": 1,
    "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "next: Refactor a haiku to 5-7-5",
+   "note": "8 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.333,
-   "started": 1790221592,
-   "heartbeat": 1790221593,
-   "completed_today": 701,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "line 1: 5 syllables",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.786,
+   "started": 1790222430,
+   "heartbeat": 1790222496,
+   "completed_today": 1,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.625,
-   "started": 1790221556,
-   "heartbeat": 1790221593,
-   "completed_today": 1050,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "70 found",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.8,
+   "started": 1790222455,
+   "heartbeat": 1790222496,
+   "completed_today": 1,
+   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1411.",
+   "note": "longest so far: 156159 (383 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2389,
-  "working": 2,
+  "completed_today": 3,
+  "working": 3,
   "agents": 3
  }
 }
