@@ -1,30 +1,30 @@
 {
- "updated": 1790218888,
+ "updated": 1790219790,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1790218847,
-   "heartbeat": 1790218886,
-   "completed_today": 614,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 782 swaps.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "done",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 1.0,
+   "started": 1790219787,
+   "heartbeat": 1790219788,
+   "completed_today": 621,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “sleepless server dreams / one cron jobs fail past the dark / refactor near dusk”",
+   "note": "",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 1.0,
-   "started": 1790218839,
-   "heartbeat": 1790218886,
-   "completed_today": 679,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "line 3: 5 syllables",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1790219785,
+   "heartbeat": 1790219788,
+   "completed_today": 688,
+   "last_result": "Counted 24,432 primes below 280,000; the biggest was 279,991.",
+   "note": "next: Count primes below a random N",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.9,
-   "started": 1790218834,
-   "heartbeat": 1790218886,
-   "completed_today": 1016,
-   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1413.",
-   "note": "15,883 primes so far",
+   "progress": 0.383,
+   "started": 1790219757,
+   "heartbeat": 1790219788,
+   "completed_today": 1029,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "7,879 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2309,
-  "working": 2,
+  "completed_today": 2338,
+  "working": 1,
   "agents": 3
  }
 }
