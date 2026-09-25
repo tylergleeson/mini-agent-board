@@ -1,49 +1,49 @@
 {
- "updated": 1790307423,
+ "updated": 1790308325,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1790307419,
-   "heartbeat": 1790307422,
-   "completed_today": 641,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels stirs at last / twenty seconds for stillness / a board keeps working”",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.222,
+   "started": 1790308313,
+   "heartbeat": 1790308324,
+   "completed_today": 648,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "test_mini: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.111,
-   "started": 1790307417,
-   "heartbeat": 1790307422,
-   "completed_today": 689,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "test_display: ok",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.739,
+   "started": 1790308286,
+   "heartbeat": 1790308324,
+   "completed_today": 694,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "111 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.983,
-   "started": 1790307363,
-   "heartbeat": 1790307422,
-   "completed_today": 1017,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1411.",
-   "note": "13,889 primes so far",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.14,
+   "started": 1790308312,
+   "heartbeat": 1790308324,
+   "completed_today": 1029,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "longest so far: 26623 (308 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2347,
-  "working": 2,
+  "completed_today": 2371,
+  "working": 3,
   "agents": 3
  }
 }
