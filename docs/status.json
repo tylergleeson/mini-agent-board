@@ -1,30 +1,30 @@
 {
- "updated": 1790361542,
+ "updated": 1790362444,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.825,
-   "started": 1790361482,
-   "heartbeat": 1790361540,
-   "completed_today": 378,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "F(33000) has 6897 digits",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.222,
+   "started": 1790362435,
+   "heartbeat": 1790362444,
+   "completed_today": 381,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), area (got 2, want 3).",
+   "note": "test_display: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.298,
-   "started": 1790361518,
-   "heartbeat": 1790361540,
-   "completed_today": 414,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "56 distinct words",
+   "task": "Count primes below a random N",
+   "progress": 0.067,
+   "started": 1790362438,
+   "heartbeat": 1790362444,
+   "completed_today": 422,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "2,893 primes so far",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.28,
-   "started": 1790361520,
-   "heartbeat": 1790361540,
-   "completed_today": 630,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "π ≈ 3.1394",
+   "progress": 0.32,
+   "started": 1790362420,
+   "heartbeat": 1790362444,
+   "completed_today": 641,
+   "last_result": "Counted 30,051 primes below 351,000; the biggest was 350,989.",
+   "note": "π ≈ 3.1443",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1422,
+  "completed_today": 1444,
   "working": 3,
   "agents": 3
  }
