@@ -1,17 +1,17 @@
 {
- "updated": 1790294765,
+ "updated": 1790295667,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.29,
-   "started": 1790294741,
-   "heartbeat": 1790294765,
-   "completed_today": 547,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 749 swaps.",
-   "note": "4 groups",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.556,
+   "started": 1790295627,
+   "heartbeat": 1790295667,
+   "completed_today": 554,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 755 swaps.",
+   "note": "test_board: ok",
    "stale": false
   },
   {
@@ -20,10 +20,10 @@
    "state": "blocked",
    "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1790294743,
-   "heartbeat": 1790294765,
-   "completed_today": 596,
-   "last_result": "Counted 20,521 primes below 231,000; the biggest was 230,999.",
+   "started": 1790295585,
+   "heartbeat": 1790295667,
+   "completed_today": 601,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), poem (got 1, want 2).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,18 +31,18 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.702,
-   "started": 1790294737,
-   "heartbeat": 1790294765,
-   "completed_today": 863,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "111 distinct words",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.5,
+   "started": 1790295630,
+   "heartbeat": 1790295667,
+   "completed_today": 874,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "F(20000) has 4180 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2006,
+  "completed_today": 2029,
   "working": 2,
   "agents": 3
  }
