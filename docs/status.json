@@ -1,30 +1,30 @@
 {
- "updated": 1790317344,
+ "updated": 1790318246,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.464,
-   "started": 1790317322,
-   "heartbeat": 1790317342,
-   "completed_today": 55,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "8 groups",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1790318150,
+   "heartbeat": 1790318245,
+   "completed_today": 62,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.222,
-   "started": 1790317332,
-   "heartbeat": 1790317342,
-   "completed_today": 55,
-   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
-   "note": "test_commit: ok",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.196,
+   "started": 1790318236,
+   "heartbeat": 1790318245,
+   "completed_today": 58,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "0 inversions",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.15,
-   "started": 1790317336,
-   "heartbeat": 1790317342,
-   "completed_today": 97,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "F(4500) has 941 digits",
+   "progress": 0.05,
+   "started": 1790318241,
+   "heartbeat": 1790318245,
+   "completed_today": 104,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "F(2000) has 418 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 207,
-  "working": 3,
+  "completed_today": 224,
+  "working": 2,
   "agents": 3
  }
 }
