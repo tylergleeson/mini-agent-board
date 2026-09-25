@@ -1,30 +1,30 @@
 {
- "updated": 1790301981,
+ "updated": 1790302883,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.971,
-   "started": 1790301916,
-   "heartbeat": 1790301981,
-   "completed_today": 604,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "17 groups",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.35,
+   "started": 1790302861,
+   "heartbeat": 1790302881,
+   "completed_today": 613,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "F(10500) has 2195 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.978,
-   "started": 1790301895,
-   "heartbeat": 1790301981,
-   "completed_today": 646,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "136 distinct words",
+   "task": "Count primes below a random N",
+   "progress": 0.05,
+   "started": 1790302878,
+   "heartbeat": 1790302881,
+   "completed_today": 653,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "1,310 primes so far",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.996,
-   "started": 1790301908,
-   "heartbeat": 1790301981,
-   "completed_today": 950,
-   "last_result": "Counted 32,217 primes below 379,000; the biggest was 378,997.",
-   "note": "137 distinct words",
+   "progress": 0.096,
+   "started": 1790302877,
+   "heartbeat": 1790302881,
+   "completed_today": 963,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "25 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2200,
+  "completed_today": 2229,
   "working": 3,
   "agents": 3
  }
