@@ -1,49 +1,49 @@
 {
- "updated": 1790313736,
+ "updated": 1790314638,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.667,
-   "started": 1790313678,
-   "heartbeat": 1790313734,
-   "completed_today": 26,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
-   "note": "line 2 ✓ 'one cron jobs run through the dark'",
+   "progress": 0.333,
+   "started": 1790314633,
+   "heartbeat": 1790314636,
+   "completed_today": 31,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 700 swaps.",
+   "note": "line 1 ✓ 'e-paper stirs once'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Re-run the syllable unit tests",
+   "state": "idle",
+   "task": "",
    "progress": null,
-   "started": 1790313681,
-   "heartbeat": 1790313734,
-   "completed_today": 30,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790314633,
+   "heartbeat": 1790314636,
+   "completed_today": 33,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), poem (got 1, want 2).",
+   "note": "next: Review Builder's Beatles sort",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
+   "state": "done",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.56,
-   "started": 1790313706,
-   "heartbeat": 1790313734,
-   "completed_today": 54,
-   "last_result": "Counted 24,204 primes below 277,000; the biggest was 276,977.",
-   "note": "π ≈ 3.1441",
+   "progress": 1.0,
+   "started": 1790314633,
+   "heartbeat": 1790314636,
+   "completed_today": 65,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1404.",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 110,
-  "working": 2,
+  "completed_today": 129,
+  "working": 1,
   "agents": 3
  }
 }
