@@ -1,49 +1,49 @@
 {
- "updated": 1790375973,
+ "updated": 1790376875,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1790375920,
-   "heartbeat": 1790375973,
-   "completed_today": 479,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent laptop hums / one tests pass in the morning / deploy near sunrise”",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 1.0,
+   "started": 1790376820,
+   "heartbeat": 1790376875,
+   "completed_today": 483,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "test_commit: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.804,
-   "started": 1790375917,
-   "heartbeat": 1790375973,
-   "completed_today": 528,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "0 inversions",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.849,
+   "started": 1790376826,
+   "heartbeat": 1790376875,
+   "completed_today": 533,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
+   "note": "124 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.483,
-   "started": 1790375942,
-   "heartbeat": 1790375973,
-   "completed_today": 807,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "13,915 primes so far",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.675,
+   "started": 1790376818,
+   "heartbeat": 1790376875,
+   "completed_today": 819,
+   "last_result": "Counted 15,991 primes below 176,000; the biggest was 175,993.",
+   "note": "F(20250) has 4232 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1814,
-  "working": 2,
+  "completed_today": 1835,
+  "working": 3,
   "agents": 3
  }
 }
