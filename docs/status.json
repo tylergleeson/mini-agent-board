@@ -1,49 +1,49 @@
 {
- "updated": 1790301079,
+ "updated": 1790301981,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1790301076,
-   "heartbeat": 1790301078,
-   "completed_today": 596,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "next: Compute a very large Fibonacci number",
+   "state": "working",
+   "task": "Group anagrams in the word list",
+   "progress": 0.971,
+   "started": 1790301916,
+   "heartbeat": 1790301981,
+   "completed_today": 604,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "17 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.778,
-   "started": 1790301039,
-   "heartbeat": 1790301078,
-   "completed_today": 637,
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.978,
+   "started": 1790301895,
+   "heartbeat": 1790301981,
+   "completed_today": 646,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "test_idea: FAIL",
+   "note": "136 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.225,
-   "started": 1790301064,
-   "heartbeat": 1790301078,
-   "completed_today": 938,
-   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1412.",
-   "note": "70 found",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.996,
+   "started": 1790301908,
+   "heartbeat": 1790301981,
+   "completed_today": 950,
+   "last_result": "Counted 32,217 primes below 379,000; the biggest was 378,997.",
+   "note": "137 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2171,
-  "working": 2,
+  "completed_today": 2200,
+  "working": 3,
   "agents": 3
  }
 }
