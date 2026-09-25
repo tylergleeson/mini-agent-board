@@ -1,49 +1,49 @@
 {
- "updated": 1790375071,
+ "updated": 1790375973,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
+   "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1790375039,
-   "heartbeat": 1790375070,
-   "completed_today": 473,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "started": 1790375920,
+   "heartbeat": 1790375973,
+   "completed_today": 479,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent laptop hums / one tests pass in the morning / deploy near sunrise”",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's haiku",
-   "progress": null,
-   "started": 1790375027,
-   "heartbeat": 1790375070,
-   "completed_today": 521,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.804,
+   "started": 1790375917,
+   "heartbeat": 1790375973,
+   "completed_today": 528,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.739,
-   "started": 1790375023,
-   "heartbeat": 1790375070,
-   "completed_today": 797,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "111 distinct words",
+   "task": "Count primes below a random N",
+   "progress": 0.483,
+   "started": 1790375942,
+   "heartbeat": 1790375973,
+   "completed_today": 807,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "13,915 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1791,
-  "working": 1,
+  "completed_today": 1814,
+  "working": 2,
   "agents": 3
  }
 }
