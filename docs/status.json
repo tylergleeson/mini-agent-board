@@ -1,17 +1,17 @@
 {
- "updated": 1790366954,
+ "updated": 1790367856,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "error",
+   "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1790366951,
-   "heartbeat": 1790366952,
-   "completed_today": 413,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), create (got 1, want 2).",
-   "note": "needs a human",
+   "progress": 0.333,
+   "started": 1790367832,
+   "heartbeat": 1790367855,
+   "completed_today": 417,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 813 swaps.",
+   "note": "test_paper: ok",
    "stale": false
   },
   {
@@ -20,30 +20,30 @@
    "state": "blocked",
    "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1790366933,
-   "heartbeat": 1790366952,
-   "completed_today": 460,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "started": 1790367838,
+   "heartbeat": 1790367855,
+   "completed_today": 465,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on science (got 1, want 2), idea (got 2, want 3).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Count primes below a random N",
-   "progress": 1.0,
-   "started": 1790366949,
-   "heartbeat": 1790366952,
-   "completed_today": 697,
-   "last_result": "Counted 17,658 primes below 196,000; the biggest was 195,997.",
-   "note": "",
+   "state": "working",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.76,
+   "started": 1790367805,
+   "heartbeat": 1790367855,
+   "completed_today": 709,
+   "last_result": "Counted 28,873 primes below 336,000; the biggest was 335,999.",
+   "note": "π ≈ 3.1442",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1570,
-  "working": 0,
+  "completed_today": 1591,
+  "working": 2,
   "agents": 3
  }
 }
