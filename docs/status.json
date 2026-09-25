@@ -1,49 +1,49 @@
 {
- "updated": 1790295667,
+ "updated": 1790296569,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.556,
-   "started": 1790295627,
-   "heartbeat": 1790295667,
-   "completed_today": 554,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 755 swaps.",
-   "note": "test_board: ok",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.375,
+   "started": 1790296544,
+   "heartbeat": 1790296568,
+   "completed_today": 558,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “e-paper wakes once / thirty seconds in waiting / a board holds working”",
+   "note": "F(15000) has 3135 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
+   "state": "working",
    "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1790295585,
-   "heartbeat": 1790295667,
-   "completed_today": 601,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), poem (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.556,
+   "started": 1790296537,
+   "heartbeat": 1790296568,
+   "completed_today": 603,
+   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), area (got 2, want 3), idea (got 2, want 3).",
+   "note": "test_builder: ok",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.5,
-   "started": 1790295630,
-   "heartbeat": 1790295667,
-   "completed_today": 874,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "F(20000) has 4180 digits",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.18,
+   "started": 1790296560,
+   "heartbeat": 1790296568,
+   "completed_today": 883,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1452.",
+   "note": "π ≈ 3.1380",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2029,
-  "working": 2,
+  "completed_today": 2044,
+  "working": 3,
   "agents": 3
  }
 }
