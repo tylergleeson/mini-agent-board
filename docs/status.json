@@ -1,30 +1,30 @@
 {
- "updated": 1790358836,
+ "updated": 1790359738,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.667,
-   "started": 1790358809,
-   "heartbeat": 1790358835,
-   "completed_today": 363,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 716 swaps.",
-   "note": "line 2 ✓ 'fifteen minutes of patience'",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1790359728,
+   "heartbeat": 1790359737,
+   "completed_today": 370,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's haiku",
-   "progress": null,
-   "started": 1790358725,
-   "heartbeat": 1790358835,
-   "completed_today": 390,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.222,
+   "started": 1790359721,
+   "heartbeat": 1790359737,
+   "completed_today": 398,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "test_prime: ok",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Find the longest Collatz chain",
-   "progress": 0.26,
-   "started": 1790358817,
-   "heartbeat": 1790358835,
-   "completed_today": 598,
+   "progress": 0.92,
+   "started": 1790359656,
+   "heartbeat": 1790359737,
+   "completed_today": 610,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "longest so far: 106239 (354 steps)",
+   "note": "longest so far: 156159 (383 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1351,
+  "completed_today": 1378,
   "working": 2,
   "agents": 3
  }
