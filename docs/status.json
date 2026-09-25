@@ -1,29 +1,29 @@
 {
- "updated": 1790363346,
+ "updated": 1790364248,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": null,
-   "started": 1790363332,
-   "heartbeat": 1790363345,
-   "completed_today": 386,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.333,
+   "started": 1790364234,
+   "heartbeat": 1790364247,
+   "completed_today": 394,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "note": "line 1 ✓ 'e-paper wakes once'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's haiku",
+   "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1790363326,
-   "heartbeat": 1790363345,
-   "completed_today": 429,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1790364242,
+   "heartbeat": 1790364247,
+   "completed_today": 435,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), science (got 1, want 2).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.647,
-   "started": 1790363319,
-   "heartbeat": 1790363345,
-   "completed_today": 649,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "104 distinct words",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.96,
+   "started": 1790364189,
+   "heartbeat": 1790364247,
+   "completed_today": 661,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "π ≈ 3.1441",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1464,
-  "working": 1,
+  "completed_today": 1490,
+  "working": 2,
   "agents": 3
  }
 }
