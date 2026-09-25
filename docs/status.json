@@ -1,49 +1,49 @@
 {
- "updated": 1790300177,
+ "updated": 1790301079,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "error",
-   "task": "Write unit tests for haiku.py",
+   "state": "idle",
+   "task": "",
    "progress": null,
-   "started": 1790300174,
-   "heartbeat": 1790300177,
-   "completed_today": 587,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on science (got 1, want 2), poem (got 1, want 2).",
-   "note": "needs a human",
+   "started": 1790301076,
+   "heartbeat": 1790301078,
+   "completed_today": 596,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "next: Compute a very large Fibonacci number",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
+   "state": "working",
    "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1790300099,
-   "heartbeat": 1790300177,
-   "completed_today": 629,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.778,
+   "started": 1790301039,
+   "heartbeat": 1790301078,
+   "completed_today": 637,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "test_idea: FAIL",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.017,
-   "started": 1790300175,
-   "heartbeat": 1790300177,
-   "completed_today": 927,
-   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1407.",
-   "note": "624 primes so far",
+   "task": "Hunt palindromic primes",
+   "progress": 0.225,
+   "started": 1790301064,
+   "heartbeat": 1790301078,
+   "completed_today": 938,
+   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1412.",
+   "note": "70 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2143,
-  "working": 1,
+  "completed_today": 2171,
+  "working": 2,
   "agents": 3
  }
 }
