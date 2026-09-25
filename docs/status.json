@@ -1,49 +1,49 @@
 {
- "updated": 1790378679,
+ "updated": 1790379581,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.875,
-   "started": 1790378633,
-   "heartbeat": 1790378678,
-   "completed_today": 490,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), idea (got 2, want 3), poem (got 1, want 2).",
-   "note": "pass 49/56, 717 swaps",
+   "progress": null,
+   "started": 1790379565,
+   "heartbeat": 1790379580,
+   "completed_today": 500,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1790378641,
-   "heartbeat": 1790378678,
-   "completed_today": 550,
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.3,
+   "started": 1790379556,
+   "heartbeat": 1790379580,
+   "completed_today": 558,
    "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "waiting for Scout to release the workbench",
+   "note": "5,029 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
+   "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1790378660,
-   "heartbeat": 1790378678,
-   "completed_today": 840,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "waiting for Builder to release the workbench",
+   "progress": 0.647,
+   "started": 1790379554,
+   "heartbeat": 1790379580,
+   "completed_today": 851,
+   "last_result": "Counted 16,745 primes below 185,000; the biggest was 184,999.",
+   "note": "104 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1880,
-  "working": 1,
+  "completed_today": 1909,
+  "working": 2,
   "agents": 3
  }
 }
