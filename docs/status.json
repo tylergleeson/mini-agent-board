@@ -1,17 +1,17 @@
 {
- "updated": 1790293863,
+ "updated": 1790294765,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.179,
-   "started": 1790293847,
-   "heartbeat": 1790293863,
-   "completed_today": 542,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 718 swaps.",
-   "note": "pass 10/56, 380 swaps",
+   "task": "Group anagrams in the word list",
+   "progress": 0.29,
+   "started": 1790294741,
+   "heartbeat": 1790294765,
+   "completed_today": 547,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 749 swaps.",
+   "note": "4 groups",
    "stale": false
   },
   {
@@ -20,29 +20,29 @@
    "state": "blocked",
    "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1790293850,
-   "heartbeat": 1790293863,
-   "completed_today": 588,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1790294743,
+   "heartbeat": 1790294765,
+   "completed_today": 596,
+   "last_result": "Counted 20,521 primes below 231,000; the biggest was 230,999.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.08,
-   "started": 1790293857,
-   "heartbeat": 1790293863,
-   "completed_today": 853,
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.702,
+   "started": 1790294737,
+   "heartbeat": 1790294765,
+   "completed_today": 863,
    "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "longest so far: 13255 (276 steps)",
+   "note": "111 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1983,
+  "completed_today": 2006,
   "working": 2,
   "agents": 3
  }
