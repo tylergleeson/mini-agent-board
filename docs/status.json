@@ -1,49 +1,49 @@
 {
- "updated": 1790458949,
+ "updated": 1790459851,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.222,
-   "started": 1790458942,
-   "heartbeat": 1790458949,
-   "completed_today": 452,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent server waits / the agents spin past the dark / refactor by noon”",
-   "note": "test_orange: ok",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1790459850,
+   "heartbeat": 1790459851,
+   "completed_today": 459,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 734 swaps.",
+   "note": "next: Write unit tests for haiku.py",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.9,
-   "started": 1790458895,
-   "heartbeat": 1790458949,
-   "completed_today": 500,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on science (got 1, want 2), create (got 1, want 2).",
-   "note": "27,048 primes so far",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.996,
+   "started": 1790459765,
+   "heartbeat": 1790459851,
+   "completed_today": 507,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "137 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.08,
-   "started": 1790458944,
-   "heartbeat": 1790458949,
-   "completed_today": 753,
+   "task": "Count primes below a random N",
+   "progress": 0.7,
+   "started": 1790459801,
+   "heartbeat": 1790459851,
+   "completed_today": 766,
    "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "longest so far: 13255 (276 steps)",
+   "note": "23,887 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1705,
-  "working": 3,
+  "completed_today": 1732,
+  "working": 2,
   "agents": 3
  }
 }
