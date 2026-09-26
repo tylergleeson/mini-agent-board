@@ -1,5 +1,5 @@
 {
- "updated": 1790406639,
+ "updated": 1790407540,
  "agents": [
   {
    "agent": "builder",
@@ -7,43 +7,43 @@
    "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
    "progress": null,
-   "started": 1790406571,
-   "heartbeat": 1790406637,
-   "completed_today": 93,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "started": 1790407478,
+   "heartbeat": 1790407540,
+   "completed_today": 99,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on area (got 2, want 3).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
+   "state": "done",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.946,
-   "started": 1790406568,
-   "heartbeat": 1790406637,
-   "completed_today": 95,
+   "progress": 1.0,
+   "started": 1790407536,
+   "heartbeat": 1790407540,
+   "completed_today": 104,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "0 inversions",
+   "note": "",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.0,
-   "started": 1790406638,
-   "heartbeat": 1790406638,
-   "completed_today": 144,
-   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
-   "note": "",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1790407539,
+   "heartbeat": 1790407540,
+   "completed_today": 157,
+   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
+   "note": "next: Word-frequency audit of the Gettysburg Address",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 332,
-  "working": 2,
+  "completed_today": 360,
+  "working": 0,
   "agents": 3
  }
 }
