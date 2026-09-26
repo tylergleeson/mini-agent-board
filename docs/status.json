@@ -1,30 +1,30 @@
 {
- "updated": 1790449930,
+ "updated": 1790450832,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1790449857,
-   "heartbeat": 1790449930,
-   "completed_today": 382,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display stirs once / thirty seconds in waiting / a board holds working”",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1790450774,
+   "heartbeat": 1790450832,
+   "completed_today": 387,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), science (got 1, want 2).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's haiku",
-   "progress": null,
-   "started": 1790449903,
-   "heartbeat": 1790449930,
-   "completed_today": 425,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "done",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 1.0,
+   "started": 1790450825,
+   "heartbeat": 1790450832,
+   "completed_today": 437,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.408,
-   "started": 1790449899,
-   "heartbeat": 1790449930,
-   "completed_today": 645,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "75 distinct words",
+   "progress": 0.886,
+   "started": 1790450767,
+   "heartbeat": 1790450832,
+   "completed_today": 654,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "128 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1452,
+  "completed_today": 1478,
   "working": 1,
   "agents": 3
  }
