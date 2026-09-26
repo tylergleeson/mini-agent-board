@@ -1,5 +1,5 @@
 {
- "updated": 1790441812,
+ "updated": 1790442714,
  "agents": [
   {
    "agent": "builder",
@@ -7,23 +7,23 @@
    "state": "working",
    "task": "Refactor a haiku to 5-7-5",
    "progress": 0.667,
-   "started": 1790441764,
-   "heartbeat": 1790441812,
-   "completed_today": 328,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent kernel sleeps / the cron jobs fail through the dawn / commit at sunrise”",
-   "note": "line 2 ✓ 'no one wanted for any data'",
+   "started": 1790442683,
+   "heartbeat": 1790442714,
+   "completed_today": 329,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "line 2 ✓ 'the agents fail past the night'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Re-run the syllable unit tests",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790441771,
-   "heartbeat": 1790441812,
-   "completed_today": 362,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1790442689,
+   "heartbeat": 1790442714,
+   "completed_today": 366,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,18 +31,18 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.74,
-   "started": 1790441771,
-   "heartbeat": 1790441812,
-   "completed_today": 554,
+   "task": "Count primes below a random N",
+   "progress": 0.983,
+   "started": 1790442629,
+   "heartbeat": 1790442714,
+   "completed_today": 562,
    "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "longest so far: 216367 (386 steps)",
+   "note": "18,032 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1244,
+  "completed_today": 1257,
   "working": 2,
   "agents": 3
  }
