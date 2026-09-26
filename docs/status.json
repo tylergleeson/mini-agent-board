@@ -1,49 +1,49 @@
 {
- "updated": 1790448126,
+ "updated": 1790449028,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.65,
-   "started": 1790448087,
-   "heartbeat": 1790448124,
-   "completed_today": 371,
-   "last_result": "Ran 9 syllable-counter tests; 4 failed on poem (got 1, want 2), create (got 1, want 2), idea (got 2, want 3), science (got 1, want 2).",
-   "note": "F(19500) has 4075 digits",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 1.0,
+   "started": 1790448946,
+   "heartbeat": 1790449026,
+   "completed_today": 375,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 778 swaps.",
+   "note": "pass 46/56, 861 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.217,
-   "started": 1790448109,
-   "heartbeat": 1790448124,
-   "completed_today": 414,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "7,178 primes so far",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.978,
+   "started": 1790448952,
+   "heartbeat": 1790449026,
+   "completed_today": 419,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
+   "note": "136 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
+   "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 1.0,
-   "started": 1790448126,
-   "heartbeat": 1790448126,
-   "completed_today": 630,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1419.",
-   "note": "",
+   "progress": 0.52,
+   "started": 1790448989,
+   "heartbeat": 1790449026,
+   "completed_today": 636,
+   "last_result": "Counted 28,091 primes below 326,000; the biggest was 325,999.",
+   "note": "π ≈ 3.1439",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1415,
-  "working": 2,
+  "completed_today": 1430,
+  "working": 3,
   "agents": 3
  }
 }
