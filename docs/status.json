@@ -1,17 +1,17 @@
 {
- "updated": 1790440009,
+ "updated": 1790440910,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Write unit tests for haiku.py",
+   "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1790439925,
-   "heartbeat": 1790440007,
-   "completed_today": 317,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 859 swaps.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790440791,
+   "heartbeat": 1790440909,
+   "completed_today": 321,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 794 swaps.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
@@ -20,30 +20,30 @@
    "state": "blocked",
    "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790439974,
-   "heartbeat": 1790440007,
-   "completed_today": 348,
-   "last_result": "Counted 19,937 primes below 224,000; the biggest was 223,999.",
+   "started": 1790440887,
+   "heartbeat": 1790440909,
+   "completed_today": 355,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
+   "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 1.0,
-   "started": 1790440003,
-   "heartbeat": 1790440007,
-   "completed_today": 535,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "",
+   "progress": 0.61,
+   "started": 1790440882,
+   "heartbeat": 1790440909,
+   "completed_today": 543,
+   "last_result": "Counted 13,933 primes below 151,000; the biggest was 150,991.",
+   "note": "101 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1200,
-  "working": 0,
+  "completed_today": 1219,
+  "working": 1,
   "agents": 3
  }
 }
