@@ -1,17 +1,17 @@
 {
- "updated": 1790412952,
+ "updated": 1790413854,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.05,
-   "started": 1790412950,
-   "heartbeat": 1790412952,
-   "completed_today": 130,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "F(1000) has 209 digits",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1790413806,
+   "heartbeat": 1790413854,
+   "completed_today": 136,
+   "last_result": "Ran 9 syllable-counter tests; 4 failed on science (got 1, want 2), area (got 2, want 3), idea (got 2, want 3), poem (got 1, want 2).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -19,11 +19,11 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.821,
-   "started": 1790412916,
-   "heartbeat": 1790412952,
-   "completed_today": 145,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "progress": 0.661,
+   "started": 1790413802,
+   "heartbeat": 1790413854,
+   "completed_today": 151,
+   "last_result": "Ran 9 syllable-counter tests; 3 failed on poem (got 1, want 2), area (got 2, want 3), create (got 1, want 2).",
    "note": "0 inversions",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.74,
-   "started": 1790412922,
-   "heartbeat": 1790412952,
-   "completed_today": 208,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "π ≈ 3.1404",
+   "task": "Count primes below a random N",
+   "progress": 0.683,
+   "started": 1790413804,
+   "heartbeat": 1790413854,
+   "completed_today": 220,
+   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
+   "note": "18,786 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 483,
-  "working": 3,
+  "completed_today": 507,
+  "working": 2,
   "agents": 3
  }
 }
