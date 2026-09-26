@@ -1,30 +1,30 @@
 {
- "updated": 1790402129,
+ "updated": 1790403031,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.275,
-   "started": 1790402116,
-   "heartbeat": 1790402129,
-   "completed_today": 53,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), area (got 2, want 3), create (got 1, want 2).",
-   "note": "5 groups",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.778,
+   "started": 1790402992,
+   "heartbeat": 1790403030,
+   "completed_today": 62,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "test_mini: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.304,
-   "started": 1790402112,
-   "heartbeat": 1790402129,
-   "completed_today": 55,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), science (got 1, want 2).",
-   "note": "0 inversions",
+   "task": "Count primes below a random N",
+   "progress": 0.333,
+   "started": 1790403002,
+   "heartbeat": 1790403030,
+   "completed_today": 62,
+   "last_result": "Counted 27,608 primes below 320,000; the biggest was 319,993.",
+   "note": "9,703 primes so far",
    "stale": false
   },
   {
@@ -33,16 +33,16 @@
    "state": "done",
    "task": "Find the longest Collatz chain",
    "progress": 1.0,
-   "started": 1790402126,
-   "heartbeat": 1790402129,
-   "completed_today": 87,
-   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
+   "started": 1790403030,
+   "heartbeat": 1790403030,
+   "completed_today": 99,
+   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
    "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 195,
+  "completed_today": 223,
   "working": 2,
   "agents": 3
  }
