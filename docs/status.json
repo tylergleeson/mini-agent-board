@@ -1,49 +1,49 @@
 {
- "updated": 1790464360,
+ "updated": 1790465262,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.425,
-   "started": 1790464345,
-   "heartbeat": 1790464360,
-   "completed_today": 486,
+   "progress": 0.775,
+   "started": 1790465193,
+   "heartbeat": 1790465261,
+   "completed_today": 492,
    "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "F(8500) has 1777 digits",
+   "note": "F(31000) has 6479 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.667,
-   "started": 1790464338,
-   "heartbeat": 1790464360,
-   "completed_today": 547,
-   "last_result": "Counted 16,086 primes below 177,000; the biggest was 176,989.",
-   "note": "test_board: ok",
+   "task": "Review Builder's haiku",
+   "progress": 0.333,
+   "started": 1790465235,
+   "heartbeat": 1790465261,
+   "completed_today": 555,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "line 1: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
+   "state": "working",
    "task": "Find the longest Collatz chain",
-   "progress": 1.0,
-   "started": 1790464358,
-   "heartbeat": 1790464360,
-   "completed_today": 817,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "",
+   "progress": 0.5,
+   "started": 1790465241,
+   "heartbeat": 1790465261,
+   "completed_today": 828,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "longest so far: 77031 (351 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1850,
-  "working": 2,
+  "completed_today": 1875,
+  "working": 3,
   "agents": 3
  }
 }
