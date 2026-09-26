@@ -1,49 +1,49 @@
 {
- "updated": 1790393110,
+ "updated": 1790394012,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1790392971,
-   "heartbeat": 1790393109,
-   "completed_today": 608,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 766 swaps.",
-   "note": "waiting for Critic to release the workbench",
+   "state": "working",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.556,
+   "started": 1790393984,
+   "heartbeat": 1790394011,
+   "completed_today": 615,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "test_area: FAIL",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "idle",
-   "task": "",
+   "state": "blocked",
+   "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1790393109,
-   "heartbeat": 1790393109,
-   "completed_today": 681,
+   "started": 1790393927,
+   "heartbeat": 1790394011,
+   "completed_today": 688,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "next: Count primes below a random N",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.004,
-   "started": 1790393109,
-   "heartbeat": 1790393109,
-   "completed_today": 1015,
+   "task": "Hunt palindromic primes",
+   "progress": 0.55,
+   "started": 1790393989,
+   "heartbeat": 1790394011,
+   "completed_today": 1025,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "1 distinct words",
+   "note": "113 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2304,
-  "working": 1,
+  "completed_today": 2328,
+  "working": 2,
   "agents": 3
  }
 }
