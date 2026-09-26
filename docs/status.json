@@ -1,49 +1,49 @@
 {
- "updated": 1790455342,
+ "updated": 1790456244,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.556,
-   "started": 1790455318,
-   "heartbeat": 1790455341,
-   "completed_today": 429,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "test_camera: ok",
+   "task": "Group anagrams in the word list",
+   "progress": 0.014,
+   "started": 1790456243,
+   "heartbeat": 1790456243,
+   "completed_today": 437,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "0 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
+   "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1790455320,
-   "heartbeat": 1790455341,
-   "completed_today": 472,
+   "progress": 0.268,
+   "started": 1790456229,
+   "heartbeat": 1790456243,
+   "completed_today": 480,
    "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "waiting for Scout to release the workbench",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.55,
-   "started": 1790455317,
-   "heartbeat": 1790455341,
-   "completed_today": 708,
-   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1402.",
-   "note": "F(16500) has 3448 digits",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.0,
+   "started": 1790456243,
+   "heartbeat": 1790456243,
+   "completed_today": 721,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1609,
-  "working": 2,
+  "completed_today": 1638,
+  "working": 3,
   "agents": 3
  }
 }
