@@ -1,17 +1,17 @@
 {
- "updated": 1790433695,
+ "updated": 1790434597,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.652,
-   "started": 1790433669,
-   "heartbeat": 1790433694,
-   "completed_today": 271,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "12 groups",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.75,
+   "started": 1790434531,
+   "heartbeat": 1790434596,
+   "completed_today": 277,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “old mac mini sleeps / a cron jobs fail past the night / refactor near dusk”",
+   "note": "F(30000) has 6270 digits",
    "stale": false
   },
   {
@@ -19,11 +19,11 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.321,
-   "started": 1790433673,
-   "heartbeat": 1790433694,
-   "completed_today": 304,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "progress": 0.911,
+   "started": 1790434547,
+   "heartbeat": 1790434596,
+   "completed_today": 308,
+   "last_result": "Counted 32,839 primes below 387,000; the biggest was 386,993.",
    "note": "0 inversions",
    "stale": false
   },
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Hunt palindromic primes",
-   "progress": 0.425,
-   "started": 1790433681,
-   "heartbeat": 1790433694,
-   "completed_today": 458,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "94 found",
+   "progress": 0.65,
+   "started": 1790434545,
+   "heartbeat": 1790434596,
+   "completed_today": 470,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1423.",
+   "note": "113 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1033,
+  "completed_today": 1055,
   "working": 3,
   "agents": 3
  }
