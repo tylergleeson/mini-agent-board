@@ -1,49 +1,49 @@
 {
- "updated": 1790432793,
+ "updated": 1790433695,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.425,
-   "started": 1790432756,
-   "heartbeat": 1790432793,
-   "completed_today": 263,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "F(17000) has 3553 digits",
+   "task": "Group anagrams in the word list",
+   "progress": 0.652,
+   "started": 1790433669,
+   "heartbeat": 1790433694,
+   "completed_today": 271,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "12 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
+   "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1790432726,
-   "heartbeat": 1790432793,
-   "completed_today": 295,
-   "last_result": "Counted 25,308 primes below 291,000; the biggest was 290,999.",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.321,
+   "started": 1790433673,
+   "heartbeat": 1790433694,
+   "completed_today": 304,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.978,
-   "started": 1790432706,
-   "heartbeat": 1790432793,
-   "completed_today": 449,
-   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
-   "note": "136 distinct words",
+   "task": "Hunt palindromic primes",
+   "progress": 0.425,
+   "started": 1790433681,
+   "heartbeat": 1790433694,
+   "completed_today": 458,
+   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
+   "note": "94 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1007,
-  "working": 2,
+  "completed_today": 1033,
+  "working": 3,
   "agents": 3
  }
 }
