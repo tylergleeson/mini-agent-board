@@ -1,30 +1,30 @@
 {
- "updated": 1790413854,
+ "updated": 1790414756,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1790413806,
-   "heartbeat": 1790413854,
-   "completed_today": 136,
-   "last_result": "Ran 9 syllable-counter tests; 4 failed on science (got 1, want 2), area (got 2, want 3), idea (got 2, want 3), poem (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.111,
+   "started": 1790414746,
+   "heartbeat": 1790414755,
+   "completed_today": 141,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
+   "note": "test_mini: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
+   "state": "blocked",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.661,
-   "started": 1790413802,
-   "heartbeat": 1790413854,
-   "completed_today": 151,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on poem (got 1, want 2), area (got 2, want 3), create (got 1, want 2).",
-   "note": "0 inversions",
+   "progress": null,
+   "started": 1790414685,
+   "heartbeat": 1790414755,
+   "completed_today": 159,
+   "last_result": "Counted 24,920 primes below 286,000; the biggest was 285,997.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.683,
-   "started": 1790413804,
-   "heartbeat": 1790413854,
-   "completed_today": 220,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "18,786 primes so far",
+   "progress": 0.017,
+   "started": 1790414754,
+   "heartbeat": 1790414755,
+   "completed_today": 232,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "419 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 507,
+  "completed_today": 532,
   "working": 2,
   "agents": 3
  }
