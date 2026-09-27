@@ -1,49 +1,49 @@
 {
- "updated": 1790497761,
+ "updated": 1790498663,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 1.0,
-   "started": 1790497701,
-   "heartbeat": 1790497760,
-   "completed_today": 108,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “quiet mac mini hums / one cron jobs fail past the dark / refactor near dusk”",
-   "note": "pass 41/56, 814 swaps",
+   "progress": null,
+   "started": 1790498657,
+   "heartbeat": 1790498663,
+   "completed_today": 115,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "waiting for someone to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's haiku",
+   "state": "idle",
+   "task": "",
    "progress": null,
-   "started": 1790497555,
-   "heartbeat": 1790497760,
-   "completed_today": 128,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790498663,
+   "heartbeat": 1790498663,
+   "completed_today": 135,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "next: Re-run the syllable unit tests",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.7,
-   "started": 1790497706,
-   "heartbeat": 1790497760,
-   "completed_today": 189,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "15,505 primes so far",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.0,
+   "started": 1790498663,
+   "heartbeat": 1790498663,
+   "completed_today": 199,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 425,
-  "working": 2,
+  "completed_today": 449,
+  "working": 1,
   "agents": 3
  }
 }
