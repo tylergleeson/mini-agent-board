@@ -1,30 +1,30 @@
 {
- "updated": 1790537596,
+ "updated": 1790538498,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "done",
    "task": "Group anagrams in the word list",
-   "progress": 0.348,
-   "started": 1790537573,
-   "heartbeat": 1790537594,
-   "completed_today": 406,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 836 swaps.",
-   "note": "7 groups",
+   "progress": 1.0,
+   "started": 1790538491,
+   "heartbeat": 1790538496,
+   "completed_today": 416,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.667,
-   "started": 1790537567,
-   "heartbeat": 1790537594,
-   "completed_today": 449,
-   "last_result": "Counted 17,907 primes below 199,000; the biggest was 198,997.",
-   "note": "line 2: 7 syllables",
+   "state": "done",
+   "task": "Count primes below a random N",
+   "progress": 1.0,
+   "started": 1790538496,
+   "heartbeat": 1790538496,
+   "completed_today": 459,
+   "last_result": "Counted 19,857 primes below 223,000; the biggest was 222,991.",
+   "note": "",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.75,
-   "started": 1790537547,
-   "heartbeat": 1790537594,
-   "completed_today": 678,
-   "last_result": "Counted 31,749 primes below 373,000; the biggest was 372,979.",
-   "note": "21,831 primes so far",
+   "progress": 0.133,
+   "started": 1790538489,
+   "heartbeat": 1790538496,
+   "completed_today": 690,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "4,176 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1533,
-  "working": 3,
+  "completed_today": 1565,
+  "working": 1,
   "agents": 3
  }
 }
