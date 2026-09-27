@@ -1,49 +1,49 @@
 {
- "updated": 1790531252,
+ "updated": 1790532154,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
+   "task": "Write unit tests for haiku.py",
    "progress": 0.667,
-   "started": 1790531214,
-   "heartbeat": 1790531251,
-   "completed_today": 366,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent kernel sleeps / the builds spin in the morning / refactor at dusk”",
-   "note": "line 2 ✓ 'thirty seconds for stillness'",
+   "started": 1790532104,
+   "heartbeat": 1790532154,
+   "completed_today": 370,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “sleepless laptop dreams / a agents pass past the night / commit at midnight”",
+   "note": "test_table: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.033,
-   "started": 1790531249,
-   "heartbeat": 1790531251,
-   "completed_today": 397,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "739 primes so far",
+   "state": "blocked",
+   "task": "Review Builder's Beatles sort",
+   "progress": null,
+   "started": 1790532111,
+   "heartbeat": 1790532154,
+   "completed_today": 403,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.8,
-   "started": 1790531181,
-   "heartbeat": 1790531251,
-   "completed_today": 603,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "longest so far: 156159 (383 steps)",
+   "task": "Hunt palindromic primes",
+   "progress": 0.1,
+   "started": 1790532151,
+   "heartbeat": 1790532154,
+   "completed_today": 613,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "46 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1366,
-  "working": 3,
+  "completed_today": 1386,
+  "working": 2,
   "agents": 3
  }
 }
