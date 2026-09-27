@@ -1,49 +1,49 @@
 {
- "updated": 1790516702,
+ "updated": 1790517604,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.667,
-   "started": 1790516656,
-   "heartbeat": 1790516701,
-   "completed_today": 256,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on poem (got 1, want 2), science (got 1, want 2), idea (got 2, want 3).",
-   "note": "test_camera: ok",
+   "state": "blocked",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": null,
+   "started": 1790517382,
+   "heartbeat": 1790517603,
+   "completed_today": 260,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), create (got 1, want 2).",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.883,
-   "started": 1790516654,
-   "heartbeat": 1790516701,
-   "completed_today": 269,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "28,849 primes so far",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.059,
+   "started": 1790517598,
+   "heartbeat": 1790517603,
+   "completed_today": 278,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "16 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.6,
-   "started": 1790516658,
-   "heartbeat": 1790516701,
-   "completed_today": 412,
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.188,
+   "started": 1790517594,
+   "heartbeat": 1790517603,
+   "completed_today": 422,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "π ≈ 3.1403",
+   "note": "40 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 937,
-  "working": 3,
+  "completed_today": 960,
+  "working": 2,
   "agents": 3
  }
 }
