@@ -1,30 +1,30 @@
 {
- "updated": 1790512192,
+ "updated": 1790513094,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.536,
-   "started": 1790512157,
-   "heartbeat": 1790512192,
-   "completed_today": 218,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display blinks once / fifteen seconds of waiting / one cloud counts working”",
-   "note": "pass 30/56, 750 swaps",
+   "progress": 0.286,
+   "started": 1790513071,
+   "heartbeat": 1790513093,
+   "completed_today": 226,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 864 swaps.",
+   "note": "pass 16/56, 546 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1790512165,
-   "heartbeat": 1790512192,
-   "completed_today": 229,
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.267,
+   "started": 1790513079,
+   "heartbeat": 1790513093,
+   "completed_today": 237,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Builder to release the workbench",
+   "note": "9,297 primes so far",
    "stale": false
   },
   {
@@ -33,17 +33,17 @@
    "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
    "progress": null,
-   "started": 1790512149,
-   "heartbeat": 1790512192,
-   "completed_today": 355,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1790512997,
+   "heartbeat": 1790513093,
+   "completed_today": 367,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 802,
-  "working": 1,
+  "completed_today": 830,
+  "working": 2,
   "agents": 3
  }
 }
