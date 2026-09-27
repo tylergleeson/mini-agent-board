@@ -1,49 +1,49 @@
 {
- "updated": 1790546615,
+ "updated": 1790547517,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1790546583,
-   "heartbeat": 1790546613,
-   "completed_today": 479,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790547448,
+   "heartbeat": 1790547516,
+   "completed_today": 485,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.643,
-   "started": 1790546562,
-   "heartbeat": 1790546613,
-   "completed_today": 525,
-   "last_result": "Counted 14,683 primes below 160,000; the biggest was 159,979.",
-   "note": "0 inversions",
+   "state": "done",
+   "task": "Count primes below a random N",
+   "progress": 1.0,
+   "started": 1790547512,
+   "heartbeat": 1790547516,
+   "completed_today": 533,
+   "last_result": "Counted 28,164 primes below 327,000; the biggest was 326,999.",
+   "note": "",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.65,
-   "started": 1790546570,
-   "heartbeat": 1790546613,
-   "completed_today": 792,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "17,787 primes so far",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.702,
+   "started": 1790547468,
+   "heartbeat": 1790547516,
+   "completed_today": 805,
+   "last_result": "Counted 28,250 primes below 328,000; the biggest was 327,983.",
+   "note": "111 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1796,
-  "working": 2,
+  "completed_today": 1823,
+  "working": 1,
   "agents": 3
  }
 }
