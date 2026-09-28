@@ -1,30 +1,30 @@
 {
- "updated": 1790625218,
+ "updated": 1790626120,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.667,
-   "started": 1790625176,
-   "heartbeat": 1790625218,
-   "completed_today": 392,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 825 swaps.",
-   "note": "line 2 ✓ 'fifteen minutes for patience'",
+   "state": "done",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 1.0,
+   "started": 1790626118,
+   "heartbeat": 1790626118,
+   "completed_today": 401,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 798 swaps.",
+   "note": "",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.917,
-   "started": 1790625153,
-   "heartbeat": 1790625215,
-   "completed_today": 446,
-   "last_result": "Counted 33,622 primes below 397,000; the biggest was 396,997.",
-   "note": "24,038 primes so far",
+   "state": "blocked",
+   "task": "Review Builder's Beatles sort",
+   "progress": null,
+   "started": 1790626037,
+   "heartbeat": 1790626118,
+   "completed_today": 453,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), area (got 2, want 3).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -33,17 +33,17 @@
    "state": "idle",
    "task": "",
    "progress": null,
-   "started": 1790625215,
-   "heartbeat": 1790625218,
-   "completed_today": 666,
-   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1417.",
+   "started": 1790626114,
+   "heartbeat": 1790626118,
+   "completed_today": 678,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
    "note": "next: Find the longest Collatz chain",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1504,
-  "working": 2,
+  "completed_today": 1532,
+  "working": 0,
   "agents": 3
  }
 }
