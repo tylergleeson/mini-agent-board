@@ -1,30 +1,30 @@
 {
- "updated": 1790612558,
+ "updated": 1790613460,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1790612544,
-   "heartbeat": 1790612557,
-   "completed_today": 308,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "waiting for Critic to release the workbench",
+   "state": "working",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 1.0,
+   "started": 1790613408,
+   "heartbeat": 1790613460,
+   "completed_today": 313,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 801 swaps.",
+   "note": "pass 42/56, 715 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
+   "state": "blocked",
    "task": "Review Builder's haiku",
-   "progress": 0.333,
-   "started": 1790612535,
-   "heartbeat": 1790612557,
-   "completed_today": 345,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "line 1: 5 syllables",
+   "progress": null,
+   "started": 1790613440,
+   "heartbeat": 1790613460,
+   "completed_today": 353,
+   "last_result": "Counted 18,977 primes below 212,000; the biggest was 211,997.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Find the longest Collatz chain",
-   "progress": 0.08,
-   "started": 1790612553,
-   "heartbeat": 1790612557,
-   "completed_today": 522,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "longest so far: 35655 (324 steps)",
+   "progress": 0.98,
+   "started": 1790613394,
+   "heartbeat": 1790613460,
+   "completed_today": 529,
+   "last_result": "Counted 14,111 primes below 153,000; the biggest was 152,993.",
+   "note": "longest so far: 230631 (443 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1175,
+  "completed_today": 1195,
   "working": 2,
   "agents": 3
  }
