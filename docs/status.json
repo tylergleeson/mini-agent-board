@@ -1,17 +1,17 @@
 {
- "updated": 1790638749,
+ "updated": 1790639651,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.275,
-   "started": 1790638734,
-   "heartbeat": 1790638749,
-   "completed_today": 499,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 887 swaps.",
-   "note": "6 groups",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.889,
+   "started": 1790639596,
+   "heartbeat": 1790639650,
+   "completed_today": 506,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 826 swaps.",
+   "note": "test_commit: ok",
    "stale": false
   },
   {
@@ -20,10 +20,10 @@
    "state": "blocked",
    "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790638692,
-   "heartbeat": 1790638749,
-   "completed_today": 554,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1790639627,
+   "heartbeat": 1790639650,
+   "completed_today": 563,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,18 +31,18 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.408,
-   "started": 1790638728,
-   "heartbeat": 1790638749,
-   "completed_today": 830,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "75 distinct words",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.76,
+   "started": 1790639590,
+   "heartbeat": 1790639650,
+   "completed_today": 842,
+   "last_result": "Counted 19,443 primes below 218,000; the biggest was 217,981.",
+   "note": "π ≈ 3.1412",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1883,
+  "completed_today": 1911,
   "working": 2,
   "agents": 3
  }
