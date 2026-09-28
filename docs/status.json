@@ -1,49 +1,49 @@
 {
- "updated": 1790616167,
+ "updated": 1790617069,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Group anagrams in the word list",
-   "progress": 0.812,
-   "started": 1790616108,
-   "heartbeat": 1790616167,
-   "completed_today": 331,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “sleepless kernel hums / a cron jobs spin past the dawn / refactor by noon”",
-   "note": "16 groups",
+   "progress": 0.377,
+   "started": 1790617034,
+   "heartbeat": 1790617067,
+   "completed_today": 338,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels wakes slowly / thirty seconds for patience / a cloud counts working”",
+   "note": "7 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.183,
-   "started": 1790616154,
-   "heartbeat": 1790616167,
-   "completed_today": 373,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
-   "note": "3,204 primes so far",
+   "state": "blocked",
+   "task": "Review Builder's haiku",
+   "progress": null,
+   "started": 1790616883,
+   "heartbeat": 1790617067,
+   "completed_today": 382,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.24,
-   "started": 1790616150,
-   "heartbeat": 1790616167,
-   "completed_today": 559,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "longest so far: 52527 (340 steps)",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.482,
+   "started": 1790617028,
+   "heartbeat": 1790617067,
+   "completed_today": 569,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "82 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1263,
-  "working": 3,
+  "completed_today": 1289,
+  "working": 2,
   "agents": 3
  }
 }
