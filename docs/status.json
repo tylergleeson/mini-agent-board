@@ -1,29 +1,29 @@
 {
- "updated": 1790554732,
+ "updated": 1790555634,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1790554624,
-   "heartbeat": 1790554731,
-   "completed_today": 531,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 886 swaps.",
-   "note": "waiting for Critic to release the workbench",
+   "state": "working",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.5,
+   "started": 1790555588,
+   "heartbeat": 1790555632,
+   "completed_today": 536,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "pass 28/56, 723 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's haiku",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1790554679,
-   "heartbeat": 1790554731,
-   "completed_today": 587,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
+   "started": 1790555548,
+   "heartbeat": 1790555632,
+   "completed_today": 593,
+   "last_result": "Counted 21,392 primes below 242,000; the biggest was 241,993.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.868,
-   "started": 1790554674,
-   "heartbeat": 1790554731,
-   "completed_today": 891,
-   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1414.",
-   "note": "126 distinct words",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.66,
+   "started": 1790555596,
+   "heartbeat": 1790555632,
+   "completed_today": 900,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "π ≈ 3.1402",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2009,
-  "working": 1,
+  "completed_today": 2029,
+  "working": 2,
   "agents": 3
  }
 }
