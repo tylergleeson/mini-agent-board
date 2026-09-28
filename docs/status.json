@@ -1,49 +1,49 @@
 {
- "updated": 1790568263,
+ "updated": 1790569165,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1790568250,
-   "heartbeat": 1790568263,
-   "completed_today": 1,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display wakes once / twenty minutes of silence / one board counts working”",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.556,
+   "started": 1790569125,
+   "heartbeat": 1790569164,
+   "completed_today": 5,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “e-paper wakes once / twenty seconds in waiting / one queue keeps working”",
+   "note": "test_camera: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's Beatles sort",
+   "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1790568212,
-   "heartbeat": 1790568263,
-   "completed_today": 1,
-   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1790569151,
+   "heartbeat": 1790569164,
+   "completed_today": 6,
+   "last_result": "Counted 25,616 primes below 295,000; the biggest was 294,997.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.206,
-   "started": 1790568246,
-   "heartbeat": 1790568263,
-   "completed_today": 2,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "43 distinct words",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.88,
+   "started": 1790569107,
+   "heartbeat": 1790569164,
+   "completed_today": 12,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1441.",
+   "note": "longest so far: 156159 (383 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 4,
-  "working": 1,
+  "completed_today": 23,
+  "working": 2,
   "agents": 3
  }
 }
