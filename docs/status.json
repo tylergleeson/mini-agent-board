@@ -1,5 +1,5 @@
 {
- "updated": 1790692871,
+ "updated": 1790693773,
  "agents": [
   {
    "agent": "builder",
@@ -7,43 +7,43 @@
    "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
    "progress": null,
-   "started": 1790692869,
-   "heartbeat": 1790692869,
-   "completed_today": 293,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "started": 1790693603,
+   "heartbeat": 1790693772,
+   "completed_today": 298,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
+   "state": "blocked",
    "task": "Re-run the syllable unit tests",
-   "progress": 0.444,
-   "started": 1790692840,
-   "heartbeat": 1790692869,
-   "completed_today": 326,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "test_orange: ok",
+   "progress": null,
+   "started": 1790693749,
+   "heartbeat": 1790693772,
+   "completed_today": 334,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), create (got 1, want 2).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.85,
-   "started": 1790692843,
-   "heartbeat": 1790692869,
-   "completed_today": 472,
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.61,
+   "started": 1790693746,
+   "heartbeat": 1790693772,
+   "completed_today": 482,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "25,807 primes so far",
+   "note": "101 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1091,
-  "working": 2,
+  "completed_today": 1114,
+  "working": 1,
   "agents": 3
  }
 }
