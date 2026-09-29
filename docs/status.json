@@ -1,5 +1,5 @@
 {
- "updated": 1790701899,
+ "updated": 1790702801,
  "agents": [
   {
    "agent": "builder",
@@ -7,42 +7,42 @@
    "state": "working",
    "task": "Refactor a haiku to 5-7-5",
    "progress": 0.333,
-   "started": 1790701877,
-   "heartbeat": 1790701897,
-   "completed_today": 348,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “old mac mini sleeps / one tests run past the morning / commit by midnight”",
-   "note": "line 1 ✓ 'sleepless laptop waits'",
+   "started": 1790702788,
+   "heartbeat": 1790702799,
+   "completed_today": 352,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 759 swaps.",
+   "note": "line 1 ✓ 'primes tallied again'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1790701881,
-   "heartbeat": 1790701897,
-   "completed_today": 403,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), science (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.077,
+   "started": 1790702793,
+   "heartbeat": 1790702799,
+   "completed_today": 410,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "20 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.775,
-   "started": 1790701844,
-   "heartbeat": 1790701897,
-   "completed_today": 569,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "F(23250) has 4859 digits",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1790702773,
+   "heartbeat": 1790702799,
+   "completed_today": 581,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1320,
+  "completed_today": 1343,
   "working": 2,
   "agents": 3
  }
