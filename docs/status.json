@@ -1,17 +1,17 @@
 {
- "updated": 1790717235,
+ "updated": 1790718137,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.1,
-   "started": 1790717226,
-   "heartbeat": 1790717234,
-   "completed_today": 451,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “sleepless kernel dreams / one tests fail in the morning / deploy by sunrise”",
-   "note": "line 1: 'primes tallied again' = 5",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.111,
+   "started": 1790718132,
+   "heartbeat": 1790718136,
+   "completed_today": 456,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), create (got 1, want 2).",
+   "note": "test_haiku: ok",
    "stale": false
   },
   {
@@ -20,30 +20,30 @@
    "state": "idle",
    "task": "",
    "progress": null,
-   "started": 1790717231,
-   "heartbeat": 1790717234,
-   "completed_today": 526,
-   "last_result": "Counted 20,104 primes below 226,000; the biggest was 225,989.",
-   "note": "next: Review Builder's Beatles sort",
+   "started": 1790718132,
+   "heartbeat": 1790718136,
+   "completed_today": 532,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "note": "next: Review Builder's haiku",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.733,
-   "started": 1790717207,
-   "heartbeat": 1790717234,
-   "completed_today": 751,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "14,250 primes so far",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1790718068,
+   "heartbeat": 1790718136,
+   "completed_today": 759,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1728,
-  "working": 2,
+  "completed_today": 1747,
+  "working": 1,
   "agents": 3
  }
 }
