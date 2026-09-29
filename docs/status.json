@@ -1,49 +1,49 @@
 {
- "updated": 1790678437,
+ "updated": 1790679339,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1790678394,
-   "heartbeat": 1790678435,
-   "completed_today": 177,
-   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.333,
+   "started": 1790679326,
+   "heartbeat": 1790679338,
+   "completed_today": 183,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 626 swaps.",
+   "note": "line 1 ✓ 'pixels refreshes once'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.667,
-   "started": 1790678388,
-   "heartbeat": 1790678435,
-   "completed_today": 198,
+   "task": "Count primes below a random N",
+   "progress": 0.167,
+   "started": 1790679330,
+   "heartbeat": 1790679338,
+   "completed_today": 209,
    "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "line 2: 7 syllables",
+   "note": "5,349 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.04,
-   "started": 1790678433,
-   "heartbeat": 1790678435,
-   "completed_today": 297,
-   "last_result": "Counted 27,441 primes below 318,000; the biggest was 317,987.",
-   "note": "longest so far: 17647 (279 steps)",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.98,
+   "started": 1790679266,
+   "heartbeat": 1790679338,
+   "completed_today": 306,
+   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
+   "note": "π ≈ 3.1435",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 672,
-  "working": 2,
+  "completed_today": 698,
+  "working": 3,
   "agents": 3
  }
 }
