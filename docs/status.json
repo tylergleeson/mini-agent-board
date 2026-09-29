@@ -1,49 +1,49 @@
 {
- "updated": 1790691067,
+ "updated": 1790691969,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Group anagrams in the word list",
-   "progress": 0.652,
-   "started": 1790691040,
-   "heartbeat": 1790691067,
-   "completed_today": 273,
+   "progress": 0.797,
+   "started": 1790691935,
+   "heartbeat": 1790691969,
+   "completed_today": 284,
    "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "9 groups",
+   "note": "14 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.911,
-   "started": 1790690987,
-   "heartbeat": 1790691067,
-   "completed_today": 310,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "0 inversions",
+   "task": "Review Builder's haiku",
+   "progress": 1.0,
+   "started": 1790691883,
+   "heartbeat": 1790691969,
+   "completed_today": 318,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on create (got 1, want 2).",
+   "note": "line 3: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Hunt palindromic primes",
-   "progress": 1.0,
-   "started": 1790691064,
-   "heartbeat": 1790691067,
-   "completed_today": 451,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "",
+   "state": "working",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.28,
+   "started": 1790691952,
+   "heartbeat": 1790691969,
+   "completed_today": 462,
+   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
+   "note": "π ≈ 3.1403",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1034,
-  "working": 2,
+  "completed_today": 1064,
+  "working": 3,
   "agents": 3
  }
 }
