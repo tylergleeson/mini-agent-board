@@ -1,30 +1,30 @@
 {
- "updated": 1790682045,
+ "updated": 1790682947,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.319,
-   "started": 1790682018,
-   "heartbeat": 1790682044,
-   "completed_today": 203,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "7 groups",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1790682942,
+   "heartbeat": 1790682946,
+   "completed_today": 209,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "next: Group anagrams in the word list",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.556,
-   "started": 1790681998,
-   "heartbeat": 1790682044,
-   "completed_today": 230,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "test_table: ok",
+   "task": "Review Builder's haiku",
+   "progress": 0.333,
+   "started": 1790682942,
+   "heartbeat": 1790682946,
+   "completed_today": 233,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "line 1: 5 syllables",
    "stale": false
   },
   {
@@ -33,17 +33,17 @@
    "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
    "progress": null,
-   "started": 1790682001,
-   "heartbeat": 1790682044,
-   "completed_today": 340,
+   "started": 1790682858,
+   "heartbeat": 1790682946,
+   "completed_today": 349,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
    "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 773,
-  "working": 2,
+  "completed_today": 791,
+  "working": 1,
   "agents": 3
  }
 }
