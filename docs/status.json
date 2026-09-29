@@ -1,49 +1,49 @@
 {
- "updated": 1790699192,
+ "updated": 1790700094,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1790699130,
-   "heartbeat": 1790699192,
-   "completed_today": 338,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 877 swaps.",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1790699967,
+   "heartbeat": 1790700093,
+   "completed_today": 342,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 789 swaps.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.768,
-   "started": 1790699126,
-   "heartbeat": 1790699192,
-   "completed_today": 383,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "0 inversions",
+   "state": "blocked",
+   "task": "Review Builder's haiku",
+   "progress": null,
+   "started": 1790700051,
+   "heartbeat": 1790700093,
+   "completed_today": 392,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
+   "state": "done",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1790699110,
-   "heartbeat": 1790699192,
-   "completed_today": 545,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1404.",
-   "note": "waiting for Builder to release the workbench",
+   "progress": 1.0,
+   "started": 1790700089,
+   "heartbeat": 1790700093,
+   "completed_today": 551,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1266,
-  "working": 1,
+  "completed_today": 1285,
+  "working": 0,
   "agents": 3
  }
 }
