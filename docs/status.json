@@ -1,5 +1,5 @@
 {
- "updated": 1790658593,
+ "updated": 1790659495,
  "agents": [
   {
    "agent": "builder",
@@ -7,9 +7,9 @@
    "state": "done",
    "task": "Group anagrams in the word list",
    "progress": 1.0,
-   "started": 1790658586,
-   "heartbeat": 1790658592,
-   "completed_today": 36,
+   "started": 1790659492,
+   "heartbeat": 1790659494,
+   "completed_today": 42,
    "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
    "note": "",
    "stale": false
@@ -17,33 +17,33 @@
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.339,
-   "started": 1790658578,
-   "heartbeat": 1790658592,
-   "completed_today": 38,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "0 inversions",
+   "state": "blocked",
+   "task": "Review Builder's haiku",
+   "progress": null,
+   "started": 1790659414,
+   "heartbeat": 1790659494,
+   "completed_today": 47,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.88,
-   "started": 1790658535,
-   "heartbeat": 1790658592,
-   "completed_today": 49,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "longest so far: 230631 (443 steps)",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.684,
+   "started": 1790659438,
+   "heartbeat": 1790659494,
+   "completed_today": 61,
+   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
+   "note": "109 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 123,
-  "working": 2,
+  "completed_today": 150,
+  "working": 1,
   "agents": 3
  }
 }
