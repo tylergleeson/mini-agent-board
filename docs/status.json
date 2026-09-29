@@ -1,49 +1,49 @@
 {
- "updated": 1790686556,
+ "updated": 1790687458,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.333,
-   "started": 1790686534,
-   "heartbeat": 1790686556,
-   "completed_today": 241,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "test_yellow: ok",
+   "task": "Group anagrams in the word list",
+   "progress": 0.812,
+   "started": 1790687408,
+   "heartbeat": 1790687457,
+   "completed_today": 249,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "15 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
+   "state": "working",
    "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1790686541,
-   "heartbeat": 1790686556,
-   "completed_today": 274,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Builder to release the workbench",
+   "progress": 0.556,
+   "started": 1790687439,
+   "heartbeat": 1790687457,
+   "completed_today": 283,
+   "last_result": "Counted 33,227 primes below 392,000; the biggest was 391,999.",
+   "note": "test_idea: FAIL",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.3,
-   "started": 1790686545,
-   "heartbeat": 1790686556,
-   "completed_today": 396,
-   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
-   "note": "π ≈ 3.1454",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.325,
+   "started": 1790687439,
+   "heartbeat": 1790687457,
+   "completed_today": 409,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "F(9750) has 2038 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 911,
-  "working": 2,
+  "completed_today": 941,
+  "working": 3,
   "agents": 3
  }
 }
