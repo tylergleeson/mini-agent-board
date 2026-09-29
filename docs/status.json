@@ -1,49 +1,49 @@
 {
- "updated": 1790676633,
+ "updated": 1790677535,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.333,
-   "started": 1790676605,
-   "heartbeat": 1790676631,
-   "completed_today": 166,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 748 swaps.",
-   "note": "test_display: ok",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 1.0,
+   "started": 1790677468,
+   "heartbeat": 1790677534,
+   "completed_today": 171,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "pass 42/56, 723 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's Beatles sort",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790676608,
-   "heartbeat": 1790676631,
-   "completed_today": 186,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1790677474,
+   "heartbeat": 1790677534,
+   "completed_today": 191,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1790676517,
-   "heartbeat": 1790676631,
-   "completed_today": 274,
-   "last_result": "Counted 17,658 primes below 196,000; the biggest was 195,997.",
-   "note": "waiting for someone to release the workbench",
+   "state": "working",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.68,
+   "started": 1790677506,
+   "heartbeat": 1790677534,
+   "completed_today": 285,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "longest so far: 156159 (383 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 626,
-  "working": 1,
+  "completed_today": 647,
+  "working": 2,
   "agents": 3
  }
 }
