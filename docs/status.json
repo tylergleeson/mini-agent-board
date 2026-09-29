@@ -1,30 +1,30 @@
 {
- "updated": 1790682947,
+ "updated": 1790683849,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1790682942,
-   "heartbeat": 1790682946,
-   "completed_today": 209,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "next: Group anagrams in the word list",
+   "state": "working",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 1.0,
+   "started": 1790683789,
+   "heartbeat": 1790683849,
+   "completed_today": 219,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "line 3 ✓ 'deploy by midnight'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.333,
-   "started": 1790682942,
-   "heartbeat": 1790682946,
-   "completed_today": 233,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "line 1: 5 syllables",
+   "state": "done",
+   "task": "Count primes below a random N",
+   "progress": 1.0,
+   "started": 1790683847,
+   "heartbeat": 1790683849,
+   "completed_today": 243,
+   "last_result": "Counted 14,933 primes below 163,000; the biggest was 162,997.",
+   "note": "",
    "stale": false
   },
   {
@@ -33,16 +33,16 @@
    "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
    "progress": null,
-   "started": 1790682858,
-   "heartbeat": 1790682946,
-   "completed_today": 349,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "started": 1790683795,
+   "heartbeat": 1790683849,
+   "completed_today": 362,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
    "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 791,
+  "completed_today": 824,
   "working": 1,
   "agents": 3
  }
