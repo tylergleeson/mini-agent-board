@@ -1,49 +1,49 @@
 {
- "updated": 1790681143,
+ "updated": 1790682045,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.4,
-   "started": 1790681107,
-   "heartbeat": 1790681142,
-   "completed_today": 198,
+   "task": "Group anagrams in the word list",
+   "progress": 0.319,
+   "started": 1790682018,
+   "heartbeat": 1790682044,
+   "completed_today": 203,
    "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "F(8000) has 1672 digits",
+   "note": "7 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.768,
-   "started": 1790681083,
-   "heartbeat": 1790681142,
-   "completed_today": 223,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
-   "note": "0 inversions",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.556,
+   "started": 1790681998,
+   "heartbeat": 1790682044,
+   "completed_today": 230,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "test_table: ok",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.25,
-   "started": 1790681123,
-   "heartbeat": 1790681142,
-   "completed_today": 329,
-   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1417.",
-   "note": "F(7500) has 1568 digits",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1790682001,
+   "heartbeat": 1790682044,
+   "completed_today": 340,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 750,
-  "working": 3,
+  "completed_today": 773,
+  "working": 2,
   "agents": 3
  }
 }
