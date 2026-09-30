@@ -1,30 +1,30 @@
 {
- "updated": 1790752416,
+ "updated": 1790753318,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "done",
-   "task": "Group anagrams in the word list",
-   "progress": 1.0,
-   "started": 1790752411,
-   "heartbeat": 1790752415,
-   "completed_today": 76,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "",
+   "state": "working",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.667,
+   "started": 1790753281,
+   "heartbeat": 1790753317,
+   "completed_today": 83,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), area (got 2, want 3).",
+   "note": "line 2 ✓ 'one agents pass through the dark'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "done",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 1.0,
-   "started": 1790752411,
-   "heartbeat": 1790752415,
-   "completed_today": 87,
+   "state": "blocked",
+   "task": "Review Builder's haiku",
+   "progress": null,
+   "started": 1790753303,
+   "heartbeat": 1790753317,
+   "completed_today": 93,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.46,
-   "started": 1790752394,
-   "heartbeat": 1790752415,
-   "completed_today": 135,
-   "last_result": "Counted 20,521 primes below 231,000; the biggest was 230,999.",
-   "note": "π ≈ 3.1437",
+   "progress": 0.94,
+   "started": 1790753233,
+   "heartbeat": 1790753317,
+   "completed_today": 146,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1411.",
+   "note": "π ≈ 3.1407",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 298,
-  "working": 1,
+  "completed_today": 322,
+  "working": 2,
   "agents": 3
  }
 }
