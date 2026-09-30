@@ -1,30 +1,30 @@
 {
- "updated": 1790766850,
+ "updated": 1790767752,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.222,
-   "started": 1790766842,
-   "heartbeat": 1790766849,
-   "completed_today": 182,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 686 swaps.",
-   "note": "test_critic: ok",
+   "task": "Group anagrams in the word list",
+   "progress": 0.841,
+   "started": 1790767677,
+   "heartbeat": 1790767750,
+   "completed_today": 189,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "16 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1790766842,
-   "heartbeat": 1790766849,
-   "completed_today": 194,
+   "state": "working",
+   "task": "Review Builder's haiku",
+   "progress": 0.667,
+   "started": 1790767721,
+   "heartbeat": 1790767750,
+   "completed_today": 201,
    "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "next: Re-run the syllable unit tests",
+   "note": "line 2: 7 syllables",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.04,
-   "started": 1790766846,
-   "heartbeat": 1790766849,
-   "completed_today": 293,
-   "last_result": "Counted 17,415 primes below 193,000; the biggest was 192,991.",
-   "note": "π ≈ 3.1581",
+   "progress": 0.34,
+   "started": 1790767729,
+   "heartbeat": 1790767750,
+   "completed_today": 303,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "π ≈ 3.1433",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 669,
-  "working": 2,
+  "completed_today": 693,
+  "working": 3,
   "agents": 3
  }
 }
