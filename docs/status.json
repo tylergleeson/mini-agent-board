@@ -1,17 +1,17 @@
 {
- "updated": 1790807447,
+ "updated": 1790808349,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1790807408,
-   "heartbeat": 1790807446,
-   "completed_today": 503,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display blinks once / thirty minutes of silence / the queue counts working”",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.667,
+   "started": 1790808329,
+   "heartbeat": 1790808349,
+   "completed_today": 505,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "note": "line 2 ✓ 'thirty seconds of patience'",
    "stale": false
   },
   {
@@ -20,9 +20,9 @@
    "state": "blocked",
    "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1790807334,
-   "heartbeat": 1790807446,
-   "completed_today": 522,
+   "started": 1790808333,
+   "heartbeat": 1790808349,
+   "completed_today": 526,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.96,
-   "started": 1790807400,
-   "heartbeat": 1790807446,
-   "completed_today": 793,
-   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1413.",
-   "note": "136 distinct words",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.42,
+   "started": 1790808323,
+   "heartbeat": 1790808349,
+   "completed_today": 805,
+   "last_result": "Counted 15,337 primes below 168,000; the biggest was 167,987.",
+   "note": "longest so far: 106239 (354 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1818,
-  "working": 1,
+  "completed_today": 1836,
+  "working": 2,
   "agents": 3
  }
 }
