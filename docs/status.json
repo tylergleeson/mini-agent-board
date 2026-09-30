@@ -1,30 +1,30 @@
 {
- "updated": 1790769556,
+ "updated": 1790770458,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.4,
-   "started": 1790769520,
-   "heartbeat": 1790769555,
-   "completed_today": 206,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 839 swaps.",
-   "note": "F(8000) has 1672 digits",
+   "progress": 0.1,
+   "started": 1790770453,
+   "heartbeat": 1790770457,
+   "completed_today": 215,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “e-paper stirs once / twenty minutes in silence / the board keeps working”",
+   "note": "F(3000) has 627 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.304,
-   "started": 1790769528,
-   "heartbeat": 1790769555,
-   "completed_today": 219,
-   "last_result": "Counted 22,987 primes below 262,000; the biggest was 261,983.",
-   "note": "0 inversions",
+   "task": "Count primes below a random N",
+   "progress": 0.75,
+   "started": 1790770417,
+   "heartbeat": 1790770457,
+   "completed_today": 228,
+   "last_result": "Counted 24,121 primes below 276,000; the biggest was 275,999.",
+   "note": "25,938 primes so far",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.36,
-   "started": 1790769530,
-   "heartbeat": 1790769555,
-   "completed_today": 327,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "π ≈ 3.1388",
+   "progress": 0.58,
+   "started": 1790770407,
+   "heartbeat": 1790770457,
+   "completed_today": 340,
+   "last_result": "Counted 14,272 primes below 155,000; the biggest was 154,991.",
+   "note": "π ≈ 3.1373",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 752,
+  "completed_today": 783,
   "working": 3,
   "agents": 3
  }
