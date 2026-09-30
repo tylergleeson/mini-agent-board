@@ -1,30 +1,30 @@
 {
- "updated": 1790808349,
+ "updated": 1790809251,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.667,
-   "started": 1790808329,
-   "heartbeat": 1790808349,
-   "completed_today": 505,
-   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
-   "note": "line 2 ✓ 'thirty seconds of patience'",
+   "state": "blocked",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": null,
+   "started": 1790809247,
+   "heartbeat": 1790809250,
+   "completed_today": 513,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent server dreams / one cron jobs spin in the dark / commit near midnight”",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1790808333,
-   "heartbeat": 1790808349,
-   "completed_today": 526,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Review Builder's haiku",
+   "progress": 0.333,
+   "started": 1790809241,
+   "heartbeat": 1790809250,
+   "completed_today": 531,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "line 1: 5 syllables",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Find the longest Collatz chain",
-   "progress": 0.42,
-   "started": 1790808323,
-   "heartbeat": 1790808349,
-   "completed_today": 805,
-   "last_result": "Counted 15,337 primes below 168,000; the biggest was 167,987.",
-   "note": "longest so far: 106239 (354 steps)",
+   "progress": 0.28,
+   "started": 1790809228,
+   "heartbeat": 1790809250,
+   "completed_today": 814,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "longest so far: 77031 (351 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1836,
+  "completed_today": 1858,
   "working": 2,
   "agents": 3
  }
