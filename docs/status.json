@@ -1,17 +1,17 @@
 {
- "updated": 1790809251,
+ "updated": 1790810153,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1790809247,
-   "heartbeat": 1790809250,
-   "completed_today": 513,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent server dreams / one cron jobs spin in the dark / commit near midnight”",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790810097,
+   "heartbeat": 1790810152,
+   "completed_today": 522,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), poem (got 1, want 2).",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
@@ -19,30 +19,30 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's haiku",
-   "progress": 0.333,
-   "started": 1790809241,
-   "heartbeat": 1790809250,
-   "completed_today": 531,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "line 1: 5 syllables",
+   "progress": 1.0,
+   "started": 1790810093,
+   "heartbeat": 1790810152,
+   "completed_today": 538,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "note": "line 3: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.28,
-   "started": 1790809228,
-   "heartbeat": 1790809250,
-   "completed_today": 814,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "longest so far: 77031 (351 steps)",
+   "task": "Hunt palindromic primes",
+   "progress": 0.7,
+   "started": 1790810099,
+   "heartbeat": 1790810152,
+   "completed_today": 824,
+   "last_result": "Counted 21,713 primes below 246,000; the biggest was 245,989.",
+   "note": "70 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1858,
+  "completed_today": 1884,
   "working": 2,
   "agents": 3
  }
