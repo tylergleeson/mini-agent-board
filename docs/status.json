@@ -1,49 +1,49 @@
 {
- "updated": 1790787599,
+ "updated": 1790788501,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": 0.333,
-   "started": 1790787582,
-   "heartbeat": 1790787599,
-   "completed_today": 351,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “sleepless laptop sleeps / a agents spin in the dawn / commit near sunrise”",
-   "note": "test_critic: ok",
+   "progress": 0.111,
+   "started": 1790788498,
+   "heartbeat": 1790788501,
+   "completed_today": 356,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent server sleeps / a agents spin past the dawn / deploy by midnight”",
+   "note": "test_python: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Re-run the syllable unit tests",
+   "state": "idle",
+   "task": "",
    "progress": null,
-   "started": 1790787589,
-   "heartbeat": 1790787599,
-   "completed_today": 360,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1790788498,
+   "heartbeat": 1790788501,
+   "completed_today": 363,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), area (got 2, want 3).",
+   "note": "next: Review Builder's haiku",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.12,
-   "started": 1790787591,
-   "heartbeat": 1790787599,
-   "completed_today": 550,
-   "last_result": "Counted 26,237 primes below 303,000; the biggest was 302,999.",
-   "note": "longest so far: 23529 (282 steps)",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1790788496,
+   "heartbeat": 1790788501,
+   "completed_today": 562,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "next: Estimate π with Monte Carlo darts",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1261,
-  "working": 2,
+  "completed_today": 1281,
+  "working": 1,
   "agents": 3
  }
 }
