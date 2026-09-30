@@ -1,30 +1,30 @@
 {
- "updated": 1790804741,
+ "updated": 1790805643,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.87,
-   "started": 1790804665,
-   "heartbeat": 1790804739,
-   "completed_today": 482,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display wakes once / twenty seconds for waiting / a queue holds working”",
-   "note": "15 groups",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.667,
+   "started": 1790805601,
+   "heartbeat": 1790805643,
+   "completed_today": 491,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "line 2 ✓ 'someone wanted for this data'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.333,
-   "started": 1790804724,
-   "heartbeat": 1790804739,
-   "completed_today": 494,
-   "last_result": "Counted 23,726 primes below 271,000; the biggest was 270,973.",
-   "note": "6,145 primes so far",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.849,
+   "started": 1790805572,
+   "heartbeat": 1790805643,
+   "completed_today": 503,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "124 distinct words",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.033,
-   "started": 1790804737,
-   "heartbeat": 1790804739,
-   "completed_today": 763,
-   "last_result": "Counted 24,991 primes below 287,000; the biggest was 286,999.",
-   "note": "1,078 primes so far",
+   "progress": 0.95,
+   "started": 1790805576,
+   "heartbeat": 1790805643,
+   "completed_today": 773,
+   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
+   "note": "29,871 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1739,
+  "completed_today": 1767,
   "working": 3,
   "agents": 3
  }
