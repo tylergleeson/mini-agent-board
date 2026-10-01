@@ -1,49 +1,49 @@
 {
- "updated": 1790867003,
+ "updated": 1790867905,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.075,
-   "started": 1790866996,
-   "heartbeat": 1790867001,
-   "completed_today": 308,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels stirs slowly / fifteen seconds in waiting / one crew counts working”",
-   "note": "F(2250) has 470 digits",
+   "state": "blocked",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": null,
+   "started": 1790867898,
+   "heartbeat": 1790867903,
+   "completed_today": 316,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels blinks at last / fifteen minutes for patience / the crew counts working”",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.333,
-   "started": 1790866993,
-   "heartbeat": 1790867001,
-   "completed_today": 331,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "line 1: 5 syllables",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.222,
+   "started": 1790867890,
+   "heartbeat": 1790867903,
+   "completed_today": 340,
+   "last_result": "Counted 14,852 primes below 162,000; the biggest was 161,999.",
+   "note": "test_queue: ok",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.1,
-   "started": 1790866997,
-   "heartbeat": 1790867001,
-   "completed_today": 486,
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.525,
+   "started": 1790867865,
+   "heartbeat": 1790867903,
+   "completed_today": 497,
    "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "3,173 primes so far",
+   "note": "F(21000) has 4389 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1125,
-  "working": 3,
+  "completed_today": 1153,
+  "working": 2,
   "agents": 3
  }
 }
