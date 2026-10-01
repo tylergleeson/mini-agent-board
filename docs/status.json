@@ -1,17 +1,17 @@
 {
- "updated": 1790838141,
+ "updated": 1790839044,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1790838058,
-   "heartbeat": 1790838141,
-   "completed_today": 90,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.425,
+   "started": 1790839024,
+   "heartbeat": 1790839044,
+   "completed_today": 97,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 697 swaps.",
+   "note": "F(12750) has 2665 digits",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's haiku",
-   "progress": 1.0,
-   "started": 1790838096,
-   "heartbeat": 1790838141,
-   "completed_today": 93,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "line 3: 5 syllables",
+   "progress": 0.333,
+   "started": 1790839019,
+   "heartbeat": 1790839044,
+   "completed_today": 99,
+   "last_result": "Ran 9 syllable-counter tests; 3 failed on poem (got 1, want 2), idea (got 2, want 3), create (got 1, want 2).",
+   "note": "line 1: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1790838140,
-   "heartbeat": 1790838141,
-   "completed_today": 134,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "next: Find the longest Collatz chain",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.125,
+   "started": 1790839037,
+   "heartbeat": 1790839044,
+   "completed_today": 148,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "F(2500) has 523 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 317,
-  "working": 1,
+  "completed_today": 344,
+  "working": 3,
   "agents": 3
  }
 }
