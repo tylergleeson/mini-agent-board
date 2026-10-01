@@ -1,49 +1,49 @@
 {
- "updated": 1790835436,
+ "updated": 1790836338,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.111,
-   "started": 1790835429,
-   "heartbeat": 1790835434,
-   "completed_today": 69,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "test_camera: ok",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.732,
+   "started": 1790836281,
+   "heartbeat": 1790836336,
+   "completed_today": 73,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), create (got 1, want 2).",
+   "note": "pass 41/56, 746 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's Beatles sort",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790835434,
-   "heartbeat": 1790835434,
-   "completed_today": 77,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), science (got 1, want 2).",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1790836289,
+   "heartbeat": 1790836336,
+   "completed_today": 80,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1790835432,
-   "heartbeat": 1790835434,
-   "completed_today": 104,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "next: Compute a very large Fibonacci number",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.867,
+   "started": 1790836263,
+   "heartbeat": 1790836336,
+   "completed_today": 114,
+   "last_result": "Counted 32,217 primes below 379,000; the biggest was 378,997.",
+   "note": "28,967 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 250,
-  "working": 1,
+  "completed_today": 267,
+  "working": 2,
   "agents": 3
  }
 }
