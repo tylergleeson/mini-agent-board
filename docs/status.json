@@ -1,16 +1,16 @@
 {
- "updated": 1790817369,
+ "updated": 1790818271,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "done",
-   "task": "Refactor a haiku to 5-7-5",
+   "task": "Group anagrams in the word list",
    "progress": 1.0,
-   "started": 1790817368,
-   "heartbeat": 1790817368,
-   "completed_today": 575,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “quiet mac mini waits / one builds pass in the morning / deploy at sunrise”",
+   "started": 1790818267,
+   "heartbeat": 1790818270,
+   "completed_today": 580,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
    "note": "",
    "stale": false
   },
@@ -20,30 +20,30 @@
    "state": "blocked",
    "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1790817335,
-   "heartbeat": 1790817367,
-   "completed_today": 593,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "started": 1790818239,
+   "heartbeat": 1790818270,
+   "completed_today": 598,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.0,
-   "started": 1790817368,
-   "heartbeat": 1790817368,
-   "completed_today": 907,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "state": "done",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 1.0,
+   "started": 1790818267,
+   "heartbeat": 1790818270,
+   "completed_today": 918,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
    "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2075,
-  "working": 1,
+  "completed_today": 2096,
+  "working": 0,
   "agents": 3
  }
 }
