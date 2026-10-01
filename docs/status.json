@@ -1,17 +1,17 @@
 {
- "updated": 1790891359,
+ "updated": 1790892261,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.675,
-   "started": 1790891298,
-   "heartbeat": 1790891358,
-   "completed_today": 502,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 872 swaps.",
-   "note": "F(13500) has 2821 digits",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1790892245,
+   "heartbeat": 1790892261,
+   "completed_today": 510,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Re-run the syllable unit tests",
-   "progress": 0.889,
-   "started": 1790891294,
-   "heartbeat": 1790891358,
-   "completed_today": 537,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), idea (got 2, want 3).",
-   "note": "test_every: ok",
+   "progress": 0.556,
+   "started": 1790892225,
+   "heartbeat": 1790892261,
+   "completed_today": 547,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "test_table: ok",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.5,
-   "started": 1790891324,
-   "heartbeat": 1790891358,
-   "completed_today": 785,
-   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1435.",
-   "note": "π ≈ 3.1424",
+   "task": "Count primes below a random N",
+   "progress": 0.183,
+   "started": 1790892246,
+   "heartbeat": 1790892261,
+   "completed_today": 798,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1421.",
+   "note": "3,042 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1824,
-  "working": 3,
+  "completed_today": 1855,
+  "working": 2,
   "agents": 3
  }
 }
