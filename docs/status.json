@@ -1,17 +1,17 @@
 {
- "updated": 1790811958,
+ "updated": 1790812860,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.8,
-   "started": 1790811919,
-   "heartbeat": 1790811957,
-   "completed_today": 533,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
-   "note": "line 3: 'and a crew looks happy' = 6",
+   "task": "Group anagrams in the word list",
+   "progress": 0.42,
+   "started": 1790812839,
+   "heartbeat": 1790812859,
+   "completed_today": 537,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "9 groups",
    "stale": false
   },
   {
@@ -20,30 +20,30 @@
    "state": "blocked",
    "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790811925,
-   "heartbeat": 1790811957,
-   "completed_today": 549,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790812746,
+   "heartbeat": 1790812859,
+   "completed_today": 556,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.025,
-   "started": 1790811955,
-   "heartbeat": 1790811957,
-   "completed_today": 845,
-   "last_result": "Counted 31,749 primes below 373,000; the biggest was 372,979.",
-   "note": "F(750) has 157 digits",
+   "state": "done",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 1.0,
+   "started": 1790812856,
+   "heartbeat": 1790812859,
+   "completed_today": 854,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1927,
-  "working": 2,
+  "completed_today": 1947,
+  "working": 1,
   "agents": 3
  }
 }
