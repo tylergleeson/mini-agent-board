@@ -1,30 +1,30 @@
 {
- "updated": 1790847161,
+ "updated": 1790848063,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1790847137,
-   "heartbeat": 1790847160,
-   "completed_today": 155,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Group anagrams in the word list",
+   "progress": 0.29,
+   "started": 1790848039,
+   "heartbeat": 1790848063,
+   "completed_today": 163,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 809 swaps.",
+   "note": "5 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1790847132,
-   "heartbeat": 1790847160,
-   "completed_today": 165,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.408,
+   "started": 1790848043,
+   "heartbeat": 1790848063,
+   "completed_today": 173,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "75 distinct words",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.592,
-   "started": 1790847128,
-   "heartbeat": 1790847160,
-   "completed_today": 250,
-   "last_result": "Counted 23,642 primes below 270,000; the biggest was 269,987.",
-   "note": "99 distinct words",
+   "progress": 0.408,
+   "started": 1790848033,
+   "heartbeat": 1790848063,
+   "completed_today": 260,
+   "last_result": "Counted 14,023 primes below 152,000; the biggest was 151,969.",
+   "note": "75 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 570,
-  "working": 1,
+  "completed_today": 596,
+  "working": 3,
   "agents": 3
  }
 }
