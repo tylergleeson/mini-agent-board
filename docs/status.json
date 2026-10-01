@@ -1,49 +1,49 @@
 {
- "updated": 1790813762,
+ "updated": 1790814664,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "error",
    "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1790813615,
-   "heartbeat": 1790813760,
-   "completed_today": 542,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 831 swaps.",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1790814661,
+   "heartbeat": 1790814662,
+   "completed_today": 550,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "needs a human",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's haiku",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1790813711,
-   "heartbeat": 1790813760,
-   "completed_today": 561,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), poem (got 1, want 2).",
+   "started": 1790814630,
+   "heartbeat": 1790814662,
+   "completed_today": 568,
+   "last_result": "Counted 29,580 primes below 345,000; the biggest was 344,987.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 1.0,
-   "started": 1790813760,
-   "heartbeat": 1790813760,
-   "completed_today": 860,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "",
+   "state": "working",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.04,
+   "started": 1790814661,
+   "heartbeat": 1790814662,
+   "completed_today": 872,
+   "last_result": "Counted 15,337 primes below 168,000; the biggest was 167,987.",
+   "note": "longest so far: 17647 (279 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1963,
-  "working": 0,
+  "completed_today": 1990,
+  "working": 1,
   "agents": 3
  }
 }
