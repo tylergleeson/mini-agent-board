@@ -1,17 +1,17 @@
 {
- "updated": 1790812860,
+ "updated": 1790813762,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.42,
-   "started": 1790812839,
-   "heartbeat": 1790812859,
-   "completed_today": 537,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "9 groups",
+   "state": "blocked",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": null,
+   "started": 1790813615,
+   "heartbeat": 1790813760,
+   "completed_today": 542,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 831 swaps.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
@@ -20,11 +20,11 @@
    "state": "blocked",
    "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790812746,
-   "heartbeat": 1790812859,
-   "completed_today": 556,
-   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1790813711,
+   "heartbeat": 1790813760,
+   "completed_today": 561,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), poem (got 1, want 2).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -33,17 +33,17 @@
    "state": "done",
    "task": "Word-frequency audit of the Gettysburg Address",
    "progress": 1.0,
-   "started": 1790812856,
-   "heartbeat": 1790812859,
-   "completed_today": 854,
+   "started": 1790813760,
+   "heartbeat": 1790813760,
+   "completed_today": 860,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
    "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1947,
-  "working": 1,
+  "completed_today": 1963,
+  "working": 0,
   "agents": 3
  }
 }
