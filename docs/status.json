@@ -1,30 +1,30 @@
 {
- "updated": 1790872417,
+ "updated": 1790873319,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.425,
-   "started": 1790872390,
-   "heartbeat": 1790872417,
-   "completed_today": 350,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 768 swaps.",
-   "note": "F(12750) has 2665 digits",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1790873295,
+   "heartbeat": 1790873318,
+   "completed_today": 359,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1790872381,
-   "heartbeat": 1790872417,
-   "completed_today": 380,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for someone to release the workbench",
+   "state": "working",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.684,
+   "started": 1790873267,
+   "heartbeat": 1790873318,
+   "completed_today": 387,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "109 distinct words",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.5,
-   "started": 1790872387,
-   "heartbeat": 1790872417,
-   "completed_today": 554,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "85 distinct words",
+   "progress": 0.537,
+   "started": 1790873294,
+   "heartbeat": 1790873318,
+   "completed_today": 564,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "91 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1284,
+  "completed_today": 1310,
   "working": 2,
   "agents": 3
  }
