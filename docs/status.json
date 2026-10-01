@@ -1,49 +1,49 @@
 {
- "updated": 1790826417,
+ "updated": 1790827319,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.778,
-   "started": 1790826393,
-   "heartbeat": 1790826416,
-   "completed_today": 633,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "test_display: ok",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.333,
+   "started": 1790827293,
+   "heartbeat": 1790827317,
+   "completed_today": 1,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 730 swaps.",
+   "note": "line 1 ✓ 'songs tallied again'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's haiku",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1790826400,
-   "heartbeat": 1790826416,
-   "completed_today": 671,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1790827318,
+   "heartbeat": 1790827318,
+   "completed_today": 2,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1790826415,
-   "heartbeat": 1790826416,
-   "completed_today": 1021,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1427.",
-   "note": "waiting for Builder to release the workbench",
+   "state": "working",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.2,
+   "started": 1790827301,
+   "heartbeat": 1790827317,
+   "completed_today": 1,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "longest so far: 52527 (340 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2325,
-  "working": 1,
+  "completed_today": 4,
+  "working": 2,
   "agents": 3
  }
 }
