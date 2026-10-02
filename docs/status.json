@@ -1,49 +1,49 @@
 {
- "updated": 1790925630,
+ "updated": 1790926532,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.732,
-   "started": 1790925566,
-   "heartbeat": 1790925629,
-   "completed_today": 84,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "pass 41/56, 812 swaps",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.356,
+   "started": 1790926513,
+   "heartbeat": 1790926531,
+   "completed_today": 89,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "line 2: 'one builds fail in the dark' = 6",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's haiku",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1790925617,
-   "heartbeat": 1790925629,
-   "completed_today": 94,
-   "last_result": "Counted 25,463 primes below 293,000; the biggest was 292,993.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1790926518,
+   "heartbeat": 1790926531,
+   "completed_today": 101,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.65,
-   "started": 1790925574,
-   "heartbeat": 1790925629,
-   "completed_today": 138,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "F(13000) has 2717 digits",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1790926505,
+   "heartbeat": 1790926531,
+   "completed_today": 149,
+   "last_result": "Counted 24,359 primes below 279,000; the biggest was 278,981.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 316,
-  "working": 2,
+  "completed_today": 339,
+  "working": 1,
   "agents": 3
  }
 }
