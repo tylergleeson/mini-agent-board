@@ -1,29 +1,29 @@
 {
- "updated": 1790924728,
+ "updated": 1790925630,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1790924718,
-   "heartbeat": 1790924726,
-   "completed_today": 81,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.732,
+   "started": 1790925566,
+   "heartbeat": 1790925629,
+   "completed_today": 84,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "pass 41/56, 812 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's Beatles sort",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1790924660,
-   "heartbeat": 1790924726,
-   "completed_today": 88,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on create (got 1, want 2).",
+   "started": 1790925617,
+   "heartbeat": 1790925629,
+   "completed_today": 94,
+   "last_result": "Counted 25,463 primes below 293,000; the biggest was 292,993.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.353,
-   "started": 1790924711,
-   "heartbeat": 1790924726,
-   "completed_today": 134,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "68 distinct words",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.65,
+   "started": 1790925574,
+   "heartbeat": 1790925629,
+   "completed_today": 138,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "F(13000) has 2717 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 303,
-  "working": 1,
+  "completed_today": 316,
+  "working": 2,
   "agents": 3
  }
 }
