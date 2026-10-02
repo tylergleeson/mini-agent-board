@@ -1,17 +1,17 @@
 {
- "updated": 1790964529,
+ "updated": 1790965431,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.05,
-   "started": 1790964525,
-   "heartbeat": 1790964528,
-   "completed_today": 367,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "F(2000) has 418 digits",
+   "task": "Group anagrams in the word list",
+   "progress": 0.232,
+   "started": 1790965422,
+   "heartbeat": 1790965431,
+   "completed_today": 375,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "3 groups",
    "stale": false
   },
   {
@@ -19,11 +19,11 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.446,
-   "started": 1790964500,
-   "heartbeat": 1790964528,
-   "completed_today": 383,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "progress": 0.232,
+   "started": 1790965416,
+   "heartbeat": 1790965431,
+   "completed_today": 393,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "0 inversions",
    "stale": false
   },
@@ -33,16 +33,16 @@
    "state": "working",
    "task": "Find the longest Collatz chain",
    "progress": 0.28,
-   "started": 1790964506,
-   "heartbeat": 1790964528,
-   "completed_today": 591,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "longest so far: 77031 (351 steps)",
+   "started": 1790965412,
+   "heartbeat": 1790965431,
+   "completed_today": 603,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "longest so far: 106239 (354 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1341,
+  "completed_today": 1371,
   "working": 3,
   "agents": 3
  }
