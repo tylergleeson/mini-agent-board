@@ -1,17 +1,17 @@
 {
- "updated": 1790923826,
+ "updated": 1790924728,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "error",
-   "task": "Write unit tests for haiku.py",
+   "state": "blocked",
+   "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1790923823,
-   "heartbeat": 1790923825,
-   "completed_today": 74,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on idea (got 2, want 3), poem (got 1, want 2), create (got 1, want 2).",
-   "note": "needs a human",
+   "started": 1790924718,
+   "heartbeat": 1790924726,
+   "completed_today": 81,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -20,30 +20,30 @@
    "state": "blocked",
    "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1790923758,
-   "heartbeat": 1790923825,
-   "completed_today": 87,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1790924660,
+   "heartbeat": 1790924726,
+   "completed_today": 88,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on create (got 1, want 2).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Find the longest Collatz chain",
-   "progress": 1.0,
-   "started": 1790923822,
-   "heartbeat": 1790923825,
-   "completed_today": 125,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "",
+   "state": "working",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.353,
+   "started": 1790924711,
+   "heartbeat": 1790924726,
+   "completed_today": 134,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "68 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 286,
-  "working": 0,
+  "completed_today": 303,
+  "working": 1,
   "agents": 3
  }
 }
