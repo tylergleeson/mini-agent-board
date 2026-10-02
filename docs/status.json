@@ -1,30 +1,30 @@
 {
- "updated": 1790978058,
+ "updated": 1790978961,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.232,
-   "started": 1790978049,
-   "heartbeat": 1790978056,
-   "completed_today": 455,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on create (got 1, want 2).",
-   "note": "pass 13/56, 454 swaps",
+   "state": "blocked",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": null,
+   "started": 1790978934,
+   "heartbeat": 1790978959,
+   "completed_today": 464,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1790978051,
-   "heartbeat": 1790978056,
-   "completed_today": 492,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on create (got 1, want 2).",
-   "note": "waiting for Builder to release the workbench",
+   "state": "working",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.889,
+   "started": 1790978929,
+   "heartbeat": 1790978959,
+   "completed_today": 500,
+   "last_result": "Counted 27,357 primes below 317,000; the biggest was 316,991.",
+   "note": "test_orange: ok",
    "stale": false
   },
   {
@@ -33,16 +33,16 @@
    "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
    "progress": null,
-   "started": 1790977983,
-   "heartbeat": 1790978056,
-   "completed_today": 756,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "started": 1790978933,
+   "heartbeat": 1790978959,
+   "completed_today": 767,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
    "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1703,
+  "completed_today": 1731,
   "working": 1,
   "agents": 3
  }
