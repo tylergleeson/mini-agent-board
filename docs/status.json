@@ -1,49 +1,49 @@
 {
- "updated": 1790904887,
+ "updated": 1790905789,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1790904884,
-   "heartbeat": 1790904886,
-   "completed_today": 599,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Group anagrams in the word list",
+   "progress": 0.014,
+   "started": 1790905786,
+   "heartbeat": 1790905787,
+   "completed_today": 608,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "0 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.75,
-   "started": 1790904828,
-   "heartbeat": 1790904886,
-   "completed_today": 647,
+   "task": "Count primes below a random N",
+   "progress": 0.733,
+   "started": 1790905733,
+   "heartbeat": 1790905787,
+   "completed_today": 655,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "0 inversions",
+   "note": "23,811 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.1,
-   "started": 1790904882,
-   "heartbeat": 1790904886,
-   "completed_today": 943,
-   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1390.",
-   "note": "longest so far: 35655 (324 steps)",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.812,
+   "started": 1790905723,
+   "heartbeat": 1790905787,
+   "completed_today": 954,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "121 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2189,
-  "working": 2,
+  "completed_today": 2217,
+  "working": 3,
   "agents": 3
  }
 }
