@@ -1,16 +1,16 @@
 {
- "updated": 1790954490,
+ "updated": 1790955391,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "done",
-   "task": "Compute a very large Fibonacci number",
+   "task": "Sort shuffled Beatles songs by hand",
    "progress": 1.0,
-   "started": 1790954484,
-   "heartbeat": 1790954488,
-   "completed_today": 288,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "started": 1790955390,
+   "heartbeat": 1790955391,
+   "completed_today": 297,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 815 swaps.",
    "note": "",
    "stale": false
   },
@@ -18,12 +18,12 @@
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's haiku",
+   "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1790954436,
-   "heartbeat": 1790954488,
-   "completed_today": 310,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
+   "started": 1790955278,
+   "heartbeat": 1790955391,
+   "completed_today": 313,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), science (got 1, want 2).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,18 +31,18 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.776,
-   "started": 1790954432,
-   "heartbeat": 1790954488,
-   "completed_today": 467,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "117 distinct words",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.92,
+   "started": 1790955344,
+   "heartbeat": 1790955391,
+   "completed_today": 478,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "longest so far: 410011 (449 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1065,
+  "completed_today": 1088,
   "working": 1,
   "agents": 3
  }
