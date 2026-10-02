@@ -1,49 +1,49 @@
 {
- "updated": 1790921120,
+ "updated": 1790922022,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Write unit tests for haiku.py",
-   "progress": 0.778,
-   "started": 1790921054,
-   "heartbeat": 1790921120,
-   "completed_today": 60,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), poem (got 1, want 2), idea (got 2, want 3).",
-   "note": "test_mini: ok",
+   "progress": 0.667,
+   "started": 1790921976,
+   "heartbeat": 1790922022,
+   "completed_today": 63,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 728 swaps.",
+   "note": "test_prime: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's haiku",
-   "progress": null,
-   "started": 1790921059,
-   "heartbeat": 1790921120,
-   "completed_today": 64,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.75,
+   "started": 1790921976,
+   "heartbeat": 1790922022,
+   "completed_today": 73,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "15,584 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.12,
-   "started": 1790921111,
-   "heartbeat": 1790921120,
-   "completed_today": 90,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "π ≈ 3.1350",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.2,
+   "started": 1790922010,
+   "heartbeat": 1790922022,
+   "completed_today": 102,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "longest so far: 77031 (351 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 214,
-  "working": 2,
+  "completed_today": 238,
+  "working": 3,
   "agents": 3
  }
 }
