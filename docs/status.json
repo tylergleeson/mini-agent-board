@@ -1,5 +1,5 @@
 {
- "updated": 1790971745,
+ "updated": 1790972647,
  "agents": [
   {
    "agent": "builder",
@@ -7,43 +7,43 @@
    "state": "blocked",
    "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1790971703,
-   "heartbeat": 1790971744,
-   "completed_today": 415,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), create (got 1, want 2).",
+   "started": 1790972645,
+   "heartbeat": 1790972645,
+   "completed_today": 421,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 813 swaps.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "error",
-   "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1790971743,
-   "heartbeat": 1790971744,
-   "completed_today": 436,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
-   "note": "needs a human",
+   "state": "working",
+   "task": "Review Builder's haiku",
+   "progress": 0.333,
+   "started": 1790972637,
+   "heartbeat": 1790972645,
+   "completed_today": 443,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "note": "line 1: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.65,
-   "started": 1790971690,
-   "heartbeat": 1790971744,
-   "completed_today": 675,
+   "task": "Hunt palindromic primes",
+   "progress": 0.8,
+   "started": 1790972593,
+   "heartbeat": 1790972645,
+   "completed_today": 688,
    "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "F(13000) has 2717 digits",
+   "note": "94 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1526,
-  "working": 1,
+  "completed_today": 1552,
+  "working": 2,
   "agents": 3
  }
 }
