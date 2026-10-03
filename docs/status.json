@@ -1,17 +1,17 @@
 {
- "updated": 1790990684,
+ "updated": 1790991586,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "done",
    "task": "Group anagrams in the word list",
-   "progress": 0.638,
-   "started": 1790990655,
-   "heartbeat": 1790990683,
-   "completed_today": 559,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "13 groups",
+   "progress": 1.0,
+   "started": 1790991581,
+   "heartbeat": 1790991585,
+   "completed_today": 569,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's haiku",
-   "progress": 0.667,
-   "started": 1790990636,
-   "heartbeat": 1790990683,
-   "completed_today": 606,
+   "progress": 0.333,
+   "started": 1790991582,
+   "heartbeat": 1790991585,
+   "completed_today": 614,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "line 2: 7 syllables",
+   "note": "line 1: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1790990681,
-   "heartbeat": 1790990683,
-   "completed_today": 913,
-   "last_result": "Counted 14,521 primes below 158,000; the biggest was 157,999.",
-   "note": "next: Compute a very large Fibonacci number",
+   "state": "done",
+   "task": "Find the longest Collatz chain",
+   "progress": 1.0,
+   "started": 1790991586,
+   "heartbeat": 1790991586,
+   "completed_today": 926,
+   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2078,
-  "working": 2,
+  "completed_today": 2109,
+  "working": 1,
   "agents": 3
  }
 }
