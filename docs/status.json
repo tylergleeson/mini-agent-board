@@ -1,17 +1,17 @@
 {
- "updated": 1791016837,
+ "updated": 1791017738,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "done",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 1.0,
-   "started": 1791016836,
-   "heartbeat": 1791016836,
-   "completed_today": 102,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels blinks slowly / thirty minutes in waiting / a cloud keeps working”",
-   "note": "",
+   "state": "working",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.464,
+   "started": 1791017703,
+   "heartbeat": 1791017736,
+   "completed_today": 106,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display stirs once / twenty seconds of patience / the queue counts working”",
+   "note": "pass 26/56, 649 swaps",
    "stale": false
   },
   {
@@ -20,30 +20,30 @@
    "state": "blocked",
    "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1791016729,
-   "heartbeat": 1791016835,
-   "completed_today": 134,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "started": 1791017712,
+   "heartbeat": 1791017736,
+   "completed_today": 140,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Find the longest Collatz chain",
-   "progress": 1.0,
-   "started": 1791016835,
-   "heartbeat": 1791016835,
-   "completed_today": 205,
-   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
-   "note": "",
+   "state": "working",
+   "task": "Hunt palindromic primes",
+   "progress": 0.1,
+   "started": 1791017732,
+   "heartbeat": 1791017736,
+   "completed_today": 218,
+   "last_result": "Counted 28,250 primes below 328,000; the biggest was 327,983.",
+   "note": "46 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 441,
-  "working": 0,
+  "completed_today": 464,
+  "working": 2,
   "agents": 3
  }
 }
