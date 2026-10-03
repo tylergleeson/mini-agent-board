@@ -1,30 +1,30 @@
 {
- "updated": 1791038480,
+ "updated": 1791039382,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.689,
-   "started": 1791038429,
-   "heartbeat": 1791038479,
-   "completed_today": 245,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 814 swaps.",
-   "note": "line 3: 'still a board looks happy' = 6",
+   "task": "Group anagrams in the word list",
+   "progress": 0.377,
+   "started": 1791039350,
+   "heartbeat": 1791039382,
+   "completed_today": 253,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent laptop sleeps / a cron jobs spin through the dawn / commit at sunrise”",
+   "note": "6 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1791038475,
-   "heartbeat": 1791038479,
-   "completed_today": 320,
+   "state": "working",
+   "task": "Review Builder's haiku",
+   "progress": 0.667,
+   "started": 1791039350,
+   "heartbeat": 1791039382,
+   "completed_today": 327,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "next: Word-frequency audit of the Gettysburg Address",
+   "note": "line 2: 7 syllables",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.05,
-   "started": 1791038475,
-   "heartbeat": 1791038479,
-   "completed_today": 455,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1427.",
-   "note": "F(1000) has 209 digits",
+   "progress": 0.9,
+   "started": 1791039308,
+   "heartbeat": 1791039382,
+   "completed_today": 467,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1431.",
+   "note": "F(27000) has 5643 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1020,
-  "working": 2,
+  "completed_today": 1047,
+  "working": 3,
   "agents": 3
  }
 }
