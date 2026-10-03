@@ -1,17 +1,17 @@
 {
- "updated": 1791007819,
+ "updated": 1791008720,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.333,
-   "started": 1791007812,
-   "heartbeat": 1791007817,
-   "completed_today": 46,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "line 1 ✓ 'pixels wakes at last'",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.222,
+   "started": 1791008714,
+   "heartbeat": 1791008719,
+   "completed_today": 53,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display stirs once / twenty seconds for silence / the queue holds working”",
+   "note": "test_haiku: ok",
    "stale": false
   },
   {
@@ -19,30 +19,30 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.017,
-   "started": 1791007817,
-   "heartbeat": 1791007817,
-   "completed_today": 60,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "538 primes so far",
+   "progress": 0.5,
+   "started": 1791008701,
+   "heartbeat": 1791008719,
+   "completed_today": 70,
+   "last_result": "Counted 30,051 primes below 351,000; the biggest was 350,989.",
+   "note": "11,818 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.875,
-   "started": 1791007761,
-   "heartbeat": 1791007817,
-   "completed_today": 93,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "113 found",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.3,
+   "started": 1791008697,
+   "heartbeat": 1791008719,
+   "completed_today": 104,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "F(6000) has 1254 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 199,
+  "completed_today": 227,
   "working": 3,
   "agents": 3
  }
