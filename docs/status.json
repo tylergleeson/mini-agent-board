@@ -1,5 +1,5 @@
 {
- "updated": 1791101607,
+ "updated": 1791102508,
  "agents": [
   {
    "agent": "builder",
@@ -7,24 +7,24 @@
    "state": "blocked",
    "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1791101539,
-   "heartbeat": 1791101606,
-   "completed_today": 102,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "started": 1791102474,
+   "heartbeat": 1791102508,
+   "completed_today": 108,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "error",
-   "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1791101596,
-   "heartbeat": 1791101606,
-   "completed_today": 121,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on area (got 2, want 3).",
-   "note": "needs a human",
+   "state": "working",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.661,
+   "started": 1791102467,
+   "heartbeat": 1791102508,
+   "completed_today": 130,
+   "last_result": "Counted 17,734 primes below 197,000; the biggest was 196,993.",
+   "note": "0 inversions",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.94,
-   "started": 1791101536,
-   "heartbeat": 1791101606,
-   "completed_today": 185,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "π ≈ 3.1400",
+   "progress": 0.54,
+   "started": 1791102464,
+   "heartbeat": 1791102508,
+   "completed_today": 197,
+   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1404.",
+   "note": "π ≈ 3.1457",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 408,
-  "working": 1,
+  "completed_today": 435,
+  "working": 2,
   "agents": 3
  }
 }
