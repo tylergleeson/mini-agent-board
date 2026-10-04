@@ -1,29 +1,29 @@
 {
- "updated": 1791144895,
+ "updated": 1791145797,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "done",
+   "state": "working",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": 1.0,
-   "started": 1791144893,
-   "heartbeat": 1791144894,
-   "completed_today": 397,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels wakes at last / fifteen minutes in waiting / a board keeps working”",
-   "note": "",
+   "progress": 0.667,
+   "started": 1791145752,
+   "heartbeat": 1791145796,
+   "completed_today": 402,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “e-paper stirs once / fifteen seconds in silence / a crew holds working”",
+   "note": "line 2 ✓ 'one agents fail in the night'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's haiku",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1791144881,
-   "heartbeat": 1791144894,
-   "completed_today": 458,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "started": 1791145694,
+   "heartbeat": 1791145796,
+   "completed_today": 463,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.033,
-   "started": 1791144893,
-   "heartbeat": 1791144894,
-   "completed_today": 707,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1417.",
-   "note": "887 primes so far",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.72,
+   "started": 1791145758,
+   "heartbeat": 1791145796,
+   "completed_today": 718,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "π ≈ 3.1413",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1562,
-  "working": 1,
+  "completed_today": 1583,
+  "working": 2,
   "agents": 3
  }
 }
