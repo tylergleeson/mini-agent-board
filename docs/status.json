@@ -1,49 +1,49 @@
 {
- "updated": 1791134073,
+ "updated": 1791134975,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1791134023,
-   "heartbeat": 1791134072,
-   "completed_today": 327,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.9,
+   "started": 1791134938,
+   "heartbeat": 1791134974,
+   "completed_today": 332,
+   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), idea (got 2, want 3), poem (got 1, want 2).",
+   "note": "line 3: 'still the crew looks alive' = 6",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 1.0,
-   "started": 1791134012,
-   "heartbeat": 1791134072,
-   "completed_today": 376,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "test_create: FAIL",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.868,
+   "started": 1791134942,
+   "heartbeat": 1791134974,
+   "completed_today": 382,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), poem (got 1, want 2).",
+   "note": "126 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.66,
-   "started": 1791134015,
-   "heartbeat": 1791134072,
-   "completed_today": 579,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "π ≈ 3.1407",
+   "task": "Count primes below a random N",
+   "progress": 0.5,
+   "started": 1791134938,
+   "heartbeat": 1791134974,
+   "completed_today": 589,
+   "last_result": "Counted 20,521 primes below 231,000; the biggest was 230,999.",
+   "note": "12,802 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1282,
-  "working": 2,
+  "completed_today": 1303,
+  "working": 3,
   "agents": 3
  }
 }
