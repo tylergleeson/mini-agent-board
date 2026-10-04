@@ -1,17 +1,17 @@
 {
- "updated": 1791089883,
+ "updated": 1791090785,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1791089882,
-   "heartbeat": 1791089882,
-   "completed_today": 22,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 836 swaps.",
-   "note": "next: Sort shuffled Beatles songs by hand",
+   "state": "working",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.25,
+   "started": 1791090769,
+   "heartbeat": 1791090784,
+   "completed_today": 27,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), idea (got 2, want 3).",
+   "note": "pass 14/56, 456 swaps",
    "stale": false
   },
   {
@@ -20,30 +20,30 @@
    "state": "blocked",
    "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1791089845,
-   "heartbeat": 1791089882,
-   "completed_today": 30,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1791090723,
+   "heartbeat": 1791090784,
+   "completed_today": 38,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.004,
-   "started": 1791089882,
-   "heartbeat": 1791089882,
-   "completed_today": 42,
-   "last_result": "Counted 18,719 primes below 209,000; the biggest was 208,997.",
-   "note": "1 distinct words",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.14,
+   "started": 1791090772,
+   "heartbeat": 1791090784,
+   "completed_today": 55,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "longest so far: 52527 (340 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 94,
-  "working": 1,
+  "completed_today": 120,
+  "working": 2,
   "agents": 3
  }
 }
