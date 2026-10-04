@@ -1,49 +1,49 @@
 {
- "updated": 1791119643,
+ "updated": 1791120545,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1791119608,
-   "heartbeat": 1791119641,
-   "completed_today": 229,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 858 swaps.",
-   "note": "waiting for Critic to release the workbench",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.15,
+   "started": 1791120535,
+   "heartbeat": 1791120544,
+   "completed_today": 236,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
+   "note": "F(3000) has 627 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.667,
-   "started": 1791119601,
-   "heartbeat": 1791119641,
-   "completed_today": 265,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), create (got 1, want 2), poem (got 1, want 2).",
-   "note": "line 2: 7 syllables",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.353,
+   "started": 1791120516,
+   "heartbeat": 1791120544,
+   "completed_today": 272,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "68 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.5,
-   "started": 1791119615,
-   "heartbeat": 1791119641,
-   "completed_today": 404,
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.298,
+   "started": 1791120533,
+   "heartbeat": 1791120544,
+   "completed_today": 417,
    "last_result": "Threw 2,000,000 random darts and estimated π at 3.1429.",
-   "note": "15,584 primes so far",
+   "note": "56 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 898,
-  "working": 2,
+  "completed_today": 925,
+  "working": 3,
   "agents": 3
  }
 }
