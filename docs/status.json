@@ -1,5 +1,5 @@
 {
- "updated": 1791100705,
+ "updated": 1791101607,
  "agents": [
   {
    "agent": "builder",
@@ -7,42 +7,42 @@
    "state": "blocked",
    "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1791100652,
-   "heartbeat": 1791100703,
-   "completed_today": 95,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on create (got 1, want 2).",
+   "started": 1791101539,
+   "heartbeat": 1791101606,
+   "completed_today": 102,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
+   "state": "error",
    "task": "Re-run the syllable unit tests",
-   "progress": 0.778,
-   "started": 1791100645,
-   "heartbeat": 1791100703,
-   "completed_today": 114,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), area (got 2, want 3).",
-   "note": "test_haiku: ok",
+   "progress": null,
+   "started": 1791101596,
+   "heartbeat": 1791101606,
+   "completed_today": 121,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on area (got 2, want 3).",
+   "note": "needs a human",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1791100671,
-   "heartbeat": 1791100703,
-   "completed_today": 175,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "waiting for Critic to release the workbench",
+   "state": "working",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.94,
+   "started": 1791101536,
+   "heartbeat": 1791101606,
+   "completed_today": 185,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "π ≈ 3.1400",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 384,
+  "completed_today": 408,
   "working": 1,
   "agents": 3
  }
