@@ -1,5 +1,5 @@
 {
- "updated": 1791143993,
+ "updated": 1791144895,
  "agents": [
   {
    "agent": "builder",
@@ -7,43 +7,43 @@
    "state": "done",
    "task": "Refactor a haiku to 5-7-5",
    "progress": 1.0,
-   "started": 1791143989,
-   "heartbeat": 1791143993,
-   "completed_today": 391,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels stirs slowly / twenty seconds for patience / the cloud keeps working”",
+   "started": 1791144893,
+   "heartbeat": 1791144894,
+   "completed_today": 397,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels wakes at last / fifteen minutes in waiting / a board keeps working”",
    "note": "",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.867,
-   "started": 1791143961,
-   "heartbeat": 1791143993,
-   "completed_today": 451,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "14,784 primes so far",
+   "state": "blocked",
+   "task": "Review Builder's haiku",
+   "progress": null,
+   "started": 1791144881,
+   "heartbeat": 1791144894,
+   "completed_today": 458,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.74,
-   "started": 1791143953,
-   "heartbeat": 1791143993,
-   "completed_today": 696,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "π ≈ 3.1429",
+   "task": "Count primes below a random N",
+   "progress": 0.033,
+   "started": 1791144893,
+   "heartbeat": 1791144894,
+   "completed_today": 707,
+   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1417.",
+   "note": "887 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1538,
-  "working": 2,
+  "completed_today": 1562,
+  "working": 1,
   "agents": 3
  }
 }
