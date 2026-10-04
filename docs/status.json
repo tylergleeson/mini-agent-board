@@ -1,30 +1,30 @@
 {
- "updated": 1791145797,
+ "updated": 1791146699,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.667,
-   "started": 1791145752,
-   "heartbeat": 1791145796,
-   "completed_today": 402,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “e-paper stirs once / fifteen seconds in silence / a crew holds working”",
-   "note": "line 2 ✓ 'one agents fail in the night'",
+   "task": "Group anagrams in the word list",
+   "progress": 0.754,
+   "started": 1791146641,
+   "heartbeat": 1791146697,
+   "completed_today": 411,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "15 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1791145694,
-   "heartbeat": 1791145796,
-   "completed_today": 463,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.794,
+   "started": 1791146665,
+   "heartbeat": 1791146697,
+   "completed_today": 471,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
+   "note": "120 distinct words",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.72,
-   "started": 1791145758,
-   "heartbeat": 1791145796,
-   "completed_today": 718,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "π ≈ 3.1413",
+   "progress": 0.44,
+   "started": 1791146659,
+   "heartbeat": 1791146697,
+   "completed_today": 731,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1402.",
+   "note": "π ≈ 3.1444",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1583,
-  "working": 2,
+  "completed_today": 1613,
+  "working": 3,
   "agents": 3
  }
 }
