@@ -1,49 +1,49 @@
 {
- "updated": 1791140386,
+ "updated": 1791141288,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1791140341,
-   "heartbeat": 1791140386,
-   "completed_today": 369,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 805 swaps.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.339,
+   "started": 1791141257,
+   "heartbeat": 1791141286,
+   "completed_today": 374,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 738 swaps.",
+   "note": "pass 19/56, 601 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's Beatles sort",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1791140367,
-   "heartbeat": 1791140386,
-   "completed_today": 428,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "started": 1791141261,
+   "heartbeat": 1791141286,
+   "completed_today": 433,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 1.0,
-   "started": 1791140380,
-   "heartbeat": 1791140386,
-   "completed_today": 650,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "",
+   "state": "working",
+   "task": "Hunt palindromic primes",
+   "progress": 0.825,
+   "started": 1791141213,
+   "heartbeat": 1791141286,
+   "completed_today": 659,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "113 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1447,
-  "working": 0,
+  "completed_today": 1466,
+  "working": 2,
   "agents": 3
  }
 }
