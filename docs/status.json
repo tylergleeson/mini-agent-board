@@ -1,17 +1,17 @@
 {
- "updated": 1791158422,
+ "updated": 1791159324,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1791158411,
-   "heartbeat": 1791158421,
-   "completed_today": 495,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), poem (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Group anagrams in the word list",
+   "progress": 0.768,
+   "started": 1791159286,
+   "heartbeat": 1791159323,
+   "completed_today": 504,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 816 swaps.",
+   "note": "15 groups",
    "stale": false
   },
   {
@@ -20,29 +20,29 @@
    "state": "blocked",
    "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1791158354,
-   "heartbeat": 1791158421,
-   "completed_today": 561,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "started": 1791159246,
+   "heartbeat": 1791159323,
+   "completed_today": 568,
+   "last_result": "Counted 30,825 primes below 361,000; the biggest was 360,989.",
    "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
+   "state": "done",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.5,
-   "started": 1791158404,
-   "heartbeat": 1791158421,
-   "completed_today": 866,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "85 distinct words",
+   "progress": 1.0,
+   "started": 1791159323,
+   "heartbeat": 1791159323,
+   "completed_today": 877,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1922,
+  "completed_today": 1949,
   "working": 1,
   "agents": 3
  }
