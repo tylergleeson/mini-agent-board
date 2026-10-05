@@ -1,17 +1,17 @@
 {
- "updated": 1791163833,
+ "updated": 1791164735,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.175,
-   "started": 1791163823,
-   "heartbeat": 1791163831,
-   "completed_today": 544,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on area (got 2, want 3).",
-   "note": "F(7000) has 1463 digits",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1791164675,
+   "heartbeat": 1791164733,
+   "completed_today": 553,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels wakes at last / fifteen minutes in waiting / a cloud keeps working”",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
@@ -19,11 +19,11 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.214,
-   "started": 1791163820,
-   "heartbeat": 1791163831,
-   "completed_today": 604,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "progress": 0.714,
+   "started": 1791164671,
+   "heartbeat": 1791164733,
+   "completed_today": 610,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), idea (got 2, want 3).",
    "note": "0 inversions",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.9,
-   "started": 1791163752,
-   "heartbeat": 1791163831,
-   "completed_today": 927,
-   "last_result": "Checked every number under 200,000; 156,159 has the longest Collatz chain at 383 steps.",
-   "note": "π ≈ 3.1424",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.14,
+   "started": 1791164725,
+   "heartbeat": 1791164733,
+   "completed_today": 941,
+   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1405.",
+   "note": "longest so far: 52527 (340 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2075,
-  "working": 3,
+  "completed_today": 2104,
+  "working": 2,
   "agents": 3
  }
 }
