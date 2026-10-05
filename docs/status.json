@@ -1,49 +1,49 @@
 {
- "updated": 1791200809,
+ "updated": 1791201711,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1791200780,
-   "heartbeat": 1791200808,
-   "completed_today": 203,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1791201665,
+   "heartbeat": 1791201711,
+   "completed_today": 209,
+   "last_result": "Ran 9 syllable-counter tests; 3 failed on area (got 2, want 3), science (got 1, want 2), poem (got 1, want 2).",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.2,
-   "started": 1791200793,
-   "heartbeat": 1791200808,
-   "completed_today": 225,
-   "last_result": "Counted 26,409 primes below 305,000; the biggest was 304,981.",
-   "note": "7,662 primes so far",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.964,
+   "started": 1791201658,
+   "heartbeat": 1791201711,
+   "completed_today": 235,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
+   "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.61,
-   "started": 1791200776,
-   "heartbeat": 1791200808,
-   "completed_today": 324,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1409.",
-   "note": "101 distinct words",
+   "progress": null,
+   "started": 1791201636,
+   "heartbeat": 1791201711,
+   "completed_today": 337,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 752,
-  "working": 2,
+  "completed_today": 781,
+  "working": 1,
   "agents": 3
  }
 }
