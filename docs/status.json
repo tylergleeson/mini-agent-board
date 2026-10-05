@@ -1,17 +1,17 @@
 {
- "updated": 1791166538,
+ "updated": 1791167440,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1791166447,
-   "heartbeat": 1791166537,
-   "completed_today": 565,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.55,
+   "started": 1791167397,
+   "heartbeat": 1791167438,
+   "completed_today": 571,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "F(16500) has 3448 digits",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.617,
-   "started": 1791166494,
-   "heartbeat": 1791166537,
-   "completed_today": 621,
-   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
-   "note": "13,722 primes so far",
+   "progress": 0.183,
+   "started": 1791167429,
+   "heartbeat": 1791167438,
+   "completed_today": 629,
+   "last_result": "Counted 25,062 primes below 288,000; the biggest was 287,977.",
+   "note": "7,215 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.776,
-   "started": 1791166488,
-   "heartbeat": 1791166537,
-   "completed_today": 962,
-   "last_result": "Counted 31,989 primes below 376,000; the biggest was 375,997.",
-   "note": "117 distinct words",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.85,
+   "started": 1791167404,
+   "heartbeat": 1791167438,
+   "completed_today": 974,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "F(17000) has 3553 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2148,
-  "working": 2,
+  "completed_today": 2174,
+  "working": 3,
   "agents": 3
  }
 }
