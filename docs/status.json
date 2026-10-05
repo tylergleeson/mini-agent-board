@@ -1,17 +1,17 @@
 {
- "updated": 1791167440,
+ "updated": 1791168342,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.55,
-   "started": 1791167397,
-   "heartbeat": 1791167438,
-   "completed_today": 571,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "F(16500) has 3448 digits",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1791168341,
+   "heartbeat": 1791168342,
+   "completed_today": 577,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 794 swaps.",
+   "note": "next: Refactor a haiku to 5-7-5",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.183,
-   "started": 1791167429,
-   "heartbeat": 1791167438,
-   "completed_today": 629,
-   "last_result": "Counted 25,062 primes below 288,000; the biggest was 287,977.",
-   "note": "7,215 primes so far",
+   "progress": 0.4,
+   "started": 1791168312,
+   "heartbeat": 1791168342,
+   "completed_today": 637,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "13,010 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.85,
-   "started": 1791167404,
-   "heartbeat": 1791167438,
-   "completed_today": 974,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "F(17000) has 3553 digits",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.004,
+   "started": 1791168341,
+   "heartbeat": 1791168342,
+   "completed_today": 984,
+   "last_result": "Counted 24,519 primes below 281,000; the biggest was 280,997.",
+   "note": "1 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2174,
-  "working": 3,
+  "completed_today": 2198,
+  "working": 2,
   "agents": 3
  }
 }
