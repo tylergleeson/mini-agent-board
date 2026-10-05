@@ -1,49 +1,49 @@
 {
- "updated": 1791225162,
+ "updated": 1791226064,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.333,
-   "started": 1791225161,
-   "heartbeat": 1791225162,
-   "completed_today": 382,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 803 swaps.",
-   "note": "line 1 ✓ 'old mac mini hums'",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.778,
+   "started": 1791226007,
+   "heartbeat": 1791226063,
+   "completed_today": 392,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "test_camera: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "idle",
-   "task": "",
+   "state": "blocked",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1791225161,
-   "heartbeat": 1791225162,
-   "completed_today": 450,
+   "started": 1791226014,
+   "heartbeat": 1791226063,
+   "completed_today": 459,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "next: Review Builder's haiku",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
+   "state": "done",
    "task": "Count primes below a random N",
-   "progress": 0.7,
-   "started": 1791225112,
-   "heartbeat": 1791225162,
-   "completed_today": 630,
-   "last_result": "Counted 15,093 primes below 165,000; the biggest was 164,999.",
-   "note": "20,111 primes so far",
+   "progress": 1.0,
+   "started": 1791226063,
+   "heartbeat": 1791226063,
+   "completed_today": 642,
+   "last_result": "Counted 13,933 primes below 151,000; the biggest was 150,991.",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1462,
-  "working": 2,
+  "completed_today": 1493,
+  "working": 1,
   "agents": 3
  }
 }
