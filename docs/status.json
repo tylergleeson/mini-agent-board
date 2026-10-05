@@ -1,49 +1,49 @@
 {
- "updated": 1791183673,
+ "updated": 1791184575,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "blocked",
    "task": "Write unit tests for haiku.py",
-   "progress": 0.889,
-   "started": 1791183601,
-   "heartbeat": 1791183671,
-   "completed_today": 74,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "test_create: FAIL",
+   "progress": null,
+   "started": 1791184535,
+   "heartbeat": 1791184574,
+   "completed_today": 82,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 762 swaps.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
+   "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1791183525,
-   "heartbeat": 1791183671,
-   "completed_today": 86,
+   "progress": 0.607,
+   "started": 1791184527,
+   "heartbeat": 1791184574,
+   "completed_today": 91,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.96,
-   "started": 1791183604,
-   "heartbeat": 1791183671,
-   "completed_today": 125,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "longest so far: 156159 (383 steps)",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1791184491,
+   "heartbeat": 1791184574,
+   "completed_today": 136,
+   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 285,
-  "working": 2,
+  "completed_today": 309,
+  "working": 1,
   "agents": 3
  }
 }
