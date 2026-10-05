@@ -1,30 +1,30 @@
 {
- "updated": 1791187281,
+ "updated": 1791188183,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.667,
-   "started": 1791187256,
-   "heartbeat": 1791187279,
-   "completed_today": 101,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "line 2 ✓ 'a agents fail past the dawn'",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.444,
+   "started": 1791188164,
+   "heartbeat": 1791188182,
+   "completed_today": 108,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "test_science: FAIL",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.233,
-   "started": 1791187260,
-   "heartbeat": 1791187279,
-   "completed_today": 114,
+   "state": "blocked",
+   "task": "Re-run the syllable unit tests",
+   "progress": null,
+   "started": 1791188167,
+   "heartbeat": 1791188182,
+   "completed_today": 121,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "5,905 primes so far",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -33,17 +33,17 @@
    "state": "done",
    "task": "Compute a very large Fibonacci number",
    "progress": 1.0,
-   "started": 1791187280,
-   "heartbeat": 1791187280,
-   "completed_today": 167,
+   "started": 1791188180,
+   "heartbeat": 1791188182,
+   "completed_today": 179,
    "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
    "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 382,
-  "working": 2,
+  "completed_today": 408,
+  "working": 1,
   "agents": 3
  }
 }
