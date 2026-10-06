@@ -1,49 +1,49 @@
 {
- "updated": 1791275666,
+ "updated": 1791276568,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1791275627,
-   "heartbeat": 1791275665,
-   "completed_today": 108,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 816 swaps.",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1791276532,
+   "heartbeat": 1791276567,
+   "completed_today": 113,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 1.0,
-   "started": 1791275623,
-   "heartbeat": 1791275665,
-   "completed_today": 129,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "line 3: 5 syllables",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.778,
+   "started": 1791276530,
+   "heartbeat": 1791276567,
+   "completed_today": 137,
+   "last_result": "Counted 18,807 primes below 210,000; the biggest was 209,987.",
+   "note": "test_python: ok",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1791275571,
-   "heartbeat": 1791275665,
-   "completed_today": 198,
-   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
-   "note": "waiting for Builder to release the workbench",
+   "state": "working",
+   "task": "Hunt palindromic primes",
+   "progress": 0.15,
+   "started": 1791276557,
+   "heartbeat": 1791276567,
+   "completed_today": 210,
+   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
+   "note": "33 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 435,
-  "working": 1,
+  "completed_today": 460,
+  "working": 2,
   "agents": 3
  }
 }
