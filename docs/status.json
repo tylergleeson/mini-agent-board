@@ -1,49 +1,49 @@
 {
- "updated": 1791270255,
+ "updated": 1791271157,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.778,
-   "started": 1791270212,
-   "heartbeat": 1791270254,
-   "completed_today": 77,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 767 swaps.",
-   "note": "test_science: FAIL",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.429,
+   "started": 1791271137,
+   "heartbeat": 1791271156,
+   "completed_today": 82,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), science (got 1, want 2).",
+   "note": "pass 24/56, 730 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Re-run the syllable unit tests",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1791270216,
-   "heartbeat": 1791270254,
-   "completed_today": 91,
-   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "started": 1791271142,
+   "heartbeat": 1791271156,
+   "completed_today": 96,
+   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
    "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1791270115,
-   "heartbeat": 1791270254,
-   "completed_today": 132,
-   "last_result": "Counted 20,521 primes below 231,000; the biggest was 230,999.",
-   "note": "waiting for someone to release the workbench",
+   "state": "working",
+   "task": "Hunt palindromic primes",
+   "progress": 0.2,
+   "started": 1791271143,
+   "heartbeat": 1791271156,
+   "completed_today": 143,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "70 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 300,
-  "working": 1,
+  "completed_today": 321,
+  "working": 2,
   "agents": 3
  }
 }
