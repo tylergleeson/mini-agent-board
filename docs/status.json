@@ -1,49 +1,49 @@
 {
- "updated": 1791256728,
+ "updated": 1791257630,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.4,
-   "started": 1791256706,
-   "heartbeat": 1791256728,
-   "completed_today": 626,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), science (got 1, want 2).",
-   "note": "F(8000) has 1672 digits",
+   "task": "Group anagrams in the word list",
+   "progress": 0.768,
+   "started": 1791257596,
+   "heartbeat": 1791257630,
+   "completed_today": 633,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels refreshes once / thirty seconds of silence / one queue keeps working”",
+   "note": "14 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1791256641,
-   "heartbeat": 1791256728,
-   "completed_today": 710,
+   "state": "working",
+   "task": "Review Builder's haiku",
+   "progress": 0.667,
+   "started": 1791257592,
+   "heartbeat": 1791257630,
+   "completed_today": 716,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Builder to release the workbench",
+   "note": "line 2: 7 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.555,
-   "started": 1791256700,
-   "heartbeat": 1791256728,
-   "completed_today": 997,
-   "last_result": "Counted 16,745 primes below 185,000; the biggest was 184,999.",
-   "note": "95 distinct words",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.575,
+   "started": 1791257596,
+   "heartbeat": 1791257630,
+   "completed_today": 1009,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "F(11500) has 2404 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2333,
-  "working": 2,
+  "completed_today": 2358,
+  "working": 3,
   "agents": 3
  }
 }
