@@ -1,49 +1,49 @@
 {
- "updated": 1791251317,
+ "updated": 1791252219,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.05,
-   "started": 1791251313,
-   "heartbeat": 1791251316,
-   "completed_today": 587,
+   "progress": 0.325,
+   "started": 1791252205,
+   "heartbeat": 1791252217,
+   "completed_today": 594,
    "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "F(1000) has 209 digits",
+   "note": "F(13000) has 2717 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.018,
-   "started": 1791251316,
-   "heartbeat": 1791251316,
-   "completed_today": 664,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "0 inversions",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.868,
+   "started": 1791252177,
+   "heartbeat": 1791252217,
+   "completed_today": 673,
+   "last_result": "Counted 26,165 primes below 302,000; the biggest was 301,999.",
+   "note": "126 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.1,
-   "started": 1791251311,
-   "heartbeat": 1791251316,
-   "completed_today": 932,
-   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
-   "note": "46 found",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1791252217,
+   "heartbeat": 1791252217,
+   "completed_today": 945,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "next: Count primes below a random N",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2183,
-  "working": 3,
+  "completed_today": 2212,
+  "working": 2,
   "agents": 3
  }
 }
