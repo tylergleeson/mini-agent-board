@@ -1,17 +1,17 @@
 {
- "updated": 1791310033,
+ "updated": 1791310935,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "blocked",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": 1.0,
-   "started": 1791310001,
-   "heartbeat": 1791310032,
-   "completed_today": 374,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "line 3 ✓ 'deploy at midnight'",
+   "progress": null,
+   "started": 1791310885,
+   "heartbeat": 1791310934,
+   "completed_today": 380,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 706 swaps.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -20,9 +20,9 @@
    "state": "blocked",
    "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1791310033,
-   "heartbeat": 1791310033,
-   "completed_today": 422,
+   "started": 1791310910,
+   "heartbeat": 1791310934,
+   "completed_today": 432,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.875,
-   "started": 1791309961,
-   "heartbeat": 1791310032,
-   "completed_today": 604,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "F(35000) has 7315 digits",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.684,
+   "started": 1791310883,
+   "heartbeat": 1791310934,
+   "completed_today": 613,
+   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
+   "note": "109 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1400,
-  "working": 2,
+  "completed_today": 1425,
+  "working": 1,
   "agents": 3
  }
 }
