@@ -1,49 +1,49 @@
 {
- "updated": 1791267550,
+ "updated": 1791268452,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.875,
-   "started": 1791267478,
-   "heartbeat": 1791267549,
-   "completed_today": 58,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 824 swaps.",
-   "note": "pass 49/56, 742 swaps",
+   "progress": 1.0,
+   "started": 1791268396,
+   "heartbeat": 1791268450,
+   "completed_today": 65,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "pass 42/56, 695 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's Beatles sort",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1791267483,
-   "heartbeat": 1791267549,
-   "completed_today": 69,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1791268277,
+   "heartbeat": 1791268450,
+   "completed_today": 78,
+   "last_result": "Counted 26,644 primes below 308,000; the biggest was 307,969.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.76,
-   "started": 1791267519,
-   "heartbeat": 1791267549,
-   "completed_today": 97,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "π ≈ 3.1409",
+   "state": "done",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 1.0,
+   "started": 1791268450,
+   "heartbeat": 1791268450,
+   "completed_today": 110,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 224,
-  "working": 2,
+  "completed_today": 253,
+  "working": 1,
   "agents": 3
  }
 }
