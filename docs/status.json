@@ -1,49 +1,49 @@
 {
- "updated": 1791314543,
+ "updated": 1791315445,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "error",
-   "task": "Refactor a haiku to 5-7-5",
+   "state": "blocked",
+   "task": "Sort shuffled Beatles songs by hand",
    "progress": null,
-   "started": 1791314530,
-   "heartbeat": 1791314542,
-   "completed_today": 400,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "needs a human",
+   "started": 1791315372,
+   "heartbeat": 1791315444,
+   "completed_today": 409,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “e-paper wakes once / twenty seconds in silence / the queue counts working”",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Re-run the syllable unit tests",
+   "task": "Review Builder's haiku",
    "progress": null,
-   "started": 1791314490,
-   "heartbeat": 1791314542,
-   "completed_today": 458,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1791315295,
+   "heartbeat": 1791315444,
+   "completed_today": 466,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
+   "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1791314535,
-   "heartbeat": 1791314542,
-   "completed_today": 658,
-   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
-   "note": "waiting for someone to release the workbench",
+   "progress": 0.996,
+   "started": 1791315370,
+   "heartbeat": 1791315444,
+   "completed_today": 667,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "137 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1516,
-  "working": 0,
+  "completed_today": 1542,
+  "working": 1,
   "agents": 3
  }
 }
