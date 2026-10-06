@@ -1,30 +1,30 @@
 {
- "updated": 1791318152,
+ "updated": 1791319054,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1791318091,
-   "heartbeat": 1791318151,
-   "completed_today": 426,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.556,
+   "started": 1791319016,
+   "heartbeat": 1791319052,
+   "completed_today": 430,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "test_area: FAIL",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
+   "state": "blocked",
    "task": "Review Builder's haiku",
-   "progress": 1.0,
-   "started": 1791318112,
-   "heartbeat": 1791318151,
-   "completed_today": 482,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "line 3: 5 syllables",
+   "progress": null,
+   "started": 1791318999,
+   "heartbeat": 1791319052,
+   "completed_today": 491,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.383,
-   "started": 1791318119,
-   "heartbeat": 1791318151,
-   "completed_today": 698,
+   "progress": 0.4,
+   "started": 1791319021,
+   "heartbeat": 1791319052,
+   "completed_today": 708,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "13,134 primes so far",
+   "note": "12,975 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1606,
+  "completed_today": 1629,
   "working": 2,
   "agents": 3
  }
