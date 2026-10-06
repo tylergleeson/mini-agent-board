@@ -1,49 +1,49 @@
 {
- "updated": 1791283783,
+ "updated": 1791284685,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "error",
-   "task": "Write unit tests for haiku.py",
-   "progress": null,
-   "started": 1791283780,
-   "heartbeat": 1791283783,
-   "completed_today": 168,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
-   "note": "needs a human",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.475,
+   "started": 1791284651,
+   "heartbeat": 1791284683,
+   "completed_today": 176,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "F(14250) has 2978 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's haiku",
+   "state": "error",
+   "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1791283759,
-   "heartbeat": 1791283783,
-   "completed_today": 199,
-   "last_result": "Counted 30,132 primes below 352,000; the biggest was 351,991.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1791284685,
+   "heartbeat": 1791284685,
+   "completed_today": 208,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
+   "note": "needs a human",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.04,
-   "started": 1791283781,
-   "heartbeat": 1791283783,
-   "completed_today": 301,
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.06,
+   "started": 1791284679,
+   "heartbeat": 1791284683,
+   "completed_today": 314,
    "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "longest so far: 10971 (268 steps)",
+   "note": "π ≈ 3.1478",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 668,
-  "working": 1,
+  "completed_today": 698,
+  "working": 2,
   "agents": 3
  }
 }
