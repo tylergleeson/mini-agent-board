@@ -1,29 +1,29 @@
 {
- "updated": 1791263041,
+ "updated": 1791263943,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "blocked",
    "task": "Write unit tests for haiku.py",
-   "progress": 0.222,
-   "started": 1791263029,
-   "heartbeat": 1791263040,
-   "completed_today": 23,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "test_publish: ok",
+   "progress": null,
+   "started": 1791263926,
+   "heartbeat": 1791263942,
+   "completed_today": 31,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Review Builder's haiku",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1791263034,
-   "heartbeat": 1791263040,
-   "completed_today": 25,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on create (got 1, want 2), science (got 1, want 2), poem (got 1, want 2).",
+   "started": 1791263879,
+   "heartbeat": 1791263942,
+   "completed_today": 32,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -31,19 +31,19 @@
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.38,
-   "started": 1791263015,
-   "heartbeat": 1791263040,
-   "completed_today": 40,
-   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
-   "note": "π ≈ 3.1387",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.904,
+   "started": 1791263866,
+   "heartbeat": 1791263942,
+   "completed_today": 51,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "130 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 88,
-  "working": 2,
+  "completed_today": 114,
+  "working": 1,
   "agents": 3
  }
 }
