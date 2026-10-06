@@ -1,30 +1,30 @@
 {
- "updated": 1791244103,
+ "updated": 1791245004,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.13,
-   "started": 1791244095,
-   "heartbeat": 1791244101,
-   "completed_today": 533,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent laptop dreams / one agents spin through the night / deploy near sunrise”",
-   "note": "1 groups",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1791244968,
+   "heartbeat": 1791245003,
+   "completed_today": 539,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.111,
-   "started": 1791244092,
-   "heartbeat": 1791244101,
-   "completed_today": 601,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), create (got 1, want 2).",
-   "note": "test_agent: ok",
+   "task": "Review Builder's haiku",
+   "progress": 1.0,
+   "started": 1791244961,
+   "heartbeat": 1791245003,
+   "completed_today": 608,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), science (got 1, want 2).",
+   "note": "line 3: 5 syllables",
    "stale": false
   },
   {
@@ -33,17 +33,17 @@
    "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
    "progress": null,
-   "started": 1791244081,
-   "heartbeat": 1791244101,
-   "completed_today": 855,
-   "last_result": "Counted 16,492 primes below 182,000; the biggest was 181,997.",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1791244978,
+   "heartbeat": 1791245003,
+   "completed_today": 863,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1989,
-  "working": 2,
+  "completed_today": 2010,
+  "working": 1,
   "agents": 3
  }
 }
