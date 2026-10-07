@@ -1,17 +1,17 @@
 {
- "updated": 1791333484,
+ "updated": 1791334386,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.833,
-   "started": 1791333446,
-   "heartbeat": 1791333483,
-   "completed_today": 540,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
-   "note": "line 3: 'still the board reads alive' = 6",
+   "progress": 0.667,
+   "started": 1791334352,
+   "heartbeat": 1791334385,
+   "completed_today": 544,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
+   "note": "line 2 ✓ 'a cron jobs pass past the dawn'",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.45,
-   "started": 1791333450,
-   "heartbeat": 1791333483,
-   "completed_today": 619,
+   "progress": 0.367,
+   "started": 1791334358,
+   "heartbeat": 1791334385,
+   "completed_today": 626,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "12,853 primes so far",
+   "note": "8,187 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.867,
-   "started": 1791333409,
-   "heartbeat": 1791333483,
-   "completed_today": 875,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "13,764 primes so far",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1791334129,
+   "heartbeat": 1791334385,
+   "completed_today": 884,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1390.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2034,
-  "working": 3,
+  "completed_today": 2054,
+  "working": 2,
   "agents": 3
  }
 }
