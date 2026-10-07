@@ -1,17 +1,17 @@
 {
- "updated": 1791411114,
+ "updated": 1791412017,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": null,
-   "started": 1791411027,
-   "heartbeat": 1791411112,
-   "completed_today": 492,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on area (got 2, want 3).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "done",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 1.0,
+   "started": 1791412014,
+   "heartbeat": 1791412016,
+   "completed_today": 498,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "",
    "stale": false
   },
   {
@@ -20,30 +20,30 @@
    "state": "working",
    "task": "Review Builder's haiku",
    "progress": 0.667,
-   "started": 1791411093,
-   "heartbeat": 1791411112,
-   "completed_today": 538,
-   "last_result": "Counted 31,749 primes below 373,000; the biggest was 372,979.",
+   "started": 1791411962,
+   "heartbeat": 1791412016,
+   "completed_today": 545,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
    "note": "line 2: 7 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.24,
-   "started": 1791411096,
-   "heartbeat": 1791411112,
-   "completed_today": 782,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "longest so far: 106239 (354 steps)",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1791412015,
+   "heartbeat": 1791412016,
+   "completed_today": 794,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1431.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1812,
-  "working": 2,
+  "completed_today": 1837,
+  "working": 1,
   "agents": 3
  }
 }
