@@ -1,49 +1,49 @@
 {
- "updated": 1791330778,
+ "updated": 1791331680,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.732,
-   "started": 1791330746,
-   "heartbeat": 1791330777,
-   "completed_today": 518,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "pass 41/56, 722 swaps",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.333,
+   "started": 1791331677,
+   "heartbeat": 1791331680,
+   "completed_today": 529,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "line 1 ✓ 'bugs tallied by hand'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's haiku",
-   "progress": null,
-   "started": 1791330753,
-   "heartbeat": 1791330777,
-   "completed_today": 589,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.3,
+   "started": 1791331668,
+   "heartbeat": 1791331680,
+   "completed_today": 597,
+   "last_result": "Counted 14,768 primes below 161,000; the biggest was 160,997.",
+   "note": "6,562 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "done",
-   "task": "Compute a very large Fibonacci number",
+   "task": "Hunt palindromic primes",
    "progress": 1.0,
-   "started": 1791330775,
-   "heartbeat": 1791330777,
-   "completed_today": 842,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "started": 1791331675,
+   "heartbeat": 1791331680,
+   "completed_today": 853,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
    "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1949,
-  "working": 1,
+  "completed_today": 1979,
+  "working": 2,
   "agents": 3
  }
 }
