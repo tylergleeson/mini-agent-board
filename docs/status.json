@@ -1,49 +1,49 @@
 {
- "updated": 1791377705,
+ "updated": 1791378607,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1791377661,
-   "heartbeat": 1791377703,
-   "completed_today": 238,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1791378496,
+   "heartbeat": 1791378605,
+   "completed_today": 245,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "done",
-   "task": "Review Builder's haiku",
-   "progress": 1.0,
-   "started": 1791377702,
-   "heartbeat": 1791377703,
-   "completed_today": 263,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "",
+   "state": "working",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.444,
+   "started": 1791378575,
+   "heartbeat": 1791378605,
+   "completed_today": 271,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on science (got 1, want 2), area (got 2, want 3).",
+   "note": "test_agent: ok",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.16,
-   "started": 1791377693,
-   "heartbeat": 1791377703,
-   "completed_today": 385,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "longest so far: 35655 (324 steps)",
+   "task": "Hunt palindromic primes",
+   "progress": 0.7,
+   "started": 1791378578,
+   "heartbeat": 1791378605,
+   "completed_today": 395,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "70 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 886,
-  "working": 1,
+  "completed_today": 911,
+  "working": 2,
   "agents": 3
  }
 }
