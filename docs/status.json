@@ -1,17 +1,17 @@
 {
- "updated": 1791393976,
+ "updated": 1791394878,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": null,
-   "started": 1791393946,
-   "heartbeat": 1791393975,
-   "completed_today": 362,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on poem (got 1, want 2), area (got 2, want 3), idea (got 2, want 3).",
-   "note": "waiting for Scout to release the workbench",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.0,
+   "started": 1791394877,
+   "heartbeat": 1791394877,
+   "completed_today": 366,
+   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
+   "note": "",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.375,
-   "started": 1791393943,
-   "heartbeat": 1791393975,
-   "completed_today": 390,
-   "last_result": "Counted 29,580 primes below 345,000; the biggest was 344,987.",
+   "progress": 0.107,
+   "started": 1791394873,
+   "heartbeat": 1791394877,
+   "completed_today": 397,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), poem (got 1, want 2).",
    "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1791393962,
-   "heartbeat": 1791393975,
-   "completed_today": 584,
-   "last_result": "Counted 14,433 primes below 157,000; the biggest was 156,979.",
-   "note": "waiting for Critic to release the workbench",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.167,
+   "started": 1791394863,
+   "heartbeat": 1791394877,
+   "completed_today": 592,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "5,375 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1336,
-  "working": 1,
+  "completed_today": 1355,
+  "working": 3,
   "agents": 3
  }
 }
