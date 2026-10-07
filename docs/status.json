@@ -1,30 +1,30 @@
 {
- "updated": 1791345207,
+ "updated": 1791346109,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.6,
-   "started": 1791345182,
-   "heartbeat": 1791345207,
-   "completed_today": 618,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), science (got 1, want 2).",
-   "note": "F(12000) has 2508 digits",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.393,
+   "started": 1791346079,
+   "heartbeat": 1791346108,
+   "completed_today": 6,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
+   "note": "pass 22/56, 570 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 0.667,
-   "started": 1791345175,
-   "heartbeat": 1791345207,
-   "completed_today": 709,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "line 2: 7 syllables",
+   "state": "blocked",
+   "task": "Review Builder's Beatles sort",
+   "progress": null,
+   "started": 1791346094,
+   "heartbeat": 1791346108,
+   "completed_today": 6,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
@@ -33,17 +33,17 @@
    "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
    "progress": null,
-   "started": 1791345058,
-   "heartbeat": 1791345207,
-   "completed_today": 1017,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1791346086,
+   "heartbeat": 1791346108,
+   "completed_today": 5,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2344,
-  "working": 2,
+  "completed_today": 17,
+  "working": 1,
   "agents": 3
  }
 }
