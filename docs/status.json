@@ -1,30 +1,30 @@
 {
- "updated": 1791362373,
+ "updated": 1791363275,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.2,
-   "started": 1791362363,
-   "heartbeat": 1791362371,
-   "completed_today": 115,
-   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
-   "note": "F(8000) has 1672 digits",
+   "state": "blocked",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": null,
+   "started": 1791363252,
+   "heartbeat": 1791363274,
+   "completed_today": 125,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Review Builder's haiku",
-   "progress": null,
-   "started": 1791362276,
-   "heartbeat": 1791362371,
-   "completed_today": 142,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Builder to release the workbench",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.35,
+   "started": 1791363247,
+   "heartbeat": 1791363274,
+   "completed_today": 151,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "6,289 primes so far",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.335,
-   "started": 1791362357,
-   "heartbeat": 1791362371,
-   "completed_today": 195,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "63 distinct words",
+   "progress": 0.849,
+   "started": 1791363232,
+   "heartbeat": 1791363274,
+   "completed_today": 207,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "124 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 452,
+  "completed_today": 483,
   "working": 2,
   "agents": 3
  }
