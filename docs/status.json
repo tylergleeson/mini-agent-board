@@ -1,49 +1,49 @@
 {
- "updated": 1791394878,
+ "updated": 1791395780,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.0,
-   "started": 1791394877,
-   "heartbeat": 1791394877,
-   "completed_today": 366,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.482,
+   "started": 1791395742,
+   "heartbeat": 1791395780,
+   "completed_today": 370,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent kernel dreams / a agents fail through the dawn / commit near sunrise”",
+   "note": "pass 27/56, 699 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
+   "state": "blocked",
    "task": "Review Builder's Beatles sort",
-   "progress": 0.107,
-   "started": 1791394873,
-   "heartbeat": 1791394877,
-   "completed_today": 397,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), poem (got 1, want 2).",
-   "note": "0 inversions",
+   "progress": null,
+   "started": 1791395779,
+   "heartbeat": 1791395780,
+   "completed_today": 405,
+   "last_result": "Counted 23,150 primes below 264,000; the biggest was 263,983.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.167,
-   "started": 1791394863,
-   "heartbeat": 1791394877,
-   "completed_today": 592,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "5,375 primes so far",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.525,
+   "started": 1791395737,
+   "heartbeat": 1791395780,
+   "completed_today": 603,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "F(15750) has 3292 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1355,
-  "working": 3,
+  "completed_today": 1378,
+  "working": 2,
   "agents": 3
  }
 }
