@@ -1,30 +1,30 @@
 {
- "updated": 1791407507,
+ "updated": 1791408408,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.217,
-   "started": 1791407489,
-   "heartbeat": 1791407505,
-   "completed_today": 465,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent laptop hums / the cron jobs fail through the dawn / commit at sunrise”",
-   "note": "3 groups",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.661,
+   "started": 1791408349,
+   "heartbeat": 1791408407,
+   "completed_today": 471,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
+   "note": "pass 37/56, 731 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.357,
-   "started": 1791407485,
-   "heartbeat": 1791407505,
-   "completed_today": 505,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "0 inversions",
+   "state": "blocked",
+   "task": "Re-run the syllable unit tests",
+   "progress": null,
+   "started": 1791408356,
+   "heartbeat": 1791408407,
+   "completed_today": 515,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
@@ -33,17 +33,17 @@
    "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
    "progress": null,
-   "started": 1791407430,
-   "heartbeat": 1791407505,
-   "completed_today": 747,
-   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1791408311,
+   "heartbeat": 1791408407,
+   "completed_today": 757,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1717,
-  "working": 2,
+  "completed_today": 1743,
+  "working": 1,
   "agents": 3
  }
 }
