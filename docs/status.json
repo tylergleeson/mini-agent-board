@@ -1,17 +1,17 @@
 {
- "updated": 1791402094,
+ "updated": 1791402996,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.444,
-   "started": 1791402068,
-   "heartbeat": 1791402092,
-   "completed_today": 422,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "test_prime: ok",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 1.0,
+   "started": 1791402963,
+   "heartbeat": 1791402995,
+   "completed_today": 429,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “e-paper wakes once / twenty seconds in waiting / one queue keeps working”",
+   "note": "line 3 ✓ 'the board keeps working'",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.283,
-   "started": 1791402070,
-   "heartbeat": 1791402092,
-   "completed_today": 462,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "6,743 primes so far",
+   "progress": 0.1,
+   "started": 1791402990,
+   "heartbeat": 1791402995,
+   "completed_today": 470,
+   "last_result": "Counted 20,020 primes below 225,000; the biggest was 224,993.",
+   "note": "4,127 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.183,
-   "started": 1791402076,
-   "heartbeat": 1791402092,
-   "completed_today": 686,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "3,442 primes so far",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1791402969,
+   "heartbeat": 1791402995,
+   "completed_today": 697,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1570,
-  "working": 3,
+  "completed_today": 1596,
+  "working": 2,
   "agents": 3
  }
 }
