@@ -1,49 +1,49 @@
 {
- "updated": 1791438171,
+ "updated": 1791439073,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.161,
-   "started": 1791438160,
-   "heartbeat": 1791438170,
-   "completed_today": 49,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 580 swaps.",
-   "note": "pass 9/56, 345 swaps",
+   "progress": 0.232,
+   "started": 1791439051,
+   "heartbeat": 1791439071,
+   "completed_today": 60,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “quiet mac mini sleeps / the agents pass through the night / refactor at dusk”",
+   "note": "pass 13/56, 474 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.017,
-   "started": 1791438170,
-   "heartbeat": 1791438170,
-   "completed_today": 55,
-   "last_result": "Counted 27,608 primes below 320,000; the biggest was 319,993.",
-   "note": "672 primes so far",
+   "state": "blocked",
+   "task": "Review Builder's Beatles sort",
+   "progress": null,
+   "started": 1791439065,
+   "heartbeat": 1791439071,
+   "completed_today": 66,
+   "last_result": "Counted 31,303 primes below 367,000; the biggest was 366,997.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.1,
-   "started": 1791438163,
-   "heartbeat": 1791438170,
-   "completed_today": 76,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "longest so far: 26623 (308 steps)",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.88,
+   "started": 1791439021,
+   "heartbeat": 1791439071,
+   "completed_today": 88,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1428.",
+   "note": "π ≈ 3.1412",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 180,
-  "working": 3,
+  "completed_today": 214,
+  "working": 2,
   "agents": 3
  }
 }
