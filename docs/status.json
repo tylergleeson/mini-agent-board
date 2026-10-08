@@ -1,5 +1,5 @@
 {
- "updated": 1791494994,
+ "updated": 1791495896,
  "agents": [
   {
    "agent": "builder",
@@ -7,43 +7,43 @@
    "state": "working",
    "task": "Write unit tests for haiku.py",
    "progress": 0.889,
-   "started": 1791494928,
-   "heartbeat": 1791494993,
-   "completed_today": 477,
-   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "test_paper: ok",
+   "started": 1791495843,
+   "heartbeat": 1791495895,
+   "completed_today": 484,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "test_orange: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "blocked",
-   "task": "Re-run the syllable unit tests",
+   "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1791494974,
-   "heartbeat": 1791494993,
-   "completed_today": 506,
-   "last_result": "Counted 25,062 primes below 288,000; the biggest was 287,977.",
+   "started": 1791495850,
+   "heartbeat": 1791495895,
+   "completed_today": 514,
+   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 1.0,
-   "started": 1791494987,
-   "heartbeat": 1791494993,
-   "completed_today": 761,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1423.",
-   "note": "",
+   "state": "working",
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.7,
+   "started": 1791495835,
+   "heartbeat": 1791495895,
+   "completed_today": 770,
+   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
+   "note": "F(21000) has 4389 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1744,
-  "working": 1,
+  "completed_today": 1768,
+  "working": 2,
   "agents": 3
  }
 }
