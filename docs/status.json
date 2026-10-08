@@ -1,30 +1,30 @@
 {
- "updated": 1791469738,
+ "updated": 1791470640,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "done",
+   "state": "blocked",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": 1.0,
-   "started": 1791469735,
-   "heartbeat": 1791469736,
-   "completed_today": 276,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “e-paper blinks once / fifteen seconds in silence / the board keeps working”",
-   "note": "",
+   "progress": null,
+   "started": 1791470590,
+   "heartbeat": 1791470638,
+   "completed_today": 285,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
-   "task": "Re-run the syllable unit tests",
-   "progress": null,
-   "started": 1791469630,
-   "heartbeat": 1791469736,
-   "completed_today": 305,
+   "state": "working",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.804,
+   "started": 1791470570,
+   "heartbeat": 1791470638,
+   "completed_today": 310,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "note": "0 inversions",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Count primes below a random N",
-   "progress": 0.5,
-   "started": 1791469705,
-   "heartbeat": 1791469736,
-   "completed_today": 459,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "12,367 primes so far",
+   "progress": 0.2,
+   "started": 1791470626,
+   "heartbeat": 1791470638,
+   "completed_today": 470,
+   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
+   "note": "4,223 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1040,
-  "working": 1,
+  "completed_today": 1065,
+  "working": 2,
   "agents": 3
  }
 }
