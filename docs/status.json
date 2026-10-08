@@ -1,30 +1,30 @@
 {
- "updated": 1791490485,
+ "updated": 1791491386,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1791490440,
-   "heartbeat": 1791490483,
-   "completed_today": 441,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 819 swaps.",
-   "note": "waiting for Critic to release the workbench",
+   "progress": 1.0,
+   "started": 1791491309,
+   "heartbeat": 1791491385,
+   "completed_today": 446,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
+   "note": "line 3 ✓ 'a queue counts working'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.964,
-   "started": 1791490434,
-   "heartbeat": 1791490483,
-   "completed_today": 470,
-   "last_result": "Counted 27,034 primes below 313,000; the biggest was 312,989.",
-   "note": "0 inversions",
+   "state": "done",
+   "task": "Count primes below a random N",
+   "progress": 1.0,
+   "started": 1791491385,
+   "heartbeat": 1791491385,
+   "completed_today": 475,
+   "last_result": "Counted 25,385 primes below 292,000; the biggest was 291,997.",
+   "note": "",
    "stale": false
   },
   {
@@ -33,16 +33,16 @@
    "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
    "progress": null,
-   "started": 1791490438,
-   "heartbeat": 1791490483,
-   "completed_today": 706,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1791491366,
+   "heartbeat": 1791491385,
+   "completed_today": 716,
+   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1414.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1617,
+  "completed_today": 1637,
   "working": 1,
   "agents": 3
  }
