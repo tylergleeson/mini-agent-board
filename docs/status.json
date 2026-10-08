@@ -1,49 +1,49 @@
 {
- "updated": 1791485975,
+ "updated": 1791486877,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.321,
-   "started": 1791485950,
-   "heartbeat": 1791485974,
-   "completed_today": 409,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent laptop waits / a agents spin in the dark / commit by midnight”",
-   "note": "pass 18/56, 587 swaps",
+   "progress": null,
+   "started": 1791486794,
+   "heartbeat": 1791486875,
+   "completed_today": 414,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "idle",
-   "task": "",
+   "state": "blocked",
+   "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1791485972,
-   "heartbeat": 1791485974,
-   "completed_today": 434,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "next: Word-frequency audit of the Gettysburg Address",
+   "started": 1791486846,
+   "heartbeat": 1791486875,
+   "completed_today": 439,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on idea (got 2, want 3).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.22,
-   "started": 1791485962,
-   "heartbeat": 1791485974,
-   "completed_today": 647,
-   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
-   "note": "longest so far: 106239 (354 steps)",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.886,
+   "started": 1791486842,
+   "heartbeat": 1791486875,
+   "completed_today": 655,
+   "last_result": "Threw 1,000,000 random darts and estimated π at 3.1406.",
+   "note": "128 distinct words",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1490,
-  "working": 2,
+  "completed_today": 1508,
+  "working": 1,
   "agents": 3
  }
 }
