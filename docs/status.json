@@ -1,30 +1,30 @@
 {
- "updated": 1791472444,
+ "updated": 1791473346,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": null,
-   "started": 1791472313,
-   "heartbeat": 1791472443,
-   "completed_today": 300,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent laptop hums / a agents pass through the dawn / deploy by sunrise”",
-   "note": "waiting for Critic to release the workbench",
+   "state": "working",
+   "task": "Write unit tests for haiku.py",
+   "progress": 0.667,
+   "started": 1791473303,
+   "heartbeat": 1791473345,
+   "completed_today": 306,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "test_publish: ok",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Review Builder's haiku",
-   "progress": 1.0,
-   "started": 1791472412,
-   "heartbeat": 1791472443,
-   "completed_today": 328,
+   "state": "blocked",
+   "task": "Review Builder's Beatles sort",
+   "progress": null,
+   "started": 1791473311,
+   "heartbeat": 1791473345,
+   "completed_today": 335,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "line 3: 5 syllables",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -32,17 +32,17 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.42,
-   "started": 1791472418,
-   "heartbeat": 1791472443,
-   "completed_today": 487,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "π ≈ 3.1409",
+   "progress": 0.44,
+   "started": 1791473308,
+   "heartbeat": 1791473345,
+   "completed_today": 498,
+   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
+   "note": "π ≈ 3.1415",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1115,
+  "completed_today": 1139,
   "working": 2,
   "agents": 3
  }
