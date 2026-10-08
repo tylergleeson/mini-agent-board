@@ -1,49 +1,49 @@
 {
- "updated": 1791473346,
+ "updated": 1791474248,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.667,
-   "started": 1791473303,
-   "heartbeat": 1791473345,
-   "completed_today": 306,
+   "task": "Compute a very large Fibonacci number",
+   "progress": 0.35,
+   "started": 1791474233,
+   "heartbeat": 1791474247,
+   "completed_today": 315,
    "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
-   "note": "test_publish: ok",
+   "note": "F(14000) has 2926 digits",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "blocked",
+   "state": "done",
    "task": "Review Builder's Beatles sort",
-   "progress": null,
-   "started": 1791473311,
-   "heartbeat": 1791473345,
-   "completed_today": 335,
+   "progress": 1.0,
+   "started": 1791474245,
+   "heartbeat": 1791474247,
+   "completed_today": 343,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "waiting for Scout to release the workbench",
+   "note": "",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.44,
-   "started": 1791473308,
-   "heartbeat": 1791473345,
-   "completed_today": 498,
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1791474236,
+   "heartbeat": 1791474247,
+   "completed_today": 509,
    "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
-   "note": "π ≈ 3.1415",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1139,
-  "working": 2,
+  "completed_today": 1167,
+  "working": 1,
   "agents": 3
  }
 }
