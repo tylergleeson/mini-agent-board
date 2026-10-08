@@ -1,49 +1,49 @@
 {
- "updated": 1791437269,
+ "updated": 1791438171,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": null,
-   "started": 1791437194,
-   "heartbeat": 1791437269,
-   "completed_today": 39,
-   "last_result": "Ran 9 syllable-counter tests; 4 failed on idea (got 2, want 3), area (got 2, want 3), poem (got 1, want 2), create (got 1, want 2).",
-   "note": "waiting for Scout to release the workbench",
+   "progress": 0.161,
+   "started": 1791438160,
+   "heartbeat": 1791438170,
+   "completed_today": 49,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 580 swaps.",
+   "note": "pass 9/56, 345 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.536,
-   "started": 1791437226,
-   "heartbeat": 1791437269,
-   "completed_today": 43,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "0 inversions",
+   "task": "Count primes below a random N",
+   "progress": 0.017,
+   "started": 1791438170,
+   "heartbeat": 1791438170,
+   "completed_today": 55,
+   "last_result": "Counted 27,608 primes below 320,000; the biggest was 319,993.",
+   "note": "672 primes so far",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.4,
-   "started": 1791437234,
-   "heartbeat": 1791437269,
-   "completed_today": 65,
+   "task": "Find the longest Collatz chain",
+   "progress": 0.1,
+   "started": 1791438163,
+   "heartbeat": 1791438170,
+   "completed_today": 76,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "70 found",
+   "note": "longest so far: 26623 (308 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 147,
-  "working": 2,
+  "completed_today": 180,
+  "working": 3,
   "agents": 3
  }
 }
