@@ -1,5 +1,5 @@
 {
- "updated": 1791427349,
+ "updated": 1791428251,
  "agents": [
   {
    "agent": "builder",
@@ -7,10 +7,10 @@
    "state": "blocked",
    "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1791427333,
-   "heartbeat": 1791427348,
-   "completed_today": 604,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "started": 1791428250,
+   "heartbeat": 1791428250,
+   "completed_today": 609,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
    "note": "waiting for Scout to release the workbench",
    "stale": false
   },
@@ -18,31 +18,31 @@
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
-   "progress": 0.556,
-   "started": 1791427310,
-   "heartbeat": 1791427348,
-   "completed_today": 671,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "test_refactor: ok",
+   "task": "Review Builder's haiku",
+   "progress": 0.333,
+   "started": 1791428243,
+   "heartbeat": 1791428249,
+   "completed_today": 679,
+   "last_result": "Counted 29,895 primes below 349,000; the biggest was 348,991.",
+   "note": "line 1: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.683,
-   "started": 1791427311,
-   "heartbeat": 1791427348,
-   "completed_today": 978,
-   "last_result": "Counted 27,034 primes below 313,000; the biggest was 312,989.",
-   "note": "16,532 primes so far",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.74,
+   "started": 1791428219,
+   "heartbeat": 1791428249,
+   "completed_today": 992,
+   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
+   "note": "longest so far: 230631 (443 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2253,
+  "completed_today": 2280,
   "working": 2,
   "agents": 3
  }
