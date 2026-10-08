@@ -1,5 +1,5 @@
 {
- "updated": 1791471542,
+ "updated": 1791472444,
  "agents": [
   {
    "agent": "builder",
@@ -7,11 +7,11 @@
    "state": "blocked",
    "task": "Refactor a haiku to 5-7-5",
    "progress": null,
-   "started": 1791471458,
-   "heartbeat": 1791471541,
-   "completed_today": 293,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1791472313,
+   "heartbeat": 1791472443,
+   "completed_today": 300,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent laptop hums / a agents pass through the dawn / deploy by sunrise”",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Review Builder's haiku",
-   "progress": 0.333,
-   "started": 1791471539,
-   "heartbeat": 1791471541,
-   "completed_today": 321,
-   "last_result": "Counted 32,522 primes below 383,000; the biggest was 382,999.",
-   "note": "line 1: 5 syllables",
+   "progress": 1.0,
+   "started": 1791472412,
+   "heartbeat": 1791472443,
+   "completed_today": 328,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "line 3: 5 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "idle",
-   "task": "",
-   "progress": null,
-   "started": 1791471539,
-   "heartbeat": 1791471541,
-   "completed_today": 479,
+   "state": "working",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.42,
+   "started": 1791472418,
+   "heartbeat": 1791472443,
+   "completed_today": 487,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "next: Find the longest Collatz chain",
+   "note": "π ≈ 3.1409",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1093,
-  "working": 1,
+  "completed_today": 1115,
+  "working": 2,
   "agents": 3
  }
 }
