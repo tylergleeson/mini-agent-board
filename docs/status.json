@@ -1,15 +1,15 @@
 {
- "updated": 1791433661,
+ "updated": 1791434563,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1791433632,
-   "heartbeat": 1791433661,
-   "completed_today": 14,
+   "started": 1791434538,
+   "heartbeat": 1791434562,
+   "completed_today": 22,
    "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
    "note": "waiting for Critic to release the workbench",
    "stale": false
@@ -18,32 +18,32 @@
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Review Builder's Beatles sort",
-   "progress": 0.696,
-   "started": 1791433605,
-   "heartbeat": 1791433661,
-   "completed_today": 16,
-   "last_result": "Counted 17,082 primes below 189,000; the biggest was 188,999.",
-   "note": "0 inversions",
+   "task": "Re-run the syllable unit tests",
+   "progress": 0.889,
+   "started": 1791434508,
+   "heartbeat": 1791434562,
+   "completed_today": 21,
+   "last_result": "Counted 23,958 primes below 274,000; the biggest was 273,997.",
+   "note": "test_idea: FAIL",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.433,
-   "started": 1791433644,
-   "heartbeat": 1791433661,
-   "completed_today": 19,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "7,037 primes so far",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1791434534,
+   "heartbeat": 1791434562,
+   "completed_today": 29,
+   "last_result": "Threw 2,000,000 random darts and estimated π at 3.1399.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 49,
-  "working": 2,
+  "completed_today": 72,
+  "working": 1,
   "agents": 3
  }
 }
