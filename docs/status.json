@@ -1,17 +1,17 @@
 {
- "updated": 1791431858,
+ "updated": 1791432760,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.025,
-   "started": 1791431856,
-   "heartbeat": 1791431856,
-   "completed_today": 631,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “old mac mini waits / one agents spin past the dark / deploy near sunrise”",
-   "note": "F(1000) has 209 digits",
+   "state": "blocked",
+   "task": "Write unit tests for haiku.py",
+   "progress": null,
+   "started": 1791432739,
+   "heartbeat": 1791432759,
+   "completed_today": 6,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 727 swaps.",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Re-run the syllable unit tests",
-   "progress": 0.111,
-   "started": 1791431852,
-   "heartbeat": 1791431856,
-   "completed_today": 710,
+   "progress": 0.556,
+   "started": 1791432735,
+   "heartbeat": 1791432759,
+   "completed_today": 7,
    "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "test_paper: ok",
+   "note": "test_display: ok",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Hunt palindromic primes",
-   "progress": 0.675,
-   "started": 1791431798,
-   "heartbeat": 1791431856,
-   "completed_today": 1032,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1444.",
-   "note": "113 found",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1791432699,
+   "heartbeat": 1791432759,
+   "completed_today": 9,
+   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2373,
-  "working": 3,
+  "completed_today": 22,
+  "working": 1,
   "agents": 3
  }
 }
