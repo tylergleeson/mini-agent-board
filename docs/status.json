@@ -1,17 +1,17 @@
 {
- "updated": 1791538285,
+ "updated": 1791539187,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "done",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 1.0,
-   "started": 1791538281,
-   "heartbeat": 1791538284,
-   "completed_today": 130,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “silent kernel sleeps / one agents pass past the dark / commit by midnight”",
-   "note": "",
+   "state": "working",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.232,
+   "started": 1791539176,
+   "heartbeat": 1791539186,
+   "completed_today": 136,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 857 swaps.",
+   "note": "pass 13/56, 431 swaps",
    "stale": false
   },
   {
@@ -20,29 +20,29 @@
    "state": "idle",
    "task": "",
    "progress": null,
-   "started": 1791538279,
-   "heartbeat": 1791538284,
-   "completed_today": 149,
+   "started": 1791539182,
+   "heartbeat": 1791539186,
+   "completed_today": 157,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "next: Word-frequency audit of the Gettysburg Address",
+   "note": "next: Re-run the syllable unit tests",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.92,
-   "started": 1791538209,
-   "heartbeat": 1791538284,
-   "completed_today": 235,
-   "last_result": "Found 113 primes below 200,000 that read the same backwards; the largest is 98,689.",
-   "note": "longest so far: 230631 (443 steps)",
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1791539184,
+   "heartbeat": 1791539186,
+   "completed_today": 249,
+   "last_result": "Found 113 primes below 100,000 that read the same backwards; the largest is 98,689.",
+   "note": "next: Estimate π with Monte Carlo darts",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 514,
+  "completed_today": 542,
   "working": 1,
   "agents": 3
  }
