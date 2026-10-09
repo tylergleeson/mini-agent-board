@@ -1,17 +1,17 @@
 {
- "updated": 1791521149,
+ "updated": 1791522051,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "blocked",
+   "state": "working",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": null,
-   "started": 1791521044,
-   "heartbeat": 1791521149,
-   "completed_today": 18,
-   "last_result": "Gave up on a haiku: line 3 never hit 5 syllables in 30 rewrites.",
-   "note": "waiting for Critic to release the workbench",
+   "progress": 0.625,
+   "started": 1791521996,
+   "heartbeat": 1791522050,
+   "completed_today": 25,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "pass 35/56, 762 swaps",
    "stale": false
   },
   {
@@ -20,29 +20,29 @@
    "state": "blocked",
    "task": "Review Builder's Beatles sort",
    "progress": null,
-   "started": 1791521128,
-   "heartbeat": 1791521149,
-   "completed_today": 20,
-   "last_result": "Ran 9 syllable-counter tests and all of them passed.",
-   "note": "waiting for Scout to release the workbench",
+   "started": 1791522002,
+   "heartbeat": 1791522050,
+   "completed_today": 26,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
+   "state": "blocked",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.335,
-   "started": 1791521121,
-   "heartbeat": 1791521149,
-   "completed_today": 31,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "63 distinct words",
+   "progress": null,
+   "started": 1791522003,
+   "heartbeat": 1791522050,
+   "completed_today": 39,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 69,
+  "completed_today": 90,
   "working": 1,
   "agents": 3
  }
