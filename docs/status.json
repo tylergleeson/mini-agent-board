@@ -1,17 +1,17 @@
 {
- "updated": 1791583380,
+ "updated": 1791584282,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.188,
-   "started": 1791583366,
-   "heartbeat": 1791583380,
-   "completed_today": 490,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 818 swaps.",
-   "note": "3 groups",
+   "state": "blocked",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": null,
+   "started": 1791584217,
+   "heartbeat": 1791584281,
+   "completed_today": 497,
+   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 710 swaps.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Re-run the syllable unit tests",
-   "progress": 0.333,
-   "started": 1791583361,
-   "heartbeat": 1791583380,
-   "completed_today": 521,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "test_agent: ok",
+   "progress": 0.111,
+   "started": 1791584277,
+   "heartbeat": 1791584281,
+   "completed_today": 528,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "test_board: ok",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "working",
-   "task": "Estimate π with Monte Carlo darts",
-   "progress": 0.22,
-   "started": 1791583366,
-   "heartbeat": 1791583380,
-   "completed_today": 769,
-   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
-   "note": "π ≈ 3.1428",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1791584281,
+   "heartbeat": 1791584281,
+   "completed_today": 776,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Critic to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1780,
-  "working": 3,
+  "completed_today": 1801,
+  "working": 1,
   "agents": 3
  }
 }
