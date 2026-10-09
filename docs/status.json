@@ -1,30 +1,30 @@
 {
- "updated": 1791588791,
+ "updated": 1791589693,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.333,
-   "started": 1791588771,
-   "heartbeat": 1791588790,
-   "completed_today": 534,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on area (got 2, want 3), science (got 1, want 2), create (got 1, want 2).",
-   "note": "line 1 ✓ 'the display stirs once'",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.357,
+   "started": 1791589661,
+   "heartbeat": 1791589691,
+   "completed_today": 539,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), science (got 1, want 2).",
+   "note": "pass 20/56, 658 swaps",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "done",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 1.0,
-   "started": 1791588789,
-   "heartbeat": 1791588790,
-   "completed_today": 569,
-   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.817,
+   "started": 1791589666,
+   "heartbeat": 1791589691,
+   "completed_today": 576,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "17,524 primes so far",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.9,
-   "started": 1791588755,
-   "heartbeat": 1791588790,
-   "completed_today": 835,
-   "last_result": "Counted 25,224 primes below 290,000; the biggest was 289,999.",
-   "note": "F(18000) has 3762 digits",
+   "progress": 0.225,
+   "started": 1791589682,
+   "heartbeat": 1791589691,
+   "completed_today": 847,
+   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
+   "note": "F(6750) has 1411 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1938,
-  "working": 2,
+  "completed_today": 1962,
+  "working": 3,
   "agents": 3
  }
 }
