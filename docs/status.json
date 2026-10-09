@@ -1,49 +1,49 @@
 {
- "updated": 1791504915,
+ "updated": 1791505817,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.15,
-   "started": 1791504907,
-   "heartbeat": 1791504913,
-   "completed_today": 546,
+   "task": "Group anagrams in the word list",
+   "progress": 0.449,
+   "started": 1791505780,
+   "heartbeat": 1791505816,
+   "completed_today": 553,
    "last_result": "Sorted 69 words into 18 anagram groups; the biggest was least, slate, stale, steal, tales, teals.",
-   "note": "F(4500) has 941 digits",
+   "note": "9 groups",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "done",
+   "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 1.0,
-   "started": 1791504912,
-   "heartbeat": 1791504913,
-   "completed_today": 579,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "",
+   "progress": 0.357,
+   "started": 1791505800,
+   "heartbeat": 1791505816,
+   "completed_today": 585,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on idea (got 2, want 3), science (got 1, want 2).",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.233,
-   "started": 1791504902,
-   "heartbeat": 1791504913,
-   "completed_today": 877,
-   "last_result": "Checked every number under 500,000; 410,011 has the longest Collatz chain at 449 steps.",
-   "note": "5,926 primes so far",
+   "task": "Hunt palindromic primes",
+   "progress": 0.675,
+   "started": 1791505765,
+   "heartbeat": 1791505816,
+   "completed_today": 888,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "113 found",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2002,
-  "working": 2,
+  "completed_today": 2026,
+  "working": 3,
   "agents": 3
  }
 }
