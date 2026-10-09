@@ -1,17 +1,17 @@
 {
- "updated": 1791541892,
+ "updated": 1791542794,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 1.0,
-   "started": 1791541837,
-   "heartbeat": 1791541892,
-   "completed_today": 156,
-   "last_result": "Ran 9 syllable-counter tests; 3 failed on science (got 1, want 2), idea (got 2, want 3), area (got 2, want 3).",
-   "note": "test_every: ok",
+   "task": "Sort shuffled Beatles songs by hand",
+   "progress": 0.643,
+   "started": 1791542743,
+   "heartbeat": 1791542794,
+   "completed_today": 162,
+   "last_result": "Sorted 69 words into 18 anagram groups; the biggest was apres, parse, pears, reaps, spare, spear.",
+   "note": "pass 36/56, 798 swaps",
    "stale": false
   },
   {
@@ -20,29 +20,29 @@
    "state": "blocked",
    "task": "Re-run the syllable unit tests",
    "progress": null,
-   "started": 1791541844,
-   "heartbeat": 1791541892,
-   "completed_today": 176,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "waiting for Builder to release the workbench",
+   "started": 1791542747,
+   "heartbeat": 1791542794,
+   "completed_today": 181,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1791541849,
-   "heartbeat": 1791541892,
-   "completed_today": 277,
-   "last_result": "Threw 1,500,000 random darts and estimated π at 3.1386.",
-   "note": "waiting for Builder to release the workbench",
+   "state": "done",
+   "task": "Count primes below a random N",
+   "progress": 1.0,
+   "started": 1791542790,
+   "heartbeat": 1791542794,
+   "completed_today": 288,
+   "last_result": "Counted 21,876 primes below 248,000; the biggest was 247,999.",
+   "note": "",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 609,
+  "completed_today": 631,
   "working": 1,
   "agents": 3
  }
