@@ -1,49 +1,49 @@
 {
- "updated": 1791563539,
+ "updated": 1791564441,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
-   "task": "Group anagrams in the word list",
-   "progress": 0.667,
-   "started": 1791563500,
-   "heartbeat": 1791563537,
-   "completed_today": 334,
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1791564441,
+   "heartbeat": 1791564441,
+   "completed_today": 341,
    "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
-   "note": "14 groups",
+   "note": "next: Write unit tests for haiku.py",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.812,
-   "started": 1791563512,
-   "heartbeat": 1791563537,
-   "completed_today": 358,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "121 distinct words",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.054,
+   "started": 1791564437,
+   "heartbeat": 1791564441,
+   "completed_today": 366,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 1.0,
-   "started": 1791563535,
-   "heartbeat": 1791563537,
-   "completed_today": 542,
+   "state": "idle",
+   "task": "",
+   "progress": null,
+   "started": 1791564437,
+   "heartbeat": 1791564441,
+   "completed_today": 549,
    "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
-   "note": "",
+   "note": "next: Estimate π with Monte Carlo darts",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1234,
-  "working": 2,
+  "completed_today": 1256,
+  "working": 1,
   "agents": 3
  }
 }
