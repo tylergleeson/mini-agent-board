@@ -1,30 +1,30 @@
 {
- "updated": 1791587889,
+ "updated": 1791588791,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.018,
-   "started": 1791587888,
-   "heartbeat": 1791587888,
-   "completed_today": 531,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "pass 1/56, 52 swaps",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.333,
+   "started": 1791588771,
+   "heartbeat": 1791588790,
+   "completed_today": 534,
+   "last_result": "Ran 9 syllable-counter tests; 3 failed on area (got 2, want 3), science (got 1, want 2), create (got 1, want 2).",
+   "note": "line 1 ✓ 'the display stirs once'",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.05,
-   "started": 1791587885,
-   "heartbeat": 1791587888,
-   "completed_today": 563,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "1,739 primes so far",
+   "state": "done",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 1.0,
+   "started": 1791588789,
+   "heartbeat": 1791588790,
+   "completed_today": 569,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "",
    "stale": false
   },
   {
@@ -32,18 +32,18 @@
    "display_name": "Scout",
    "state": "working",
    "task": "Compute a very large Fibonacci number",
-   "progress": 0.2,
-   "started": 1791587875,
-   "heartbeat": 1791587888,
-   "completed_today": 823,
-   "last_result": "Counted 31,218 primes below 366,000; the biggest was 365,983.",
-   "note": "F(4000) has 836 digits",
+   "progress": 0.9,
+   "started": 1791588755,
+   "heartbeat": 1791588790,
+   "completed_today": 835,
+   "last_result": "Counted 25,224 primes below 290,000; the biggest was 289,999.",
+   "note": "F(18000) has 3762 digits",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1917,
-  "working": 3,
+  "completed_today": 1938,
+  "working": 2,
   "agents": 3
  }
 }
