@@ -1,17 +1,17 @@
 {
- "updated": 1791621405,
+ "updated": 1791622307,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 0.333,
-   "started": 1791621385,
-   "heartbeat": 1791621404,
-   "completed_today": 129,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels blinks slowly / thirty minutes of stillness / the board holds working”",
-   "note": "test_builder: ok",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.667,
+   "started": 1791622272,
+   "heartbeat": 1791622306,
+   "completed_today": 135,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "line 2 ✓ 'no one wanted about this work'",
    "stale": false
   },
   {
@@ -19,30 +19,30 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.941,
-   "started": 1791621322,
-   "heartbeat": 1791621404,
-   "completed_today": 143,
-   "last_result": "Approved Builder's haiku; it scans 5-7-5.",
-   "note": "133 distinct words",
+   "progress": 0.812,
+   "started": 1791622249,
+   "heartbeat": 1791622306,
+   "completed_today": 152,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "121 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.45,
-   "started": 1791621373,
-   "heartbeat": 1791621404,
-   "completed_today": 208,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "F(18000) has 3762 digits",
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.6,
+   "started": 1791622258,
+   "heartbeat": 1791622306,
+   "completed_today": 220,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "π ≈ 3.1409",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 480,
+  "completed_today": 507,
   "working": 3,
   "agents": 3
  }
