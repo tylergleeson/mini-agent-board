@@ -1,49 +1,49 @@
 {
- "updated": 1791589693,
+ "updated": 1791590595,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
-   "state": "working",
+   "state": "blocked",
    "task": "Sort shuffled Beatles songs by hand",
-   "progress": 0.357,
-   "started": 1791589661,
-   "heartbeat": 1791589691,
-   "completed_today": 539,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on poem (got 1, want 2), science (got 1, want 2).",
-   "note": "pass 20/56, 658 swaps",
+   "progress": null,
+   "started": 1791590577,
+   "heartbeat": 1791590594,
+   "completed_today": 544,
+   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.817,
-   "started": 1791589666,
-   "heartbeat": 1791589691,
-   "completed_today": 576,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "17,524 primes so far",
+   "task": "Review Builder's Beatles sort",
+   "progress": 0.464,
+   "started": 1791590564,
+   "heartbeat": 1791590594,
+   "completed_today": 582,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 0.225,
-   "started": 1791589682,
-   "heartbeat": 1791589691,
-   "completed_today": 847,
-   "last_result": "Found 113 primes below 300,000 that read the same backwards; the largest is 98,689.",
-   "note": "F(6750) has 1411 digits",
+   "task": "Count primes below a random N",
+   "progress": 0.8,
+   "started": 1791590570,
+   "heartbeat": 1791590594,
+   "completed_today": 860,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "21,155 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 1962,
-  "working": 3,
+  "completed_today": 1986,
+  "working": 2,
   "agents": 3
  }
 }
