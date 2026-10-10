@@ -1,49 +1,49 @@
 {
- "updated": 1791595104,
+ "updated": 1791596006,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1791594991,
-   "heartbeat": 1791595102,
-   "completed_today": 580,
-   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "started": 1791596003,
+   "heartbeat": 1791596004,
+   "completed_today": 585,
+   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels wakes slowly / twenty seconds for patience / the queue counts working”",
    "note": "waiting for Critic to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
-   "state": "done",
+   "state": "working",
    "task": "Review Builder's Beatles sort",
-   "progress": 1.0,
-   "started": 1791595103,
-   "heartbeat": 1791595103,
-   "completed_today": 618,
-   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
-   "note": "",
+   "progress": 0.143,
+   "started": 1791595997,
+   "heartbeat": 1791596004,
+   "completed_today": 625,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "0 inversions",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Compute a very large Fibonacci number",
-   "progress": 1.0,
-   "started": 1791595103,
-   "heartbeat": 1791595103,
-   "completed_today": 907,
-   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "",
+   "state": "blocked",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": null,
+   "started": 1791595934,
+   "heartbeat": 1791596004,
+   "completed_today": 915,
+   "last_result": "Read the Gettysburg Address: 272 words, 138 different ones, 'that' used most (13 times).",
+   "note": "waiting for Builder to release the workbench",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 2105,
-  "working": 0,
+  "completed_today": 2125,
+  "working": 1,
   "agents": 3
  }
 }
