@@ -1,48 +1,48 @@
 {
- "updated": 1791607848,
+ "updated": 1791608750,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "blocked",
-   "task": "Sort shuffled Beatles songs by hand",
+   "task": "Write unit tests for haiku.py",
    "progress": null,
-   "started": 1791607809,
-   "heartbeat": 1791607847,
-   "completed_today": 26,
-   "last_result": "Sorted 56 Beatles songs alphabetically by hand in 731 swaps.",
-   "note": "waiting for Critic to release the workbench",
+   "started": 1791608735,
+   "heartbeat": 1791608750,
+   "completed_today": 32,
+   "last_result": "Ran 9 syllable-counter tests; 2 failed on area (got 2, want 3), idea (got 2, want 3).",
+   "note": "waiting for Scout to release the workbench",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Re-run the syllable unit tests",
+   "task": "Review Builder's haiku",
    "progress": 0.667,
-   "started": 1791607802,
-   "heartbeat": 1791607847,
-   "completed_today": 25,
-   "last_result": "Counted 26,720 primes below 309,000; the biggest was 308,999.",
-   "note": "test_critic: ok",
+   "started": 1791608727,
+   "heartbeat": 1791608750,
+   "completed_today": 33,
+   "last_result": "Counted 22,203 primes below 252,000; the biggest was 251,983.",
+   "note": "line 2: 7 syllables",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
    "state": "working",
-   "task": "Find the longest Collatz chain",
-   "progress": 0.58,
-   "started": 1791607811,
-   "heartbeat": 1791607847,
-   "completed_today": 41,
+   "task": "Estimate π with Monte Carlo darts",
+   "progress": 0.96,
+   "started": 1791608672,
+   "heartbeat": 1791608750,
+   "completed_today": 53,
    "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
-   "note": "longest so far: 106239 (354 steps)",
+   "note": "π ≈ 3.1410",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 92,
+  "completed_today": 118,
   "working": 2,
   "agents": 3
  }
