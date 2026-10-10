@@ -1,49 +1,49 @@
 {
- "updated": 1791626816,
+ "updated": 1791627718,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
    "task": "Refactor a haiku to 5-7-5",
-   "progress": 0.333,
-   "started": 1791626801,
-   "heartbeat": 1791626815,
-   "completed_today": 165,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “the display blinks once / twenty seconds in waiting / one cloud holds working”",
-   "note": "line 1 ✓ 'sleepless kernel hums'",
+   "progress": 0.0,
+   "started": 1791627717,
+   "heartbeat": 1791627717,
+   "completed_today": 172,
+   "last_result": "Ran 9 syllable-counter tests; 1 failed on science (got 1, want 2).",
+   "note": "",
    "stale": false
   },
   {
    "agent": "critic",
    "display_name": "Critic",
    "state": "working",
-   "task": "Count primes below a random N",
-   "progress": 0.15,
-   "started": 1791626804,
-   "heartbeat": 1791626815,
-   "completed_today": 189,
-   "last_result": "Ran 9 syllable-counter tests; 1 failed on poem (got 1, want 2).",
-   "note": "4,687 primes so far",
+   "task": "Word-frequency audit of the Gettysburg Address",
+   "progress": 0.169,
+   "started": 1791627704,
+   "heartbeat": 1791627716,
+   "completed_today": 195,
+   "last_result": "Counted 22,362 primes below 254,000; the biggest was 253,999.",
+   "note": "39 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "done",
-   "task": "Find the longest Collatz chain",
-   "progress": 1.0,
-   "started": 1791626813,
-   "heartbeat": 1791626815,
-   "completed_today": 273,
-   "last_result": "Checked every number under 300,000; 230,631 has the longest Collatz chain at 443 steps.",
-   "note": "",
+   "state": "working",
+   "task": "Count primes below a random N",
+   "progress": 0.85,
+   "started": 1791627646,
+   "heartbeat": 1791627716,
+   "completed_today": 282,
+   "last_result": "Counted 16,492 primes below 182,000; the biggest was 181,997.",
+   "note": "12,093 primes so far",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 627,
-  "working": 2,
+  "completed_today": 649,
+  "working": 3,
   "agents": 3
  }
 }
