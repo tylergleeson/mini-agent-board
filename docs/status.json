@@ -1,17 +1,17 @@
 {
- "updated": 1791623209,
+ "updated": 1791624111,
  "agents": [
   {
    "agent": "builder",
    "display_name": "Builder",
    "state": "working",
-   "task": "Write unit tests for haiku.py",
-   "progress": 1.0,
-   "started": 1791623131,
-   "heartbeat": 1791623207,
-   "completed_today": 139,
-   "last_result": "Rewrote a haiku until it scanned 5-7-5: “pixels refreshes once / thirty seconds of silence / a queue keeps working”",
-   "note": "test_mini: ok",
+   "task": "Refactor a haiku to 5-7-5",
+   "progress": 0.844,
+   "started": 1791624048,
+   "heartbeat": 1791624109,
+   "completed_today": 147,
+   "last_result": "Computed the 30,000th Fibonacci number; it has 6,270 digits.",
+   "note": "line 3: 'but the screen reads happy' = 6",
    "stale": false
   },
   {
@@ -19,31 +19,31 @@
    "display_name": "Critic",
    "state": "working",
    "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": 0.978,
-   "started": 1791623135,
-   "heartbeat": 1791623207,
-   "completed_today": 161,
-   "last_result": "Ran 9 syllable-counter tests; 2 failed on create (got 1, want 2), science (got 1, want 2).",
-   "note": "136 distinct words",
+   "progress": 0.757,
+   "started": 1791624052,
+   "heartbeat": 1791624109,
+   "completed_today": 167,
+   "last_result": "Double-checked Builder's Beatles sort: all 56 titles in order, no mistakes.",
+   "note": "114 distinct words",
    "stale": false
   },
   {
    "agent": "scout",
    "display_name": "Scout",
-   "state": "blocked",
-   "task": "Word-frequency audit of the Gettysburg Address",
-   "progress": null,
-   "started": 1791623106,
-   "heartbeat": 1791623207,
-   "completed_today": 231,
-   "last_result": "Computed the 20,000th Fibonacci number; it has 4,180 digits.",
-   "note": "waiting for Critic to release the workbench",
+   "state": "working",
+   "task": "Find the longest Collatz chain",
+   "progress": 0.74,
+   "started": 1791624054,
+   "heartbeat": 1791624109,
+   "completed_today": 241,
+   "last_result": "Computed the 40,000th Fibonacci number; it has 8,360 digits.",
+   "note": "longest so far: 230631 (443 steps)",
    "stale": false
   }
  ],
  "totals": {
-  "completed_today": 531,
-  "working": 2,
+  "completed_today": 555,
+  "working": 3,
   "agents": 3
  }
 }
